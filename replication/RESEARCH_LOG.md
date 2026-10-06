@@ -177,3 +177,6 @@ Evidence tags as in the reports: 🟢 measured; 🟡 inferred; 🟣 proposed.
   - re-scanned for tokens, keys and email addresses: none.
 - **History:** the three earlier local commits contained the removed text and were never pushed. They were replaced by a single initial commit, so the public history begins here. Entries above this one describe work done before version control existed.
 - **Remote:** a public GitHub repository under the user's account.
+
+### 2026-10-06 — Remote created
+- Public repository: <https://github.com/AbdelH2O/ternary-bonsai-study>, branch `main`, first commit `c10cc14`. From here on, every log entry is committed and pushed with the files it refers to.
