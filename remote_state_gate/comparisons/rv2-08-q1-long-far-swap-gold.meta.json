@@ -1,0 +1,8 @@
+{
+  "freeze_sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78",
+  "raw_sha256": "979aa1d3fe1cb7b7dc35180bd9401065c31fda04a841c32e4db2efcffae094c9",
+  "sources": {
+    "own": "bac79e1de54e4cd102850f560787750e385fc03527b7df3a34294e79ed503398",
+    "counterfactual": "29dc349ca321a38ab4b7804ff39a0480300db93d5cbd8582fe79bf191673f602"
+  }
+}

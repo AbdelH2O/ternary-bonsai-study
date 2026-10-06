@@ -1,0 +1,51 @@
+{
+  "base_cases_audited": 96,
+  "context_blind": {
+    "all_record_codes_unique_across_registries": true,
+    "answer_name_suffix_equals_code_suffix_hits": 0,
+    "answer_name_suffix_equals_code_suffix_total": 32,
+    "distinct_answer_codes_across_independent_questions": 32
+  },
+  "counterfactual_answers_follow_swaps": true,
+  "counterfactual_questions_unchanged": true,
+  "counterfactual_token_counts_equal": true,
+  "independent_question_cases": 32,
+  "notes": "Distances subtract two GGUF-tokenized prefixes of the same rendered chat. Tokenization at the cut can differ by about one token. The frozen prompt file was not modified.",
+  "question_blind_fixed_index": {
+    "all_position_hits": {
+      "1": 1,
+      "2": 2,
+      "3": 2,
+      "4": 3,
+      "5": 1,
+      "6": 1,
+      "7": 3,
+      "8": 2,
+      "9": 3,
+      "11": 2,
+      "12": 4,
+      "13": 2,
+      "14": 3,
+      "16": 3
+    },
+    "best_fixed_index": 12,
+    "best_fixed_index_accuracy": 0.125,
+    "best_fixed_index_hits": 4,
+    "chance_accuracy": 0.0625
+  },
+  "rows_sha256_verified": "0a907a9f05ddfdd949bd9253747d8c3ffa8814460af5f4c2e1cdd957c7ea1e28",
+  "target_record_end_to_question_token_ranges": {
+    "long-far": [
+      11591,
+      12192
+    ],
+    "long-near": [
+      0,
+      594
+    ],
+    "short-near": [
+      0,
+      594
+    ]
+  }
+}

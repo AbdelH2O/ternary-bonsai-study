@@ -1,0 +1,21 @@
+category,benchmark,delta_xhigh_points,delta_medium_points
+Knowledge and reasoning,MMLU-Redux,-2.37,-2.65
+Knowledge and reasoning,GPQA Diamond,-4.75,-8.78
+Knowledge and reasoning,AA-LCR,-1.0,-1.0
+Math,GSM8K,-0.53,-0.84
+Math,MATH-500,-1.0,-1.6
+Math,AIME25,-1.67,-11.67
+Math,AIME26,1.25,-7.5
+Coding,HumanEval+,1.83,-1.22
+Coding,MBPP+,-0.79,-2.38
+Coding,LiveCodeBench v6,0.02,-3.32
+Coding,BigCodeBench,-3.42,-4.21
+Instruction following,IFEval,-0.19,-0.36
+Instruction following,IFBench,3.0,0.33
+Agentic and tool calling,tau2-Bench,-2.51,-8.64
+Agentic and tool calling,BFCL v3,-1.82,-2.36
+Vision,CharXiv,-2.02,-1.56
+Vision,A-OKVQA,-2.53,-2.27
+Vision,OmniDocBench v1.6,-3.33,-3.63
+Vision,RealWorldQA,-3.27,0.0
+Vision,OCR Bench v2,-4.11,-3.66

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-02",
+  "design_sha256": "185631c73fac6de20243538401899471bf8ac9ce8fe4993656f927f02b5ec0fd",
+  "authorization": "User requested reboot-safe pause/resume after approving the experiment; this adds lifecycle and durable storage only.",
+  "change": "No frozen source, recipe, evaluation case, data-selection rule or decision is changed. A separate wrapper adds pause checks at optimizer boundaries, atomic/fsynced writes, RNG restoration, incomplete-tail journal repair, resumable intermediate publication, and a manual restart controller.",
+  "implementation_sha256": {
+    "qat08_chat_control.py": "a892706faaa8486e80de5be34ee294076b9034ec2c104d707bafe4faad31ce63",
+    "qat08_chat_runtime.py": "89ece9c385ab3c0dce7d3eb649fb02e62cc7ee13a497097b5c56be020e5b3e69",
+    "test_qat08_chat_resume.py": "86fcc510ec1f180e8edd24d057d3e83ceef38836b6d6f4ad321115ae344da5f1",
+    "report_qat08_chat.py": "188e9e325f32f74ce3edd7c1799dbc7b53610be244f58d17be02d54cc441d341"
+  },
+  "tests_sha256": "b67e2712532ace528d6536255e7e0ba839f2b6319adb4ba5209da8b4cca47550",
+  "tests": {
+    "passed": true,
+    "training": "original QAT08 loop on a tiny CPU fixture; 5 steps uninterrupted equals 2 steps + fresh-process restart + 3 steps bit-for-bit in weights, BF16 moments, losses, optimizer step and RNG state",
+    "journal": "incomplete final record repaired with original preserved; interior corruption rejected",
+    "freeze": "exclusive atomic publication refuses overwrite and preserves original bytes",
+    "scope": "synthetic CPU lifecycle test only; no research model training or held-out scoring"
+  },
+  "hard_restart_limit": "On sudden power loss, student resumes from its most recent periodic checkpoint (original 1200-second cadence); a graceful pause writes a fresh checkpoint. Interrupted teacher/evaluation work is replayed only after the last durable record/shard.",
+  "post_reboot": "Explicit resume is required; paused jobs do not automatically restart at login or boot."
+}

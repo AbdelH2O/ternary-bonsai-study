@@ -1,0 +1,8 @@
+{
+  "approved_by_user": true,
+  "design_sha256": "2963624c41e8b7fe09739f96c83b4eace922b5352b84b470f75fb1e5bd363a10",
+  "user_instruction": "Proceed",
+  "source": "user's prompt in parent bb thread thr_46yhdt5qhc (prompt history phist_cb7r2jmydf), in response to the design summary, relayed by that thread",
+  "scope": "data phase only: full teacher generation, packing and protocol sealing, within the 1.0 GPU-h data ceiling; not training, evaluation or rental",
+  "recorded_at": "2026-10-04T15:29:11.918291+00:00"
+}

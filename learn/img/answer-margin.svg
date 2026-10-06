@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect width="860" height="340" fill="#ffffff"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Answer margin: score BOTH complete answers, then subtract</text>
+
+  <!-- NLL axis 0..16 -> x 80..780 ; 43.75 px per nat -->
+  <line x1="80" y1="130" x2="780" y2="130" stroke="#4a5568" stroke-width="1.5"/>
+  <g font-size="12" fill="#4a5568" text-anchor="middle">
+    <text x="80" y="150">0</text><text x="255" y="150">4</text><text x="430" y="150">8</text><text x="605" y="150">12</text><text x="780" y="150">16</text>
+  </g>
+  <text x="430" y="170" text-anchor="middle" font-size="13" fill="#4a5568">total NLL of a 9-token answer (code + end-of-turn), nats — lower = more likely</text>
+
+  <!-- toy numbers: gold 1.5, wrong 12.5 -> margin 11 -->
+  <circle cx="145.6" cy="130" r="9" fill="#2f855a"/>
+  <text x="145.6" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#22543d">gold "QX-4471"</text>
+  <text x="145.6" y="89" text-anchor="middle" font-size="12" fill="#22543d">NLL 1.5</text>
+  <circle cx="626.9" cy="130" r="9" fill="#c53030"/>
+  <text x="626.9" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#9b2c2c">wrong "QX-9012"</text>
+  <text x="626.9" y="89" text-anchor="middle" font-size="12" fill="#9b2c2c">NLL 12.5</text>
+  <line x1="155" y1="118" x2="617" y2="118" stroke="#6b46c1" stroke-width="2"/>
+  <text x="386" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#44337a">M = 12.5 − 1.5 = +11.0 nat  (gold preferred)</text>
+
+  <rect x="30" y="195" width="800" height="130" rx="10" fill="#f7fafc" stroke="#cbd5e0"/>
+  <text x="50" y="222" font-size="14" font-weight="700" fill="#1a202c">M = log P(gold) − log P(wrong) = NLL(wrong) − NLL(gold)</text>
+  <text x="50" y="248" font-size="13" fill="#1a202c">• Accuracy saw only "right or wrong": 16/16 correct is a <tspan font-weight="700">ceiling</tspan>. The margin still moves when preference weakens.</text>
+  <text x="50" y="272" font-size="13" fill="#1a202c">• An intervention that shifts M from 11.00 to 10.75 has an own-minus-counterfactual effect of <tspan font-weight="700">+0.25 nat</tspan> — gold still wins.</text>
+  <text x="50" y="296" font-size="13" fill="#1a202c">• Scoring only the gold answer would miss changes in the wrong answer's likelihood (in the real gate, almost all of the</text>
+  <text x="62" y="314" font-size="13" fill="#1a202c">effect came from the wrong code's score).   Numbers above the box are a toy example.</text>
+</svg>

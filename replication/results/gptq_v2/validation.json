@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "folded-pq2-gptq42",
+    "bytes": 213731552,
+    "tensor_types": {
+      "F32": 133,
+      "PQ2_0": 151,
+      "BF16": 36
+    },
+    "non_pq2_payloads_identical_to_template": 169,
+    "groups": 5869568,
+    "groups_with_42_zeros": 0.9999809185275645,
+    "mean_zero_fraction": 0.32813782036429257,
+    "sampled_groups_c_python_identical": 1208
+  },
+  {
+    "arm": "folded-pq2-gptqv2",
+    "bytes": 213731552,
+    "tensor_types": {
+      "F32": 133,
+      "PQ2_0": 151,
+      "BF16": 36
+    },
+    "non_pq2_payloads_identical_to_template": 169,
+    "groups": 5869568,
+    "groups_with_42_zeros": 0.0027109320481507326,
+    "mean_zero_fraction": 0.45411614380095777,
+    "sampled_groups_c_python_identical": 1208
+  },
+  {
+    "arm": "folded-pq2-gptq42v2",
+    "bytes": 213731552,
+    "tensor_types": {
+      "F32": 133,
+      "PQ2_0": 151,
+      "BF16": 36
+    },
+    "non_pq2_payloads_identical_to_template": 169,
+    "groups": 5869568,
+    "groups_with_42_zeros": 0.9999809185275645,
+    "mean_zero_fraction": 0.32813782036429257,
+    "sampled_groups_c_python_identical": 1208
+  }
+]

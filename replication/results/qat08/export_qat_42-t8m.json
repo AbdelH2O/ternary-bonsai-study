@@ -1,0 +1,12 @@
+{
+  "arm": "qat_42",
+  "checkpoint": "t8m",
+  "rule": "top86",
+  "file": "qat_42-t8m.gguf",
+  "sha256": "fc98849503be83316233fa84307f64c23c9f3d838431990b3658f93c43b689f6",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "c180d976e22312e0b3a012602fc9b0eeab51494058cea9da0f1fc72abbd0370c",
+  "protocol_sha256": "9989771856cdf80a5104d09a50fe1532e7632c3b071ea3a8911f69ee05cf57d7",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916"
+}

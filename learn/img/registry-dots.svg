@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<rect width="880" height="400" fill="#ffffff"/>
+<text x="440.0" y="30.0" font-size="16" fill="#1a202c" text-anchor="middle" font-weight="700">Measured: eight registries, own-minus-counterfactual answer margin (nat/answer)</text>
+<line x1="90.0" y1="320.0" x2="710.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="82.0" y="324.0" font-size="12" fill="#4a5568" text-anchor="end" font-weight="400">-0.10</text>
+<line x1="90.0" y1="289.4" x2="710.0" y2="289.4" stroke="#4a5568" stroke-width="1"/>
+<text x="82.0" y="293.4" font-size="12" fill="#4a5568" text-anchor="end" font-weight="400">0</text>
+<line x1="90.0" y1="258.8" x2="710.0" y2="258.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="82.0" y="262.8" font-size="12" fill="#4a5568" text-anchor="end" font-weight="400">+0.10</text>
+<line x1="90.0" y1="212.9" x2="710.0" y2="212.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="82.0" y="216.9" font-size="12" fill="#4a5568" text-anchor="end" font-weight="400">+0.25</text>
+<line x1="90.0" y1="136.5" x2="710.0" y2="136.5" stroke="#e2e8f0" stroke-width="1"/>
+<text x="82.0" y="140.5" font-size="12" fill="#4a5568" text-anchor="end" font-weight="400">+0.50</text>
+<line x1="90.0" y1="60.0" x2="710.0" y2="60.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="82.0" y="64.0" font-size="12" fill="#4a5568" text-anchor="end" font-weight="400">+0.75</text>
+<text x="130.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">08</text>
+<circle cx="120.0" cy="256.1" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="140.0" cy="290.8" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="205.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">09</text>
+<circle cx="195.0" cy="197.7" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="215.0" cy="293.1" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="280.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">10</text>
+<circle cx="270.0" cy="223.3" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="290.0" cy="288.9" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="355.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">11</text>
+<circle cx="345.0" cy="253.0" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="365.0" cy="284.6" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="430.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">12</text>
+<circle cx="420.0" cy="260.3" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="440.0" cy="286.9" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="505.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">13</text>
+<circle cx="495.0" cy="291.9" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="515.0" cy="287.6" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="580.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">14</text>
+<circle cx="570.0" cy="145.5" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="590.0" cy="281.5" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="655.0" y="340.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">15</text>
+<circle cx="645.0" cy="77.2" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<circle cx="665.0" cy="286.7" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="400.0" y="360.0" font-size="13" fill="#4a5568" text-anchor="middle" font-weight="400">registry family (the independent unit)</text>
+<line x1="90.0" y1="213.1" x2="710.0" y2="213.1" stroke="#c05621" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="90.0" y1="287.5" x2="710.0" y2="287.5" stroke="#2c7a7b" stroke-width="1.5" stroke-dasharray="6 4"/>
+<circle cx="730.0" cy="90.0" r="6" fill="#c05621" stroke="none" stroke-width="1.5"/>
+<text x="742.0" y="94.0" font-size="12.5" fill="#1a202c" text-anchor="start" font-weight="400">after question</text>
+<text x="742.0" y="110.0" font-size="12" fill="#c05621" text-anchor="start" font-weight="400">mean +0.249</text>
+<circle cx="730.0" cy="140.0" r="6" fill="#2c7a7b" stroke="none" stroke-width="1.5"/>
+<text x="742.0" y="144.0" font-size="12.5" fill="#1a202c" text-anchor="start" font-weight="400">before question</text>
+<text x="742.0" y="160.0" font-size="12" fill="#2c7a7b" text-anchor="start" font-weight="400">mean +0.006</text>
+<text x="440.0" y="385.0" font-size="12.5" fill="#1a202c" text-anchor="middle" font-weight="600">Same 8 registries, same model. Swapping R+S after the question matters a little; before it, almost not at all.</text>
+</svg>

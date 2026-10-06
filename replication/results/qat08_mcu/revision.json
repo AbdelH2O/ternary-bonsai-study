@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "instruction": {
+    "user_instruction": "Proceed with option 1",
+    "source": "user's prompt in parent bb thread thr_46yhdt5qhc (prompt history phist_jbyazi263f), relayed by that thread",
+    "meaning": "approval of the concrete stated option before any v2 hash existed: exclude miscellaneous/7642/D and miscellaneous/7932/C from the frozen MMLU-fresh sample (3,000 -> 2,998, no replacement), archive v1, re-freeze, reuse the generated data after hash checks, rerun only the protocol seal. It is not an approval of the v2 design sha, which needs its own design approval; it authorizes no training."
+  },
+  "supersedes": {
+    "version": 1,
+    "design_sha256": "2963624c41e8b7fe09739f96c83b4eace922b5352b84b470f75fb1e5bd363a10",
+    "manifest": "results/qat08_mcu/versions/v1/MANIFEST.json",
+    "manifest_sha256": "df6d4cedf1d1cacecb1a30b1b00b598823f368b73d8ca8e3e365d7a00b9a9dc6"
+  },
+  "scope": {
+    "changed": "MMLU-fresh 3,000 -> 2,998 (miscellaneous/7642/D, miscellaneous/7932/C removed, no replacement); pre-freeze 13-gram audit of every evaluation set against every existing training stream; protocol seal projects from all measured GPU time and checks the reused data hashes",
+    "unchanged": "every other case, arm, data rule, gate, threshold, model, recipe, learning rate and budget"
+  },
+  "excluded": {
+    "miscellaneous/7642/D": "majority 13-gram overlap: 0.517 with C's stream (C, U), 0.569 with train_M; quotes a Hurston passage present verbatim in FineWeb seq 35,898 (C seq 47,864)",
+    "miscellaneous/7932/C": "quotes the same Hurston passage: 0.376 with C's stream, 0.414 with train_M"
+  },
+  "reused_data_sha256": {
+    "mc_prompts.jsonl": "c74454b819edcebcef922ac732cbd3954ec012e122769f130fbb8d0189be2736",
+    "mc_record.json": "1b3d53ffb07df1d48674abbb08b8946221d77e4b33e592ef5faa11be7a59261d",
+    "mc_teacher.jsonl": "144db4cb2ed74486daa278a29dd6844213d2467b9b28a81b6cd92e6972fffa96",
+    "teacher_timing.json": "ae49bb17985330b929540da4d9bc6d66240e2c1dcc19d10fc0c5389914bbebd2",
+    "pilot_timing.json": "faabdbd3410a2eead29b0db56f90ea331869a74ec06c78e2790ea3d1ea58debc",
+    "kept_mc.json": "d0220ebea5c9f8eb0b4f772ac69b7082864576dd340193a5a86e4aa95459519d",
+    "mc_unique.u32": "61bc90723f7c00e0d4742ed4266a67afd0d9e4040d8eaf41c130875c3f2c5bec",
+    "train_M.u32": "3273882046fcbc48d459fd703832449dd58067d748208f13e3ace33c9c673151",
+    "train_B.u32": "5ec324bd75dbee6b8c52fea731bd4b5d8f68f6ae25c3329137ef827cc4f9d9dc",
+    "data_record.json": "c91b83fae3b1a22fcc51c8417c6dea88edc52941f3f96e36f2a09d5c62b47c55"
+  },
+  "reuse_check": {
+    "file": "work/qat08_mcu/revision_v2_reuse_check.json",
+    "sha256": "3443086c08a82de67ecb0b4cd09e96ab87efa81bf63b99a1b87039f411d98b3e",
+    "accepted": false,
+    "note": "byte-identity of regenerated prompts failed on the annotation only; kept as recorded"
+  },
+  "screen_diff": {
+    "file": "work/qat08_mcu/revision_v2_screen_diff.json",
+    "sha256": "cf1d3acd4a468ec4edebabdec3ea51b46ffe5136218075aafa9a5f39f2efdc3d"
+  },
+  "reuse_acceptance": {
+    "file": "work/qat08_mcu/revision_v2_reuse_acceptance.json",
+    "sha256": "a6f240a7bbc7bed67883892cb2c054aa110c9e310b26c992eb3cef46d24e27de",
+    "criterion": "reuse is accepted on the actual teacher inputs and training transcripts, not on prompt-file bytes: identical row count and ID order; every field except the screen annotation max_eval_cosine identical (prompt_ids, prompt, gold, source, reasoning, question, seq); identical screen exclusions and retained membership with no row at or over the 0.6 cut in either screen; all five packed outputs byte-identical; every reused file freshly hash-matched to the v1 archive manifest",
+    "max_abs_annotation_delta": 0.0013267919032120962
+  },
+  "recorded_at": "2026-10-04T17:35:47.211014+00:00"
+}

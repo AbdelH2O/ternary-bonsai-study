@@ -1,0 +1,13 @@
+{
+  "arm": "B",
+  "checkpoint": "t16m",
+  "rule": "top86",
+  "file": "B-t16m.gguf",
+  "sha256": "15cec541cbc927f14ddaa6ecf180527888a37a65b57064ca0adff65103484bcb",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "889e53cc5956434b029d1a5960ea1a7bd8779de65870dd36966833289ffff6a0",
+  "protocol_sha256": "b99f4bddfd2177c1f52cb83a747eb1173ea030944a02b1e32d145f89b82a783e",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916",
+  "mcu_exporter_sha256": "1db300ef39437b685187b17007091f3bc69ce074dd8d84bee50d25c468c0f80b"
+}

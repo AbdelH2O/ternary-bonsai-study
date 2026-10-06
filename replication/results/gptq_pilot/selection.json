@@ -1,0 +1,31 @@
+{
+  "selected_arm": "folded-pq2-gptq",
+  "best_gptq_arm": "folded-pq2-gptq",
+  "rule": "lowest mean validation NLL among all eight packed arms; prior six arms use the validation scores in results/quality_pilot/selection.json under the same scorer and slices; lexical tie break",
+  "validation_mean_nll": {
+    "base-f32": 3.0413614931749997,
+    "folded-f32": 3.0413625844525,
+    "base-pq2-absmax": 16.293186630450002,
+    "folded-pq2-absmax": 16.026036074174996,
+    "base-pq2-fixed86": 12.340637574725,
+    "folded-pq2-fixed86": 11.30028695665,
+    "base-pq2-ls": 10.661437501275,
+    "folded-pq2-ls": 12.321013038250001,
+    "base-pq2-gptq": 4.671666978545,
+    "folded-pq2-gptq": 4.4269338610875
+  },
+  "heldout_arms": [
+    "base-f32",
+    "base-pq2-ls",
+    "folded-pq2-gptq"
+  ],
+  "protocol_sha256": "110e947177654e21e956944aa5c189920290f1189db4ac6169a50186cb27913a",
+  "builder_sha256": "25023d7b25b0f58e64d4168eb6ea8d0b5c0a78924240f042e59a5a1d2554496c",
+  "scorer_source_sha256": "3a67061fe13d13b343f99ec9e5188e2b1b0f3832c431069fcf2f72fcfc4cbd47",
+  "scorer_binary_sha256": "729ca950041071ad4b454cc8f4d315f0b014853f0cbe88a396b869caaf2299c3",
+  "build_records_sha256": {
+    "base": "b962824beeb0ddae502f68fda89ba63e0e5707d752880f3eef0e06119077431b",
+    "folded": "e5ac3cd560634bf37b44b92481917b46cb94919f73237abb68cae96b16e20617"
+  },
+  "new_heldout_books_scored_before_selection": false
+}

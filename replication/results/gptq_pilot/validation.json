@@ -1,0 +1,26 @@
+[
+  {
+    "basis": "base",
+    "bytes": 213700000,
+    "tensor_types": {
+      "F32": 133,
+      "PQ2_0": 151,
+      "BF16": 36
+    },
+    "non_pq2_payloads_identical_to_template": 169,
+    "pq2_payloads_changed_from_absmax_template": 151,
+    "sampled_groups_c_python_identical": 1208
+  },
+  {
+    "basis": "folded",
+    "bytes": 213731552,
+    "tensor_types": {
+      "F32": 133,
+      "PQ2_0": 151,
+      "BF16": 36
+    },
+    "non_pq2_payloads_identical_to_template": 169,
+    "pq2_payloads_changed_from_absmax_template": 151,
+    "sampled_groups_c_python_identical": 1208
+  }
+]

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect width="860" height="420" fill="#ffffff"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Retrieval prompts: separate prompt LENGTH from target-to-question DISTANCE</text>
+
+  <g font-size="12">
+    <!-- short-near: ~1K -> 60 px (scale 0.05 px/token → 12K = 600px) -->
+    <text x="30" y="82" font-size="14" font-weight="700" fill="#1a202c">short-near</text>
+    <text x="30" y="98" fill="#4a5568">~1K tokens</text>
+    <rect x="150" y="70" width="40" height="34" fill="#edf2f7" stroke="#a0aec0"/>
+    <rect x="190" y="70" width="16" height="34" fill="#fefcbf" stroke="#b7791f" stroke-width="2"/>
+    <rect x="206" y="70" width="14" height="34" fill="#e9d8fd" stroke="#6b46c1"/>
+
+    <!-- long-near -->
+    <text x="30" y="152" font-size="14" font-weight="700" fill="#1a202c">long-near</text>
+    <text x="30" y="168" fill="#4a5568">~12K tokens</text>
+    <rect x="150" y="140" width="570" height="34" fill="#edf2f7" stroke="#a0aec0"/>
+    <text x="435" y="162" text-anchor="middle" fill="#4a5568">filler + distractor records</text>
+    <rect x="720" y="140" width="16" height="34" fill="#fefcbf" stroke="#b7791f" stroke-width="2"/>
+    <rect x="736" y="140" width="14" height="34" fill="#e9d8fd" stroke="#6b46c1"/>
+
+    <!-- long-far -->
+    <text x="30" y="222" font-size="14" font-weight="700" fill="#1a202c">long-far</text>
+    <text x="30" y="238" fill="#4a5568">~12K tokens</text>
+    <rect x="150" y="210" width="16" height="34" fill="#fefcbf" stroke="#b7791f" stroke-width="2"/>
+    <rect x="166" y="210" width="570" height="34" fill="#edf2f7" stroke="#a0aec0"/>
+    <text x="451" y="232" text-anchor="middle" fill="#4a5568">filler + distractor records</text>
+    <rect x="736" y="210" width="14" height="34" fill="#e9d8fd" stroke="#6b46c1"/>
+    <line x1="158" y1="252" x2="743" y2="252" stroke="#c53030" stroke-width="1.5"/>
+    <text x="450" y="268" text-anchor="middle" fill="#c53030" font-weight="700">target-to-question distance ≈ 12K</text>
+
+    <!-- legend -->
+    <rect x="770" y="75" width="14" height="14" fill="#fefcbf" stroke="#b7791f" stroke-width="2"/>
+    <text x="790" y="87">target record</text>
+    <rect x="770" y="100" width="14" height="14" fill="#e9d8fd" stroke="#6b46c1"/>
+    <text x="790" y="112">question</text>
+  </g>
+
+  <text x="30" y="300" font-size="13" fill="#1a202c"><tspan font-weight="700">long-near vs long-far</tspan>: same total length, only the distance changes.   <tspan font-weight="700">short-near vs long-near</tspan>: same distance, only length changes.</text>
+
+  <!-- value swap -->
+  <text x="30" y="336" font-size="14" font-weight="700" fill="#1a202c">Value swap (validity control) — illustrative record format</text>
+  <g font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <rect x="30" y="346" width="390" height="60" rx="6" fill="#f7fafc" stroke="#a0aec0"/>
+    <text x="42" y="366">base:  Kestrel → QX-4471 … Heron → QX-9012</text>
+    <text x="42" y="386">       … [same filler] … Question: Kestrel?</text>
+    <text x="42" y="400" fill="#2f855a">gold = QX-4471</text>
+    <rect x="440" y="346" width="390" height="60" rx="6" fill="#f7fafc" stroke="#a0aec0"/>
+    <text x="452" y="366">swap:  Kestrel → QX-9012 … Heron → QX-4471</text>
+    <text x="452" y="386">       … [same filler] … Question: Kestrel?</text>
+    <text x="452" y="400" fill="#2f855a">gold = QX-9012  (answer must flip)</text>
+  </g>
+</svg>

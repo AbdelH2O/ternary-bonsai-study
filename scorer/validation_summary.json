@@ -1,0 +1,46 @@
+{
+  "decision": "GO: scorer valid for fixed 512/512 profile; stop before perturbation calibration",
+  "stock_alignment": {
+    "ctx": 64,
+    "vocab": 248320,
+    "chunks": 2,
+    "file_bytes": 30792708,
+    "ids_match": true,
+    "printed_ppl": 5.1728,
+    "reconstructed_ppl": 5.17280090684804,
+    "custom_ppl": 5.172831947767068,
+    "max_saved_vs_custom_nll": 0.00012149834082419986
+  },
+  "fixture": {
+    "documents": 2,
+    "target_tokens_each": 96,
+    "rerun_max_nll_delta": 0.0,
+    "one_vs_split_logical_batch_max_nll_delta": 0.0,
+    "aba_reset_max_nll_delta": 0.0,
+    "fixed_ubatch_logical_boundary_max_nll_delta": 0.0,
+    "changed_ubatch_max_token_nll_delta": 0.07841968304999991,
+    "changed_ubatch_max_mean_nll_delta": 0.0007995017096118495
+  },
+  "baseline": {
+    "documents": 4,
+    "conditions": 12,
+    "target_tokens_per_condition": 96,
+    "total_scored_tokens": 1152,
+    "total_inference_seconds": 54.87483729899999,
+    "errors": 0,
+    "mean_nll_by_document_history": {
+      "pride_and_prejudice-p30000-h1024": 2.367186071282338,
+      "pride_and_prejudice-p30000-h4096": 2.332384233262029,
+      "pride_and_prejudice-p30000-h12288": 2.3325263728347463,
+      "frankenstein-p30000-h1024": 2.9554294777709664,
+      "frankenstein-p30000-h4096": 2.82189975355675,
+      "frankenstein-p30000-h12288": 2.7928492015323223,
+      "sherlock_holmes-p30000-h1024": 2.303621287387057,
+      "sherlock_holmes-p30000-h4096": 2.239747681020158,
+      "sherlock_holmes-p30000-h12288": 2.2520138442894226,
+      "dracula-p30000-h1024": 2.288669287479727,
+      "dracula-p30000-h4096": 2.267332973478016,
+      "dracula-p30000-h12288": 2.260488599859085
+    }
+  }
+}

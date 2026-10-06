@@ -1,0 +1,16 @@
+# Matched-dose retrieval sensitivity pilot
+
+**Decision: NO-GO for an accuracy-only full retrieval matrix at the frozen doses.** The original model was exact on the selected 24/24 prompts; each of the three alpha-only and three matched MLP perturbation seeds was also exact on 24/24. The 144 perturbed responses produced zero errors, so neither treatment has a measurable near/far accuracy effect on this subset. This is a task-sensitivity decision, not evidence against the natural-text dose calibration or the recurrent-memory hypothesis. No held-out natural-text treatment matrix was run.
+
+The [pilot freeze](PERTURBED_RETRIEVAL_PILOT_FREEZE.json) was written before variant inference. It fixes two of the four baseline-tested registries (`00` and `01`), both questions, both base/value-swap versions, and all three layouts: 24 prompts per checkpoint. It inherits the corrected prompt-file hash, six selected variant and patch hashes, generation parameters, and execution profile from the [dose freeze](DOSE_FREEZE.json). The baseline responses were already 24/24 exact on these IDs. Each variant was run separately with the pinned Prism CUDA server, 16,384 context, one slot, 99 GPU layers, 512/512 batches, thinking off, temperature zero, and prompt cache disabled. The runner verified the model and patch files before loading each variant.
+
+| Arm | Seeds | Exact / requests | Short-near | Long-near | Long-far | Far minus near errors |
+|---|---:|---:|---:|---:|---:|---:|
+| Alpha-only, 20% | 3 | 72/72 | 24/24 | 24/24 | 24/24 | 0 |
+| MLP, 20% scale at 20% coverage | 3 | 72/72 | 24/24 | 24/24 | 24/24 | 0 |
+
+Every seed was 24/24 exact. All 72 base/swap pairs across the six variants followed the changed answer. There were no request errors. The [audit summary](retrieval_perturbed_pilot_summary.json) verifies one result for every frozen `(variant, prompt)` pair and checks prompt hashes, model/patch hashes, gold answers, and actual server token counts against frozen counts. The [raw responses](retrieval_perturbed_pilot.jsonl), [runner](run_perturbed_retrieval_pilot.py), [freeze script](freeze_perturbed_pilot.py), [analysis script](analyze_perturbed_retrieval_pilot.py), and per-variant server logs reproduce the pilot. Host-device CUDA execution is required because the default sandbox hides `/dev/nvidia*`.
+
+At these doses, exact accuracy is saturated even on the long-far layout, so a larger accuracy-only run would not provide a sensitive state-versus-MLP contrast. The next measurement step is to validate position-aligned answer likelihood for **both correct and incorrect candidate codes** under the exact GGUF chat rendering, including the first answer token and answer-length handling, or to construct a harder exchangeable retrieval task and recheck baseline/swap validity. Freeze a smallest meaningful held-out effect before any full matrix. The two-registry pilot cannot establish a mechanism, and a future positive behavioral contrast would still require recurrent-state capture/restoration for a direct mechanism test.
+
+The prior scorer, calibration, prompt, and old frozen inputs were left unchanged. The unrelated `.gitignore` and `uv.lock` working-tree modifications were not touched.

@@ -1,0 +1,10 @@
+{
+  "approved_by_user": true,
+  "design_sha256": "8247ef1ee2e87b1b0d55a857225587def0790f9a6f68f2e5e50b2fab295a44a9",
+  "protocol_sha256": "b99f4bddfd2177c1f52cb83a747eb1173ea030944a02b1e32d145f89b82a783e",
+  "user_instruction": "Proceed",
+  "source": "user's direct prompt in parent bb thread thr_46yhdt5qhc (prompt history phist_7qk95t4y5g, createdAt 1791137451153), relayed by that thread",
+  "basis": "separate approval given after the actual seal (protocol.json written 2026-10-04 by the v2 data unit), in reply to the parent's reminder that the sealed protocol needed approval and that the M/U/B run takes about 20.5 h more",
+  "scope": "training M, U, B, exports/checkpoints, frozen evaluation, analysis and reporting under this protocol; 6.5 GPU-h per arm and 25 GPU-h total; no rental, no changed arms, gates or recipe",
+  "recorded_at": "2026-10-04T18:12:46.221512+00:00"
+}

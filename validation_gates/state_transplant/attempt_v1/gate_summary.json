@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "captures": [
+    {
+      "arm": "original",
+      "history": 1024,
+      "full_roundtrip_max_token_delta": 0.0,
+      "partial_overlay_max_token_delta": 0.0,
+      "prior_scorer_max_token_delta": 0.06417186398999952,
+      "full_state_bytes": 223958552,
+      "full_state_sha256": "394ed3a5208dfa6cf2eb6bfd68f43e05f08868ea082f994acbbc2ec83b0fb1c0",
+      "recurrent_state_bytes": 156894364,
+      "recurrent_state_sha256": "f71c1d35acecd6dbcb510c34f13cee4bfebef62a331c792eaf81b5a3fa1de8bb"
+    }
+  ],
+  "decision": "Stop before cross-model import: identity or scorer alignment failed"
+}

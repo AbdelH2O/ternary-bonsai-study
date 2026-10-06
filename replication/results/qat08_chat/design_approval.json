@@ -1,0 +1,8 @@
+{
+  "approved_by_user": true,
+  "design_sha256": "185631c73fac6de20243538401899471bf8ac9ce8fe4993656f927f02b5ec0fd",
+  "recorded_at": "2026-10-02T22:20:44.664386+00:00",
+  "user_instruction": "Go ahead",
+  "additional_condition": "User requested pause/resume after a restart; separate-process optimizer parity and durable journal/publication tests passed.",
+  "execution_amendment_sha256": "91316411a0d94c3a1260b0ac6dd720fe9e501a03ed935abc09fcc7c60e2c2e60"
+}

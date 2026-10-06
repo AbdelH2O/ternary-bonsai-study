@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect width="900" height="640" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">The investigation so far: each stage fixed a flaw or narrowed the question</text>
+  <line x1="60" y1="55" x2="60" y2="600" stroke="#cbd5e0" stroke-width="4"/>
+
+  <g font-size="13">
+    <!-- 1 -->
+    <circle cx="60" cy="75" r="10" fill="#c53030"/>
+    <text x="85" y="72" font-weight="700" fill="#1a202c">1. Early perturbation pilot</text>
+    <text x="85" y="90" fill="#4a5568">All arms answered — but a question-blind formatting rule could too.</text>
+    <text x="600" y="72" fill="#c53030" font-weight="700">✘ prompts invalid (shortcut)</text>
+    <!-- 2 -->
+    <circle cx="60" cy="140" r="10" fill="#2f855a"/>
+    <text x="85" y="137" font-weight="700" fill="#1a202c">2. Position scorer validation</text>
+    <text x="85" y="155" fill="#4a5568">Same 96 target IDs under nested 1K/4K/12K histories; identities pass.</text>
+    <text x="600" y="137" fill="#2f855a" font-weight="700">✔ tool works (not a result)</text>
+    <!-- 3 -->
+    <circle cx="60" cy="205" r="10" fill="#b7791f"/>
+    <text x="85" y="202" font-weight="700" fill="#1a202c">3. Dose calibration</text>
+    <text x="85" y="220" fill="#4a5568">Alpha and MLP arms matched on mean short-history excess NLL (calibration books).</text>
+    <text x="600" y="202" fill="#b7791f" font-weight="700">~ doses picked; match fragile</text>
+    <!-- 4 -->
+    <circle cx="60" cy="270" r="10" fill="#4a5568"/>
+    <text x="85" y="267" font-weight="700" fill="#1a202c">4. Held-out natural text</text>
+    <text x="85" y="285" fill="#4a5568">Interaction ≈ −0.0005 nat/token; 4-book interval crosses +0.005; dose match failed.</text>
+    <text x="600" y="267" fill="#4a5568" font-weight="700">? no support, not excluded</text>
+    <!-- 5 -->
+    <circle cx="60" cy="335" r="10" fill="#b7791f"/>
+    <text x="85" y="332" font-weight="700" fill="#1a202c">5. Fresh-book state import</text>
+    <text x="85" y="350" fill="#4a5568">Alpha-minus-MLP state interaction ≈ −0.00045 nat/token (one seed, six books).</text>
+    <text x="600" y="332" fill="#b7791f" font-weight="700">⊘ +0.005 excluded (this assay)</text>
+    <!-- 6 -->
+    <circle cx="60" cy="400" r="10" fill="#4a5568"/>
+    <text x="85" y="397" font-weight="700" fill="#1a202c">6. Original-model memory gate</text>
+    <text x="85" y="415" fill="#4a5568">12K-built R/S beats 1K-built R/S (12K KV fixed) on targets 1–95; primary 1–16 window unclear.</text>
+    <text x="600" y="397" fill="#4a5568" font-weight="700">? primary unresolved</text>
+    <!-- 7 -->
+    <circle cx="60" cy="465" r="10" fill="#b7791f"/>
+    <text x="85" y="462" font-weight="700" fill="#1a202c">7. Remote-value state gate</text>
+    <text x="85" y="480" fill="#4a5568">Post-question R+S swap moves the answer margin by +0.249 nat (8 fresh registries).</text>
+    <text x="600" y="462" fill="#b7791f" font-weight="700">⊘ +0.5 excluded; smaller effect seen</text>
+    <!-- 8 -->
+    <circle cx="60" cy="530" r="10" fill="#b7791f"/>
+    <text x="85" y="527" font-weight="700" fill="#1a202c">8. R/S split and timing follow-up</text>
+    <text x="85" y="545" fill="#4a5568">Post-question S-only +0.228; PRE-question R+S only +0.006.</text>
+    <text x="600" y="527" fill="#b7791f" font-weight="700">⊘ +0.1 excluded (pre-question)</text>
+    <!-- next -->
+    <circle cx="60" cy="592" r="10" fill="#fff" stroke="#6b46c1" stroke-width="3" stroke-dasharray="3 2"/>
+    <text x="85" y="589" font-weight="700" fill="#6b46c1">Next (PROPOSED, not run): attention-controlled gate on fresh registries</text>
+    <text x="85" y="607" fill="#4a5568">Stop decision: no broad alpha/MLP perturbation matrix for now — a scope decision, not "memory never matters".</text>
+  </g>
+  <g font-size="12" fill="#4a5568">
+    <text x="85" y="632">✔ technical pass   ✘ invalidated   ~ partial   ? unresolved   ⊘ a chosen effect size excluded (≠ zero effect)</text>
+  </g>
+</svg>

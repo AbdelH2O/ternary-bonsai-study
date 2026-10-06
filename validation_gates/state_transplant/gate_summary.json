@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "freeze_sha256": "cf0cf8dea8d2e59795e3dcbc1e35250287f517f6af5940a8600549a02fc1116f",
+  "captures": [
+    {
+      "arm": "original",
+      "history": 1024,
+      "full_roundtrip_max_token_delta": 0.0,
+      "partial_overlay_max_token_delta": 0.0,
+      "prior_scorer_max_token_delta": 0.0,
+      "full_state_bytes": 224024108,
+      "full_state_sha256": "b285072ba493749652252e746a182229f0582ca365e0971b214bf6e214ecc840",
+      "recurrent_state_bytes": 156894364,
+      "recurrent_state_sha256": "7ff2dd468cfcdb3cf9f9db3126bcd8987df56e3f55675ef9d77d4f97a8b75448"
+    },
+    {
+      "arm": "alpha",
+      "history": 1024,
+      "full_roundtrip_max_token_delta": 0.0,
+      "partial_overlay_max_token_delta": 0.0,
+      "prior_scorer_max_token_delta": 0.0,
+      "full_state_bytes": 224024108,
+      "full_state_sha256": "7ab7207f71bc6f15643637cc19baec8a372b56575d31228d571837d449073c3e",
+      "recurrent_state_bytes": 156894364,
+      "recurrent_state_sha256": "67d22b3e2c88666b7948ea0b53f0dd08d5e4b392e18a05501471dd097ad41ced"
+    },
+    {
+      "arm": "original",
+      "history": 12288,
+      "full_roundtrip_max_token_delta": 0.0,
+      "partial_overlay_max_token_delta": 0.0,
+      "prior_scorer_max_token_delta": 0.0,
+      "full_state_bytes": 962446892,
+      "full_state_sha256": "a37d040cf688d43c4cdfecac293ea8e0458248c3d9caf65180612f845ea050c0",
+      "recurrent_state_bytes": 156894364,
+      "recurrent_state_sha256": "374f573dac5ccaf9b5f42b271c36e82d9eb8e3c6675ab2ef98f778cc5a21d195"
+    },
+    {
+      "arm": "alpha",
+      "history": 12288,
+      "full_roundtrip_max_token_delta": 0.0,
+      "partial_overlay_max_token_delta": 0.0,
+      "prior_scorer_max_token_delta": 0.0,
+      "full_state_bytes": 962446892,
+      "full_state_sha256": "969470142c59f689325f9842efd7603231d76bb6d476ae0706dd0fdd483be061",
+      "recurrent_state_bytes": 156894364,
+      "recurrent_state_sha256": "0c9881a3f3ec6671fa0c05a3f39b11172a2ffeaf6e0c02b587fb6ccb7a6ec973"
+    }
+  ],
+  "cross_model_imports": [
+    {
+      "history": 1024,
+      "destination_direct_rerun_max_token_delta": 0.0,
+      "transplanted_minus_original_mean_nll": -0.004357434338555092,
+      "transplanted_minus_original_max_abs_token_nll": 0.36410024556,
+      "source_recurrent_state_sha256": "67d22b3e2c88666b7948ea0b53f0dd08d5e4b392e18a05501471dd097ad41ced"
+    },
+    {
+      "history": 12288,
+      "destination_direct_rerun_max_token_delta": 0.0,
+      "transplanted_minus_original_mean_nll": -0.011467290500894749,
+      "transplanted_minus_original_max_abs_token_nll": 0.46211094662999974,
+      "source_recurrent_state_sha256": "0c9881a3f3ec6671fa0c05a3f39b11172a2ffeaf6e0c02b587fb6ccb7a6ec973"
+    }
+  ],
+  "decision": "same-model identity passed; cross-model import is feasible but exploratory, not a mechanism estimate"
+}

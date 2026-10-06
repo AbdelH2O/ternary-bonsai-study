@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "sources": {
+    "long_self": "1b498f0453a530e85439462c8a7aad6538aad6837cfa004d01c7e73597ce7079",
+    "short_raw": "af710f541c5975cc33bef088b146b345eebbef1df67ead49045435fbbffe48a4",
+    "short_rebased": "fb0d4da5fc3573c938d8b595418d7aacc891d903cf6df0c438e84bd85e5be0d8"
+  },
+  "raw_sha256": "3ec0b7386852ae32f8ba80120247d572b1170064b511563d332e32cbd09a1ba0",
+  "rebased_state_path": "analysis/bonsai2/memory_gate/rebased/war_of_the_worlds-p30000-h12288-short-pos12287.bin"
+}

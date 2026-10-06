@@ -1,0 +1,1591 @@
+{
+  "arm": "ls",
+  "basis": "base",
+  "target": "work/qwen3_17b/base-pq2-ls.gguf",
+  "sha256": "b36e16988e63191b07ed31e7f69a1942ca6d026f3620b344c0ea6fdb3483cceb",
+  "bytes": 463441632,
+  "template_sha256": "14e600c45b3020740eb66fdf45f330339ba35bb510d7ee35ccd1fa8cb915fc1e",
+  "source_sha256": "83cc4a0db4e6d660491c143c1d838615a75f523bd366289ea537d76ffd11cff1",
+  "protocol_sha256": "b70dec33009a3c1aba7075b006be154b207fd61369754bcde628edf82dcc61b9",
+  "builder_sha256": "26144caa093e309122e3ffa6b7a142d5785ea36b43c703d118f04938a42a7b6e",
+  "seconds": 12.284566640853882,
+  "tensors": [
+    {
+      "tensor": "blk.0.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4663681983947754
+    },
+    {
+      "tensor": "blk.0.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.465301513671875
+    },
+    {
+      "tensor": "blk.0.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4690215587615967
+    },
+    {
+      "tensor": "blk.0.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.47101783752441406
+    },
+    {
+      "tensor": "blk.0.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.46930424372355145
+    },
+    {
+      "tensor": "blk.0.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4697062174479167
+    },
+    {
+      "tensor": "blk.0.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4722468852996826
+    },
+    {
+      "tensor": "blk.1.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.46703100204467773
+    },
+    {
+      "tensor": "blk.1.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4648149013519287
+    },
+    {
+      "tensor": "blk.1.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46840763092041016
+    },
+    {
+      "tensor": "blk.1.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4720273017883301
+    },
+    {
+      "tensor": "blk.1.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.5185534159342448
+    },
+    {
+      "tensor": "blk.1.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4841206868489583
+    },
+    {
+      "tensor": "blk.1.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46868228912353516
+    },
+    {
+      "tensor": "blk.10.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.46604061126708984
+    },
+    {
+      "tensor": "blk.10.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46593761444091797
+    },
+    {
+      "tensor": "blk.10.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4681968688964844
+    },
+    {
+      "tensor": "blk.10.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48190736770629883
+    },
+    {
+      "tensor": "blk.10.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4907277425130208
+    },
+    {
+      "tensor": "blk.10.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4719608624776204
+    },
+    {
+      "tensor": "blk.10.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47540895144144696
+    },
+    {
+      "tensor": "blk.11.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48514413833618164
+    },
+    {
+      "tensor": "blk.11.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46616196632385254
+    },
+    {
+      "tensor": "blk.11.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4846985340118408
+    },
+    {
+      "tensor": "blk.11.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4986715316772461
+    },
+    {
+      "tensor": "blk.11.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.48389824231465656
+    },
+    {
+      "tensor": "blk.11.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4677700996398926
+    },
+    {
+      "tensor": "blk.11.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4716912905375163
+    },
+    {
+      "tensor": "blk.12.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.47284984588623047
+    },
+    {
+      "tensor": "blk.12.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4659452438354492
+    },
+    {
+      "tensor": "blk.12.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.47123026847839355
+    },
+    {
+      "tensor": "blk.12.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48330020904541016
+    },
+    {
+      "tensor": "blk.12.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4847886562347412
+    },
+    {
+      "tensor": "blk.12.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46797800064086914
+    },
+    {
+      "tensor": "blk.12.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4730118115743001
+    },
+    {
+      "tensor": "blk.13.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.47128868103027344
+    },
+    {
+      "tensor": "blk.13.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46615052223205566
+    },
+    {
+      "tensor": "blk.13.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.470400333404541
+    },
+    {
+      "tensor": "blk.13.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48146820068359375
+    },
+    {
+      "tensor": "blk.13.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.48579780260721844
+    },
+    {
+      "tensor": "blk.13.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4707341194152832
+    },
+    {
+      "tensor": "blk.13.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47377657890319824
+    },
+    {
+      "tensor": "blk.14.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.47524023056030273
+    },
+    {
+      "tensor": "blk.14.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4645404815673828
+    },
+    {
+      "tensor": "blk.14.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4747297763824463
+    },
+    {
+      "tensor": "blk.14.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4847407341003418
+    },
+    {
+      "tensor": "blk.14.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.48787403106689453
+    },
+    {
+      "tensor": "blk.14.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47474058469136554
+    },
+    {
+      "tensor": "blk.14.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4779018561045329
+    },
+    {
+      "tensor": "blk.15.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4708676338195801
+    },
+    {
+      "tensor": "blk.15.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46502208709716797
+    },
+    {
+      "tensor": "blk.15.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.47370314598083496
+    },
+    {
+      "tensor": "blk.15.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.49617481231689453
+    },
+    {
+      "tensor": "blk.15.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.485545555750529
+    },
+    {
+      "tensor": "blk.15.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47615687052408856
+    },
+    {
+      "tensor": "blk.15.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47816936175028485
+    },
+    {
+      "tensor": "blk.16.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.47785186767578125
+    },
+    {
+      "tensor": "blk.16.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4655170440673828
+    },
+    {
+      "tensor": "blk.16.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.48241543769836426
+    },
+    {
+      "tensor": "blk.16.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4919877052307129
+    },
+    {
+      "tensor": "blk.16.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.49524474143981934
+    },
+    {
+      "tensor": "blk.16.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.48722068468729657
+    },
+    {
+      "tensor": "blk.16.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4926127592722575
+    },
+    {
+      "tensor": "blk.17.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4696235656738281
+    },
+    {
+      "tensor": "blk.17.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46843433380126953
+    },
+    {
+      "tensor": "blk.17.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4831821918487549
+    },
+    {
+      "tensor": "blk.17.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4907517433166504
+    },
+    {
+      "tensor": "blk.17.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4811290105183919
+    },
+    {
+      "tensor": "blk.17.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47887690862019855
+    },
+    {
+      "tensor": "blk.17.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.47822070121765137
+    },
+    {
+      "tensor": "blk.18.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4738473892211914
+    },
+    {
+      "tensor": "blk.18.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4669356346130371
+    },
+    {
+      "tensor": "blk.18.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.48189759254455566
+    },
+    {
+      "tensor": "blk.18.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.49159669876098633
+    },
+    {
+      "tensor": "blk.18.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4814162254333496
+    },
+    {
+      "tensor": "blk.18.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4805870056152344
+    },
+    {
+      "tensor": "blk.18.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4796091715494792
+    },
+    {
+      "tensor": "blk.19.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4763975143432617
+    },
+    {
+      "tensor": "blk.19.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46741652488708496
+    },
+    {
+      "tensor": "blk.19.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4827125072479248
+    },
+    {
+      "tensor": "blk.19.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.5044026374816895
+    },
+    {
+      "tensor": "blk.19.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4900201956431071
+    },
+    {
+      "tensor": "blk.19.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.48059844970703125
+    },
+    {
+      "tensor": "blk.19.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4827009042104085
+    },
+    {
+      "tensor": "blk.2.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.46977996826171875
+    },
+    {
+      "tensor": "blk.2.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4608030319213867
+    },
+    {
+      "tensor": "blk.2.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4741373062133789
+    },
+    {
+      "tensor": "blk.2.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.474698543548584
+    },
+    {
+      "tensor": "blk.2.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4771779378255208
+    },
+    {
+      "tensor": "blk.2.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.462593952814738
+    },
+    {
+      "tensor": "blk.2.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4680693944295247
+    },
+    {
+      "tensor": "blk.20.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4853076934814453
+    },
+    {
+      "tensor": "blk.20.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46935439109802246
+    },
+    {
+      "tensor": "blk.20.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4986603260040283
+    },
+    {
+      "tensor": "blk.20.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.5071306228637695
+    },
+    {
+      "tensor": "blk.20.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.48229654630025226
+    },
+    {
+      "tensor": "blk.20.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4753066698710124
+    },
+    {
+      "tensor": "blk.20.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4772457281748454
+    },
+    {
+      "tensor": "blk.21.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4805335998535156
+    },
+    {
+      "tensor": "blk.21.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46884775161743164
+    },
+    {
+      "tensor": "blk.21.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.49070000648498535
+    },
+    {
+      "tensor": "blk.21.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.5072970390319824
+    },
+    {
+      "tensor": "blk.21.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.47469091415405273
+    },
+    {
+      "tensor": "blk.21.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46834715207417804
+    },
+    {
+      "tensor": "blk.21.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.471236785252889
+    },
+    {
+      "tensor": "blk.22.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48032379150390625
+    },
+    {
+      "tensor": "blk.22.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46509647369384766
+    },
+    {
+      "tensor": "blk.22.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4920485019683838
+    },
+    {
+      "tensor": "blk.22.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.5029158592224121
+    },
+    {
+      "tensor": "blk.22.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4686938126881917
+    },
+    {
+      "tensor": "blk.22.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4645860195159912
+    },
+    {
+      "tensor": "blk.22.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46773513158162433
+    },
+    {
+      "tensor": "blk.23.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4841923713684082
+    },
+    {
+      "tensor": "blk.23.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46468091011047363
+    },
+    {
+      "tensor": "blk.23.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4891226291656494
+    },
+    {
+      "tensor": "blk.23.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.5082740783691406
+    },
+    {
+      "tensor": "blk.23.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4670650164286296
+    },
+    {
+      "tensor": "blk.23.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46165672938028973
+    },
+    {
+      "tensor": "blk.23.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4651365280151367
+    },
+    {
+      "tensor": "blk.24.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4853506088256836
+    },
+    {
+      "tensor": "blk.24.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46521496772766113
+    },
+    {
+      "tensor": "blk.24.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4952056407928467
+    },
+    {
+      "tensor": "blk.24.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.5073537826538086
+    },
+    {
+      "tensor": "blk.24.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4659717877705892
+    },
+    {
+      "tensor": "blk.24.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4618492126464844
+    },
+    {
+      "tensor": "blk.24.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4645659923553467
+    },
+    {
+      "tensor": "blk.25.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4848952293395996
+    },
+    {
+      "tensor": "blk.25.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4651670455932617
+    },
+    {
+      "tensor": "blk.25.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4955716133117676
+    },
+    {
+      "tensor": "blk.25.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.504664421081543
+    },
+    {
+      "tensor": "blk.25.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4663835366566976
+    },
+    {
+      "tensor": "blk.25.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4615270296732585
+    },
+    {
+      "tensor": "blk.25.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4652391274770101
+    },
+    {
+      "tensor": "blk.26.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48056507110595703
+    },
+    {
+      "tensor": "blk.26.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4655306339263916
+    },
+    {
+      "tensor": "blk.26.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4965357780456543
+    },
+    {
+      "tensor": "blk.26.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4882979393005371
+    },
+    {
+      "tensor": "blk.26.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4687511920928955
+    },
+    {
+      "tensor": "blk.26.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4626344045003255
+    },
+    {
+      "tensor": "blk.26.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4659493764241536
+    },
+    {
+      "tensor": "blk.27.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.463986873626709
+    },
+    {
+      "tensor": "blk.27.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46343398094177246
+    },
+    {
+      "tensor": "blk.27.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46531152725219727
+    },
+    {
+      "tensor": "blk.27.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48076391220092773
+    },
+    {
+      "tensor": "blk.27.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.48532764116923016
+    },
+    {
+      "tensor": "blk.27.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.462310791015625
+    },
+    {
+      "tensor": "blk.27.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46564165751139325
+    },
+    {
+      "tensor": "blk.3.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4719233512878418
+    },
+    {
+      "tensor": "blk.3.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4619588851928711
+    },
+    {
+      "tensor": "blk.3.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4723358154296875
+    },
+    {
+      "tensor": "blk.3.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4783148765563965
+    },
+    {
+      "tensor": "blk.3.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.47509082158406574
+    },
+    {
+      "tensor": "blk.3.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4616909821828206
+    },
+    {
+      "tensor": "blk.3.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4672087828318278
+    },
+    {
+      "tensor": "blk.4.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.46998071670532227
+    },
+    {
+      "tensor": "blk.4.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4624476432800293
+    },
+    {
+      "tensor": "blk.4.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4693441390991211
+    },
+    {
+      "tensor": "blk.4.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4784698486328125
+    },
+    {
+      "tensor": "blk.4.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4753276507059733
+    },
+    {
+      "tensor": "blk.4.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46207229296366376
+    },
+    {
+      "tensor": "blk.4.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46803760528564453
+    },
+    {
+      "tensor": "blk.5.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4697585105895996
+    },
+    {
+      "tensor": "blk.5.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.461181640625
+    },
+    {
+      "tensor": "blk.5.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4741992950439453
+    },
+    {
+      "tensor": "blk.5.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.49132680892944336
+    },
+    {
+      "tensor": "blk.5.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4717257022857666
+    },
+    {
+      "tensor": "blk.5.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46435753504435223
+    },
+    {
+      "tensor": "blk.5.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46892746289571124
+    },
+    {
+      "tensor": "blk.6.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4684715270996094
+    },
+    {
+      "tensor": "blk.6.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46250009536743164
+    },
+    {
+      "tensor": "blk.6.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4715554714202881
+    },
+    {
+      "tensor": "blk.6.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48285961151123047
+    },
+    {
+      "tensor": "blk.6.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4767289956410726
+    },
+    {
+      "tensor": "blk.6.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46466461817423504
+    },
+    {
+      "tensor": "blk.6.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46954019864400226
+    },
+    {
+      "tensor": "blk.7.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.46625757217407227
+    },
+    {
+      "tensor": "blk.7.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46311259269714355
+    },
+    {
+      "tensor": "blk.7.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.466846227645874
+    },
+    {
+      "tensor": "blk.7.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.48315858840942383
+    },
+    {
+      "tensor": "blk.7.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4769124190012614
+    },
+    {
+      "tensor": "blk.7.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4622161388397217
+    },
+    {
+      "tensor": "blk.7.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46915292739868164
+    },
+    {
+      "tensor": "blk.8.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4732189178466797
+    },
+    {
+      "tensor": "blk.8.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4625265598297119
+    },
+    {
+      "tensor": "blk.8.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.47498297691345215
+    },
+    {
+      "tensor": "blk.8.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4788351058959961
+    },
+    {
+      "tensor": "blk.8.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4772648811340332
+    },
+    {
+      "tensor": "blk.8.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4638766447703044
+    },
+    {
+      "tensor": "blk.8.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4698805014292399
+    },
+    {
+      "tensor": "blk.9.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.47596073150634766
+    },
+    {
+      "tensor": "blk.9.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.46576690673828125
+    },
+    {
+      "tensor": "blk.9.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4750814437866211
+    },
+    {
+      "tensor": "blk.9.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4929318428039551
+    },
+    {
+      "tensor": "blk.9.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.48066218694051105
+    },
+    {
+      "tensor": "blk.9.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.46518826484680176
+    },
+    {
+      "tensor": "blk.9.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4696672757466634
+    },
+    {
+      "tensor": "token_embd.weight",
+      "shape": [
+        151936,
+        2048
+      ],
+      "zero_fraction": 0.4582149855911782
+    }
+  ],
+  "torch": "2.14.0+cu130"
+}

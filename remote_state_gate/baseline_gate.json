@@ -1,0 +1,103 @@
+{
+  "freeze_sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78",
+  "raw_sha256": "026a8774c1229eba02116b1464508c7eb37bd055d46eb6440d19d65b904db1fb",
+  "passed": true,
+  "margins": [
+    {
+      "prompt_id": "rv2-08-q1-long-far-base",
+      "registry_id": "registry-08",
+      "swap": "base",
+      "margin": 13.1258644527432
+    },
+    {
+      "prompt_id": "rv2-08-q1-long-far-swap",
+      "registry_id": "registry-08",
+      "swap": "swap",
+      "margin": 11.484592981292025
+    },
+    {
+      "prompt_id": "rv2-09-q1-long-far-base",
+      "registry_id": "registry-09",
+      "swap": "base",
+      "margin": 12.012889907436477
+    },
+    {
+      "prompt_id": "rv2-09-q1-long-far-swap",
+      "registry_id": "registry-09",
+      "swap": "swap",
+      "margin": 13.050773298632201
+    },
+    {
+      "prompt_id": "rv2-10-q1-long-far-base",
+      "registry_id": "registry-10",
+      "swap": "base",
+      "margin": 10.514674029256547
+    },
+    {
+      "prompt_id": "rv2-10-q1-long-far-swap",
+      "registry_id": "registry-10",
+      "swap": "swap",
+      "margin": 10.647174109812967
+    },
+    {
+      "prompt_id": "rv2-11-q1-long-far-base",
+      "registry_id": "registry-11",
+      "swap": "base",
+      "margin": 10.275073815404175
+    },
+    {
+      "prompt_id": "rv2-11-q1-long-far-swap",
+      "registry_id": "registry-11",
+      "swap": "swap",
+      "margin": 10.866681927178307
+    },
+    {
+      "prompt_id": "rv2-12-q1-long-far-base",
+      "registry_id": "registry-12",
+      "swap": "base",
+      "margin": 11.091547697607423
+    },
+    {
+      "prompt_id": "rv2-12-q1-long-far-swap",
+      "registry_id": "registry-12",
+      "swap": "swap",
+      "margin": 12.811970700360844
+    },
+    {
+      "prompt_id": "rv2-13-q1-long-far-base",
+      "registry_id": "registry-13",
+      "swap": "base",
+      "margin": 9.59260270485466
+    },
+    {
+      "prompt_id": "rv2-13-q1-long-far-swap",
+      "registry_id": "registry-13",
+      "swap": "swap",
+      "margin": 10.591801220207506
+    },
+    {
+      "prompt_id": "rv2-14-q1-long-far-base",
+      "registry_id": "registry-14",
+      "swap": "base",
+      "margin": 13.349792261385359
+    },
+    {
+      "prompt_id": "rv2-14-q1-long-far-swap",
+      "registry_id": "registry-14",
+      "swap": "swap",
+      "margin": 12.387833202684948
+    },
+    {
+      "prompt_id": "rv2-15-q1-long-far-base",
+      "registry_id": "registry-15",
+      "swap": "base",
+      "margin": 7.211604924696699
+    },
+    {
+      "prompt_id": "rv2-15-q1-long-far-swap",
+      "registry_id": "registry-15",
+      "swap": "swap",
+      "margin": 8.453912790074646
+    }
+  ]
+}

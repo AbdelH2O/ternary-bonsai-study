@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/></marker></defs>
+  <rect width="860" height="300" fill="#ffffff"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Technical identity checks (must pass BEFORE any interpretation)</text>
+
+  <text x="30" y="70" font-size="15" font-weight="700" fill="#1a202c">A–B–A restoration</text>
+  <g font-size="13">
+    <rect x="30" y="85" width="170" height="60" rx="8" fill="#c6f6d5" stroke="#2f855a" stroke-width="2"/>
+    <text x="115" y="110" text-anchor="middle" font-weight="700" fill="#22543d">A: score directly</text>
+    <text x="115" y="130" text-anchor="middle" fill="#22543d">NLL vector a₁</text>
+    <line x1="202" y1="115" x2="240" y2="115" stroke="#4a5568" stroke-width="2" marker-end="url(#ar)"/>
+    <rect x="242" y="85" width="190" height="60" rx="8" fill="#fde6d8" stroke="#c05621" stroke-width="2"/>
+    <text x="337" y="110" text-anchor="middle" font-weight="700" fill="#7b341e">B: import a state, score</text>
+    <text x="337" y="130" text-anchor="middle" fill="#7b341e">NLL vector b</text>
+    <line x1="434" y1="115" x2="472" y2="115" stroke="#4a5568" stroke-width="2" marker-end="url(#ar)"/>
+    <rect x="474" y="85" width="170" height="60" rx="8" fill="#edf2f7" stroke="#4a5568" stroke-width="2"/>
+    <text x="559" y="110" text-anchor="middle" font-weight="700" fill="#1a202c">restore original</text>
+    <text x="559" y="130" text-anchor="middle" fill="#1a202c">full state</text>
+    <line x1="646" y1="115" x2="684" y2="115" stroke="#4a5568" stroke-width="2" marker-end="url(#ar)"/>
+    <rect x="686" y="85" width="150" height="60" rx="8" fill="#c6f6d5" stroke="#2f855a" stroke-width="2"/>
+    <text x="761" y="110" text-anchor="middle" font-weight="700" fill="#22543d">A again</text>
+    <text x="761" y="130" text-anchor="middle" fill="#22543d">a₂ must equal a₁</text>
+  </g>
+  <text x="30" y="170" font-size="13" fill="#1a202c">If a₂ ≠ a₁, the import leaked state or disturbed the scorer — any "effect" in b is untrustworthy.</text>
+
+  <g font-size="13" fill="#1a202c">
+    <text x="30" y="210" font-size="15" font-weight="700">Other identities</text>
+    <text x="30" y="234">• <tspan font-weight="700">Roundtrip</tspan>: save a state and load it straight back → score must match exactly.</text>
+    <text x="30" y="256">• <tspan font-weight="700">Own-state import</tspan>: a prompt's own R/S into its own receiver → must reproduce direct scoring.</text>
+    <text x="30" y="278">• <tspan font-weight="700">Positive control</tspan>: import R/S from an unrelated book → score SHOULD change (proves the import can bite).</text>
+  </g>
+</svg>

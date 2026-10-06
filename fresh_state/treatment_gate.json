@@ -1,0 +1,2190 @@
+{
+  "freeze_sha256": "493926c0a24b5c6976683327e1b2b97498ae4bf6d55ff1970c213cb1c614f1f9",
+  "passed": true,
+  "comparisons": [
+    {
+      "case_id": "emma-p30000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-treatment.json",
+      "raw_sha256": "1ea20e9cc96af8c86aa792361492359e06ff9180d10d9e69194a02c6ea786654",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "30ef97979e9e3bce4bf94e8c8ab5748826c33dd321d217a0d65c607f80c33696",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.002546502386526244,
+          "mean_absolute_nll_delta": 0.02459355336299468
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "cb1e4934200729a1301d9ef748ff050093d6294275c19b17b3b41b74d3b14cdf",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.002178162101019982,
+          "mean_absolute_nll_delta": 0.03299750332126991
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "921bbfcff6fa323ca3dac26147162e623919d84a544e4d9c332e3f3a3f14039b",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00600416986370715,
+          "mean_absolute_nll_delta": 0.018712256682651886
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "a52254f72ba11010e918f4bdf8327b89722b2cdf86ab1f051987b1191127aaee",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0064735787157289984,
+          "mean_absolute_nll_delta": 0.03543449880197154
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p30000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-alpha-treatment.json",
+      "raw_sha256": "1fe908bf5a9cf7bebe58f68eae566507f84e28afd162c26d6b1847ae8b33f444",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "3ff2c093c748fe09d81ec488f97e9d22bd151d6ff6cd5c99dafaac69f18ebc18",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00642363332616521,
+          "mean_absolute_nll_delta": 0.02477817554819185
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "4ef6b9024d875cd74b0d3cc08f137497a11194656e2dcd16fed800681fade03e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.009964410520651657,
+          "mean_absolute_nll_delta": 0.0294777841988681
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p30000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-mlp-treatment.json",
+      "raw_sha256": "a207f81cbc9dd4e8c5e16c9cc2a560c634659a4ead37bbdfc969bdc6d47ce559",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "3ff2c093c748fe09d81ec488f97e9d22bd151d6ff6cd5c99dafaac69f18ebc18",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0072897445921475705,
+          "mean_absolute_nll_delta": 0.02229691785449239
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "4ef6b9024d875cd74b0d3cc08f137497a11194656e2dcd16fed800681fade03e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0072264637220097894,
+          "mean_absolute_nll_delta": 0.03634723790844201
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-treatment.json",
+      "raw_sha256": "e5e92890504e1fa9708e4a87b9421d426b2bdb0c6635d4dd23a1d0aefe31fa9b",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "b0841cc19060936f1b1c5c8a8c93b1c8efd148645d8aa6f7141fcd279bb3d1d0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005629423125613446,
+          "mean_absolute_nll_delta": 0.025659393180618117
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "5bbec6f8102860988be217f3541d4dc624c46c4f92948b8bc6893b2b50211eec",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005635665276008403,
+          "mean_absolute_nll_delta": 0.03142269087527661
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0f2494d0446b9b764f0d5c21aae9b8dbd7275646f8b182fadc076af57ef4a823",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0028478469832761526,
+          "mean_absolute_nll_delta": 0.01598694413916382
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "fabf09a68777c5c1b99f32133efff8db02fbaa8b7ad19791c6d751460f08ffa0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00395420839550401,
+          "mean_absolute_nll_delta": 0.022051371096957022
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-alpha-treatment.json",
+      "raw_sha256": "1dbd4b7f128c7728751366f8e2f176912123ec1ce2d011768cc5963b5398cf9f",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "dc5363b1b330a483be6b403988d65f7b352ebb019f5688d65b2d460523ea45f2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.009642025105153156,
+          "mean_absolute_nll_delta": 0.024340460282527763
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "b65853210f63349ece6a8eaa0f33bb44f24b9c1580985bb4406f45d5211a4fc7",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.012320343147430312,
+          "mean_absolute_nll_delta": 0.029742997824966973
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-mlp-treatment.json",
+      "raw_sha256": "ea2dc0dc284e50e45bc54b59bf9f5d5eb4d69ea033e53f0dd8c3dab4100316db",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "dc5363b1b330a483be6b403988d65f7b352ebb019f5688d65b2d460523ea45f2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0014855897972120015,
+          "mean_absolute_nll_delta": 0.01717580145854168
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "b65853210f63349ece6a8eaa0f33bb44f24b9c1580985bb4406f45d5211a4fc7",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0023166007361337154,
+          "mean_absolute_nll_delta": 0.024153631895142785
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-treatment.json",
+      "raw_sha256": "c8b0e038798f78e943402749bb89e9a677ab05ee3ef03066b57cace76814dd6c",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0dcacc3013705c64bdb450c0f3f2660dad74eb5da027c7487b6333a81e2ea262",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0036318423305615457,
+          "mean_absolute_nll_delta": 0.03238863522291187
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "33d2fd249e3892552dee72ee1ed61d58c6aafdb4ed49ae60a8366dc3e8e1343d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0009550019808504483,
+          "mean_absolute_nll_delta": 0.03558934417215739
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "15aad7e55a7bb53e161faaf95aac13eee19479b3feec1d17c46e407a95284f11",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0006564922422670736,
+          "mean_absolute_nll_delta": 0.02012604701608854
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "73d2cab94bec8b47d46f80d089eb4a0d361755d36abe6c477987912e38b98cdc",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.005780020796790954,
+          "mean_absolute_nll_delta": 0.028616143417465663
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-alpha-treatment.json",
+      "raw_sha256": "183b4696dbe5dbff16ed25c0ed98335db65f023ae3ce3e451cfb37fe7abd1a5e",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c96a8a3a5fdb0da46ba289a300286680908f67b687a3cb31c4ddd3b4d9fcd29f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0033877761805047187,
+          "mean_absolute_nll_delta": 0.028810463905005322
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "d0d26cbdaa74a0926aa8bd54dd2776644a9cd2c3bf2c16f089253e65e2dc0d86",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0017595573547548086,
+          "mean_absolute_nll_delta": 0.033571105483171666
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-mlp-treatment.json",
+      "raw_sha256": "357c04a4f854bcc7ea406bd63e6844bfce9a8b39c7b2ca9d023a450f80a60a1e",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c96a8a3a5fdb0da46ba289a300286680908f67b687a3cb31c4ddd3b4d9fcd29f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -7.91091168750134e-05,
+          "mean_absolute_nll_delta": 0.01790834854239907
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "d0d26cbdaa74a0926aa8bd54dd2776644a9cd2c3bf2c16f089253e65e2dc0d86",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.007297012510838462,
+          "mean_absolute_nll_delta": 0.025146509009693677
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-treatment.json",
+      "raw_sha256": "6ead2c45ee52eb0cc0a2ba91ea0027d9d610bb024eaa31713af9b4bba661e80a",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e8f451a2ebbe925c6e15a35bb00309023fafda1cb9b88362e09a4fcc8b656516",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005314140176094864,
+          "mean_absolute_nll_delta": 0.031080827310786225
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "01bf05075339cdf71e27ade51f76161ea4cf2620b99988e743559b9aa3f5d0b8",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004189929396161151,
+          "mean_absolute_nll_delta": 0.0354807999089384
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4e3b7bebfc2b80842aed500e6c33d1bcd9fc2e22cc04cc10070c9c38ee7b6ced",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.003842624779264839,
+          "mean_absolute_nll_delta": 0.01911025890899509
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "1a78bb7157cdc4501e863534f1c7dd86959f2191bfab65c92ad7f3014a374f95",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.004381850607623561,
+          "mean_absolute_nll_delta": 0.02635899788431388
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-alpha-treatment.json",
+      "raw_sha256": "2fa96575443f185d6252b3e4df4f641dacad5d16dd8156722a442f95d84028f8",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0b050e292d067537c8188a78a19b4e908cd05427676846af25f0b835e8ef49dd",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.009960108651040304,
+          "mean_absolute_nll_delta": 0.032313038906357505
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "70760ea28859856b043d0891de1582df786c1c4601e62e1f0d79579681130471",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.009774205695904722,
+          "mean_absolute_nll_delta": 0.03639032683302905
+        }
+      ]
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-mlp-treatment.json",
+      "raw_sha256": "af0ae02233c9bdc661c2010a1b7335f68b964131167773da86708e9ad8470a52",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0b050e292d067537c8188a78a19b4e908cd05427676846af25f0b835e8ef49dd",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005462655833561601,
+          "mean_absolute_nll_delta": 0.020801379701107577
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "70760ea28859856b043d0891de1582df786c1c4601e62e1f0d79579681130471",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.006789670062787654,
+          "mean_absolute_nll_delta": 0.028559062115410563
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-treatment.json",
+      "raw_sha256": "c16e7ebafcd860515883b1b004968fcc72508468d90ad7c7a63763acc255ac51",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4831b0241e30ec9ce215dbee600d660f8ad5cebb70af95c0e02d0540d2931bb0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0034139448991939657,
+          "mean_absolute_nll_delta": 0.03352591114591732
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "45a617f1e694c5ca8d477d80805fa05c7714ed09447fec8845e1ae38cb2b77fa",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004032309261237781,
+          "mean_absolute_nll_delta": 0.039796718082637114
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c75dbaec1a64ea7d233c2bcdea5ada8d8da833fa57b3959401a078d66f427e43",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.003948013755413821,
+          "mean_absolute_nll_delta": 0.025374272879632124
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "663c8e487caf20fcf384cf187cf0fac0a294d3d1fce66778e53067c0f9fd7d6f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0019405447898946037,
+          "mean_absolute_nll_delta": 0.03327381975647695
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-alpha-treatment.json",
+      "raw_sha256": "6f092d3af25b813547aa04ef6b29dbcd72bc61d48f72b87c53abd9e52b26ac64",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e78a27aa498ff0b707259156b0e9b93457a80225228d148028e95f63975beb91",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0019710765000356587,
+          "mean_absolute_nll_delta": 0.03741238628134461
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "ca419c5a60420289bc9efd0b999686bc61cdd5efbc88777b9a71c6ad66a6acde",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.004617151445501989,
+          "mean_absolute_nll_delta": 0.04594933068717508
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-mlp-treatment.json",
+      "raw_sha256": "e05874b2f3cf4395d20f3f5383b066bff014dfa1000d706b3b48d5ff16adcca4",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e78a27aa498ff0b707259156b0e9b93457a80225228d148028e95f63975beb91",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004651642633858131,
+          "mean_absolute_nll_delta": 0.020422846252998752
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "ca419c5a60420289bc9efd0b999686bc61cdd5efbc88777b9a71c6ad66a6acde",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0025777507014547426,
+          "mean_absolute_nll_delta": 0.02768939677284698
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-treatment.json",
+      "raw_sha256": "32b6e45ae7dc8cb2810c2c1a695e3fec4a72cf6bba85451d7e6d7154c11c82ae",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4b916c4d15bc1e3ce170740c03295ae6b022bbc4b93a94cb0f80e3a2d7cb59c3",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005439071913245548,
+          "mean_absolute_nll_delta": 0.031555939496013555
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "51af83e15d30c2d78744ae19db066a995b27b6b598ea90f978e35d5f078dc780",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004517066824387129,
+          "mean_absolute_nll_delta": 0.04207194694588648
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "626c828bc089b5d646d7f52cc10fb8ea5041b2b1789cd576bc350b1a24387dd3",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0027862531216818324,
+          "mean_absolute_nll_delta": 0.016491397672284986
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "c5d9c34c22aa6887714d7dfe0bfb929867cfdad70a50ea2280884238b339174c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0013246238084215927,
+          "mean_absolute_nll_delta": 0.021340223347804277
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-alpha-treatment.json",
+      "raw_sha256": "d026bfa45561677ff267f6a524bf45b4e2f6d93592bbae6f062bc65da7fab25f",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "bd4cd19df07ca765160241be5c2a6e075518bdd88008fc9791eab94abefc6c73",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.009244413301943696,
+          "mean_absolute_nll_delta": 0.034852455700556034
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "3c5d6aa5830b7a0cfb569e010f15eb6113135ca8355d4eee96ab1a0b866c54f3",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.008895587169159041,
+          "mean_absolute_nll_delta": 0.04296624435076848
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-mlp-treatment.json",
+      "raw_sha256": "14e07062bb8e017d529acdfb079ab672391ad8499c82eb29410830afbc91c1d0",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "bd4cd19df07ca765160241be5c2a6e075518bdd88008fc9791eab94abefc6c73",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0021254457310586716,
+          "mean_absolute_nll_delta": 0.018445085334349857
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "3c5d6aa5830b7a0cfb569e010f15eb6113135ca8355d4eee96ab1a0b866c54f3",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0010661145229363116,
+          "mean_absolute_nll_delta": 0.023761762372209026
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-treatment.json",
+      "raw_sha256": "73f4253c625f5b77d8c1b6ecd114152817e6423831bb445efcbaafb9a824badf",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "2fc302721e4216be3cb435dfcc86a94e677223c450dc9e3d55826659489a4d92",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.00701107482347166,
+          "mean_absolute_nll_delta": 0.019418397279534594
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "b3ff76eac4ae79343c368aae3af0a46c785665146f095d07c7a3e3f06d28e262",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.007001158940145126,
+          "mean_absolute_nll_delta": 0.023994729414851017
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "812daa4600a63cf76665bfc3425f845c425fd29838c09e105916a6078d773f1e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.000775150475679361,
+          "mean_absolute_nll_delta": 0.02112392465236144
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "2f7f02a5c96b047bced3f130fe6dccd877dfd87e7183d6638f5c4b5d5da6ea65",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.001291136123249883,
+          "mean_absolute_nll_delta": 0.02535730864343514
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-alpha-treatment.json",
+      "raw_sha256": "c203441f2a6aef5e7bc13604c50a878c5df34f4dfc2956cd080075e8d60eca0a",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a495a937b3cdbdeff88b0cdef016debd85e77f5dc80838cd5f45189cb402d9bb",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.007377634075131698,
+          "mean_absolute_nll_delta": 0.019239857739220326
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "fd9c5e4303b1eeebca661d159a69891380b2727146b83f3219e3b67c52ff4a9b",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.007337432274771569,
+          "mean_absolute_nll_delta": 0.024069525904359377
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-mlp-treatment.json",
+      "raw_sha256": "64939a08c5dd9542e09eda7a9d7d603787c064cf379cd6dcbb9c1d6b2da8f830",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a495a937b3cdbdeff88b0cdef016debd85e77f5dc80838cd5f45189cb402d9bb",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.002707921753791127,
+          "mean_absolute_nll_delta": 0.018481668020598904
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "fd9c5e4303b1eeebca661d159a69891380b2727146b83f3219e3b67c52ff4a9b",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0064629919207572885,
+          "mean_absolute_nll_delta": 0.026791732416896214
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-treatment.json",
+      "raw_sha256": "968ed2e16e67d064ced358c161534d5e2b63119ff05bd7770aa73ae1fee04d89",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "8e732800d1bec0a8c357593010cdc6b9d0bc17ed0421fbb289cf7af048834af1",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0013484997953515558,
+          "mean_absolute_nll_delta": 0.019413441243248442
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "3bdd604451993c3b98cfccc240dd3581d059763d32ed584c38a7745ad63f68f1",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.003418444090238512,
+          "mean_absolute_nll_delta": 0.02998123730096061
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "bd83a8ccbf1e8983c89cd03b4968863beb40706905701251916b91de0a3a6d67",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -5.9123371157466736e-05,
+          "mean_absolute_nll_delta": 0.015244807315003791
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "8797b83a26d5a66a8700ad392eb11695d90f11725a2ac8ba01ab55ba133ad737",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0003040884203926027,
+          "mean_absolute_nll_delta": 0.026441053983962105
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-alpha-treatment.json",
+      "raw_sha256": "d5cb6d70a43067ef175d7eccbb29dff789f56821cc1e3c6b208a107846fca3e5",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a26190e6cbb14cdb2803960a74980cf643cf61522eb85aeb38e89f226e89379d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00048172493010864456,
+          "mean_absolute_nll_delta": 0.0249321580460476
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "ba661cf49b3178cb4c9347029cc1e748824313be57e96c13ff20d16f057e07d9",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0028360600864975587,
+          "mean_absolute_nll_delta": 0.03153656281774812
+        }
+      ]
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-mlp-treatment.json",
+      "raw_sha256": "e1cacf5d3f6b62ee5040611b89932397bbaba049caeb01981dfed330c1fec030",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a26190e6cbb14cdb2803960a74980cf643cf61522eb85aeb38e89f226e89379d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.003671265283129796,
+          "mean_absolute_nll_delta": 0.018269125217836763
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "ba661cf49b3178cb4c9347029cc1e748824313be57e96c13ff20d16f057e07d9",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0009243632087209349,
+          "mean_absolute_nll_delta": 0.02497597728896112
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-treatment.json",
+      "raw_sha256": "55bb39fcb5b2b0b3316ca6734fd3e1c1bff3fc0ff2bfded7eda500a0f49d06a9",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "6aad3a2f33b0af09bcb164bcee381a7e9511a295d910556a45aa59f397671f31",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00018063656570062043,
+          "mean_absolute_nll_delta": 0.02867976969203322
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "054f606f00c38d95e366032b796cc97a370d7b7c3cd8ace81e4599fcb37c7e8f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0004582503074583372,
+          "mean_absolute_nll_delta": 0.03006847584540903
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "fc65d04cd631ebf321702aa5914f989b1b4bfc46c79d85775a078cf30e40e1df",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.003065103116543119,
+          "mean_absolute_nll_delta": 0.02009547741052103
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "14cb382c98f80804f785ff658b2360b9952c644f087c7be403ea5924e7cfe07b",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0017715749281964994,
+          "mean_absolute_nll_delta": 0.027744276891096084
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-alpha-treatment.json",
+      "raw_sha256": "ee1b23beb96c73b803528710778be752aeaa5ce606f9bd6f90d9a9778ce8196a",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "46f6045f9d429668da256c722c1bd8e1d7afbb57cf98430fc3f5abb600a43a62",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.005946569260206004,
+          "mean_absolute_nll_delta": 0.03032483801766541
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "72c0bd15e5d231edd3c47840409a59b091bdb63664ba68dcf376bdb5e0982db9",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0058300346668974405,
+          "mean_absolute_nll_delta": 0.03281407198677497
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-mlp-treatment.json",
+      "raw_sha256": "a222855616b73cea1174a4e49ac0204cc9780667f3990e0c04e397629edc6a32",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "46f6045f9d429668da256c722c1bd8e1d7afbb57cf98430fc3f5abb600a43a62",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0020541994423977834,
+          "mean_absolute_nll_delta": 0.01929245411024364
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "72c0bd15e5d231edd3c47840409a59b091bdb63664ba68dcf376bdb5e0982db9",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0045373664329730855,
+          "mean_absolute_nll_delta": 0.026053166949506955
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-treatment.json",
+      "raw_sha256": "33976afa945c45d973c7fa2696125f360640b24c215e583004ae26251182fea4",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "1a966cea473cbfddc4e45d8446a8bc9268ae768cc67c4cc0f2b879e2c9c32648",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0014093652734617056,
+          "mean_absolute_nll_delta": 0.025803729392401463
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "6ff255ce9a00d1205b878dfd06a40edfa9b8bdcaab7cdf0cbea03fae21351483",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0006995807747436984,
+          "mean_absolute_nll_delta": 0.02988868723890764
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a2787a22022b812cd7ff45d9b4d329a50be634a07f1b915646920123dda256ef",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0017097193988398422,
+          "mean_absolute_nll_delta": 0.01995529405940361
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "87d63828cbe9dc7dac1f99e6ac3a7bcfe615d962897e81dc6dd5c632e07fd37b",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.001013139038998652,
+          "mean_absolute_nll_delta": 0.02155049785229193
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-alpha-treatment.json",
+      "raw_sha256": "6d7474c361c23fcb15c29ee6f1cd304ae98b3b67dc04b32bdf65d24c2dfecb65",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c3fb71aa8b39454bb2d0782057a10e90dc434f7253b38f68f1d421eed1825432",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0005302057768046025,
+          "mean_absolute_nll_delta": 0.02908075626541032
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "473f75ec6ee7bff73b6e268b775b5bc94a5b260e2717f1b8a19c46b337891447",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0003358129557752821,
+          "mean_absolute_nll_delta": 0.02994672137283361
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-mlp-treatment.json",
+      "raw_sha256": "d15aaa5997acc2efa5d1ca436b8bfaee0019df74560d439307eb052d328db281",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c3fb71aa8b39454bb2d0782057a10e90dc434f7253b38f68f1d421eed1825432",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0024114452398427597,
+          "mean_absolute_nll_delta": 0.01953001760772461
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "473f75ec6ee7bff73b6e268b775b5bc94a5b260e2717f1b8a19c46b337891447",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00021971235388464468,
+          "mean_absolute_nll_delta": 0.02321627396824082
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-treatment.json",
+      "raw_sha256": "6cc30e59da3355c7cb044d3dc599a3ba61617669e8c415eb6e61d6274f5f89c5",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0b2820ad4616364c02600a7fd72c16577ef2fc7395211d9cc002104765cd929b",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0044589743421472395,
+          "mean_absolute_nll_delta": 0.029062843177284033
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "dada7c4c404937802575d1ccb46bad24415f02db28c11d1903d8feb364dc45a5",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.007138740000666023,
+          "mean_absolute_nll_delta": 0.02982129833090775
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "d02fb7b7df850e33fec51d44c684b99e14adf06cfafe5196036ef8111dbc5507",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0032198080061452993,
+          "mean_absolute_nll_delta": 0.02522770984732193
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "f8139598e53fbb06216d14b05416d1422e9f821d7f18ff2ac7fd9f01a0aa0806",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.001977218304998473,
+          "mean_absolute_nll_delta": 0.029129717927093113
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-alpha-treatment.json",
+      "raw_sha256": "560e6267a6c6e088dbb02f10e013e142c6009e86826e92338a7f9971e755ab9c",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "576689c36ccb2c177435e6b63095ddea14e48d0b657c9f2c78f9f2687f802a5e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00213094630254086,
+          "mean_absolute_nll_delta": 0.027457798682673888
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "952d4d4e486791251e9fc65d5fb2780fbf188e1625851c99a40d6061e92dc781",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0047448920145391855,
+          "mean_absolute_nll_delta": 0.031445197904576
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-mlp-treatment.json",
+      "raw_sha256": "8dc64c8c7ea9a29a3d7bf3bcd3c7702a23ae589f3240195e811b016a1758f46d",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "576689c36ccb2c177435e6b63095ddea14e48d0b657c9f2c78f9f2687f802a5e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.007388385824815264,
+          "mean_absolute_nll_delta": 0.025141265934172118
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "952d4d4e486791251e9fc65d5fb2780fbf188e1625851c99a40d6061e92dc781",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004302732524238734,
+          "mean_absolute_nll_delta": 0.02889840003109599
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-treatment.json",
+      "raw_sha256": "3adbe524007508fd278562e75ab931bdef931f645b0068ae21527aad5344dba1",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "28f294b0250861144a24864d7af7aa78276ae2599855568140a411882ac3f5a8",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004710512005250409,
+          "mean_absolute_nll_delta": 0.0251232342519266
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "df30b01c65d46965760c45b42e4a84babc80416e46c919cb6ee9081c3afdbc69",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.00602788507579776,
+          "mean_absolute_nll_delta": 0.030517533006763888
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e714ef585c1c7730e51ce0b8278ab0f10c6e83815b595ba5b985306f29257aff",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.004521264072435608,
+          "mean_absolute_nll_delta": 0.02384664594513491
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "0fe2a2fbf5e3458e100d53862ff3d529036008d7f7f2b0ce4b09febb219d3e0d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004335747727351761,
+          "mean_absolute_nll_delta": 0.03058262387196649
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-alpha-treatment.json",
+      "raw_sha256": "d3d2bad60193e6229ba4af2a6d08ca11025309d9cf0278e8ec8aeb502637b7c2",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "25ba4107af9709a05a4c38de52ed9aa135edcdd58228d147ea630581e7a3edaa",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0033870693998053598,
+          "mean_absolute_nll_delta": 0.029276929408965348
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "00fd5ee80c74b0470713b6da08e9455cb678b0eb96b0ff1ed8afac8fa51c8ab2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.009835038933117173,
+          "mean_absolute_nll_delta": 0.03570483416150811
+        }
+      ]
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-mlp-treatment.json",
+      "raw_sha256": "3e0ac67a1f70f980b51f103b706f5e411dff62411cdb7ef60e8d7a5e98740763",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "25ba4107af9709a05a4c38de52ed9aa135edcdd58228d147ea630581e7a3edaa",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.001222187651929995,
+          "mean_absolute_nll_delta": 0.021418601910274195
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "00fd5ee80c74b0470713b6da08e9455cb678b0eb96b0ff1ed8afac8fa51c8ab2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0028047338464205155,
+          "mean_absolute_nll_delta": 0.028667720088515276
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-treatment.json",
+      "raw_sha256": "271402f5ebeefe553a24b6abb03b1a89bae83dcd7e13eb88d6156ddf26b70342",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "734385db2c2ba8d6c96fd7a4610dbea32adf08f031befe58412250adb1ec5f54",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.004258486513619254,
+          "mean_absolute_nll_delta": 0.02092001006398705
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "f9352bef9bedcb126ecc5a0032312567c913e7aeb01e2c50ae4ed56b9f0e899c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.005504076418415394,
+          "mean_absolute_nll_delta": 0.02853638327099222
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "2728e42f1e6dd752e45ec55da961e9cca6e6d00b50163e6f79fa65a74a1f25ee",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.000356230287913784,
+          "mean_absolute_nll_delta": 0.017062916442548558
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "a824a79e89a21461ff7626dc50be3123a0120a9500772221f449b38efc596f66",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0030059950128536435,
+          "mean_absolute_nll_delta": 0.023614847008319513
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-alpha-treatment.json",
+      "raw_sha256": "366ef82acaf17a57ba3af84ac273d6fe67eada7098ab35c37115acc48353d6c2",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "af710f541c5975cc33bef088b146b345eebbef1df67ead49045435fbbffe48a4",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0013209678568931234,
+          "mean_absolute_nll_delta": 0.020601382819867068
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "b8464a5ccb7af5d052e19605b1bd573da380d152d68a3946fc3e5b743e685230",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005015992881456667,
+          "mean_absolute_nll_delta": 0.028588393895103634
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-mlp-treatment.json",
+      "raw_sha256": "43652c975f6c392f4bad1eec3ee6436491714b5288a3541d52821a36667a2c85",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "af710f541c5975cc33bef088b146b345eebbef1df67ead49045435fbbffe48a4",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0021515568587106475,
+          "mean_absolute_nll_delta": 0.01563432375967015
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "b8464a5ccb7af5d052e19605b1bd573da380d152d68a3946fc3e5b743e685230",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0012432391902023028,
+          "mean_absolute_nll_delta": 0.020650854111293075
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-treatment.json",
+      "raw_sha256": "6f367827da1c6c367a7356da5ca7658dfbc714f1bdc1e5109bf839b77ebc3853",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4a23d28ce499a5cd66ca101be2dfd260a847a54ebffedb8218f67a802235a368",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.005457256048541504,
+          "mean_absolute_nll_delta": 0.02804748862117091
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "71257b151ecfdad4b576527b11371d66601e8d18564c66d0e78ad4e65fb60aaf",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00496126116803875,
+          "mean_absolute_nll_delta": 0.03440757190728881
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4f5a0787b1d4c9252b05bccd02cd83fb4d0db528eb8ffa690555e1bcafdd1059",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0033650957246352605,
+          "mean_absolute_nll_delta": 0.018500886525715066
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "fc2b3b4c293c817818adf78cd907cfff1d6740642d9b9a700c19e00ea294f28a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.002867383885301104,
+          "mean_absolute_nll_delta": 0.026514652294288375
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-alpha-treatment.json",
+      "raw_sha256": "1e251704bc76548250deec1e6e524339b078f5a75c858bafb013b6d23a941165",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "1b498f0453a530e85439462c8a7aad6538aad6837cfa004d01c7e73597ce7079",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0015025167789980427,
+          "mean_absolute_nll_delta": 0.022966134923949895
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "af6e815cf480a1df1fc6a36e22e601c6d335668d8ea7c044504c44e3902173d6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.003842988501929621,
+          "mean_absolute_nll_delta": 0.033457930047943785
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-mlp-treatment.json",
+      "raw_sha256": "c85b86317d96d3cc1f493b0683d18aedaa7a6d6c7d2d02cc8cff0d7449a95906",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "1b498f0453a530e85439462c8a7aad6538aad6837cfa004d01c7e73597ce7079",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0014867439692220835,
+          "mean_absolute_nll_delta": 0.015947826974986958
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "af6e815cf480a1df1fc6a36e22e601c6d335668d8ea7c044504c44e3902173d6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0019606902543223546,
+          "mean_absolute_nll_delta": 0.027489542380650305
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-treatment.json",
+      "raw_sha256": "bba26f0e441956709afdd20145ac478ed34f7a75e3b7d6cf82452a5b47f0ffdb",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "f9db7ae31e053054fb959c7f0638b863e2c09581f193c2b6b9122befc657f80e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.00315826208872552,
+          "mean_absolute_nll_delta": 0.025815226221916655
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "06a79b7f2da4544c0ccd55d0661f705fec5ecc3073ab03bd931a1e244ba20ee2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005774072902828544,
+          "mean_absolute_nll_delta": 0.027415986844884128
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "60397e93fea1dbd75b62fd71c04ed3a07e08aa79030c9319a66bee149bbd0df7",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0007792071745687936,
+          "mean_absolute_nll_delta": 0.01857561961591307
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "61d90be95698ccb9d79bcf9a940479f040e9cc2378ab02feb4cf65553dd2f51c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0031067385407352647,
+          "mean_absolute_nll_delta": 0.023074413223762028
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-alpha-treatment.json",
+      "raw_sha256": "617580f18e8c4dacd4266a7fc8f2c41164a0db83b0b2242ddc233ba70ba79e98",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "d1008416d830b46dc289f4404fd12bc8e880909f72f47b2bbaec82bcae3f36bc",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0052131483420951264,
+          "mean_absolute_nll_delta": 0.028914489092913304
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "c0c80feaebbd71eb4a237c564ff05a7f6305585cc79df99677d8339b29aa618f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0073881103840877545,
+          "mean_absolute_nll_delta": 0.03299259208837544
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-mlp-treatment.json",
+      "raw_sha256": "81e811844b7c1173e62f2b1b19f6d787fb9fb7d5165bcb8cc7529fab5f014ea8",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "d1008416d830b46dc289f4404fd12bc8e880909f72f47b2bbaec82bcae3f36bc",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00029506907953367464,
+          "mean_absolute_nll_delta": 0.016272304993287374
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "c0c80feaebbd71eb4a237c564ff05a7f6305585cc79df99677d8339b29aa618f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.000250946048681699,
+          "mean_absolute_nll_delta": 0.022867622206086954
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-treatment.json",
+      "raw_sha256": "d8a12b350006f8d590f80877f712bde01b1a6b99ab176f5fa52719f8e78ee991",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "878c88865f8bb220af7a159a2741ce7480e7bb04ca3d55c30609060eb64705f2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0047462219467673036,
+          "mean_absolute_nll_delta": 0.024460635911612516
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "6eb33f905fca1404fceb4cfacfed2586750ab20dd7af023aa042902e1807e414",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004514998259789813,
+          "mean_absolute_nll_delta": 0.03200303926353999
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "eea9d911cf17fc31055b02c21adf5665b97d1fb431d8eccb7ca36c96813e25fa",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.004292584703367837,
+          "mean_absolute_nll_delta": 0.016470541908493248
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "8ebea10a60e827117a9c14737df58ffd4f6d31b10640a92134d5d92a6a1bfa6c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.006329654785716934,
+          "mean_absolute_nll_delta": 0.026733264369953977
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-alpha-treatment.json",
+      "raw_sha256": "a74997d998215c53800c3a4bb9c135d4bf851c7454eb808926d66d8a9adefc1c",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4f5f18b857b5f0c16e36d2b608c61259ac4056de41c6c17f1b97c69e678d5c20",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.007211202630145751,
+          "mean_absolute_nll_delta": 0.028206493201505235
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "7e10eceeeb8712d7fce4022e2c2561b75b2d120393ef7a76600f831ba61c233e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.008598887857758445,
+          "mean_absolute_nll_delta": 0.03632495744527884
+        }
+      ]
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-mlp-treatment.json",
+      "raw_sha256": "ef2bf257f857c9f412bc6789ea702691fc477578b37ce7f81703e33b0bdac582",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4f5f18b857b5f0c16e36d2b608c61259ac4056de41c6c17f1b97c69e678d5c20",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0024014519911054856,
+          "mean_absolute_nll_delta": 0.014717194434221287
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "7e10eceeeb8712d7fce4022e2c2561b75b2d120393ef7a76600f831ba61c233e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.003363136471647202,
+          "mean_absolute_nll_delta": 0.022922301447375556
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-treatment.json",
+      "raw_sha256": "b1e4cc9936da64d971f62ce929c8df105b628d65650d555687e7dfafaeef8f65",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "06e60f87e2eede5e7ddef6592086ab2ddc55c4eee1bfad5f6ef82fb66759a1d4",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0016768490073781925,
+          "mean_absolute_nll_delta": 0.022709302818085426
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "503fed5cb062c1133e69bb1451d82fe98403c9dc32ae9352df6c355a16643d37",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.002136212414454557,
+          "mean_absolute_nll_delta": 0.026916186326359465
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "762056d627f82378ec5f975bc99659aa7300c52896e42681b850b8dc0b1c2cd3",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0009554027769427206,
+          "mean_absolute_nll_delta": 0.019927033096023603
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "0b59bc1b651a1d7b5493b76469545c97c5e245973a4fa619c6f55107a3ee4301",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.00241461596820032,
+          "mean_absolute_nll_delta": 0.021933184173150648
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-alpha-treatment.json",
+      "raw_sha256": "946a8526c28180d1da77b9835c55878c8c174522f1997d44ff2e2fe7f5ba5827",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "17cb733fb8a6ffbb3ed4896b1be0a38924b2540fec13bae539ac3356052255c0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.00048471956639285394,
+          "mean_absolute_nll_delta": 0.024027564391439403
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "801acb93c63dc3404d34a7ceddacc8881097e148fcd2c7f86c50acbf8c4f3a3a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0033476922443382226,
+          "mean_absolute_nll_delta": 0.02617406391291296
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-mlp-treatment.json",
+      "raw_sha256": "34e3ace9f4717123668e000e309ece4bf0abc344f17b15a33ddc68eb219b663e",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "17cb733fb8a6ffbb3ed4896b1be0a38924b2540fec13bae539ac3356052255c0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0006567263600612567,
+          "mean_absolute_nll_delta": 0.020333571130286113
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "801acb93c63dc3404d34a7ceddacc8881097e148fcd2c7f86c50acbf8c4f3a3a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0002641939990274473,
+          "mean_absolute_nll_delta": 0.023777006236224554
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-treatment.json",
+      "raw_sha256": "f8c1cfef3598e66a5ddd4969a00a744bfbc1a44b7b7ef40b67e565c5dd728217",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e22428110af22d3977f706d0cbde6e3d27d63f42f000be16e30bb88734c8ba5d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0016358198702360978,
+          "mean_absolute_nll_delta": 0.02727659357017568
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "90288fd121aa75895eee9a5e90184339ed045f0e7d89df4245b50509ba3f2a2d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005594712907110105,
+          "mean_absolute_nll_delta": 0.026442482201680235
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "fe12858e88d688bd88877341f7153fb26d596316768de461164dbf541977f826",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.00165846803967178,
+          "mean_absolute_nll_delta": 0.019050735748303974
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "594c9d1d1d35570e696887942be59e10c7fdd108eaaaa2c56c93b53e39b8dc8e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0017420894088177766,
+          "mean_absolute_nll_delta": 0.019461472711403045
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-alpha-treatment.json",
+      "raw_sha256": "d52810b5843343fd1dc82a9ddb3796417f61c445a4acaff01351a6cb995fc718",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "3f8c0b7277395f3c7b9d327d3caf426c0db3f17144ad34c31ab584def87fe004",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.004105389982334655,
+          "mean_absolute_nll_delta": 0.029590919279245967
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "ca1e9bcacaa0ccee0f432dff5ea8f24863b2e8271d63900bf2df75dabc5e9f29",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.006953779403625881,
+          "mean_absolute_nll_delta": 0.030946927678927618
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-mlp-treatment.json",
+      "raw_sha256": "75f4cef1cdd613f7595fbd1d333559827187120f8c6ee21f1bcb1e381c452b90",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "3f8c0b7277395f3c7b9d327d3caf426c0db3f17144ad34c31ab584def87fe004",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0004527132188228869,
+          "mean_absolute_nll_delta": 0.018415604095767292
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "ca1e9bcacaa0ccee0f432dff5ea8f24863b2e8271d63900bf2df75dabc5e9f29",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.002079593730825269,
+          "mean_absolute_nll_delta": 0.0190475855321137
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-treatment.json",
+      "raw_sha256": "c13f8f561f634642f02497d0639b9d5148fb8c82346720e7e213277ecc5526fe",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "fd309286f47900cbb73bc3781e0e20dec31187e95c3b4da1fc9df27b6466e358",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0009340315142436326,
+          "mean_absolute_nll_delta": 0.019147067560308786
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "3eee4339dc87044242bfda4c8bbf4b639db9ac3ba5ab21775b677a2453f0015e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.007812515538454474,
+          "mean_absolute_nll_delta": 0.027281133110535177
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "04568a80ed812e55f5f6b5326152d6b646a2062646a6d847539226f6a80d4c1c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0038023350843000726,
+          "mean_absolute_nll_delta": 0.015290966408614798
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "5f046894ebd198df1b64dacbea14514aad1a7665617ed83d2d9f5cef3dfc0545",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.007323843229509717,
+          "mean_absolute_nll_delta": 0.024480151216673504
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-alpha-treatment.json",
+      "raw_sha256": "6ee3d240962f384f674de941e0b5b5e62a4ce2eb9aac19c70103e8d229025a42",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "fc2549de3974caba1135c0f1767d0543798f7cbbe7696e0e2f1f8edc12e29a82",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0017652709031132949,
+          "mean_absolute_nll_delta": 0.020230479702872835
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "d2607da46b9a09f97d5e235ba443b09c907890d577f2322fc97551e10b23d3fd",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.003792347529144241,
+          "mean_absolute_nll_delta": 0.026418568332818377
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-mlp-treatment.json",
+      "raw_sha256": "455e666862b23a3861b3aedb7ce934cfd60cfce8b67cbae6ce4f638878bd83e8",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "fc2549de3974caba1135c0f1767d0543798f7cbbe7696e0e2f1f8edc12e29a82",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0037757007597145984,
+          "mean_absolute_nll_delta": 0.014109520192788686
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "d2607da46b9a09f97d5e235ba443b09c907890d577f2322fc97551e10b23d3fd",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.00720448142004565,
+          "mean_absolute_nll_delta": 0.02465763336117666
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-treatment.json",
+      "raw_sha256": "94990503b1f9c23dbb089958ac97a5a9e90e16f1e88e4ede5cb55ab9a212fa3d",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "75b510f21f21d524e82cf225b7ac8f0106e61976fa86eccb6851abd049c970a8",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 4.6310968505951045e-05,
+          "mean_absolute_nll_delta": 0.021403218420471957
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "e940ab1bad648f184c33ee38c4626e9167031923fd2bbf6886b71275b23f7b6c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.001505518739173686,
+          "mean_absolute_nll_delta": 0.03108014986384885
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "2032859cc059b7cc6856d8849a331eaa0ea03ea634d2c4ce0a506d9f649604cb",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.001058086282132202,
+          "mean_absolute_nll_delta": 0.013935846701221891
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "f00ec60a03f2931e83878c42ade86cad591de4e01abc939b5291529bbaafe78c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0018375954939461219,
+          "mean_absolute_nll_delta": 0.01800495285176468
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-alpha-treatment.json",
+      "raw_sha256": "a04048c6b470114fd70f2ca2e00fe6e5c04d9bcf84924e8f3846f53c3b6ddb35",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "ba0b738a3fde7bdaf3658e2b8493af9943dd82f3fa7e73b0f4ae75148ec28187",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.005485218602069077,
+          "mean_absolute_nll_delta": 0.027061792419596137
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "611322ca86b4f7316e902315f9fb159cbedc3a6d31071953cfe4a622dd314406",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.003588725767320619,
+          "mean_absolute_nll_delta": 0.02847943630266806
+        }
+      ]
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-mlp-treatment.json",
+      "raw_sha256": "71f3a1eeec3305d1cb5baead9b064d3e271f0af7590a47e4ee12688b18a13856",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "ba0b738a3fde7bdaf3658e2b8493af9943dd82f3fa7e73b0f4ae75148ec28187",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.002246597897857952,
+          "mean_absolute_nll_delta": 0.015478396917894032
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "611322ca86b4f7316e902315f9fb159cbedc3a6d31071953cfe4a622dd314406",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.002025018682769694,
+          "mean_absolute_nll_delta": 0.020733054105310487
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-treatment.json",
+      "raw_sha256": "d7f7f475a05cd3e57bd23acfc510edd2d1c2d2e552609d067c39ecaa459027c7",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "87a16defb90d703a10cfd308c5f8aaf2244592476d9c218bf6e8ef1b8b4f72b4",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0015219876053133691,
+          "mean_absolute_nll_delta": 0.02356536748781321
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "b8f64a9e6f2162c2bff2d0ea23032f29da09d0b4ed62f7ef8109828ff4cfc3bf",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0016607761488700182,
+          "mean_absolute_nll_delta": 0.028932408215699503
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0f6c3f943dacfc480b90d2fd09211395bd5396f15a2b6d857a744cab463588b4",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.000753377265310029,
+          "mean_absolute_nll_delta": 0.016464060569359448
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "7699c780ddaacc6986fd2d0a9048c882a0aeec400df13182273482d9cba4a521",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0025827944670685364,
+          "mean_absolute_nll_delta": 0.02561826628128114
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-alpha-treatment.json",
+      "raw_sha256": "4e439ff6c52057f96b1fd1c14c05db09859baa13fde050e6915bf11e0412aefa",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "153f09355b4f4b4a2edf5a0464d6aa2a6585c699d1fd63e5c62b15f8cd23c756",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0036971148466988426,
+          "mean_absolute_nll_delta": 0.031678724145597574
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "1697b432525959cd9007794558651ef37bc325c9fd3e8bd65e0af74713c39c3d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0057217391673676,
+          "mean_absolute_nll_delta": 0.032440352817186546
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-mlp-treatment.json",
+      "raw_sha256": "c13be42e3d8caf2659515aeadb596be04ce2ab8c6a14188055ba9c4229406fed",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "153f09355b4f4b4a2edf5a0464d6aa2a6585c699d1fd63e5c62b15f8cd23c756",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0014731950806394702,
+          "mean_absolute_nll_delta": 0.017821936335567657
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "1697b432525959cd9007794558651ef37bc325c9fd3e8bd65e0af74713c39c3d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.002991940530478024,
+          "mean_absolute_nll_delta": 0.02450850930968849
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-treatment.json",
+      "raw_sha256": "6916055f903389ebb8cfa66a06b7ba2a9c99127fcedfe83e321e4d5f4f44556f",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "ad1551b0df72f49aa76e3ef95ff1ff57da6ce1c4df4161235d94281c6a07a889",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.014040790848549157,
+          "mean_absolute_nll_delta": 0.027208387587748652
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "935f27cc173ff996296d3b15e45e7b4de3ff0a42bfef6f91271f1b586124d6f6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.01733495195499374,
+          "mean_absolute_nll_delta": 0.034146770123859096
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c44e3158305afe5f2c5122c36d32fa8170b1999319b0410124efb03810ebc62c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0020922672135303194,
+          "mean_absolute_nll_delta": 0.017797809411491613
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "050f5161c1aaddec23a872c21eaea12a81310a857e56d9a5875a71c29101beaf",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0007220393412789472,
+          "mean_absolute_nll_delta": 0.02635711032323673
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-alpha-treatment.json",
+      "raw_sha256": "5d15131762f559bc5d6ec85d83f95b231aaf18642aa30b6394b41133f2a9efc4",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "2c6fed5ef1b06e858c53f98543d8c64a654ff1d95b5de7c6072dfbb151858340",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.016689881367710522,
+          "mean_absolute_nll_delta": 0.029293042225828073
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "a5d29827bbd0e4da04ccb626bfdafae6e3e342fd602e908f8e2605cf8f65dc2c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.01769633714663158,
+          "mean_absolute_nll_delta": 0.037292896740376585
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-mlp-treatment.json",
+      "raw_sha256": "1ef4bd4cf26feb0ad5edfe2dd73cda08d21669bed4c336029076833146ff8128",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "2c6fed5ef1b06e858c53f98543d8c64a654ff1d95b5de7c6072dfbb151858340",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0004872028268284172,
+          "mean_absolute_nll_delta": 0.014327073340223068
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "a5d29827bbd0e4da04ccb626bfdafae6e3e342fd602e908f8e2605cf8f65dc2c",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0010481000372704022,
+          "mean_absolute_nll_delta": 0.02457923415685437
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-treatment.json",
+      "raw_sha256": "8ccda83294d3bea2bc98cbec07652266f3abf305ca7050cff712822add1ab2f2",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "ad2984151134ba24cacea0c8e3419d6969344dde388f11e96333d1d6e9a89243",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0030906104104681184,
+          "mean_absolute_nll_delta": 0.01638351368361881
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "4aa3eb0e77b42ca519795f3e6584ea5ae2e233389efd2180ebe82eb83089724a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0025194168384126236,
+          "mean_absolute_nll_delta": 0.01844409894433618
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "b6459f286a8a0edbd16a3f6a9fe578976d81656b8b15325a1d6033953195ef9a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0026719077074552986,
+          "mean_absolute_nll_delta": 0.01750303654440622
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "65bd499e03d5df7acccba8b55733ad2e481a6358f327ab34a48c4ee4cc7645d6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0020354290964183373,
+          "mean_absolute_nll_delta": 0.019964242005355157
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-alpha-treatment.json",
+      "raw_sha256": "97158cda4311b7b9b95378c1f41b746743cb39b7dbc3df4fa082f2b18138ed99",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "04e11b89466a2e4a7103e2723c367cdd27be05bffe953b7ea1961124814f0c1a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0005942663535805533,
+          "mean_absolute_nll_delta": 0.015474675549440512
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "a98368239db4fd5543aae70d8ad315db8d4f6b608ceb3e400c1f522ebe7e6af0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0014706908755242273,
+          "mean_absolute_nll_delta": 0.01890090487057515
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-mlp-treatment.json",
+      "raw_sha256": "34db9cdd9a125e5a78f17ee3cea298d173b6ddcafe50ba2dc81e5e1987007b4e",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "04e11b89466a2e4a7103e2723c367cdd27be05bffe953b7ea1961124814f0c1a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.004011472924352947,
+          "mean_absolute_nll_delta": 0.01693991594565881
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "a98368239db4fd5543aae70d8ad315db8d4f6b608ceb3e400c1f522ebe7e6af0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0035859933711923,
+          "mean_absolute_nll_delta": 0.02045809621876348
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "destination": "original",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-treatment.json",
+      "raw_sha256": "4feac4b628b4dc28cd60f06b422e8139ff4279efa29754e2523261277318faa8",
+      "metrics": [
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "9017631470b3443e6573f8688d6a723e83a6cbf9cd6d4bada2341239aeb89661",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.000612519075899505,
+          "mean_absolute_nll_delta": 0.01810865430284361
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "159af06a6be0a88be64f47e493c2fa53952a9b9f6cd113689be1e65fd4df0c68",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.003196699230800293,
+          "mean_absolute_nll_delta": 0.02126841479866721
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "ebed26bf536575ec842a427b4de73f416f7766ef96be243da121732daf4555bc",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0018256719510149687,
+          "mean_absolute_nll_delta": 0.01791154881185531
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "2375246859165b103ab7601266a64e62d5074b8f16b6f2c9dc0fdb2389484b63",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.0008970233552174758,
+          "mean_absolute_nll_delta": 0.02131459331112608
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "destination": "alpha",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-alpha-treatment.json",
+      "raw_sha256": "61b9b336c37f2ec9b114698d9076d0037759cfdc76512bb627cd65e28c7371f9",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e20732641b8978ec41e9ed0e7bad883e78cd577fd9c86d8726566138a98284a6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0029832431416823,
+          "mean_absolute_nll_delta": 0.02150081260411217
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "072feb76513b2fa9694fb9d5dd5cbcf2c2e83020f621b1ce9b2a646d9a7f286f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0017165696176814206,
+          "mean_absolute_nll_delta": 0.025537762633087928
+        }
+      ]
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "destination": "mlp",
+      "stage": "treatment",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-mlp-treatment.json",
+      "raw_sha256": "a99aa0a1eb0a7c473b0a229fceb3b9d2ba13e83dad4ac5c3c97a80960636228e",
+      "metrics": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e20732641b8978ec41e9ed0e7bad883e78cd577fd9c86d8726566138a98284a6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0015204121872097731,
+          "mean_absolute_nll_delta": 0.014844742971740373
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "072feb76513b2fa9694fb9d5dd5cbcf2c2e83020f621b1ce9b2a646d9a7f286f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": -0.0020506816938302263,
+          "mean_absolute_nll_delta": 0.01744261247884482
+        }
+      ]
+    }
+  ]
+}

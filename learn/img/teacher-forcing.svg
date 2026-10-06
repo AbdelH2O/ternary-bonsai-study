@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/></marker></defs>
+  <rect width="860" height="300" fill="#ffffff"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Teacher forcing: always feed the TRUE previous token, score the next one</text>
+
+  <rect x="30" y="70" width="170" height="44" rx="6" fill="#e6edf8" stroke="#3b5b92"/>
+  <text x="115" y="97" text-anchor="middle" font-size="13" fill="#1a202c">history (prefix)</text>
+
+  <g font-size="13">
+    <rect x="230" y="70" width="120" height="44" rx="6" fill="#c6f6d5" stroke="#2f855a"/>
+    <text x="290" y="90" text-anchor="middle" fill="#22543d" font-weight="700">target 0</text>
+    <text x="290" y="106" text-anchor="middle" fill="#22543d">"The"</text>
+    <rect x="380" y="70" width="120" height="44" rx="6" fill="#c6f6d5" stroke="#2f855a"/>
+    <text x="440" y="90" text-anchor="middle" fill="#22543d" font-weight="700">target 1</text>
+    <text x="440" y="106" text-anchor="middle" fill="#22543d">" storm"</text>
+    <rect x="530" y="70" width="120" height="44" rx="6" fill="#c6f6d5" stroke="#2f855a"/>
+    <text x="590" y="90" text-anchor="middle" fill="#22543d" font-weight="700">target 2</text>
+    <text x="590" y="106" text-anchor="middle" fill="#22543d">" broke"</text>
+    <text x="690" y="98" fill="#4a5568">…  target m−1</text>
+  </g>
+
+  <g font-size="12" fill="#1a202c">
+    <text x="215" y="160" text-anchor="middle">logits after</text>
+    <text x="215" y="176" text-anchor="middle">last history token</text>
+    <text x="215" y="196" text-anchor="middle" font-weight="700" fill="#c53030">−ln P("The")</text>
+    <text x="365" y="160" text-anchor="middle">feed true "The"</text>
+    <text x="365" y="196" text-anchor="middle" font-weight="700" fill="#c53030">−ln P(" storm")</text>
+    <text x="515" y="160" text-anchor="middle">feed true " storm"</text>
+    <text x="515" y="196" text-anchor="middle" font-weight="700" fill="#c53030">−ln P(" broke")</text>
+  </g>
+  <line x1="215" y1="140" x2="280" y2="118" stroke="#4a5568" marker-end="url(#ar)"/>
+  <line x1="365" y1="140" x2="430" y2="118" stroke="#4a5568" marker-end="url(#ar)"/>
+  <line x1="515" y1="140" x2="580" y2="118" stroke="#4a5568" marker-end="url(#ar)"/>
+
+  <text x="30" y="240" font-size="13" fill="#1a202c">✔ Every checkpoint scores the <tspan font-weight="700">same token IDs</tspan> — no sampling randomness.</text>
+  <text x="30" y="262" font-size="13" fill="#1a202c">✘ It measures how likely the model finds this text, NOT whether it could generate it unaided.</text>
+  <text x="30" y="284" font-size="13" fill="#1a202c">Sum of the red terms = log-likelihood of the whole continuation (with a minus sign).</text>
+</svg>

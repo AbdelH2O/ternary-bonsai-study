@@ -1,0 +1,178 @@
+{
+  "source_repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+  "revision": "b072e1d3b35a0a630cece372c2127528e0994386",
+  "source_file": "Ternary-Bonsai-2-27B-F16.gguf",
+  "remote_header": {
+    "version": 3,
+    "tensor_count": 851,
+    "metadata": {
+      "general.basename": "folded",
+      "prism.hadamard.block_size": 1024
+    },
+    "data_offset": 11120992
+  },
+  "range_requests": 17,
+  "range_bytes": 12587008,
+  "synthetic": {
+    "all_zero": {
+      "scale": 0.0,
+      "codes": {
+        "1": 128
+      }
+    },
+    "three_codes": {
+      "scale": 1.0,
+      "codes": {
+        "0": 32,
+        "1": 64,
+        "2": 32
+      }
+    },
+    "non_fp16_scale": {
+      "scale": 1.0,
+      "codes": {
+        "0": 32,
+        "1": 64,
+        "2": 32
+      }
+    },
+    "near_half_threshold": {
+      "scale": 1.0,
+      "codes": {
+        "0": 32,
+        "1": 32,
+        "2": 64
+      }
+    }
+  },
+  "published_groups": [
+    {
+      "tensor": "blk.0.attn_gate.weight",
+      "group": 0,
+      "zeros": 42,
+      "negative": 49,
+      "positive": 37,
+      "scale": 0.0189666748046875
+    },
+    {
+      "tensor": "blk.0.attn_gate.weight",
+      "group": 1,
+      "zeros": 42,
+      "negative": 49,
+      "positive": 37,
+      "scale": 0.01715087890625
+    },
+    {
+      "tensor": "blk.0.attn_gate.weight",
+      "group": 122880,
+      "zeros": 42,
+      "negative": 43,
+      "positive": 43,
+      "scale": 0.0185089111328125
+    },
+    {
+      "tensor": "blk.0.attn_gate.weight",
+      "group": 245759,
+      "zeros": 42,
+      "negative": 35,
+      "positive": 51,
+      "scale": 0.01708984375
+    },
+    {
+      "tensor": "blk.0.ffn_down.weight",
+      "group": 0,
+      "zeros": 42,
+      "negative": 48,
+      "positive": 38,
+      "scale": 0.01151275634765625
+    },
+    {
+      "tensor": "blk.0.ffn_down.weight",
+      "group": 1,
+      "zeros": 42,
+      "negative": 47,
+      "positive": 39,
+      "scale": 0.01267242431640625
+    },
+    {
+      "tensor": "blk.0.ffn_down.weight",
+      "group": 348160,
+      "zeros": 42,
+      "negative": 36,
+      "positive": 50,
+      "scale": 0.012603759765625
+    },
+    {
+      "tensor": "blk.0.ffn_down.weight",
+      "group": 696319,
+      "zeros": 42,
+      "negative": 52,
+      "positive": 34,
+      "scale": 0.011444091796875
+    },
+    {
+      "tensor": "token_embd.weight",
+      "group": 0,
+      "zeros": 42,
+      "negative": 45,
+      "positive": 41,
+      "scale": 0.0149993896484375
+    },
+    {
+      "tensor": "token_embd.weight",
+      "group": 1,
+      "zeros": 42,
+      "negative": 44,
+      "positive": 42,
+      "scale": 0.0168304443359375
+    },
+    {
+      "tensor": "token_embd.weight",
+      "group": 4966400,
+      "zeros": 42,
+      "negative": 41,
+      "positive": 45,
+      "scale": 0.0152130126953125
+    },
+    {
+      "tensor": "token_embd.weight",
+      "group": 9932799,
+      "zeros": 42,
+      "negative": 32,
+      "positive": 54,
+      "scale": 0.00365447998046875
+    },
+    {
+      "tensor": "output.weight",
+      "group": 0,
+      "zeros": 42,
+      "negative": 44,
+      "positive": 42,
+      "scale": 0.0167236328125
+    },
+    {
+      "tensor": "output.weight",
+      "group": 1,
+      "zeros": 42,
+      "negative": 52,
+      "positive": 34,
+      "scale": 0.0164337158203125
+    },
+    {
+      "tensor": "output.weight",
+      "group": 4966400,
+      "zeros": 42,
+      "negative": 42,
+      "positive": 44,
+      "scale": 0.016143798828125
+    },
+    {
+      "tensor": "output.weight",
+      "group": 9932799,
+      "zeros": 42,
+      "negative": 44,
+      "positive": 42,
+      "scale": 0.007236480712890625
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "sources": {
+    "long_self": "e20732641b8978ec41e9ed0e7bad883e78cd577fd9c86d8726566138a98284a6",
+    "short_raw": "04e11b89466a2e4a7103e2723c367cdd27be05bffe953b7ea1961124814f0c1a",
+    "short_rebased": "c49de87248748d6ef0d8926232ac0c96fe299cf0c77795c088a8fe13fefb8721"
+  },
+  "raw_sha256": "3b203b09d018b3462589c66cb6806f8f0d88ac01ccab4da80310c007a70695e5",
+  "rebased_state_path": "analysis/bonsai2/memory_gate/rebased/middlemarch-p50000-h12288-short-pos12287.bin"
+}

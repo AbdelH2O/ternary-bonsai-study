@@ -1,0 +1,79 @@
+{
+  "protocol_sha256": "110e947177654e21e956944aa5c189920290f1189db4ac6169a50186cb27913a",
+  "selection_sha256": "c3227dd907f807b56b609dc6bbe5ee21570f4083141c97993a09f5fc7dfd4e23",
+  "selected_arm": "folded-pq2-gptq",
+  "compared_gptq_arm": "folded-pq2-gptq",
+  "heldout_books": [
+    "frankenstein.txt",
+    "sherlock_holmes.txt",
+    "monte_cristo.txt",
+    "war_of_the_worlds.txt",
+    "wuthering_heights.txt"
+  ],
+  "book_mean_nll": {
+    "base-f32": {
+      "frankenstein.txt": 3.32822281322,
+      "sherlock_holmes.txt": 3.43948138818,
+      "monte_cristo.txt": 3.519459615445,
+      "war_of_the_worlds.txt": 3.471168222495,
+      "wuthering_heights.txt": 3.27001656863
+    },
+    "base-pq2-ls": {
+      "frankenstein.txt": 10.291803729400002,
+      "sherlock_holmes.txt": 10.2720820362,
+      "monte_cristo.txt": 10.953060094449999,
+      "war_of_the_worlds.txt": 9.94989318027,
+      "wuthering_heights.txt": 10.05206817733
+    },
+    "folded-pq2-gptq": {
+      "frankenstein.txt": 4.686784151725,
+      "sherlock_holmes.txt": 4.9335959083150005,
+      "monte_cristo.txt": 5.102339116635,
+      "war_of_the_worlds.txt": 4.78601563588,
+      "wuthering_heights.txt": 4.978942417075
+    }
+  },
+  "mean_nll": {
+    "base-f32": 3.4056697215940006,
+    "base-pq2-ls": 10.30378144353,
+    "folded-pq2-gptq": 4.897535445926
+  },
+  "gptq_minus_fp": 1.491865724331999,
+  "ls_minus_fp": 6.898111721935999,
+  "gptq_minus_ls": -5.406245997604,
+  "gptq_minus_ls_t95_descriptive": [
+    -5.804373131306671,
+    -5.008118863901328
+  ],
+  "gap_closure_C": 0.7837283905408685,
+  "gap_closure_by_book": {
+    "frankenstein.txt": 0.804904781769914,
+    "sherlock_holmes.txt": 0.7813256478603099,
+    "monte_cristo.txt": 0.7870642220199233,
+    "war_of_the_worlds.txt": 0.7970515152357138,
+    "wuthering_heights.txt": 0.7480222877907926
+  },
+  "decision": "rule_1",
+  "decision_text": "C >= 0.5: data-aware reconstruction substantially helps; include it in the matched 1.7B comparison",
+  "reproducibility_max_abs_diff_vs_original_heldout": {
+    "base-f32": 0.0,
+    "base-pq2-ls": 0.0
+  },
+  "models": {
+    "base-f32": {
+      "sha256": "604cb16500dc7c2228ea2f4e46569e8ea72ae623a97a8a7685948dafba6b448c",
+      "bytes": 3020533152
+    },
+    "base-pq2-ls": {
+      "sha256": "4e6850167bce734b8cdc3b5b75e9fd39a2f318cd5e1c272653ae081c41dc29a3",
+      "bytes": 213700000
+    },
+    "folded-pq2-gptq": {
+      "sha256": "6d16f2fcc9936bbe9bd2d9b6c236eca8dddabebcb78db8229b9aae5f901832d8",
+      "bytes": 213731552
+    }
+  },
+  "byte_ceiling_pass": true,
+  "paired_token_ids_identical": true,
+  "claim_limit": "five books, one seed-free deterministic method, one 0.8B model; descriptive, not a non-inferiority test"
+}

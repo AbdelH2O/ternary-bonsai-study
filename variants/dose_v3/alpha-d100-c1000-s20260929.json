@@ -1,0 +1,502 @@
+{
+  "status": "uncalibrated_candidate",
+  "arm": "alpha",
+  "delta": 0.1,
+  "coverage_requested": 1.0,
+  "seed": 20260929,
+  "source_path": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+  "source_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "candidate_path": "analysis/bonsai2/variants/dose_v3/alpha-d100-c1000-s20260929.gguf",
+  "candidate_sha256": "ce7c44cbefade6e2bc7be7291abeb19686dd5c61002829bcd2f6467d0f7abcb7",
+  "candidate_bytes": 7206168928,
+  "group_size_weights": 128,
+  "selected_groups": 92160,
+  "selected_values": 11796480,
+  "changed_values_after_rounding": 11796480,
+  "changed_bytes": 12623005,
+  "selected_tensors": [
+    {
+      "tensor": "blk.0.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.1.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.2.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.4.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.5.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.6.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.8.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.9.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.10.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.12.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.13.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.14.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.16.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.17.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.18.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.20.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.21.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.22.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.24.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.25.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.26.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.28.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.29.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.30.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.32.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.33.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.34.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.36.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.37.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.38.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.40.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.41.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.42.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.44.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.45.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.46.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.48.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.49.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.50.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.52.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.53.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.54.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.56.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.57.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.58.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.60.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.61.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    },
+    {
+      "tensor": "blk.62.ssm_alpha.weight",
+      "storage": "BF16",
+      "available_groups": 1920,
+      "selected_groups": 1920,
+      "first_group": 0,
+      "last_group": 1919,
+      "plus_groups": 960,
+      "minus_groups": 960
+    }
+  ],
+  "selection": "all groups for separate gate; evenly spaced groups for MLP; balanced seeded signs per tensor",
+  "source_format": "GGUF v3 qwen35",
+  "builder_sha256": "a31a1e711d8068e3e435f01f321dcc9cb7a50bc644fc7b51343230c073c1a2fa"
+}

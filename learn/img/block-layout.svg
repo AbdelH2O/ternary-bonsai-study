@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect width="820" height="300" fill="#ffffff"/>
+  <text x="410" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">64 blocks = 16 repeats of [ recurrent, recurrent, recurrent, full attention ]</text>
+  <!-- one cycle zoom -->
+  <g transform="translate(40,60)">
+    <text x="0" y="0" font-size="13" font-weight="700" fill="#4a5568">ONE CYCLE (zoomed)</text>
+    <rect x="0" y="12" width="150" height="56" rx="8" fill="#fde6d8" stroke="#c05621" stroke-width="2"/>
+    <text x="75" y="36" text-anchor="middle" font-size="14" font-weight="700" fill="#7b341e">Gated DeltaNet</text>
+    <text x="75" y="55" text-anchor="middle" font-size="12" fill="#7b341e">+ MLP · keeps R, S</text>
+    <rect x="170" y="12" width="150" height="56" rx="8" fill="#fde6d8" stroke="#c05621" stroke-width="2"/>
+    <text x="245" y="36" text-anchor="middle" font-size="14" font-weight="700" fill="#7b341e">Gated DeltaNet</text>
+    <text x="245" y="55" text-anchor="middle" font-size="12" fill="#7b341e">+ MLP · keeps R, S</text>
+    <rect x="340" y="12" width="150" height="56" rx="8" fill="#fde6d8" stroke="#c05621" stroke-width="2"/>
+    <text x="415" y="36" text-anchor="middle" font-size="14" font-weight="700" fill="#7b341e">Gated DeltaNet</text>
+    <text x="415" y="55" text-anchor="middle" font-size="12" fill="#7b341e">+ MLP · keeps R, S</text>
+    <rect x="510" y="12" width="150" height="56" rx="8" fill="#dcf1f0" stroke="#2c7a7b" stroke-width="2"/>
+    <text x="585" y="36" text-anchor="middle" font-size="14" font-weight="700" fill="#234e52">Full attention</text>
+    <text x="585" y="55" text-anchor="middle" font-size="12" fill="#234e52">+ MLP · keeps KV</text>
+    <text x="690" y="45" font-size="22" fill="#4a5568">→ next</text>
+  </g>
+  <!-- strip of 64 -->
+  <g transform="translate(40,170)">
+    <text x="0" y="-8" font-size="13" font-weight="700" fill="#4a5568">ALL 64 (bottom → top of the network)</text>
+    
+  </g>
+  <!-- 64 cells: width 11, gap 1.5 -->
+  <g transform="translate(40,172)">
+    <!-- generated cells -->
+    <g fill="#fde6d8" stroke="#c05621" stroke-width="1">
+      <rect x="0" y="0" width="10" height="34"/><rect x="11.6" y="0" width="10" height="34"/><rect x="23.2" y="0" width="10" height="34"/>
+      <rect x="46.4" y="0" width="10" height="34"/><rect x="58" y="0" width="10" height="34"/><rect x="69.6" y="0" width="10" height="34"/>
+      <rect x="92.8" y="0" width="10" height="34"/><rect x="104.4" y="0" width="10" height="34"/><rect x="116" y="0" width="10" height="34"/>
+      <rect x="139.2" y="0" width="10" height="34"/><rect x="150.8" y="0" width="10" height="34"/><rect x="162.4" y="0" width="10" height="34"/>
+      <rect x="185.6" y="0" width="10" height="34"/><rect x="197.2" y="0" width="10" height="34"/><rect x="208.8" y="0" width="10" height="34"/>
+      <rect x="232" y="0" width="10" height="34"/><rect x="243.6" y="0" width="10" height="34"/><rect x="255.2" y="0" width="10" height="34"/>
+      <rect x="278.4" y="0" width="10" height="34"/><rect x="290" y="0" width="10" height="34"/><rect x="301.6" y="0" width="10" height="34"/>
+      <rect x="324.8" y="0" width="10" height="34"/><rect x="336.4" y="0" width="10" height="34"/><rect x="348" y="0" width="10" height="34"/>
+      <rect x="371.2" y="0" width="10" height="34"/><rect x="382.8" y="0" width="10" height="34"/><rect x="394.4" y="0" width="10" height="34"/>
+      <rect x="417.6" y="0" width="10" height="34"/><rect x="429.2" y="0" width="10" height="34"/><rect x="440.8" y="0" width="10" height="34"/>
+      <rect x="464" y="0" width="10" height="34"/><rect x="475.6" y="0" width="10" height="34"/><rect x="487.2" y="0" width="10" height="34"/>
+      <rect x="510.4" y="0" width="10" height="34"/><rect x="522" y="0" width="10" height="34"/><rect x="533.6" y="0" width="10" height="34"/>
+      <rect x="556.8" y="0" width="10" height="34"/><rect x="568.4" y="0" width="10" height="34"/><rect x="580" y="0" width="10" height="34"/>
+      <rect x="603.2" y="0" width="10" height="34"/><rect x="614.8" y="0" width="10" height="34"/><rect x="626.4" y="0" width="10" height="34"/>
+      <rect x="649.6" y="0" width="10" height="34"/><rect x="661.2" y="0" width="10" height="34"/><rect x="672.8" y="0" width="10" height="34"/>
+      <rect x="696" y="0" width="10" height="34"/><rect x="707.6" y="0" width="10" height="34"/><rect x="719.2" y="0" width="10" height="34"/>
+    </g>
+    <g fill="#2c7a7b" stroke="#234e52" stroke-width="1">
+      <rect x="34.8" y="0" width="10" height="34"/><rect x="81.2" y="0" width="10" height="34"/><rect x="127.6" y="0" width="10" height="34"/><rect x="174" y="0" width="10" height="34"/>
+      <rect x="220.4" y="0" width="10" height="34"/><rect x="266.8" y="0" width="10" height="34"/><rect x="313.2" y="0" width="10" height="34"/><rect x="359.6" y="0" width="10" height="34"/>
+      <rect x="406" y="0" width="10" height="34"/><rect x="452.4" y="0" width="10" height="34"/><rect x="498.8" y="0" width="10" height="34"/><rect x="545.2" y="0" width="10" height="34"/>
+      <rect x="591.6" y="0" width="10" height="34"/><rect x="638" y="0" width="10" height="34"/><rect x="684.4" y="0" width="10" height="34"/><rect x="730.8" y="0" width="10" height="34"/>
+    </g>
+  </g>
+  <g font-size="14">
+    <rect x="40" y="232" width="16" height="16" fill="#fde6d8" stroke="#c05621"/>
+    <text x="64" y="245" fill="#1a202c"><tspan font-weight="700">48 recurrent</tspan> ("linear attention") blocks — Gated DeltaNet, keep R and S</text>
+    <rect x="40" y="258" width="16" height="16" fill="#2c7a7b" stroke="#234e52"/>
+    <text x="64" y="271" fill="#1a202c"><tspan font-weight="700">16 full-attention</tspan> blocks — can look back at every earlier token via the KV cache</text>
+  </g>
+</svg>

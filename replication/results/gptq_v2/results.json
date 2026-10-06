@@ -1,0 +1,111 @@
+{
+  "protocol_sha256": "c7faf65b216178a8fd9680f129ae3b15a064eaba0af61d91c318cd727519c6fa",
+  "selection_sha256": "bc70f6fde9d86de71cd70c6c2c26391d81e6c0b1b3a8ef964d1cb5bf6c89a209",
+  "selected_arm": "folded-pq2-gptq",
+  "heldout_books": [
+    "moby_dick.txt",
+    "tale_of_two_cities.txt",
+    "treasure_island.txt",
+    "dorian_gray.txt",
+    "time_machine.txt",
+    "heart_of_darkness.txt"
+  ],
+  "book_mean_nll": {
+    "base-f32": {
+      "moby_dick.txt": 3.817895484135,
+      "tale_of_two_cities.txt": 3.4355914139,
+      "treasure_island.txt": 3.5328714717650005,
+      "dorian_gray.txt": 3.21337960352,
+      "time_machine.txt": 3.6251522217,
+      "heart_of_darkness.txt": 4.024057949705
+    },
+    "folded-pq2-gptq": {
+      "moby_dick.txt": 5.98635791531,
+      "tale_of_two_cities.txt": 4.779981654095,
+      "treasure_island.txt": 5.323899851145001,
+      "dorian_gray.txt": 4.955916895225,
+      "time_machine.txt": 5.1670349438350005,
+      "heart_of_darkness.txt": 5.361036961005
+    },
+    "folded-pq2-gptq42": {
+      "moby_dick.txt": 6.37578210797,
+      "tale_of_two_cities.txt": 5.42140828315,
+      "treasure_island.txt": 5.92816842219,
+      "dorian_gray.txt": 5.818345211185,
+      "time_machine.txt": 5.47865779043,
+      "heart_of_darkness.txt": 5.83291868411
+    },
+    "folded-pq2-gptqv2": {
+      "moby_dick.txt": 5.92541241779,
+      "tale_of_two_cities.txt": 4.63938474682,
+      "treasure_island.txt": 5.358351127995,
+      "dorian_gray.txt": 4.974942764430001,
+      "time_machine.txt": 5.0599867411799995,
+      "heart_of_darkness.txt": 5.266130272825
+    },
+    "folded-pq2-gptq42v2": {
+      "moby_dick.txt": 6.17634151191,
+      "tale_of_two_cities.txt": 5.116869711875,
+      "treasure_island.txt": 5.627237732375,
+      "dorian_gray.txt": 5.6239315012199995,
+      "time_machine.txt": 5.396730246485,
+      "heart_of_darkness.txt": 5.4584562141749995
+    }
+  },
+  "mean_nll": {
+    "base-f32": 3.6081580241208333,
+    "folded-pq2-gptq": 5.2623713701025,
+    "folded-pq2-gptq42": 5.809213416505834,
+    "folded-pq2-gptqv2": 5.204034678506667,
+    "folded-pq2-gptq42v2": 5.5665944863400005
+  },
+  "primary_selected_minus_v1": {
+    "mean": 0.0,
+    "t95": [
+      0.0,
+      0.0
+    ]
+  },
+  "primary_decision": "no_material_gain",
+  "budget_effect_42_minus_free": {
+    "mean": 0.45470092711833304,
+    "t95": [
+      0.2716540764535482,
+      0.6377477777831179
+    ],
+    "reading": "costs"
+  },
+  "reconstruction_effect_v2_minus_v1": {
+    "mean": -0.15047781088083348,
+    "t95": [
+      -0.21698186925051893,
+      -0.08397375251114803
+    ]
+  },
+  "best_heldout_arm": "folded-pq2-gptqv2",
+  "best_minus_fp": 1.5958766543858336,
+  "training_entry_met": true,
+  "models": {
+    "base-f32": {
+      "sha256": "604cb16500dc7c2228ea2f4e46569e8ea72ae623a97a8a7685948dafba6b448c",
+      "bytes": 3020533152
+    },
+    "folded-pq2-gptq": {
+      "sha256": "6d16f2fcc9936bbe9bd2d9b6c236eca8dddabebcb78db8229b9aae5f901832d8",
+      "bytes": 213731552
+    },
+    "folded-pq2-gptq42": {
+      "sha256": "a6d9b6cb2d76546abfab481e242a19b900ce3f2018e0ce76ae4958499faec97e",
+      "bytes": 213731552
+    },
+    "folded-pq2-gptqv2": {
+      "sha256": "0051ee3129b8e9a9d36b2716b350760c393569492b5f09f4ef8af853ba266152",
+      "bytes": 213731552
+    },
+    "folded-pq2-gptq42v2": {
+      "sha256": "607c89bd79785dcfe6cd9db50d51d37292a7ebbf8eb38195dd92f370579dbe67",
+      "bytes": 213731552
+    }
+  },
+  "claim_limit": "one 0.8B model, 128-token natural-text NLL, six held-out books, deterministic methods without seed variation; famous public-domain books may be in the model's pretraining data, which affects all arms alike"
+}

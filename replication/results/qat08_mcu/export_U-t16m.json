@@ -1,0 +1,15 @@
+{
+  "arm": "U",
+  "checkpoint": "t16m",
+  "rule": "top86",
+  "file": "U-t16m.gguf",
+  "sha256": "d46ac78e1f006552797421deab741f8b0d5f4c7a3840932be4692711fd2434e8",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "9561be7360bbba372e7fbec4ba50e825c186699e8189f5f0ea0e24e5905b8c6f",
+  "protocol_sha256": "b99f4bddfd2177c1f52cb83a747eb1173ea030944a02b1e32d145f89b82a783e",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916",
+  "fp_tensors": "trained",
+  "fp_sha256": "faa40e5324eae23252bb52c82fabed4ec5133e4ee051978db34b8ab0c919c7a9",
+  "mcu_exporter_sha256": "1db300ef39437b685187b17007091f3bc69ce074dd8d84bee50d25c468c0f80b"
+}

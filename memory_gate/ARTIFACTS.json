@@ -1,0 +1,238 @@
+{
+  "purpose": "completed version-2 original-model recurrent-memory gate and preserved first technical stop",
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "files": {
+    "analysis/bonsai2/memory_gate/DESIGN.md": {
+      "bytes": 3312,
+      "sha256": "55d871270cd8d0e254f2c62c77d7279042c95c2c0341e450597f2ce83e163186"
+    },
+    "analysis/bonsai2/memory_gate/MEMORY_GATE_FREEZE.json": {
+      "bytes": 43956,
+      "sha256": "c20a81f32a3a1d0bf068b52ce2fce7276320c813f0630436d5b70c5021436181"
+    },
+    "analysis/bonsai2/memory_gate/MEMORY_GATE_FREEZE_V2.json": {
+      "bytes": 44086,
+      "sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52"
+    },
+    "analysis/bonsai2/memory_gate/MEMORY_GATE_REPORT.md": {
+      "bytes": 4582,
+      "sha256": "63fc642c43227bbe3d606d3d2f4832d68714697e88a5ca0a43fe8d29cd91febc"
+    },
+    "analysis/bonsai2/memory_gate/TECHNICAL_AMENDMENT.md": {
+      "bytes": 1390,
+      "sha256": "081aa0b394bc7b7a737bd4269654c7152e278aeb4779bc0709bea6ff3242f0b6"
+    },
+    "analysis/bonsai2/memory_gate/analysis_summary.json": {
+      "bytes": 5690,
+      "sha256": "31482fffa8e51b211c81a1ab6793d057f57e3b3d1785c078c7c95b2cbea793a6"
+    },
+    "analysis/bonsai2/memory_gate/gate.py": {
+      "bytes": 14835,
+      "sha256": "0f26a96a641075ca8c116f1242818b9fb7b2af55a3d910600ce078136c9c5305"
+    },
+    "analysis/bonsai2/memory_gate/gate_v2.py": {
+      "bytes": 14868,
+      "sha256": "ff4152f264c6c5bdad334948fa0a99424ac4d405d3b728b0c5fd237559c2a575"
+    },
+    "analysis/bonsai2/memory_gate/rebased/emma-p30000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "40d889061ba09bd8f3f2b93af2efa5c58cae1a226f20766bb4e42b4f5f90253f"
+    },
+    "analysis/bonsai2/memory_gate/rebased/emma-p50000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "723ac5a5da190aa8585fbb2d910e4587c3514da30996342712e51beb7557fa73"
+    },
+    "analysis/bonsai2/memory_gate/rebased/little_women-p30000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "cddb72c3ae67fd1aeeca69347ab34d6e37d7c6c906259877ce8b4abf2a80f031"
+    },
+    "analysis/bonsai2/memory_gate/rebased/little_women-p50000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "14cc79202d381f863414f115390f7547418fe34817e570685ae1ff67b6dadcb5"
+    },
+    "analysis/bonsai2/memory_gate/rebased/middlemarch-p30000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "b9701ff9c2f4bd8051c50a4f30b47ce74bdd3d7ef2009da16e8d3715d001c72a"
+    },
+    "analysis/bonsai2/memory_gate/rebased/middlemarch-p50000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "c49de87248748d6ef0d8926232ac0c96fe299cf0c77795c088a8fe13fefb8721"
+    },
+    "analysis/bonsai2/memory_gate/rebased/monte_cristo-p30000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "a33c7f6e337a10ac7574a107c75aca1e176fad52f056f3b4319e385bb5761aa0"
+    },
+    "analysis/bonsai2/memory_gate/rebased/monte_cristo-p50000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "b4851668dbc439c1380056de371963206197c6e5d5f45e3214c19cdbff541af8"
+    },
+    "analysis/bonsai2/memory_gate/rebased/war_of_the_worlds-p30000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "fb0d4da5fc3573c938d8b595418d7aacc891d903cf6df0c438e84bd85e5be0d8"
+    },
+    "analysis/bonsai2/memory_gate/rebased/war_of_the_worlds-p50000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "d8f8699e903a5bd45adb97480564841bbe8e86ce435946a9667bdf613577017b"
+    },
+    "analysis/bonsai2/memory_gate/rebased/wuthering_heights-p30000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "c2c5e7382660d0ca88d763153b247165c6466b2c1ab1359f43b62df30593470d"
+    },
+    "analysis/bonsai2/memory_gate/rebased/wuthering_heights-p50000-h12288-short-pos12287.bin": {
+      "bytes": 156894364,
+      "sha256": "380f954a61e4bf647ff18ba4db84eccf02bed4d9f71db0d57f254b27ae4298e5"
+    },
+    "analysis/bonsai2/memory_gate/results/emma-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "e2c49eb2523b4c092d26ea00183edd108b5ff5f21d4a3d1878b1a68cf8eed62a"
+    },
+    "analysis/bonsai2/memory_gate/results/emma-p30000-h12288.partial.json": {
+      "bytes": 10659,
+      "sha256": "52eccbce733a2a80bb26618bd87a27d0b7b1c8b0d158780c6c9324205a069122"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/emma-p30000-h12288.json": {
+      "bytes": 10659,
+      "sha256": "52eccbce733a2a80bb26618bd87a27d0b7b1c8b0d158780c6c9324205a069122"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/emma-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "99b0c28dc6580695d0f92d24e0eb15ac9ca40022bc2422633a400fdf4678bdd9"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/emma-p30000-h12288.meta.json": {
+      "bytes": 554,
+      "sha256": "4d8c4b9a3bd9f3e79ef2d5512278f1ecd922a4799f34ef87e2d229c266f883f5"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/emma-p50000-h12288.json": {
+      "bytes": 10663,
+      "sha256": "2b11d46043667f3606de4c430b6444804b290e872b1ddced19c9965ef2be92cd"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/emma-p50000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "dcd6974fbda4ed80be56c9348fd9ee6c9ac855ca7551625d41b3e7bc043e24af"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/emma-p50000-h12288.meta.json": {
+      "bytes": 554,
+      "sha256": "e4495f1b7563240be50966a580deeb59b80adffa37c38d6544383446b85f7945"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/little_women-p30000-h12288.json": {
+      "bytes": 10665,
+      "sha256": "8f12870bdfdc904d9d5fd517caa0a7fef4f5b632c0c02ef576e362328b806872"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/little_women-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "2c6c78ecb595cf02fcb760082cac2f4ff4a3908fec6465dc1a87c3a49dceefd6"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/little_women-p30000-h12288.meta.json": {
+      "bytes": 562,
+      "sha256": "780882b701970442f4aa8a8a6b8ba21d27f067a5a5823ec684c37ec3bf386019"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/little_women-p50000-h12288.json": {
+      "bytes": 10685,
+      "sha256": "891825ed4023f334837dfba961b7e62fea6f1f2227ea815234183586f6351075"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/little_women-p50000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "386cf2d427755cbc3384168ad96af2f6cf5e797898dbb930b96411d343a91ea7"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/little_women-p50000-h12288.meta.json": {
+      "bytes": 562,
+      "sha256": "56d1fd6f54ca6b9ac13430b645f6ccd25e4aa83d2a7471eb9583442160aebcfe"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/middlemarch-p30000-h12288.json": {
+      "bytes": 10671,
+      "sha256": "92f38e59be6a9bbb1f7b8783137d0a3142cfbcdba450695d649e641cf974ff5e"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/middlemarch-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "25977d5cc08cd3f7cda7478daacb985521e077e2152358005467e64ced1f5c45"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/middlemarch-p30000-h12288.meta.json": {
+      "bytes": 561,
+      "sha256": "ea57158959733e67cc3686c6b4ab8abb8c51be6bbf3c706a7a34c17af13a7d80"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/middlemarch-p50000-h12288.json": {
+      "bytes": 10729,
+      "sha256": "3b203b09d018b3462589c66cb6806f8f0d88ac01ccab4da80310c007a70695e5"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/middlemarch-p50000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "220515f6a579a1367cd310f0ae355624a8598737e265c0d7db8bcb27fdfa961f"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/middlemarch-p50000-h12288.meta.json": {
+      "bytes": 561,
+      "sha256": "d7f104ad3d8047f29ca3488b4d1c08c579fbc2ef1025b8c70f12c1f0dd1845fb"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/monte_cristo-p30000-h12288.json": {
+      "bytes": 10684,
+      "sha256": "298c5d302f4d84bcebeb0eb359ef0e938cc1d1859fb4fcfd857b49d6644cd0f6"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/monte_cristo-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "13371ae0153a717fbd090c860b535c32ca11cab7a8a0011457f7ddeb38ddaa1d"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/monte_cristo-p30000-h12288.meta.json": {
+      "bytes": 562,
+      "sha256": "cf9779229cd3032e9b411ae3bfd6178fc164ea05d4a8a8b17837c431c922301e"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/monte_cristo-p50000-h12288.json": {
+      "bytes": 10840,
+      "sha256": "555eefb2602d0099fb42f3c60abe2f3fd66388cfff9488928d48d8cc376fdb9f"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/monte_cristo-p50000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "1000a0a969fd420a01e7c5318fd82b12cbe5aefb8e3b9ae86cef5143d3a4ecf4"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/monte_cristo-p50000-h12288.meta.json": {
+      "bytes": 562,
+      "sha256": "92759c8c2e4977aba2108f1af963e3e0c3b2bf6185fd09aa03ee65c5a74b3dc1"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/war_of_the_worlds-p30000-h12288.json": {
+      "bytes": 10696,
+      "sha256": "3ec0b7386852ae32f8ba80120247d572b1170064b511563d332e32cbd09a1ba0"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/war_of_the_worlds-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "965d3a544215c0885eaa3fe0937240e8a193c1684a10a079c574135cd7515f32"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/war_of_the_worlds-p30000-h12288.meta.json": {
+      "bytes": 567,
+      "sha256": "57e1b04b40636e3d659a29e5c8936fc5e9618b6c1b0c526aa2cfcfcd13abedf4"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/war_of_the_worlds-p50000-h12288.json": {
+      "bytes": 10706,
+      "sha256": "b0788d4bc1e02ec597cd48c063f3df1d98fb23656975723969ef986dd89890f2"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/war_of_the_worlds-p50000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "9ea84b0aa721f3b23b03f43d357ec394e2febdcdf478cb98d0009ee4996192ef"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/war_of_the_worlds-p50000-h12288.meta.json": {
+      "bytes": 567,
+      "sha256": "ce9c9e200cf9a6638ba1108716ba816363b159663f70bcc178bf27e7dfee71b9"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/wuthering_heights-p30000-h12288.json": {
+      "bytes": 10599,
+      "sha256": "b05470d05da88191d70fc3b026fc0d47c984f11f51df7fd5fc809b98f0c1c98d"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/wuthering_heights-p30000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "3242791b25fca739cfa8882a5bf73c5fac45c06e3d636ad94765784804bd2a05"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/wuthering_heights-p30000-h12288.meta.json": {
+      "bytes": 567,
+      "sha256": "eea4b79061bcee8383e48429a50bf161ba3791f4b9b566d25a78f368ed9bb8f6"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/wuthering_heights-p50000-h12288.json": {
+      "bytes": 10621,
+      "sha256": "8dd9ab73490d02403f1ce626fe7222262465022fb40fe6fbb7fa3b21848ef2eb"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/wuthering_heights-p50000-h12288.log": {
+      "bytes": 127310,
+      "sha256": "99ceb7d81401110458c109d14c735c36846bca1db260141b27bedcc7055aa06f"
+    },
+    "analysis/bonsai2/memory_gate/results_v2/wuthering_heights-p50000-h12288.meta.json": {
+      "bytes": 567,
+      "sha256": "72f46f997d7f50986a7064c739af454a20466bc6c32a07affaa9ec31bd14c052"
+    }
+  }
+}

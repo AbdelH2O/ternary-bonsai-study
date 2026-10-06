@@ -1,0 +1,234 @@
+{
+  "purpose": "controlled reciprocal/full/recurrent state-import method pilot",
+  "scorer_manifest_sha256": "3f2ad3d4ad9791f3df74e7b2dde3d3508c09e4ef0b3b1fb863d6598bf20dd559",
+  "dose_freeze_sha256": "b4ca7068940df85b5773328f3e0b125af3458ee973217a92a805eec559090bc6",
+  "prior_gate_summary_sha256": "a0793b02f2ef8daf108940a068f51d97b0862e1f5ebe1bed5d385ba52efc8528",
+  "program_source_sha256": "695f24274b76baf16081d9d070dffb306c2266b0d7912ce2eb72fe471f0d066e",
+  "program_binary_sha256": "bdae13dc97687f044cce46e172439169b6716b3712cfb855fa668ac3d245897e",
+  "linked_cuda_library_sha256": {
+    "bin/cuda/libllama.so.0": "42ec99425416251a90cea26b16f570fff3f905fa4a8069ae8114a7788baf1795",
+    "bin/cuda/libggml.so.0": "9d833265513c5b975b96850ae1ccea15bde9b3e9210d154602431da555902cba",
+    "bin/cuda/libggml-base.so.0": "576eee187cb20f6c856c7e5ecacc075929e9276e8183c8c4d37000e16d51c97a",
+    "bin/cuda/libggml-cpu.so.0": "81bace2c0f8eafe5b01db7bc36661a376ce2415bac48e285cecb361ce2c0f7d1",
+    "bin/cuda/libggml-cuda.so.0": "9c22de50a382eb84a7181dd858a4ef7feb77ed53b8cb2bb10a609627c5d98309",
+    "bin/cuda/libggml-rpc.so.0": "b10cdf25ba8e3940e1ad3ab321822308f152a21d579d600f4a6dd8024502d891"
+  },
+  "models": {
+    "original": {
+      "arm": "original",
+      "model_path": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+      "model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+      "patch_manifest_sha256": null
+    },
+    "alpha": {
+      "name": "alpha-d200-c1000-s20260929",
+      "seed": 20260929,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.gguf",
+      "model_sha256": "2f4d27e650744c880dd11d718a8e4d93354060838c114770857377efcb243542",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.json",
+      "patch_manifest_sha256": "eecabe3268f31bf6fb6c378c1aba6dfce32fde37737e2a0836a7806f71b1cab4",
+      "changed_values_after_rounding": 11796480
+    },
+    "mlp": {
+      "name": "mlp-d200-c200-s20260929",
+      "seed": 20260929,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.gguf",
+      "model_sha256": "3a5bad0799c268c5edb1baf7d8382ca10aa71f7d6b59315371854c2e5e6a40e4",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.json",
+      "patch_manifest_sha256": "2cec56b2822696c4e75d5c0f5a35ee26134c0e4438843625fba41ef87115bfaf",
+      "changed_values_after_rounding": 6684672
+    }
+  },
+  "destination_document": {
+    "id": "pride_and_prejudice",
+    "source_url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+    "source_path": "analysis/bonsai2/scorer/pride_and_prejudice.txt",
+    "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+    "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+    "ids_path": "analysis/bonsai2/scorer/pride_and_prejudice.ids",
+    "ids_file_sha256": "53eb8a3291e53611b0d6e36b534f53ee2d291fd998eb7ea1ab86a36b2a3f35b9",
+    "all_ids_sha256": "8a098c056263603b7b627fab33b9b0e9268f2a6763c423dd049aef374767fd37",
+    "token_count": 179167
+  },
+  "unrelated_source_document": {
+    "id": "dracula",
+    "source_url": "https://www.gutenberg.org/cache/epub/345/pg345.txt",
+    "source_path": "analysis/bonsai2/scorer/dracula.txt",
+    "source_sha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+    "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+    "ids_path": "analysis/bonsai2/scorer/dracula.ids",
+    "ids_file_sha256": "27050e76f5e45c1c1bc63ee5863d993f7b87f555499d61d556af0ad85f005e3b",
+    "all_ids_sha256": "f038e5c68d2cb01bd5106fec9cd73247a482cdbbfee50e6d2b18e041773a31ce",
+    "token_count": 220552
+  },
+  "target_position": 30000,
+  "target_length": 96,
+  "histories": [
+    1024,
+    12288
+  ],
+  "existing_state_files": {
+    "original-h1024-full": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/original-h1024-full.bin",
+      "sha256": "b285072ba493749652252e746a182229f0582ca365e0971b214bf6e214ecc840",
+      "bytes": 224024108
+    },
+    "original-h1024-partial": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/original-h1024-recurrent.bin",
+      "sha256": "7ff2dd468cfcdb3cf9f9db3126bcd8987df56e3f55675ef9d77d4f97a8b75448",
+      "bytes": 156894364
+    },
+    "original-h12288-full": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/original-h12288-full.bin",
+      "sha256": "a37d040cf688d43c4cdfecac293ea8e0458248c3d9caf65180612f845ea050c0",
+      "bytes": 962446892
+    },
+    "original-h12288-partial": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/original-h12288-recurrent.bin",
+      "sha256": "374f573dac5ccaf9b5f42b271c36e82d9eb8e3c6675ab2ef98f778cc5a21d195",
+      "bytes": 156894364
+    },
+    "alpha-h1024-full": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/alpha-h1024-full.bin",
+      "sha256": "7ab7207f71bc6f15643637cc19baec8a372b56575d31228d571837d449073c3e",
+      "bytes": 224024108
+    },
+    "alpha-h1024-partial": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/alpha-h1024-recurrent.bin",
+      "sha256": "67d22b3e2c88666b7948ea0b53f0dd08d5e4b392e18a05501471dd097ad41ced",
+      "bytes": 156894364
+    },
+    "alpha-h12288-full": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/alpha-h12288-full.bin",
+      "sha256": "969470142c59f689325f9842efd7603231d76bb6d476ae0706dd0fdd483be061",
+      "bytes": 962446892
+    },
+    "alpha-h12288-partial": {
+      "path": "analysis/bonsai2/validation_gates/state_transplant/alpha-h12288-recurrent.bin",
+      "sha256": "0c9881a3f3ec6671fa0c05a3f39b11172a2ffeaf6e0c02b587fb6ccb7a6ec973",
+      "bytes": 156894364
+    }
+  },
+  "comparisons": {
+    "original-h1024": [
+      {
+        "label": "unrelated_recurrent",
+        "kind": "partial",
+        "source": "unrelated"
+      },
+      {
+        "label": "alpha_recurrent",
+        "kind": "partial",
+        "source": "alpha"
+      },
+      {
+        "label": "alpha_full",
+        "kind": "full",
+        "source": "alpha"
+      },
+      {
+        "label": "mlp_recurrent",
+        "kind": "partial",
+        "source": "mlp"
+      },
+      {
+        "label": "mlp_full",
+        "kind": "full",
+        "source": "mlp"
+      }
+    ],
+    "alpha-h1024": [
+      {
+        "label": "original_recurrent",
+        "kind": "partial",
+        "source": "original"
+      },
+      {
+        "label": "original_full",
+        "kind": "full",
+        "source": "original"
+      }
+    ],
+    "mlp-h1024": [
+      {
+        "label": "original_recurrent",
+        "kind": "partial",
+        "source": "original"
+      },
+      {
+        "label": "original_full",
+        "kind": "full",
+        "source": "original"
+      }
+    ],
+    "original-h12288": [
+      {
+        "label": "unrelated_recurrent",
+        "kind": "partial",
+        "source": "unrelated"
+      },
+      {
+        "label": "alpha_recurrent",
+        "kind": "partial",
+        "source": "alpha"
+      },
+      {
+        "label": "alpha_full",
+        "kind": "full",
+        "source": "alpha"
+      },
+      {
+        "label": "mlp_recurrent",
+        "kind": "partial",
+        "source": "mlp"
+      },
+      {
+        "label": "mlp_full",
+        "kind": "full",
+        "source": "mlp"
+      }
+    ],
+    "alpha-h12288": [
+      {
+        "label": "original_recurrent",
+        "kind": "partial",
+        "source": "original"
+      },
+      {
+        "label": "original_full",
+        "kind": "full",
+        "source": "original"
+      }
+    ],
+    "mlp-h12288": [
+      {
+        "label": "original_recurrent",
+        "kind": "partial",
+        "source": "original"
+      },
+      {
+        "label": "original_full",
+        "kind": "full",
+        "source": "original"
+      }
+    ]
+  },
+  "profile": {
+    "n_ctx": 16384,
+    "n_seq_max": 1,
+    "n_batch": 512,
+    "n_ubatch": 512,
+    "flash_attention": "on",
+    "kv": "f16",
+    "gpu_layers": 99
+  },
+  "controls": {
+    "aba_identity_max_token_nll_delta": 0.0001,
+    "direct_vs_prior_scorer_max_token_nll_delta": 0.0001,
+    "unrelated_recurrent_mean_absolute_token_nll_delta_min": 0.01,
+    "state_import_scope": "target 0 is from destination prefill and cannot respond; compare targets 1..95 for state-mediated effects"
+  },
+  "interpretation": "Method pilot on one previously examined book and one sign seed; reciprocal/full and unrelated-history controls do not establish a population effect"
+}

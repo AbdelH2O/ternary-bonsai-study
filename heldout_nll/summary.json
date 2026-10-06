@@ -1,0 +1,141 @@
+{
+  "freeze_sha256": "a388a718ba4c5fa6173b7837d5024ecae705bafe4e651899beaa7fbc6dc413e5",
+  "baseline_rerun_max_token_nll_delta": 0.0,
+  "document_count": 4,
+  "seed_count": 3,
+  "results": 72,
+  "target_ids_scored": 6912,
+  "mean_excess_nll_by_arm_and_history": {
+    "alpha": {
+      "1024": 0.0030263500667244915,
+      "4096": 0.00408744921594793,
+      "12288": 0.0031364106685952847
+    },
+    "mlp": {
+      "1024": 0.00766372780361801,
+      "4096": 0.007751403541172905,
+      "12288": 0.008279325170756816
+    }
+  },
+  "heldout_short_dose_matched": false,
+  "heldout_short_dose_difference_alpha_minus_mlp": -0.004637377736893518,
+  "primary_interaction_nats_per_token": -0.0005055367652680114,
+  "secondary_4k_interaction_nats_per_token": 0.0009734234116685435,
+  "primary_smallest_meaningful_effect": 0.005,
+  "primary_bootstrap_95pct": [
+    -0.007115899884904009,
+    0.005787448972264504
+  ],
+  "per_seed_primary": {
+    "20260929": 0.003000067398855831,
+    "20260930": -0.0023541649213111703,
+    "20260931": -0.002162512773348695
+  },
+  "per_document_primary": {
+    "pride_and_prejudice": -0.0035091393718812264,
+    "frankenstein": -0.0005140096469134727,
+    "sherlock_holmes": 0.00521068146974673,
+    "dracula": -0.003209679512024077
+  },
+  "paired_values": [
+    {
+      "seed": 20260929,
+      "document_id": "pride_and_prejudice",
+      "alpha_short_excess": 0.002542344230680811,
+      "mlp_short_excess": 0.009298976183835723,
+      "primary": -0.011246525423882702,
+      "secondary_4k": -0.006991019033383462
+    },
+    {
+      "seed": 20260929,
+      "document_id": "frankenstein",
+      "alpha_short_excess": 0.004422384292455749,
+      "mlp_short_excess": 0.02462405447795181,
+      "primary": 0.008569921926660534,
+      "secondary_4k": 0.004163551487484219
+    },
+    {
+      "seed": 20260929,
+      "document_id": "sherlock_holmes",
+      "alpha_short_excess": 0.007265599893084891,
+      "mlp_short_excess": 0.00368812504855715,
+      "primary": 0.005279289859461637,
+      "secondary_4k": 0.006827542398356751
+    },
+    {
+      "seed": 20260929,
+      "document_id": "dracula",
+      "alpha_short_excess": 0.00041776331870748074,
+      "mlp_short_excess": 0.011884416549675416,
+      "primary": 0.009397583233183855,
+      "secondary_4k": 0.012219031722934781
+    },
+    {
+      "seed": 20260930,
+      "document_id": "pride_and_prejudice",
+      "alpha_short_excess": -0.0069664438840506505,
+      "mlp_short_excess": 0.012663376127792144,
+      "primary": 0.0046305246153927684,
+      "secondary_4k": 0.0008429632021261999
+    },
+    {
+      "seed": 20260930,
+      "document_id": "frankenstein",
+      "alpha_short_excess": 0.00038093660335418396,
+      "mlp_short_excess": 0.01626278235612427,
+      "primary": 0.0019789049083449987,
+      "secondary_4k": 0.004094391266158634
+    },
+    {
+      "seed": 20260930,
+      "document_id": "sherlock_holmes",
+      "alpha_short_excess": 0.006729309963843197,
+      "mlp_short_excess": 0.0059332129053057195,
+      "primary": 0.0015345616632525764,
+      "secondary_4k": 0.005069575781788063
+    },
+    {
+      "seed": 20260930,
+      "document_id": "dracula",
+      "alpha_short_excess": 0.005135296727237904,
+      "mlp_short_excess": 0.00351771187653447,
+      "primary": -0.017560650872235024,
+      "secondary_4k": -0.016173271067377377
+    },
+    {
+      "seed": 20260931,
+      "document_id": "pride_and_prejudice",
+      "alpha_short_excess": 0.002274372107651513,
+      "mlp_short_excess": -0.010041586769323155,
+      "primary": -0.0039114173071537455,
+      "secondary_4k": -0.005194325481249347
+    },
+    {
+      "seed": 20260931,
+      "document_id": "frankenstein",
+      "alpha_short_excess": 0.0051252042623549125,
+      "mlp_short_excess": -0.011459237636256022,
+      "primary": -0.012090855775745951,
+      "secondary_4k": -0.001824036254373716
+    },
+    {
+      "seed": 20260931,
+      "document_id": "sherlock_holmes",
+      "alpha_short_excess": 0.007970897011915636,
+      "mlp_short_excess": 0.023920428515348202,
+      "primary": 0.008818192886525978,
+      "secondary_4k": 0.009888244732367732
+    },
+    {
+      "seed": 20260931,
+      "document_id": "dracula",
+      "alpha_short_excess": 0.0010185362734582678,
+      "mlp_short_excess": 0.001672474007870398,
+      "primary": -0.0014659708970210618,
+      "secondary_4k": -0.0012415678148099563
+    }
+  ],
+  "support_gate_passed": false,
+  "interpretation": "pre-frozen support gate not met; inspect dose match, magnitude, direction, and uncertainty separately",
+  "limitations": "Four treatment-held-out books but their baseline scorer values were seen; only one span per book, three sign seeds, and a permanent checkpoint intervention. Natural-text context interaction alone does not isolate recurrent state."
+}

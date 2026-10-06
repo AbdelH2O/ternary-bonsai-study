@@ -1,0 +1,406 @@
+{
+  "purpose": "fresh-document recurrent-state contrast; six document clusters, two disjoint spans each",
+  "design_sha256": "65309e27484b1abec638d68e6f8b97be4d9ee49573fcc516932114c185945567",
+  "prior_controlled_state_freeze_sha256": "6100cb23e6bc1bfc17e1f41376a13a314ceb37bd0c93e3e7a131309ef3aaf2bc",
+  "dose_freeze_sha256": "b4ca7068940df85b5773328f3e0b125af3458ee973217a92a805eec559090bc6",
+  "runtime_release": "prism-b10735-842b188 cuda-13.3",
+  "profile": {
+    "n_ctx": 16384,
+    "n_seq_max": 1,
+    "n_batch": 512,
+    "n_ubatch": 512,
+    "flash_attention": "on",
+    "attention_kv": "f16",
+    "gpu_layers": 99
+  },
+  "tokenizer": "pinned Prism llama_tokenize(add_special=false, parse_special=false); no BOS or chat template",
+  "id_hash_encoding": "SHA-256 of little-endian signed int32 IDs",
+  "target_length": 96,
+  "positions": [
+    30000,
+    50000
+  ],
+  "histories": [
+    1024,
+    12288
+  ],
+  "models": {
+    "original": {
+      "arm": "original",
+      "model_path": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+      "model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+      "patch_manifest_sha256": null
+    },
+    "alpha": {
+      "name": "alpha-d200-c1000-s20260929",
+      "seed": 20260929,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.gguf",
+      "model_sha256": "2f4d27e650744c880dd11d718a8e4d93354060838c114770857377efcb243542",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.json",
+      "patch_manifest_sha256": "eecabe3268f31bf6fb6c378c1aba6dfce32fde37737e2a0836a7806f71b1cab4",
+      "changed_values_after_rounding": 11796480
+    },
+    "mlp": {
+      "name": "mlp-d200-c200-s20260929",
+      "seed": 20260929,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.gguf",
+      "model_sha256": "3a5bad0799c268c5edb1baf7d8382ca10aa71f7d6b59315371854c2e5e6a40e4",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.json",
+      "patch_manifest_sha256": "2cec56b2822696c4e75d5c0f5a35ee26134c0e4438843625fba41ef87115bfaf",
+      "changed_values_after_rounding": 6684672
+    }
+  },
+  "documents": [
+    {
+      "id": "emma",
+      "gutenberg_ebook": 158,
+      "source_url": "https://www.gutenberg.org/cache/epub/158/pg158.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/158",
+      "license": "Project Gutenberg; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/fresh_state/documents/emma.txt",
+      "source_sha256": "532b122b4e6a76cc556d6fdcd729b5892f5c4ce4a1b7060b9f832adfad8680dc",
+      "ids_path": "analysis/bonsai2/fresh_state/documents/emma.ids",
+      "ids_file_sha256": "e223bb9e973e2f8188f70bf04935a94e5b15081d7ebd326599ac493675255da1",
+      "all_ids_sha256": "cc654d3d4736c5c9ef9e25f38e5e0b081117ed3aa8002d26ffbef8f202ea0247",
+      "token_count": 220937
+    },
+    {
+      "id": "little_women",
+      "gutenberg_ebook": 514,
+      "source_url": "https://www.gutenberg.org/cache/epub/514/pg514.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/514",
+      "license": "Project Gutenberg; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/fresh_state/documents/little_women.txt",
+      "source_sha256": "677d034b4a3d1cea92d075939878f852a7a3ec757dc9ed05ef0c40cab5c1e6de",
+      "ids_path": "analysis/bonsai2/fresh_state/documents/little_women.ids",
+      "ids_file_sha256": "1eca9df16179194056efa0fd2922b83499406c74d952b504e1ab2d1e18c864cc",
+      "all_ids_sha256": "dcf8aadb72929cb56898e7a6d47750b2ec624aabf7248e125d0dd2c193c1c138",
+      "token_count": 258982
+    },
+    {
+      "id": "wuthering_heights",
+      "gutenberg_ebook": 768,
+      "source_url": "https://www.gutenberg.org/cache/epub/768/pg768.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/768",
+      "license": "Project Gutenberg; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/fresh_state/documents/wuthering_heights.txt",
+      "source_sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02",
+      "ids_path": "analysis/bonsai2/fresh_state/documents/wuthering_heights.ids",
+      "ids_file_sha256": "97fe0149b3490433e2af309af845aba059d879b461275b47511e9dec5f41bd9f",
+      "all_ids_sha256": "6da02bb2d99be86296837240eb38b0173ebdf8286ecee937a6524af673d0fa80",
+      "token_count": 170327
+    },
+    {
+      "id": "war_of_the_worlds",
+      "gutenberg_ebook": 36,
+      "source_url": "https://www.gutenberg.org/cache/epub/36/pg36.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/36",
+      "license": "Project Gutenberg; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/fresh_state/documents/war_of_the_worlds.txt",
+      "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+      "ids_path": "analysis/bonsai2/fresh_state/documents/war_of_the_worlds.ids",
+      "ids_file_sha256": "97ad8c4a2bbe22dfb2600ba67bad174b89ee919c5e4945b4730386e2377131f9",
+      "all_ids_sha256": "2806bcde8a9a09b013af4d7cc618ae8de0f5de5a9e28368d1b971d8e4c34f503",
+      "token_count": 85705
+    },
+    {
+      "id": "monte_cristo",
+      "gutenberg_ebook": 1184,
+      "source_url": "https://www.gutenberg.org/cache/epub/1184/pg1184.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/1184",
+      "license": "Project Gutenberg; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/fresh_state/documents/monte_cristo.txt",
+      "source_sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836",
+      "ids_path": "analysis/bonsai2/fresh_state/documents/monte_cristo.ids",
+      "ids_file_sha256": "6c9881050cf4f6d6123c46bf742a0d2041fec32d0744e299f4c899d63a549eaa",
+      "all_ids_sha256": "c53d62e9c04174a05a686d7e58cc1e64af92d3076005d7985fd1d8566d532fbb",
+      "token_count": 668434
+    },
+    {
+      "id": "middlemarch",
+      "gutenberg_ebook": 145,
+      "source_url": "https://www.gutenberg.org/cache/epub/145/pg145.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/145",
+      "license": "Project Gutenberg; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/fresh_state/documents/middlemarch.txt",
+      "source_sha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50",
+      "ids_path": "analysis/bonsai2/fresh_state/documents/middlemarch.ids",
+      "ids_file_sha256": "819562da876a7ed7d0577a95b45988ad98413c7146b0d6e5d9afb24b62e41f60",
+      "all_ids_sha256": "6e9c99cfedaae275fe659658bc4a9729789013cb1ae806fe6e93b7a4bfa42a9d",
+      "token_count": 441421
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "emma-p30000-h1024",
+      "document_id": "emma",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "cafdaafdfb5ed025919abfbfcdea2fbfd857b4315cf39da40f0545baf92c6960",
+      "target_ids_sha256": "038d8ceea6e24a3ec123fd433ed744de6d25101f10072ad12cceb8f284d13f51",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "document_id": "emma",
+      "target_position": 30000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "e06872336a825c37173eb1021f7e1c838bd591cf9d904baab6211de35499e04c",
+      "target_ids_sha256": "038d8ceea6e24a3ec123fd433ed744de6d25101f10072ad12cceb8f284d13f51",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "document_id": "emma",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "abe429568c48582612049790b2050d900b32293ffb64e23eabbac048e82ad8da",
+      "target_ids_sha256": "c3ba7c411fe729289400161a520abab7b81354ed25dff0cd07943cf5e614b8e4",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "document_id": "emma",
+      "target_position": 50000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "912c5dbe4a0d69baa3a4f2bf0c4fdbffd9eaba9f1b882b46b27ce04ad84f14b4",
+      "target_ids_sha256": "c3ba7c411fe729289400161a520abab7b81354ed25dff0cd07943cf5e614b8e4",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "document_id": "little_women",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "bb462ff91b63ced25c31300af8c2d99d99b1d3898706cd3aac8eb8861ca0d0dc",
+      "target_ids_sha256": "9ec9589f2fd608ddaa7db9d7b5f67265f965b4502c651da3c2eae74c2765a99a",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "document_id": "little_women",
+      "target_position": 30000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "ed36f281a8e0381bb4599c06b72ac108eb135317b8a88ce2a801d252c1ae8dec",
+      "target_ids_sha256": "9ec9589f2fd608ddaa7db9d7b5f67265f965b4502c651da3c2eae74c2765a99a",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "document_id": "little_women",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "07d9753bccb73de853c663cdb4934ae42f21b76192d1e72940af681de0f3bd27",
+      "target_ids_sha256": "ff794bf52a875edb1808d378dde2fe920fea5509f9772d6bec6b96e2fe71396c",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "document_id": "little_women",
+      "target_position": 50000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "4215f0402b94e37e7a48b979f8375a52420034cc18780d0e81165d4950e9d88d",
+      "target_ids_sha256": "ff794bf52a875edb1808d378dde2fe920fea5509f9772d6bec6b96e2fe71396c",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "document_id": "wuthering_heights",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "f230638ad1fa258aa7575c096dd7a773b810e78eed72ed4d6816b2a9945c92d1",
+      "target_ids_sha256": "851ab8ad90c3d74f1a537f2422a5df87aff7f361070aead8188b6721193ba12e",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "document_id": "wuthering_heights",
+      "target_position": 30000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "bb5d975362d6234e071230f6c5a9e6f671e1d0ee4e92a2a70af561a628f81d3e",
+      "target_ids_sha256": "851ab8ad90c3d74f1a537f2422a5df87aff7f361070aead8188b6721193ba12e",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "document_id": "wuthering_heights",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "7f5ce65726d43878f3e0fb2651a768cd1e415ec0886f186d18c3bc1beced79f9",
+      "target_ids_sha256": "c8528b49d23348c61de0a7c036afa662da5c1678c4eeae5c49472bb756589733",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "document_id": "wuthering_heights",
+      "target_position": 50000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "30dbf968ef036fef8f7e934fdb8a56b7673d329f906875d4eb22dca03021912f",
+      "target_ids_sha256": "c8528b49d23348c61de0a7c036afa662da5c1678c4eeae5c49472bb756589733",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "document_id": "war_of_the_worlds",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "e3aaf76fcd496416c7647ecc49ba03a6bdbf5faa014868e8c3d211da5ded2a1d",
+      "target_ids_sha256": "4a60c9b89d3660403ab02e8827c6a84bf9c0c51ba0923d0c958f136164546f20",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "document_id": "war_of_the_worlds",
+      "target_position": 30000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "432f5c423bc0ef5a15b30aef7ae1cc15621a6adbcb29cf616b30b598fe705a3b",
+      "target_ids_sha256": "4a60c9b89d3660403ab02e8827c6a84bf9c0c51ba0923d0c958f136164546f20",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "document_id": "war_of_the_worlds",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "11e48c096456e5c3ac37cf909a57ef8c62e1360794c4ff866cc75bc1e980573b",
+      "target_ids_sha256": "cc9ce2b781ebf3ee51a32b3fce8ed6d3857cbcb68462ce879260debb0ba443f4",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "document_id": "war_of_the_worlds",
+      "target_position": 50000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "e639cc36dd4b86152ff559948746e1875573b42c0454610b7d37db154e07481d",
+      "target_ids_sha256": "cc9ce2b781ebf3ee51a32b3fce8ed6d3857cbcb68462ce879260debb0ba443f4",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "document_id": "monte_cristo",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "77244c8340253d7bf785f162fa770fd5f7c53b1d79b6d8479b9f2d7a232040e5",
+      "target_ids_sha256": "3f7991d04fa10c79828360689b59197fc7236da1dff8dd3a85e085a77e58d2e0",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "document_id": "monte_cristo",
+      "target_position": 30000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "e02bef40cf6c5e9a0d079d95e9d4979db40f09332618acc376f6bcee5de49088",
+      "target_ids_sha256": "3f7991d04fa10c79828360689b59197fc7236da1dff8dd3a85e085a77e58d2e0",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "document_id": "monte_cristo",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "a5a8280efc6121abdea5a684d922681fe788c8a10c6bca2b78e14ed26ad04a10",
+      "target_ids_sha256": "c709daae211311352b75a9505be9d8b86045c5e52186a6b192ccad86f45b40b6",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "document_id": "monte_cristo",
+      "target_position": 50000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "09d8adbde3f8f2f23057ab7eb3304b95443159d6ee450db4c4a2e7fd0b80240d",
+      "target_ids_sha256": "c709daae211311352b75a9505be9d8b86045c5e52186a6b192ccad86f45b40b6",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "document_id": "middlemarch",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "ec000f9496e9836895aebe2ff09065d48cafeb899e066fac868b5bcfff32eb15",
+      "target_ids_sha256": "0becb0968c38503a277d6233cadab9c4c98c9358e19f83db33f2d7ccc12e7c7f",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "document_id": "middlemarch",
+      "target_position": 30000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "4f544bd15e4164e5abb94c14010bd75bed00c719b49b634093e68b62978ab49f",
+      "target_ids_sha256": "0becb0968c38503a277d6233cadab9c4c98c9358e19f83db33f2d7ccc12e7c7f",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "document_id": "middlemarch",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "b410cede35c93409f3dcd88a837e43610dabfed72c74e350c419f8c84de2bee8",
+      "target_ids_sha256": "932bc62442b77db9152be58b0130bdf551656bc50e1f58379919570b9364d026",
+      "first_target_from": 49999
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "document_id": "middlemarch",
+      "target_position": 50000,
+      "history_length": 12288,
+      "target_length": 96,
+      "history_ids_sha256": "d2567b34a5ea6fde9a021bc7e750de6af97970465d1cf4e09d862d5bba4867ef",
+      "target_ids_sha256": "932bc62442b77db9152be58b0130bdf551656bc50e1f58379919570b9364d026",
+      "first_target_from": 49999
+    }
+  ],
+  "program_hashes": {
+    "analysis/bonsai2/scorer/position_scorer.cpp": "cfa68cb9da7b4d2c226c4acec496d161df9b5c95226cc715689718eba2ed24fe",
+    "analysis/bonsai2/scorer/position_scorer": "a50f21c1d4f51eecd9a0ed2d618d5bd500e0b4c99e5c3c219197a1ed67d5f987",
+    "analysis/bonsai2/validation_gates/state_transplant/state_gate.cpp": "fe46f78d6c9fb2749ce90418d84bd335a8605716d26e7e3d9fcfad03cdd40450",
+    "analysis/bonsai2/validation_gates/state_transplant/state_gate": "7682160cb8db9779da0e69ae806cc299fc3e54f79eb285b342acc95a966841f0",
+    "analysis/bonsai2/controlled_state/controlled_state.cpp": "695f24274b76baf16081d9d070dffb306c2266b0d7912ce2eb72fe471f0d066e",
+    "analysis/bonsai2/controlled_state/controlled_state": "bdae13dc97687f044cce46e172439169b6716b3712cfb855fa668ac3d245897e",
+    "analysis/bonsai2/fresh_state/freeze.py": "1d66b5f4f8d6d4738ed30ab0352d0f69f4aefa46754a29cae52ef6bae70118c4",
+    "analysis/bonsai2/fresh_state/run.py": "995e7ebffa3f0856309aed9a7d1b75cc3a8e6651ecaf069ebb645311c1ee4fd9",
+    "analysis/bonsai2/fresh_state/analyze.py": "9e9c0bbfae2b3e77957226ba3687978bf126ce9ad3cae6931d6a266f0a8c0577"
+  },
+  "linked_cuda_library_sha256": {
+    "bin/cuda/libllama.so.0": "42ec99425416251a90cea26b16f570fff3f905fa4a8069ae8114a7788baf1795",
+    "bin/cuda/libggml.so.0": "9d833265513c5b975b96850ae1ccea15bde9b3e9210d154602431da555902cba",
+    "bin/cuda/libggml-base.so.0": "576eee187cb20f6c856c7e5ecacc075929e9276e8183c8c4d37000e16d51c97a",
+    "bin/cuda/libggml-cpu.so.0": "81bace2c0f8eafe5b01db7bc36661a376ce2415bac48e285cecb361ce2c0f7d1",
+    "bin/cuda/libggml-cuda.so.0": "9c22de50a382eb84a7181dd858a4ef7feb77ed53b8cb2bb10a609627c5d98309",
+    "bin/cuda/libggml-rpc.so.0": "b10cdf25ba8e3940e1ad3ab321822308f152a21d579d600f4a6dd8024502d891"
+  },
+  "gates": {
+    "identity_max_token_nll_delta": 0.0001,
+    "positive_mean_absolute_token_nll_delta_min": 0.01,
+    "primary_smallest_meaningful_nats_per_token": 0.005,
+    "short_state_dose_equivalence_band": 0.003,
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 20260929,
+    "support": "primary mean >=+0.005, document-bootstrap 95% lower bound >0, >=5/6 document means positive; short-dose 90% CI must fit within +/-0.003 for comparable-dose specificity",
+    "exclude_0p005": "document-bootstrap 95% upper bound <+0.005"
+  }
+}

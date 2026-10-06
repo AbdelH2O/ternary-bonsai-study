@@ -1,0 +1,130 @@
+{
+  "purpose": "dose calibration only; excluded from held-out scoring",
+  "model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "runtime": "prism-b10735-842b188 cuda-13.3",
+  "scorer_source_sha256": "cfa68cb9da7b4d2c226c4acec496d161df9b5c95226cc715689718eba2ed24fe",
+  "tokenizer": "Prism llama_tokenize(add_special=false, parse_special=false); no BOS or chat template",
+  "id_hash_encoding": "SHA-256 of little-endian int32 token IDs",
+  "history_length": 1024,
+  "target_length": 96,
+  "documents": [
+    {
+      "id": "tale_two_cities",
+      "source_url": "https://www.gutenberg.org/cache/epub/98/pg98.txt",
+      "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/dose_calibration/tale_two_cities.txt",
+      "source_sha256": "d54c2b80d40a40b982cd88852c6180bb944d95acdb028af3d0e01a1750681784",
+      "ids_path": "analysis/bonsai2/dose_calibration/tale_two_cities.ids",
+      "ids_file_sha256": "5453f30ac15e1e1bd70658543591e68fd70455e2f2f599e8b5d8820d9f28dad0",
+      "all_ids_sha256": "73e9a672083b6d6813f7b485c85f5436154bf47ad2a786f176f7478e3d06fedf",
+      "token_count": 194396
+    },
+    {
+      "id": "jane_eyre",
+      "source_url": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+      "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/dose_calibration/jane_eyre.txt",
+      "source_sha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631",
+      "ids_path": "analysis/bonsai2/dose_calibration/jane_eyre.ids",
+      "ids_file_sha256": "ebdf40238d7daa30408cd73d795ed122f1cd1d0511867c997b5c50fec52509b5",
+      "all_ids_sha256": "bee6e327cf8a3e298fe6d15e4ac063e24fa060bb08f7f79b8651e0eaae8c21ee",
+      "token_count": 264144
+    },
+    {
+      "id": "moby_dick",
+      "source_url": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt",
+      "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/dose_calibration/moby_dick.txt",
+      "source_sha256": "907420db6c4b68c70e2988cd2ad9c8cf79138667a01b63376d18dd17fef1a18b",
+      "ids_path": "analysis/bonsai2/dose_calibration/moby_dick.ids",
+      "ids_file_sha256": "b79cb9c4c171ac13b696336333a906b1c175717ec54ed4dbfaabe0bbbd2a0d39",
+      "all_ids_sha256": "b8ac8442bb60b64cdc8066deabda4fee8c4fbadc87ba977724a325838c27af95",
+      "token_count": 315937
+    },
+    {
+      "id": "great_expectations",
+      "source_url": "https://www.gutenberg.org/cache/epub/1400/pg1400.txt",
+      "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+      "source_path": "analysis/bonsai2/dose_calibration/great_expectations.txt",
+      "source_sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+      "ids_path": "analysis/bonsai2/dose_calibration/great_expectations.ids",
+      "ids_file_sha256": "1f671fba21ef1d51862d4eefe682f4c0a97b3539b786000a6906e655b436e163",
+      "all_ids_sha256": "efeaba14bb0fe4c24f0a5b7e8202019bdf34e8aeef5a3a7f58ea761d04ed66dc",
+      "token_count": 260013
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "tale_two_cities-p30000-h1024",
+      "document_id": "tale_two_cities",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "7e4dea4aefe487e26f77b923969329191e3b8be5f037d18de0410e188e1548d8",
+      "target_ids_sha256": "c9171b22e318cd3ca922675bf2375daab127066b1c1f6708186f76d7c6b089ce"
+    },
+    {
+      "case_id": "tale_two_cities-p50000-h1024",
+      "document_id": "tale_two_cities",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "495911fae4b6f9855ac1b1d1af02eee5150bd94073083a71b83561146c067ace",
+      "target_ids_sha256": "b4b6eae406fda20aa5f93cde6f97ab9ed492568637e48ac4982e34758e7cf21b"
+    },
+    {
+      "case_id": "jane_eyre-p30000-h1024",
+      "document_id": "jane_eyre",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "55b923487c4c387a844f055842981acae29a414347a7137ca91df3a9b19f545c",
+      "target_ids_sha256": "ef63b89451825c435fd4f886aa41adaefee6ae1dbe2fd2d6afe3d7f91b640517"
+    },
+    {
+      "case_id": "jane_eyre-p50000-h1024",
+      "document_id": "jane_eyre",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "85858653a23cec26de0cb1715e29ceb1a88545f438cce7b96207cf424b6b07e3",
+      "target_ids_sha256": "6f089fbb3ff0099d3badeb31db8151102709f08f93bf513bfede56bb70087d58"
+    },
+    {
+      "case_id": "moby_dick-p30000-h1024",
+      "document_id": "moby_dick",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "e3ae846ff915c7d132c130305a7f9845f6a61d3392f9ad2104bfdd63a80c489a",
+      "target_ids_sha256": "b0e9e71523f3f540b064d528a72035d036ee07d14bd01911bcf3be30e2b48a0d"
+    },
+    {
+      "case_id": "moby_dick-p50000-h1024",
+      "document_id": "moby_dick",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "a7ce2eb840732c516f6e8fa932ecabfa9dc0eb9f17327d0198dcd48d55b7df17",
+      "target_ids_sha256": "b5a2d7f2083702b6ca672b42d59d0f70deb3a162f29fcab9a3afb7af96681726"
+    },
+    {
+      "case_id": "great_expectations-p30000-h1024",
+      "document_id": "great_expectations",
+      "target_position": 30000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "8f403b45df070a123d68a5538dda24dbee3bdda26b64c32a5e8973c6063fe8d9",
+      "target_ids_sha256": "5f13d4e2c1e34be68effd265e69423254914961ddd1d2d9075676491e27039ea"
+    },
+    {
+      "case_id": "great_expectations-p50000-h1024",
+      "document_id": "great_expectations",
+      "target_position": 50000,
+      "history_length": 1024,
+      "target_length": 96,
+      "history_ids_sha256": "0e3ca7b3464e949fe860473e52d0b5203891649814a1ea0962beb235925ec668",
+      "target_ids_sha256": "5115c54a191fc812cbae7aac7548b4c9537ff14207f8baa33de8ac850a0d82de"
+    }
+  ]
+}

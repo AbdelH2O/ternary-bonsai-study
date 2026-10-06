@@ -1,0 +1,22 @@
+# Large, downloaded or regenerable artifacts stay local; their SHA-256 hashes are recorded
+# in the reports, freeze records and RESEARCH_LOG.md so tracked claims remain checkable.
+**/work/
+*.gguf
+*.bin
+*.pt
+*.npy
+*.npz
+*.safetensors
+*.parquet
+*.u32
+*.tar.gz
+*.log
+
+# Python and editor noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Personal compute and funding planning: kept local, not part of the published research record
+replication/reports/Bonsai quantization models and compute.md
+replication/research_notes/Bonsai quantization models and compute/compute_grants.md

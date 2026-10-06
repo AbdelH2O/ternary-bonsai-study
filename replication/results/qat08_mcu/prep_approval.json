@@ -1,0 +1,11 @@
+{
+  "approved_by_user": true,
+  "cases_record_sha256": "75f7055598b8279bec2478522a1264317e5104ef741542f8ba83cfeb9406aba0",
+  "mc_record_sha256": "1b3d53ffb07df1d48674abbb08b8946221d77e4b33e592ef5faa11be7a59261d",
+  "decision_sha256": "90d5b083f419df1ad858a548297ee2cbbb191db3c54a038d99e3fe4618d6b70c",
+  "amendment_sha256": "44dd024b6a11ea1adf65bfbdc161cab30ecdd8e911b192b85e0f245fd639c5d6",
+  "user_instruction": "Proceed",
+  "source": "user's prompt in parent bb thread thr_46yhdt5qhc (prompt history phist_ncs5uxdrdb), relayed by that thread",
+  "scope": "GPU self-test, 64-prompt teacher pilot and the four 120-step FP-tensor LR probes, within the 2.0 GPU-h prep ceiling; not full generation, packing, training or rental",
+  "recorded_at": "2026-10-04T12:55:29.773002+00:00"
+}

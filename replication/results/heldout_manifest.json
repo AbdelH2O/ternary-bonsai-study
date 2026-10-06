@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-30",
+  "selection": "Later layers chosen before reading their full matrix payloads; discovery tensors were blk.0.ffn_down, blk.3.attn_output, blk.0.ssm_out.",
+  "heldout_tensors": [
+    "blk.32.ffn_down.weight",
+    "blk.35.attn_output.weight",
+    "blk.32.ssm_out.weight"
+  ],
+  "candidate_formulas": [
+    "public BF16 weights promoted to F32 and folded as W S H / sqrt(1024)",
+    "nonzero sign agreement at actual Bonsai support",
+    "fixed 86 largest absolute magnitudes per 128 group with stable original-index tie break",
+    "nonnegative signed least-squares scale for Bonsai codes rounded to FP16",
+    "pinned absmax ternarizer code and FP16 scale bits"
+  ],
+  "matrix_probe_sha256_before_holdout": "e8b331a63f98a95308bd6bf51bc97773cc4bb207e16110cb6ca457fd6eed84e2"
+}

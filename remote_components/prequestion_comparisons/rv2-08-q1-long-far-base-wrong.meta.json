@@ -1,0 +1,8 @@
+{
+  "freeze_sha256": "02c529026fc5c334600d795cc08c42ae7cfca1bcff476bff0041b2948a9ea95f",
+  "raw_sha256": "86e9fc73a9524e0fdaecc6463387637fe8d16c2b89eed4ff13c5797ab2113056",
+  "source_hashes": {
+    "own": "550302827b9bce7d52b0e9f4a85bd852680aa04bec99058a1058eddd511a014b",
+    "combined": "c4e2da5961cf888f14289135dec0483c907744ef7adfb993310c4d58f8adfc89"
+  }
+}

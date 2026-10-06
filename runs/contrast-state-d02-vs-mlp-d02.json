@@ -1,0 +1,43 @@
+{
+  "complete_pairs": 24,
+  "missing_pairs": [],
+  "state_arm": "state-d02",
+  "mlp_arm": "mlp-d02",
+  "accuracy": {
+    "baseline": {
+      "short": 1.0,
+      "long": 1.0
+    },
+    "state-d02": {
+      "short": 1.0,
+      "long": 1.0
+    },
+    "mlp-d02": {
+      "short": 1.0,
+      "long": 1.0
+    }
+  },
+  "excess_long_loss": {
+    "state-d02": 0.0,
+    "mlp-d02": 0.0
+  },
+  "state_minus_mlp_excess_long_loss": 0.0,
+  "paired_bootstrap_95pct": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_seed": 20260929,
+  "bootstrap_replicates": 10000,
+  "answer_logprob_secondary": {
+    "complete_pairs": 24,
+    "excess_long_nll": {
+      "state-d02": 7.781529802741716e-05,
+      "mlp-d02": 5.5084664988195677e-05
+    },
+    "state_minus_mlp_excess_long_nll": 2.2730633039221477e-05,
+    "paired_bootstrap_95pct": [
+      -0.00027288190024895204,
+      0.0003379627278263797
+    ]
+  }
+}

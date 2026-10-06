@@ -1,0 +1,267 @@
+{
+  "protocol_sha256": "9989771856cdf80a5104d09a50fe1532e7632c3b071ea3a8911f69ee05cf57d7",
+  "book_nll": {
+    "fp": 3.284036557169326,
+    "gptq": 4.814872040092449,
+    "absmean_init": 10.564319075473687,
+    "top86_init": 10.836382502690206,
+    "qat_free": 3.7986651804641696,
+    "qat_42": 3.7733874380559116
+  },
+  "book_nll_by_book": {
+    "fp": {
+      "oliver_twist": 3.0046395529646506,
+      "vanity_fair": 3.5606036014814837,
+      "tess": 3.577968853134492,
+      "far_from_the_madding_crowd": 3.5198526794853446,
+      "kidnapped": 3.2222231445072147,
+      "prisoner_of_zenda": 3.0053939990439478,
+      "ivanhoe": 3.5948962662732606,
+      "black_beauty": 2.906782032668361,
+      "mansfield_park": 3.1792822096234614,
+      "moonstone": 3.020634119466436,
+      "lord_jim": 3.6322170243154037,
+      "ethan_frome": 3.1839452030678608
+    },
+    "gptq": {
+      "oliver_twist": 4.569990897988542,
+      "vanity_fair": 5.211541585263271,
+      "tess": 5.097461239103268,
+      "far_from_the_madding_crowd": 5.159049653409431,
+      "kidnapped": 4.6757574509789865,
+      "prisoner_of_zenda": 4.508264309086764,
+      "ivanhoe": 5.208735917204475,
+      "black_beauty": 4.441851054681801,
+      "mansfield_park": 4.607220086040481,
+      "moonstone": 4.660186912300787,
+      "lord_jim": 5.069498435330097,
+      "ethan_frome": 4.5689069397215025
+    },
+    "absmean_init": {
+      "oliver_twist": 10.022022451508702,
+      "vanity_fair": 10.484611485173122,
+      "tess": 10.91055819450876,
+      "far_from_the_madding_crowd": 10.4063359001053,
+      "kidnapped": 10.506257314680987,
+      "prisoner_of_zenda": 10.567674413471021,
+      "ivanhoe": 10.493380784975535,
+      "black_beauty": 10.605191075641816,
+      "mansfield_park": 10.290593731807835,
+      "moonstone": 10.773403834190384,
+      "lord_jim": 10.97090094850966,
+      "ethan_frome": 10.74089877111113
+    },
+    "top86_init": {
+      "oliver_twist": 10.44282869922746,
+      "vanity_fair": 10.841847968752969,
+      "tess": 11.238089841403088,
+      "far_from_the_madding_crowd": 10.623348195612191,
+      "kidnapped": 10.743598534881862,
+      "prisoner_of_zenda": 10.86977331799935,
+      "ivanhoe": 10.85481304938985,
+      "black_beauty": 10.483476831273315,
+      "mansfield_park": 10.711034438091808,
+      "moonstone": 10.583008066745526,
+      "lord_jim": 11.650608838739798,
+      "ethan_frome": 10.994162250165264
+    },
+    "qat_free": {
+      "oliver_twist": 3.54248737582025,
+      "vanity_fair": 4.051074109160589,
+      "tess": 4.002046341532397,
+      "far_from_the_madding_crowd": 3.9953559609791984,
+      "kidnapped": 3.7053286631344715,
+      "prisoner_of_zenda": 3.6621377695451116,
+      "ivanhoe": 4.145878570012101,
+      "black_beauty": 3.4305761146752394,
+      "mansfield_park": 3.6987486732205124,
+      "moonstone": 3.5454062886620927,
+      "lord_jim": 4.031385573830866,
+      "ethan_frome": 3.7735567249972
+    },
+    "qat_42": {
+      "oliver_twist": 3.5340511740198037,
+      "vanity_fair": 4.009717682990583,
+      "tess": 3.9834887898232134,
+      "far_from_the_madding_crowd": 3.9635973147732724,
+      "kidnapped": 3.666606315709858,
+      "prisoner_of_zenda": 3.6457941711714463,
+      "ivanhoe": 4.139670599366436,
+      "black_beauty": 3.3796897325446644,
+      "mansfield_park": 3.6641089973504135,
+      "moonstone": 3.534686885173791,
+      "lord_jim": 3.9974942350308504,
+      "ethan_frome": 3.761743358716604
+    }
+  },
+  "mmlu_accuracy": {
+    "fp": 48.19887429643527,
+    "gptq": 22.5140712945591,
+    "absmean_init": 22.5140712945591,
+    "top86_init": 22.5140712945591,
+    "qat_free": 22.4577861163227,
+    "qat_42": 22.4765478424015
+  },
+  "mmlu_margin": {
+    "fp": -0.20420797967104914,
+    "gptq": -1.5971818261923991,
+    "absmean_init": -1.0536004902051503,
+    "top86_init": -3.1004180821427543,
+    "qat_free": -1.2963551481937077,
+    "qat_42": -1.2716830951411313
+  },
+  "retrieval_margin": {
+    "fp": 8.411165182583744,
+    "gptq": 0.27977299288875007,
+    "absmean_init": 0.011910626448899321,
+    "top86_init": 0.11772393835004948,
+    "qat_free": 3.4373009807012376,
+    "qat_42": 3.2520515795820284
+  },
+  "retrieval_accuracy": {
+    "fp": 100.0,
+    "gptq": 55.00000000000001,
+    "absmean_init": 52.0,
+    "top86_init": 52.0,
+    "qat_free": 94.5,
+    "qat_42": 90.5
+  },
+  "gsm8k_accuracy": {
+    "fp": 55.799848369977255,
+    "gptq": 0.0758150113722517,
+    "qat_42": 0.22744503411675512,
+    "qat_free": 1.061410159211524
+  },
+  "gsm8k_truncated": {
+    "fp": 147,
+    "gptq": 1319,
+    "qat_42": 1319,
+    "qat_free": 1319
+  },
+  "primary_qat_free_minus_gptq": {
+    "mean": -1.0162068596282812,
+    "lo": -1.0910839408389827,
+    "hi": -0.9413297784175795,
+    "n": 12
+  },
+  "training_helps": true,
+  "gap_closure": 0.6638249968493266,
+  "budget_qat42_minus_qatfree": {
+    "mean": -0.02527774240825768,
+    "lo": -0.03478792275778181,
+    "hi": -0.01576756205873355,
+    "n": 12,
+    "reading": "costs little"
+  },
+  "qat_free_minus_fp": {
+    "mean": 0.5146286232948426,
+    "lo": 0.47072210660825203,
+    "hi": 0.5585351399814331,
+    "n": 12
+  },
+  "qat_42_minus_fp": {
+    "mean": 0.48935088088658496,
+    "lo": 0.4407509000616772,
+    "hi": 0.5379508617114928,
+    "n": 12
+  },
+  "init_effects": {
+    "absmean_init_minus_gptq": {
+      "mean": 5.749447035381237,
+      "lo": 5.5227824901633955,
+      "hi": 5.976111580599078,
+      "n": 12
+    },
+    "top86_init_minus_gptq": {
+      "mean": 6.021510462597757,
+      "lo": 5.807190839189867,
+      "hi": 6.235830086005646,
+      "n": 12
+    }
+  },
+  "mmlu_vs_fp": {
+    "gptq": {
+      "mean": -25.684803001876173,
+      "lo": -27.444460235592132,
+      "hi": -23.925145768160213,
+      "n": 5330
+    },
+    "absmean_init": {
+      "mean": -25.684803001876173,
+      "lo": -27.445996802776957,
+      "hi": -23.92360920097539,
+      "n": 5330
+    },
+    "top86_init": {
+      "mean": -25.684803001876173,
+      "lo": -27.445996802776957,
+      "hi": -23.92360920097539,
+      "n": 5330
+    },
+    "qat_free": {
+      "mean": -25.74108818011257,
+      "lo": -27.50053680719879,
+      "hi": -23.981639553026348,
+      "n": 5330
+    },
+    "qat_42": {
+      "mean": -25.72232645403377,
+      "lo": -27.483893383602524,
+      "hi": -23.960759524465015,
+      "n": 5330
+    }
+  },
+  "capability": {
+    "qat_free": {
+      "mmlu_lo_above_25": false,
+      "gsm8k_above_0": true
+    },
+    "qat_42": {
+      "mmlu_lo_above_25": false,
+      "gsm8k_above_0": true
+    }
+  },
+  "validation_curve": {
+    "fp": 3.3962069737653224,
+    "gptq": 4.811939007691445,
+    "qat_free-init": 10.51946134915269,
+    "qat_free-t8m": 4.457052542470016,
+    "qat_free-t16m": 4.3039485281636916,
+    "qat_free-t33m": 4.087403202261569,
+    "qat_free-final": 3.905090998521841,
+    "qat_42-init": 10.820031941465926,
+    "qat_42-t8m": 4.43776980900618,
+    "qat_42-t16m": 4.298506156744314,
+    "qat_42-t33m": 4.048027120147051,
+    "qat_42-final": 3.890231326387522
+  },
+  "qat_free_t33m_to_final_drop": 0.18231220373972823,
+  "recommend_1p7b_rental": true,
+  "models": {
+    "fp": {
+      "file": "work/qwen35_08b/base-f32.gguf",
+      "sha256": "604cb16500dc7c2228ea2f4e46569e8ea72ae623a97a8a7685948dafba6b448c"
+    },
+    "gptq": {
+      "file": "work/qwen35_08b/folded-pq2-gptq.gguf",
+      "sha256": "6d16f2fcc9936bbe9bd2d9b6c236eca8dddabebcb78db8229b9aae5f901832d8"
+    },
+    "absmean_init": {
+      "file": "work/qat08/qat_free-init.gguf",
+      "sha256": "2f3e7a2875cd53cbcffc9f1310dff02a5f454e8549129dcd24bdb975d4f7ccdd"
+    },
+    "top86_init": {
+      "file": "work/qat08/qat_42-init.gguf",
+      "sha256": "8c209b30f5c8684cc4fda18cd0c9c9d1a658eb2b440078662a90a2c773a1a94e"
+    },
+    "qat_free": {
+      "file": "work/qat08/qat_free-final.gguf",
+      "sha256": "94f8f8a309f7d6ee8c3596c3b1c1ab2d38852fd00e2aee1cbea67181977c8a06"
+    },
+    "qat_42": {
+      "file": "work/qat08/qat_42-final.gguf",
+      "sha256": "06f90c3140076769af6e678280516af9b36e18e1e05f21d686c8682673a74695"
+    }
+  },
+  "claim_limit": "one 0.8B hybrid model, one recipe and seed, 65.5M training tokens, frozen non-projection tensors, logit-scored MMLU and one GSM8K prompt; says nothing about PrismML's recipe"
+}

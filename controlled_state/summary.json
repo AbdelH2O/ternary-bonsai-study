@@ -1,0 +1,212 @@
+{
+  "freeze_sha256": "6100cb23e6bc1bfc17e1f41376a13a314ceb37bd0c93e3e7a131309ef3aaf2bc",
+  "capture_summary_sha256": "1b7453210642add032326c4deacf14eec2791e7c8f960f31a1e981a1b6f31314",
+  "controls_passed": true,
+  "comparisons": [
+    {
+      "destination_arm": "original",
+      "history": 1024,
+      "direct_prior_max_token_delta": 0.0,
+      "conditions": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a8d1c8175c3eb53a82b5fcc25797b444711ae81b62e1e937fbdaebae460e0597",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.7091483530244879,
+          "mean_absolute_state_affected_delta": 0.8806803062982143,
+          "max_absolute_state_affected_delta": 11.58861901735
+        },
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "67d22b3e2c88666b7948ea0b53f0dd08d5e4b392e18a05501471dd097ad41ced",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.0044033020684346195,
+          "mean_absolute_state_affected_delta": 0.02640616962421337,
+          "max_absolute_state_affected_delta": 0.36410024556
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "7ab7207f71bc6f15643637cc19baec8a372b56575d31228d571837d449073c3e",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.005785540525035381,
+          "mean_absolute_state_affected_delta": 0.027940937714372026,
+          "max_absolute_state_affected_delta": 0.39694789570000033
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "54e4cc081de587f95b8069a03a51caa9ce6b06ce4a3bea9943ef45afa8217037",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.00024312123569686391,
+          "mean_absolute_state_affected_delta": 0.018714334233890524,
+          "max_absolute_state_affected_delta": 0.12826967985999982
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "8e1b7405a1f4f9d5884936dde7857d5961787ad95fe9ca6dd9bc65142d7d504d",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.00017901930282242698,
+          "mean_absolute_state_affected_delta": 0.026750426268581592,
+          "max_absolute_state_affected_delta": 0.2029007413799997
+        }
+      ]
+    },
+    {
+      "destination_arm": "alpha",
+      "history": 1024,
+      "direct_prior_max_token_delta": 0.0,
+      "conditions": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "7ff2dd468cfcdb3cf9f9db3126bcd8987df56e3f55675ef9d77d4f97a8b75448",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.00503650849239274,
+          "mean_absolute_state_affected_delta": 0.0253948687768778,
+          "max_absolute_state_affected_delta": 0.33825085916
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "b285072ba493749652252e746a182229f0582ca365e0971b214bf6e214ecc840",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.004741863636092318,
+          "mean_absolute_state_affected_delta": 0.027227526398680334,
+          "max_absolute_state_affected_delta": 0.4022335239300001
+        }
+      ]
+    },
+    {
+      "destination_arm": "mlp",
+      "history": 1024,
+      "direct_prior_max_token_delta": 0.0,
+      "conditions": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "7ff2dd468cfcdb3cf9f9db3126bcd8987df56e3f55675ef9d77d4f97a8b75448",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.004818194363062195,
+          "mean_absolute_state_affected_delta": 0.021272636965239247,
+          "max_absolute_state_affected_delta": 0.1261285180099998
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "b285072ba493749652252e746a182229f0582ca365e0971b214bf6e214ecc840",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.0005483485362570168,
+          "mean_absolute_state_affected_delta": 0.021369475565406096,
+          "max_absolute_state_affected_delta": 0.1543090823799993
+        }
+      ]
+    },
+    {
+      "destination_arm": "original",
+      "history": 12288,
+      "direct_prior_max_token_delta": 0.0,
+      "conditions": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4b00b9780b04ff9743a554675156d3137bcd3d734aa09456867f5961dcfc388c",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.7051557878606161,
+          "mean_absolute_state_affected_delta": 0.8844486351677319,
+          "max_absolute_state_affected_delta": 10.953375408737
+        },
+        {
+          "label": "alpha_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0c9881a3f3ec6671fa0c05a3f39b11172a2ffeaf6e0c02b587fb6ccb7a6ec973",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.011587998821956803,
+          "mean_absolute_state_affected_delta": 0.027648663090800822,
+          "max_absolute_state_affected_delta": 0.46211094662999974
+        },
+        {
+          "label": "alpha_full",
+          "kind": "full",
+          "source_state_sha256": "969470142c59f689325f9842efd7603231d76bb6d476ae0706dd0fdd483be061",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.009193184923511438,
+          "mean_absolute_state_affected_delta": 0.030175277138392895,
+          "max_absolute_state_affected_delta": 0.5343279993399999
+        },
+        {
+          "label": "mlp_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "641855076dfa46a3563f6032eaf53cfe335f78d7d49d1fa50376a26768ed01a9",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.0002750964782374003,
+          "mean_absolute_state_affected_delta": 0.018350123180689196,
+          "max_absolute_state_affected_delta": 0.133825749404
+        },
+        {
+          "label": "mlp_full",
+          "kind": "full",
+          "source_state_sha256": "ace480b9dadcaa4f2c9ea19907975e52973b6ce14879da6018fef8b7a96bc51f",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.003179218446419573,
+          "mean_absolute_state_affected_delta": 0.021037135446502077,
+          "max_absolute_state_affected_delta": 0.11528852489700003
+        }
+      ]
+    },
+    {
+      "destination_arm": "alpha",
+      "history": 12288,
+      "direct_prior_max_token_delta": 0.0,
+      "conditions": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "374f573dac5ccaf9b5f42b271c36e82d9eb8e3c6675ab2ef98f778cc5a21d195",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.007072973216663507,
+          "mean_absolute_state_affected_delta": 0.024810200119721765,
+          "max_absolute_state_affected_delta": 0.34964244404999967
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "a37d040cf688d43c4cdfecac293ea8e0458248c3d9caf65180612f845ea050c0",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": 0.008189957254956142,
+          "mean_absolute_state_affected_delta": 0.02568540089314494,
+          "max_absolute_state_affected_delta": 0.4169699395100004
+        }
+      ]
+    },
+    {
+      "destination_arm": "mlp",
+      "history": 12288,
+      "direct_prior_max_token_delta": 0.0,
+      "conditions": [
+        {
+          "label": "original_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "374f573dac5ccaf9b5f42b271c36e82d9eb8e3c6675ab2ef98f778cc5a21d195",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.002350587201101348,
+          "mean_absolute_state_affected_delta": 0.019318794433475527,
+          "max_absolute_state_affected_delta": 0.14827815376300002
+        },
+        {
+          "label": "original_full",
+          "kind": "full",
+          "source_state_sha256": "a37d040cf688d43c4cdfecac293ea8e0458248c3d9caf65180612f845ea050c0",
+          "aba_max_token_delta": 0.0,
+          "mean_state_affected_excess_nll": -0.006136125508524631,
+          "mean_absolute_state_affected_delta": 0.025976045621732696,
+          "max_absolute_state_affected_delta": 0.24049785802999946
+        }
+      ]
+    }
+  ],
+  "interpretation": "Method pilot on one previously examined book and one sign seed; reciprocal/full and unrelated-history controls do not establish a population effect"
+}

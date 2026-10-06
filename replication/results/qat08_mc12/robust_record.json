@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "original": "Answer with only the letter (A, B, C, or D) of the correct option.",
+    "give_letter": "Give the letter (A, B, C or D) corresponding to the right answer, and nothing else.",
+    "pick_choice": "Pick the correct choice. Your reply should be only its letter.",
+    "output_single": "Output only the single letter of the option that is correct."
+  },
+  "files": {
+    "original-letter": {
+      "file": "robust/original-letter.tsv",
+      "sha256": "2e5950961a5ba106a33df4f09d469d58b8f39cee214ae6ccab3aec0a7ea9a0d2",
+      "cases": 1508,
+      "source": "results/diag_readout/cases/letter.tsv",
+      "source_sha256": "2e5950961a5ba106a33df4f09d469d58b8f39cee214ae6ccab3aec0a7ea9a0d2"
+    },
+    "give_letter-letter": {
+      "file": "robust/give_letter-letter.tsv",
+      "sha256": "e7b09a796580914b9f7c50d7f26636eaf8606d702689b64d3f3886a392bc8049",
+      "cases": 1508,
+      "source": "results/diag_readout/cases/letter.tsv",
+      "source_sha256": "2e5950961a5ba106a33df4f09d469d58b8f39cee214ae6ccab3aec0a7ea9a0d2"
+    },
+    "pick_choice-letter": {
+      "file": "robust/pick_choice-letter.tsv",
+      "sha256": "f307655172d2e17e8d4695c726b8bd319424b487b378a105c1357a9a84d889b3",
+      "cases": 1508,
+      "source": "results/diag_readout/cases/letter.tsv",
+      "source_sha256": "2e5950961a5ba106a33df4f09d469d58b8f39cee214ae6ccab3aec0a7ea9a0d2"
+    },
+    "output_single-letter": {
+      "file": "robust/output_single-letter.tsv",
+      "sha256": "55ea96e583f1a2ec0ff45773aa3988c6adbc8c2c3686a896d578377717dfff91",
+      "cases": 1508,
+      "source": "results/diag_readout/cases/letter.tsv",
+      "source_sha256": "2e5950961a5ba106a33df4f09d469d58b8f39cee214ae6ccab3aec0a7ea9a0d2"
+    },
+    "original-binding": {
+      "file": "robust/original-binding.tsv",
+      "sha256": "2e7e2fe554eef6a7dc6e9d2cf7c4a8a3c23bbf2db34d99bc62a0f531ae3874f8",
+      "cases": 400,
+      "source": "results/diag_readout/cases/binding.tsv",
+      "source_sha256": "2e7e2fe554eef6a7dc6e9d2cf7c4a8a3c23bbf2db34d99bc62a0f531ae3874f8"
+    },
+    "give_letter-binding": {
+      "file": "robust/give_letter-binding.tsv",
+      "sha256": "e429243c0b29b273898d0c71b53d7dcef5ff1a9e544d80617ddba937c5fc4551",
+      "cases": 400,
+      "source": "results/diag_readout/cases/binding.tsv",
+      "source_sha256": "2e7e2fe554eef6a7dc6e9d2cf7c4a8a3c23bbf2db34d99bc62a0f531ae3874f8"
+    },
+    "pick_choice-binding": {
+      "file": "robust/pick_choice-binding.tsv",
+      "sha256": "cb6f35f587aad39737cae2baa4cb09f18d6b8fbb0cd52d9d7c54198e33086feb",
+      "cases": 400,
+      "source": "results/diag_readout/cases/binding.tsv",
+      "source_sha256": "2e7e2fe554eef6a7dc6e9d2cf7c4a8a3c23bbf2db34d99bc62a0f531ae3874f8"
+    },
+    "output_single-binding": {
+      "file": "robust/output_single-binding.tsv",
+      "sha256": "3a8b1d4276f0378c11fb774e53d7ffab235f76a14497b5d1f2c5f92c25882b4e",
+      "cases": 400,
+      "source": "results/diag_readout/cases/binding.tsv",
+      "source_sha256": "2e7e2fe554eef6a7dc6e9d2cf7c4a8a3c23bbf2db34d99bc62a0f531ae3874f8"
+    }
+  },
+  "diag_plan_sha256": "8c08c1fefc15b782b61cc1d2c983504b396d4b7ec880fe6510749459c6e5b41a",
+  "order": "same case order and option/letter order as the diagnostics dev files"
+}

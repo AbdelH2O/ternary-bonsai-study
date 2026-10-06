@@ -1,0 +1,1230 @@
+{
+  "freeze_sha256": "493926c0a24b5c6976683327e1b2b97498ae4bf6d55ff1970c213cb1c614f1f9",
+  "passed": true,
+  "captures": [
+    {
+      "case_id": "emma-p30000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original-full.bin",
+      "full_sha256": "4ef6b9024d875cd74b0d3cc08f137497a11194656e2dcd16fed800681fade03e",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "3ff2c093c748fe09d81ec488f97e9d22bd151d6ff6cd5c99dafaac69f18ebc18",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original.json",
+      "raw_sha256": "8c97c1358b7c42d72d725ad2722cbbf3d63392e1e8980ad03e158846e7ac1be1",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p30000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha-full.bin",
+      "full_sha256": "cb1e4934200729a1301d9ef748ff050093d6294275c19b17b3b41b74d3b14cdf",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "30ef97979e9e3bce4bf94e8c8ab5748826c33dd321d217a0d65c607f80c33696",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha.json",
+      "raw_sha256": "db832092208e07a5e23bdcd06b2c113ae08c743617b270492245a696eafa64bb",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p30000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp-full.bin",
+      "full_sha256": "a52254f72ba11010e918f4bdf8327b89722b2cdf86ab1f051987b1191127aaee",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "921bbfcff6fa323ca3dac26147162e623919d84a544e4d9c332e3f3a3f14039b",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp.json",
+      "raw_sha256": "c70970ac5e81b226c788dfafb2e2c41d4d9df2e133eb93f95fb8c5b6621d529e",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original-full.bin",
+      "full_sha256": "b65853210f63349ece6a8eaa0f33bb44f24b9c1580985bb4406f45d5211a4fc7",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "dc5363b1b330a483be6b403988d65f7b352ebb019f5688d65b2d460523ea45f2",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original.json",
+      "raw_sha256": "85c9bcd1a9dcabca9c1c399607a6f2a21360b6f1defe0a8baa397c078d2cfa44",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha-full.bin",
+      "full_sha256": "5bbec6f8102860988be217f3541d4dc624c46c4f92948b8bc6893b2b50211eec",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "b0841cc19060936f1b1c5c8a8c93b1c8efd148645d8aa6f7141fcd279bb3d1d0",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha.json",
+      "raw_sha256": "e06ceb6583bdbb3a32d30e788f414f75603d7ffb145b2e18ce06905dc829fb6c",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp-full.bin",
+      "full_sha256": "fabf09a68777c5c1b99f32133efff8db02fbaa8b7ad19791c6d751460f08ffa0",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "0f2494d0446b9b764f0d5c21aae9b8dbd7275646f8b182fadc076af57ef4a823",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp.json",
+      "raw_sha256": "59b628069aee6adde89ac48cfd1ccb2f1fa9e24ccb7ca85f31ecbcd373e7f556",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original-full.bin",
+      "full_sha256": "d0d26cbdaa74a0926aa8bd54dd2776644a9cd2c3bf2c16f089253e65e2dc0d86",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "c96a8a3a5fdb0da46ba289a300286680908f67b687a3cb31c4ddd3b4d9fcd29f",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original.json",
+      "raw_sha256": "790c6c73542b7e680a3530d5c80a0c7fd9f26d4a9177aa69b75988a9bd73f8bf",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha-full.bin",
+      "full_sha256": "33d2fd249e3892552dee72ee1ed61d58c6aafdb4ed49ae60a8366dc3e8e1343d",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "0dcacc3013705c64bdb450c0f3f2660dad74eb5da027c7487b6333a81e2ea262",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha.json",
+      "raw_sha256": "3b30280db3a39dbcaf3248106fed6a941f9ddf24990f3af1e0885e1fb64eb4b0",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp-full.bin",
+      "full_sha256": "73d2cab94bec8b47d46f80d089eb4a0d361755d36abe6c477987912e38b98cdc",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "15aad7e55a7bb53e161faaf95aac13eee19479b3feec1d17c46e407a95284f11",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp.json",
+      "raw_sha256": "94972d677755553474603ff136e7470931fef70522bb28b800a985726b1db651",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original-full.bin",
+      "full_sha256": "70760ea28859856b043d0891de1582df786c1c4601e62e1f0d79579681130471",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "0b050e292d067537c8188a78a19b4e908cd05427676846af25f0b835e8ef49dd",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original.json",
+      "raw_sha256": "99207e75ad501259c8384162ab1b6987906ff83887ed60eebaa5b672bae5d230",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha-full.bin",
+      "full_sha256": "01bf05075339cdf71e27ade51f76161ea4cf2620b99988e743559b9aa3f5d0b8",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "e8f451a2ebbe925c6e15a35bb00309023fafda1cb9b88362e09a4fcc8b656516",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha.json",
+      "raw_sha256": "1537e7f67e39f60dd731581cdcdcee73f6c3a918f13ed195293afc5a4d58d5c9",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp-full.bin",
+      "full_sha256": "1a78bb7157cdc4501e863534f1c7dd86959f2191bfab65c92ad7f3014a374f95",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "4e3b7bebfc2b80842aed500e6c33d1bcd9fc2e22cc04cc10070c9c38ee7b6ced",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp.json",
+      "raw_sha256": "a1d50523a513f70d941db09f0ea7858d187840abcccf1f4896f9fe7ce3c2f112",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original-full.bin",
+      "full_sha256": "ca419c5a60420289bc9efd0b999686bc61cdd5efbc88777b9a71c6ad66a6acde",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "e78a27aa498ff0b707259156b0e9b93457a80225228d148028e95f63975beb91",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original.json",
+      "raw_sha256": "13ac082a305f2dfd61c8dd19048c3c38952bb58fe36c8b2d5247e3e084d48c72",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha-full.bin",
+      "full_sha256": "45a617f1e694c5ca8d477d80805fa05c7714ed09447fec8845e1ae38cb2b77fa",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "4831b0241e30ec9ce215dbee600d660f8ad5cebb70af95c0e02d0540d2931bb0",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha.json",
+      "raw_sha256": "3e9dead6e77bbd75e6b56f2d3a429f3334995284208ef99fef607182633ec140",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp-full.bin",
+      "full_sha256": "663c8e487caf20fcf384cf187cf0fac0a294d3d1fce66778e53067c0f9fd7d6f",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "c75dbaec1a64ea7d233c2bcdea5ada8d8da833fa57b3959401a078d66f427e43",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp.json",
+      "raw_sha256": "642a6e97eae0d25aa4ee9b03b1e182f6efd2989593cc42fa319052dbd65cf26b",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original-full.bin",
+      "full_sha256": "3c5d6aa5830b7a0cfb569e010f15eb6113135ca8355d4eee96ab1a0b866c54f3",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "bd4cd19df07ca765160241be5c2a6e075518bdd88008fc9791eab94abefc6c73",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original.json",
+      "raw_sha256": "76acff459f4aab55b09886e0d42f271df5be8f9ab88a5aad697acb1f26df6f1e",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha-full.bin",
+      "full_sha256": "51af83e15d30c2d78744ae19db066a995b27b6b598ea90f978e35d5f078dc780",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "4b916c4d15bc1e3ce170740c03295ae6b022bbc4b93a94cb0f80e3a2d7cb59c3",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha.json",
+      "raw_sha256": "7cf11e83b11593d3e3b9b082c8be658c0b90c2304a5a75c7d9d0f297978b1885",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp-full.bin",
+      "full_sha256": "c5d9c34c22aa6887714d7dfe0bfb929867cfdad70a50ea2280884238b339174c",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "626c828bc089b5d646d7f52cc10fb8ea5041b2b1789cd576bc350b1a24387dd3",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp.json",
+      "raw_sha256": "259fb87e42be84f99d9c28782098484abbe9e3eb394d51ee916794ac3ed1dca8",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original-full.bin",
+      "full_sha256": "fd9c5e4303b1eeebca661d159a69891380b2727146b83f3219e3b67c52ff4a9b",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "a495a937b3cdbdeff88b0cdef016debd85e77f5dc80838cd5f45189cb402d9bb",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original.json",
+      "raw_sha256": "99ad6a00024ec069d3e8157434bcaba2209477f911ac0d67ad687720426beab0",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha-full.bin",
+      "full_sha256": "b3ff76eac4ae79343c368aae3af0a46c785665146f095d07c7a3e3f06d28e262",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "2fc302721e4216be3cb435dfcc86a94e677223c450dc9e3d55826659489a4d92",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha.json",
+      "raw_sha256": "b0d1a073d6921c2da6eb15d56573dde012b213df4f75e40272ff63ab49b12fa6",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp-full.bin",
+      "full_sha256": "2f7f02a5c96b047bced3f130fe6dccd877dfd87e7183d6638f5c4b5d5da6ea65",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "812daa4600a63cf76665bfc3425f845c425fd29838c09e105916a6078d773f1e",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp.json",
+      "raw_sha256": "01af651edded406aee6bd6face0cb8354832a7d396fdf85614d1879b9f5cd624",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original-full.bin",
+      "full_sha256": "ba661cf49b3178cb4c9347029cc1e748824313be57e96c13ff20d16f057e07d9",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "a26190e6cbb14cdb2803960a74980cf643cf61522eb85aeb38e89f226e89379d",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original.json",
+      "raw_sha256": "164b4e6735a4c517b268d546dfee43dc10e04fd2217cc0ff40f8c00a16b487aa",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha-full.bin",
+      "full_sha256": "3bdd604451993c3b98cfccc240dd3581d059763d32ed584c38a7745ad63f68f1",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "8e732800d1bec0a8c357593010cdc6b9d0bc17ed0421fbb289cf7af048834af1",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha.json",
+      "raw_sha256": "f8ac9e9823bd5638a4fbd1d368d8aa50638b173fbe54d914ecfc3628bf0a91bd",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp-full.bin",
+      "full_sha256": "8797b83a26d5a66a8700ad392eb11695d90f11725a2ac8ba01ab55ba133ad737",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "bd83a8ccbf1e8983c89cd03b4968863beb40706905701251916b91de0a3a6d67",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp.json",
+      "raw_sha256": "dc20ea138690ae7c553e10c6342b5d9d051b5c2500fe0e70a58e90d023f9d5b1",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original-full.bin",
+      "full_sha256": "72c0bd15e5d231edd3c47840409a59b091bdb63664ba68dcf376bdb5e0982db9",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "46f6045f9d429668da256c722c1bd8e1d7afbb57cf98430fc3f5abb600a43a62",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original.json",
+      "raw_sha256": "ea3946d1a49355bd44a62615eb848e52bd6060220df274d72706b050ca710d9c",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha-full.bin",
+      "full_sha256": "054f606f00c38d95e366032b796cc97a370d7b7c3cd8ace81e4599fcb37c7e8f",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "6aad3a2f33b0af09bcb164bcee381a7e9511a295d910556a45aa59f397671f31",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha.json",
+      "raw_sha256": "603bb7ef5e92cef2bdcb11d0f84f685551431aac634c382f52219ceebdf2db9a",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp-full.bin",
+      "full_sha256": "14cb382c98f80804f785ff658b2360b9952c644f087c7be403ea5924e7cfe07b",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "fc65d04cd631ebf321702aa5914f989b1b4bfc46c79d85775a078cf30e40e1df",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp.json",
+      "raw_sha256": "2ebf729cd8f3bb50410ad893bdcf6ab75e29c7569c37f27e54793a59c42275f3",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original-full.bin",
+      "full_sha256": "473f75ec6ee7bff73b6e268b775b5bc94a5b260e2717f1b8a19c46b337891447",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "c3fb71aa8b39454bb2d0782057a10e90dc434f7253b38f68f1d421eed1825432",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original.json",
+      "raw_sha256": "3dc89ea1d78120616cdb8565c9d21788d212f34546b4107b7c41cf4c8fe97b9f",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha-full.bin",
+      "full_sha256": "6ff255ce9a00d1205b878dfd06a40edfa9b8bdcaab7cdf0cbea03fae21351483",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "1a966cea473cbfddc4e45d8446a8bc9268ae768cc67c4cc0f2b879e2c9c32648",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha.json",
+      "raw_sha256": "04397a608d32bc385601cb4ef466ccd7b4f5c366f5ead5f9a8595972186d0968",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp-full.bin",
+      "full_sha256": "87d63828cbe9dc7dac1f99e6ac3a7bcfe615d962897e81dc6dd5c632e07fd37b",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "a2787a22022b812cd7ff45d9b4d329a50be634a07f1b915646920123dda256ef",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp.json",
+      "raw_sha256": "9fd05dd212e396680da340464b78b81eadba511ca89fa477b3cb8abe12eb8481",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original-full.bin",
+      "full_sha256": "952d4d4e486791251e9fc65d5fb2780fbf188e1625851c99a40d6061e92dc781",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "576689c36ccb2c177435e6b63095ddea14e48d0b657c9f2c78f9f2687f802a5e",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original.json",
+      "raw_sha256": "abb4e7b765922381cf646575b0237c9f9df871eae6cbcd4a49ebeefeb3505a42",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha-full.bin",
+      "full_sha256": "dada7c4c404937802575d1ccb46bad24415f02db28c11d1903d8feb364dc45a5",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "0b2820ad4616364c02600a7fd72c16577ef2fc7395211d9cc002104765cd929b",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha.json",
+      "raw_sha256": "27297d485f10dc92b029497f07571f39971a6d1ee964340eaa892f13bc5a8e3e",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp-full.bin",
+      "full_sha256": "f8139598e53fbb06216d14b05416d1422e9f821d7f18ff2ac7fd9f01a0aa0806",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "d02fb7b7df850e33fec51d44c684b99e14adf06cfafe5196036ef8111dbc5507",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp.json",
+      "raw_sha256": "9fa17b875d72f9d77cf90e5c8e82677b76a7e131e3f055d1e9ebf5b22187fbef",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original-full.bin",
+      "full_sha256": "00fd5ee80c74b0470713b6da08e9455cb678b0eb96b0ff1ed8afac8fa51c8ab2",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "25ba4107af9709a05a4c38de52ed9aa135edcdd58228d147ea630581e7a3edaa",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original.json",
+      "raw_sha256": "dab016f0f6c5ded86abf684a230f7bd8b870780d03541d2a28e47025431c6811",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha-full.bin",
+      "full_sha256": "df30b01c65d46965760c45b42e4a84babc80416e46c919cb6ee9081c3afdbc69",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "28f294b0250861144a24864d7af7aa78276ae2599855568140a411882ac3f5a8",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha.json",
+      "raw_sha256": "b53ffbbb6d3da5668d7ad9072d17367787d6de992f156f44951267f33b3b2b28",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp-full.bin",
+      "full_sha256": "0fe2a2fbf5e3458e100d53862ff3d529036008d7f7f2b0ce4b09febb219d3e0d",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "e714ef585c1c7730e51ce0b8278ab0f10c6e83815b595ba5b985306f29257aff",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp.json",
+      "raw_sha256": "4c70b098e6f58fec39717ad44a2482a0690b0f9c8f2e3980f228f47f6f624031",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original-full.bin",
+      "full_sha256": "b8464a5ccb7af5d052e19605b1bd573da380d152d68a3946fc3e5b743e685230",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "af710f541c5975cc33bef088b146b345eebbef1df67ead49045435fbbffe48a4",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original.json",
+      "raw_sha256": "b208a32b5a58c6578fc896535e6d0377ee87349e16c4b05274ab84f24cf2884a",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha-full.bin",
+      "full_sha256": "f9352bef9bedcb126ecc5a0032312567c913e7aeb01e2c50ae4ed56b9f0e899c",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "734385db2c2ba8d6c96fd7a4610dbea32adf08f031befe58412250adb1ec5f54",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha.json",
+      "raw_sha256": "12ca543ba1a1d03b32594b7980e931a1e77a634305e9cc56a237ecda21833f77",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp-full.bin",
+      "full_sha256": "a824a79e89a21461ff7626dc50be3123a0120a9500772221f449b38efc596f66",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "2728e42f1e6dd752e45ec55da961e9cca6e6d00b50163e6f79fa65a74a1f25ee",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp.json",
+      "raw_sha256": "a7bcfe8fc92a241c45a020af3d3b032ba207e999470870460e02ac34a890277d",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original-full.bin",
+      "full_sha256": "af6e815cf480a1df1fc6a36e22e601c6d335668d8ea7c044504c44e3902173d6",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "1b498f0453a530e85439462c8a7aad6538aad6837cfa004d01c7e73597ce7079",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original.json",
+      "raw_sha256": "dd13d9e5ba09cf52b7849c01dd41d4b8fbc9503c51e7f680e2b7cd658ad79251",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha-full.bin",
+      "full_sha256": "71257b151ecfdad4b576527b11371d66601e8d18564c66d0e78ad4e65fb60aaf",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "4a23d28ce499a5cd66ca101be2dfd260a847a54ebffedb8218f67a802235a368",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha.json",
+      "raw_sha256": "b5052203e0272c7c6c3afc51a8fa40802bbedc516af7bd91cb21892d117ea819",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp-full.bin",
+      "full_sha256": "fc2b3b4c293c817818adf78cd907cfff1d6740642d9b9a700c19e00ea294f28a",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "4f5a0787b1d4c9252b05bccd02cd83fb4d0db528eb8ffa690555e1bcafdd1059",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp.json",
+      "raw_sha256": "788db54d49db4b02fca38a97d3bb09326da5dd6e75a3ff17cc805fc17f749ae0",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original-full.bin",
+      "full_sha256": "c0c80feaebbd71eb4a237c564ff05a7f6305585cc79df99677d8339b29aa618f",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "d1008416d830b46dc289f4404fd12bc8e880909f72f47b2bbaec82bcae3f36bc",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original.json",
+      "raw_sha256": "968158895077092682e71e9677ae81bd1391920b8259362ff951cbf221aa4721",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha-full.bin",
+      "full_sha256": "06a79b7f2da4544c0ccd55d0661f705fec5ecc3073ab03bd931a1e244ba20ee2",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "f9db7ae31e053054fb959c7f0638b863e2c09581f193c2b6b9122befc657f80e",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha.json",
+      "raw_sha256": "bbe3fe10722ec52f3e5fd4a57c04fed7c7ad4a047ce58d1a94a5260af4db3da5",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp-full.bin",
+      "full_sha256": "61d90be95698ccb9d79bcf9a940479f040e9cc2378ab02feb4cf65553dd2f51c",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "60397e93fea1dbd75b62fd71c04ed3a07e08aa79030c9319a66bee149bbd0df7",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp.json",
+      "raw_sha256": "f6c7b744274dc1d5936752e98e964f0334c005c26b72e9ccc122443419588199",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original-full.bin",
+      "full_sha256": "7e10eceeeb8712d7fce4022e2c2561b75b2d120393ef7a76600f831ba61c233e",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "4f5f18b857b5f0c16e36d2b608c61259ac4056de41c6c17f1b97c69e678d5c20",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original.json",
+      "raw_sha256": "46c07cb51745745e5da7bae0c93b9409c55a0906bc3f5512741c7fca4edf3cbe",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha-full.bin",
+      "full_sha256": "6eb33f905fca1404fceb4cfacfed2586750ab20dd7af023aa042902e1807e414",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "878c88865f8bb220af7a159a2741ce7480e7bb04ca3d55c30609060eb64705f2",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha.json",
+      "raw_sha256": "4f85ec3a26e6c7c00b407718dcbb724bd356c6ea1dccd4777c3904c14d052d28",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp-full.bin",
+      "full_sha256": "8ebea10a60e827117a9c14737df58ffd4f6d31b10640a92134d5d92a6a1bfa6c",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "eea9d911cf17fc31055b02c21adf5665b97d1fb431d8eccb7ca36c96813e25fa",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp.json",
+      "raw_sha256": "fc56ded4a0e965d14efb3c97a46432a8bd201f00e8c44ecd78e1c46479af6837",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original-full.bin",
+      "full_sha256": "801acb93c63dc3404d34a7ceddacc8881097e148fcd2c7f86c50acbf8c4f3a3a",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "17cb733fb8a6ffbb3ed4896b1be0a38924b2540fec13bae539ac3356052255c0",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original.json",
+      "raw_sha256": "7d7675d2ed2267b284995c43b93e965396a2219b588f7b3feb9dfb6b84c54c4e",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha-full.bin",
+      "full_sha256": "503fed5cb062c1133e69bb1451d82fe98403c9dc32ae9352df6c355a16643d37",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "06e60f87e2eede5e7ddef6592086ab2ddc55c4eee1bfad5f6ef82fb66759a1d4",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha.json",
+      "raw_sha256": "bf27cb9d87b4a90802999e808cf7ad279b29e7b43e1981549cb3b211ca9ca064",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp-full.bin",
+      "full_sha256": "0b59bc1b651a1d7b5493b76469545c97c5e245973a4fa619c6f55107a3ee4301",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "762056d627f82378ec5f975bc99659aa7300c52896e42681b850b8dc0b1c2cd3",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp.json",
+      "raw_sha256": "56588a51e7136781f0546c4262ef8e77a82888c9927b09331ab471f874484774",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original-full.bin",
+      "full_sha256": "ca1e9bcacaa0ccee0f432dff5ea8f24863b2e8271d63900bf2df75dabc5e9f29",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "3f8c0b7277395f3c7b9d327d3caf426c0db3f17144ad34c31ab584def87fe004",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original.json",
+      "raw_sha256": "7683d8873d3445a9e904b9f3925ee90013d0b6a2374374011bf28f610ee076ab",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha-full.bin",
+      "full_sha256": "90288fd121aa75895eee9a5e90184339ed045f0e7d89df4245b50509ba3f2a2d",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "e22428110af22d3977f706d0cbde6e3d27d63f42f000be16e30bb88734c8ba5d",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha.json",
+      "raw_sha256": "7978b660ebf3dfb4493a0573298034a85ba106356ee755c307d3e8555c58fad0",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp-full.bin",
+      "full_sha256": "594c9d1d1d35570e696887942be59e10c7fdd108eaaaa2c56c93b53e39b8dc8e",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "fe12858e88d688bd88877341f7153fb26d596316768de461164dbf541977f826",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp.json",
+      "raw_sha256": "8cfc05e50f808e3adccf13a46d5d885cf09bd100f419450959716f4f20e6cd83",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original-full.bin",
+      "full_sha256": "d2607da46b9a09f97d5e235ba443b09c907890d577f2322fc97551e10b23d3fd",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "fc2549de3974caba1135c0f1767d0543798f7cbbe7696e0e2f1f8edc12e29a82",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original.json",
+      "raw_sha256": "5542133185b40147adda04c6d12a08f7c5c8a17de2cd3b4cf24c63ca6bc59a97",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha-full.bin",
+      "full_sha256": "3eee4339dc87044242bfda4c8bbf4b639db9ac3ba5ab21775b677a2453f0015e",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "fd309286f47900cbb73bc3781e0e20dec31187e95c3b4da1fc9df27b6466e358",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha.json",
+      "raw_sha256": "94ed04bd385ab6d39295368eaf9a5bb14eceb7a74656246a055e8f39239c713a",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp-full.bin",
+      "full_sha256": "5f046894ebd198df1b64dacbea14514aad1a7665617ed83d2d9f5cef3dfc0545",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "04568a80ed812e55f5f6b5326152d6b646a2062646a6d847539226f6a80d4c1c",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp.json",
+      "raw_sha256": "df810068e6e0f4d7c897a24f1f43ef160b3cebf883281a33c8be965bd82e3355",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original-full.bin",
+      "full_sha256": "611322ca86b4f7316e902315f9fb159cbedc3a6d31071953cfe4a622dd314406",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "ba0b738a3fde7bdaf3658e2b8493af9943dd82f3fa7e73b0f4ae75148ec28187",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original.json",
+      "raw_sha256": "7da7f8418487d83857ea92587c2773a10e9f6ffafe2caa8087ff5e4589f12d69",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha-full.bin",
+      "full_sha256": "e940ab1bad648f184c33ee38c4626e9167031923fd2bbf6886b71275b23f7b6c",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "75b510f21f21d524e82cf225b7ac8f0106e61976fa86eccb6851abd049c970a8",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha.json",
+      "raw_sha256": "9bf98a2d6097219ab7e1dc533a0e1a5e2438f9893202d64829e4c1afa890229c",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp-full.bin",
+      "full_sha256": "f00ec60a03f2931e83878c42ade86cad591de4e01abc939b5291529bbaafe78c",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "2032859cc059b7cc6856d8849a331eaa0ea03ea634d2c4ce0a506d9f649604cb",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp.json",
+      "raw_sha256": "091eb83472f72afd8710b0e46172e2a5155fb637edef930b069c2f2c129fa145",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original-full.bin",
+      "full_sha256": "1697b432525959cd9007794558651ef37bc325c9fd3e8bd65e0af74713c39c3d",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "153f09355b4f4b4a2edf5a0464d6aa2a6585c699d1fd63e5c62b15f8cd23c756",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original.json",
+      "raw_sha256": "8443d294f03b13c0149fbb42e4004cc150fb2ca4d403d6015292b596592a098e",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha-full.bin",
+      "full_sha256": "b8f64a9e6f2162c2bff2d0ea23032f29da09d0b4ed62f7ef8109828ff4cfc3bf",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "87a16defb90d703a10cfd308c5f8aaf2244592476d9c218bf6e8ef1b8b4f72b4",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha.json",
+      "raw_sha256": "3140918a84d5d446909a725309cef2e86199a728e2c14eb2310c0fcfce2b00f0",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp-full.bin",
+      "full_sha256": "7699c780ddaacc6986fd2d0a9048c882a0aeec400df13182273482d9cba4a521",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "0f6c3f943dacfc480b90d2fd09211395bd5396f15a2b6d857a744cab463588b4",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp.json",
+      "raw_sha256": "7b3bbbf58312229132caa46070f07d25a15470b813d91d9e5fb05b3593206514",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original-full.bin",
+      "full_sha256": "a5d29827bbd0e4da04ccb626bfdafae6e3e342fd602e908f8e2605cf8f65dc2c",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "2c6fed5ef1b06e858c53f98543d8c64a654ff1d95b5de7c6072dfbb151858340",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original.json",
+      "raw_sha256": "892380c404d551fe9f8831fd5095ef7221ec814848ba62779ef6339a3e0e79a9",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha-full.bin",
+      "full_sha256": "935f27cc173ff996296d3b15e45e7b4de3ff0a42bfef6f91271f1b586124d6f6",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "ad1551b0df72f49aa76e3ef95ff1ff57da6ce1c4df4161235d94281c6a07a889",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha.json",
+      "raw_sha256": "e01be50cfef2f8446754da932b97d6d5b0a1550df573ea2572345b1f507764f3",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp-full.bin",
+      "full_sha256": "050f5161c1aaddec23a872c21eaea12a81310a857e56d9a5875a71c29101beaf",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "c44e3158305afe5f2c5122c36d32fa8170b1999319b0410124efb03810ebc62c",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp.json",
+      "raw_sha256": "0acc63d3a131b12d21ea67710f24fd44f4a92c46b1b8b71918e7574e2965e125",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original-full.bin",
+      "full_sha256": "a98368239db4fd5543aae70d8ad315db8d4f6b608ceb3e400c1f522ebe7e6af0",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original-recurrent.bin",
+      "recurrent_sha256": "04e11b89466a2e4a7103e2723c367cdd27be05bffe953b7ea1961124814f0c1a",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original.json",
+      "raw_sha256": "d17fe3a02b511fa4ccb56e037dc69e4b5c8b779f858cbb88c12d7b352312a9fb",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha-full.bin",
+      "full_sha256": "4aa3eb0e77b42ca519795f3e6584ea5ae2e233389efd2180ebe82eb83089724a",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha-recurrent.bin",
+      "recurrent_sha256": "ad2984151134ba24cacea0c8e3419d6969344dde388f11e96333d1d6e9a89243",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha.json",
+      "raw_sha256": "c2df4ddac2e754810c77bedbf24c89946c4e3810e195270bb2065d7e0b6b1742",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp-full.bin",
+      "full_sha256": "65bd499e03d5df7acccba8b55733ad2e481a6358f327ab34a48c4ee4cc7645d6",
+      "full_bytes": 224024108,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp-recurrent.bin",
+      "recurrent_sha256": "b6459f286a8a0edbd16a3f6a9fe578976d81656b8b15325a1d6033953195ef9a",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp.json",
+      "raw_sha256": "13d69f207d2697733d4c71fa53f2d80e7011af89a5f4bbe75d84399e641b442c",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "arm": "original",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original-full.bin",
+      "full_sha256": "072feb76513b2fa9694fb9d5dd5cbcf2c2e83020f621b1ce9b2a646d9a7f286f",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original-recurrent.bin",
+      "recurrent_sha256": "e20732641b8978ec41e9ed0e7bad883e78cd577fd9c86d8726566138a98284a6",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original.json",
+      "raw_sha256": "9efbe4bc8739cf1e5e68d38e5a909484eb6b8c8e83eb627cc2c30936dca65325",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "arm": "alpha",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha-full.bin",
+      "full_sha256": "159af06a6be0a88be64f47e493c2fa53952a9b9f6cd113689be1e65fd4df0c68",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha-recurrent.bin",
+      "recurrent_sha256": "9017631470b3443e6573f8688d6a723e83a6cbf9cd6d4bada2341239aeb89661",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha.json",
+      "raw_sha256": "77ba51b8be9ce0de52768accf99a74749de2c28c47fa9844bc5b6053154df5de",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "arm": "mlp",
+      "full_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp-full.bin",
+      "full_sha256": "2375246859165b103ab7601266a64e62d5074b8f16b6f2c9dc0fdb2389484b63",
+      "full_bytes": 962446892,
+      "recurrent_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp-recurrent.bin",
+      "recurrent_sha256": "ebed26bf536575ec842a427b4de73f416f7766ef96be243da121732daf4555bc",
+      "recurrent_bytes": 156894364,
+      "raw_path": "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp.json",
+      "raw_sha256": "6606529e6f14d600f3e83e9333ad7a084aba08c2766ce9956b273c8c4f187e98",
+      "checks": {
+        "direct_reference_max": 0.0,
+        "full_roundtrip_max": 0.0,
+        "recurrent_roundtrip_max": 0.0
+      }
+    }
+  ]
+}

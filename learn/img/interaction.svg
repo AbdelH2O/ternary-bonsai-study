@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<rect width="860" height="420" fill="#ffffff"/>
+<text x="430.0" y="30.0" font-size="17" fill="#1a202c" text-anchor="middle" font-weight="700">Difference of differences (interaction), measured held-out means, nat/token</text>
+<line x1="90.0" y1="310.0" x2="490.0" y2="310.0" stroke="#e2e8f0" stroke-width="1.0"/>
+<text x="82.0" y="314.0" font-size="11.5" fill="#4a5568" text-anchor="end" font-weight="400">0.0000</text>
+<line x1="90.0" y1="250.0" x2="490.0" y2="250.0" stroke="#e2e8f0" stroke-width="1.0"/>
+<text x="82.0" y="254.0" font-size="11.5" fill="#4a5568" text-anchor="end" font-weight="400">0.0025</text>
+<line x1="90.0" y1="190.0" x2="490.0" y2="190.0" stroke="#e2e8f0" stroke-width="1.0"/>
+<text x="82.0" y="194.0" font-size="11.5" fill="#4a5568" text-anchor="end" font-weight="400">0.0050</text>
+<line x1="90.0" y1="130.0" x2="490.0" y2="130.0" stroke="#e2e8f0" stroke-width="1.0"/>
+<text x="82.0" y="134.0" font-size="11.5" fill="#4a5568" text-anchor="end" font-weight="400">0.0075</text>
+<line x1="90.0" y1="70.0" x2="490.0" y2="70.0" stroke="#e2e8f0" stroke-width="1.0"/>
+<text x="82.0" y="74.0" font-size="11.5" fill="#4a5568" text-anchor="end" font-weight="400">0.0100</text>
+<text x="82.0" y="54.0" font-size="12" fill="#4a5568" text-anchor="start" font-weight="400">excess NLL vs original</text>
+<rect x="120.0" y="237.4" width="56.0" height="72.6" rx="0" fill="#e6edf8" stroke="#3b5b92"/>
+<text x="148.0" y="231.4" font-size="11.5" fill="#1a202c" text-anchor="middle" font-weight="400">0.0030</text>
+<text x="148.0" y="326.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">1K</text>
+<rect x="190.0" y="234.7" width="56.0" height="75.3" rx="0" fill="#3b5b92" stroke="#3b5b92"/>
+<text x="218.0" y="228.7" font-size="11.5" fill="#1a202c" text-anchor="middle" font-weight="400">0.0031</text>
+<text x="218.0" y="326.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">12K</text>
+<text x="183.0" y="346.0" font-size="13" fill="#3b5b92" text-anchor="middle" font-weight="700">alpha gate arm</text>
+<rect x="320.0" y="126.1" width="56.0" height="183.9" rx="0" fill="#fde6d8" stroke="#c05621"/>
+<text x="348.0" y="120.1" font-size="11.5" fill="#1a202c" text-anchor="middle" font-weight="400">0.0077</text>
+<text x="348.0" y="326.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">1K</text>
+<rect x="390.0" y="111.3" width="56.0" height="198.7" rx="0" fill="#c05621" stroke="#c05621"/>
+<text x="418.0" y="105.3" font-size="11.5" fill="#1a202c" text-anchor="middle" font-weight="400">0.0083</text>
+<text x="418.0" y="326.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">12K</text>
+<text x="383.0" y="346.0" font-size="13" fill="#c05621" text-anchor="middle" font-weight="700">MLP control arm</text>
+<rect x="540.0" y="80.0" width="300.0" height="230.0" rx="10" fill="#f7fafc" stroke="#cbd5e0"/>
+<text x="556.0" y="108.0" font-size="13" fill="#3b5b92" text-anchor="start" font-weight="700">alpha: 12K − 1K</text>
+<text x="556.0" y="128.0" font-size="12.5" fill="#1a202c" text-anchor="start" font-weight="400">0.003136 − 0.003026 = +0.000110</text>
+<text x="556.0" y="160.0" font-size="13" fill="#c05621" text-anchor="start" font-weight="700">MLP: 12K − 1K</text>
+<text x="556.0" y="180.0" font-size="12.5" fill="#1a202c" text-anchor="start" font-weight="400">0.008279 − 0.007664 = +0.000615</text>
+<line x1="556.0" y1="196.0" x2="824.0" y2="196.0" stroke="#4a5568" stroke-width="1.0"/>
+<text x="556.0" y="220.0" font-size="13" fill="#1a202c" text-anchor="start" font-weight="400">I = +0.000110 − (+0.000615)</text>
+<text x="556.0" y="244.0" font-size="15" fill="#1a202c" text-anchor="start" font-weight="700">I ≈ -0.0005 nat/token</text>
+<text x="556.0" y="270.0" font-size="12" fill="#4a5568" text-anchor="start" font-weight="400">positive I would mean alpha gains MORE</text>
+<text x="556.0" y="286.0" font-size="12" fill="#4a5568" text-anchor="start" font-weight="400">extra loss with long history than MLP</text>
+<text x="430.0" y="372.0" font-size="12.5" fill="#c53030" text-anchor="middle" font-weight="600">The original-model term cancels. But note the 1K bars are NOT matched (0.0030 vs 0.0077): the dose-matching gate failed.</text>
+<text x="430.0" y="394.0" font-size="12" fill="#4a5568" text-anchor="middle" font-weight="400">Report value: −0.000506 (document-and-seed mean); computing from these rounded arm means gives −0.000505.</text>
+</svg>

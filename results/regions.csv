@@ -1,0 +1,13 @@
+block_kind,region,storage,tensors,elements,bytes
+embedding,embedding,PQ2_0,1,1271398400,337715200
+final_norm,normalization,F32,1,5120,20480
+full_attention,attention_projection,PQ2_0,64,1677721600,445644800
+full_attention,mlp,PQ2_0,48,4278190080,1136394240
+full_attention,normalization,F32,64,172032,688128
+linear_attention,attention_projection,PQ2_0,96,4026531840,1069547520
+linear_attention,mlp,PQ2_0,144,12834570240,3409182720
+linear_attention,normalization,F32,96,491520,1966080
+linear_attention,recurrent_state,BF16,96,23592960,47185920
+linear_attention,recurrent_state,F32,192,1976832,7907328
+linear_attention,recurrent_state,PQ2_0,48,1509949440,401080320
+lm_head,lm_head,PQ2_0,1,1271398400,337715200

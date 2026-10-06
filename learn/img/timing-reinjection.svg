@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2c7a7b"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c05621"/></marker>
+  </defs>
+  <rect width="880" height="470" fill="#ffffff"/>
+  <text x="440" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Timing: WHEN you swap the recurrent state changes the answer</text>
+
+  <!-- timeline -->
+  <rect x="30" y="110" width="80" height="40" rx="5" fill="#fefcbf" stroke="#b7791f" stroke-width="2"/>
+  <text x="70" y="135" text-anchor="middle" font-size="12" font-weight="700" fill="#744210">remote fact</text>
+  <rect x="110" y="110" width="430" height="40" fill="#edf2f7" stroke="#a0aec0"/>
+  <text x="325" y="135" text-anchor="middle" font-size="12" fill="#4a5568">filler (~12K tokens) — final 1,024 IDs identical in base and swap</text>
+  <rect x="560" y="110" width="150" height="40" rx="5" fill="#e9d8fd" stroke="#6b46c1" stroke-width="2"/>
+  <text x="635" y="135" text-anchor="middle" font-size="12" font-weight="700" fill="#44337a">"Question: …" + template</text>
+  <rect x="730" y="110" width="120" height="40" rx="5" fill="#c6f6d5" stroke="#2f855a" stroke-width="2"/>
+  <text x="790" y="135" text-anchor="middle" font-size="12" font-weight="700" fill="#22543d">answer (9 tok)</text>
+
+  <!-- import points -->
+  <line x1="550" y1="70" x2="550" y2="170" stroke="#2c7a7b" stroke-width="3"/>
+  <text x="550" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#234e52">BEFORE question</text>
+  <text x="550" y="190" text-anchor="middle" font-size="18" font-weight="700" fill="#234e52">+0.006</text>
+  <text x="550" y="208" text-anchor="middle" font-size="11.5" fill="#234e52">[−0.004, +0.016] → +0.1 excluded</text>
+  <line x1="720" y1="70" x2="720" y2="170" stroke="#c05621" stroke-width="3"/>
+  <text x="720" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#7b341e">AFTER question</text>
+  <text x="720" y="190" text-anchor="middle" font-size="18" font-weight="700" fill="#7b341e">+0.249</text>
+  <text x="720" y="208" text-anchor="middle" font-size="11.5" fill="#7b341e">[+0.055, +0.443]</text>
+  <text x="440" y="236" text-anchor="middle" font-size="12.5" fill="#4a5568">measured: own-minus-counterfactual R+S margin, nat/answer, 8 registries; receiver KV kept in both</text>
+
+  <!-- reinjection story -->
+  <rect x="30" y="256" width="820" height="200" rx="12" fill="#fffaf0" stroke="#b7791f" stroke-dasharray="6 4"/>
+  <text x="50" y="282" font-size="15" font-weight="700" fill="#975a16">Leading explanation (INFERRED, not observed): attention reinjection</text>
+  <g font-size="13">
+    <rect x="50" y="300" width="150" height="46" rx="6" fill="#dcf1f0" stroke="#2c7a7b"/>
+    <text x="125" y="320" text-anchor="middle" fill="#234e52" font-weight="700">receiver KV</text>
+    <text x="125" y="337" text-anchor="middle" fill="#234e52">still holds the record</text>
+    <line x1="202" y1="323" x2="262" y2="323" stroke="#2c7a7b" stroke-width="2.5" marker-end="url(#at)"/>
+    <rect x="264" y="300" width="190" height="46" rx="6" fill="#e9d8fd" stroke="#6b46c1"/>
+    <text x="359" y="320" text-anchor="middle" fill="#44337a" font-weight="700">while reading the question,</text>
+    <text x="359" y="337" text-anchor="middle" fill="#44337a">full attention looks it up</text>
+    <line x1="456" y1="323" x2="516" y2="323" stroke="#c05621" stroke-width="2.5" marker-end="url(#ao)"/>
+    <rect x="518" y="300" width="190" height="46" rx="6" fill="#fde6d8" stroke="#c05621"/>
+    <text x="613" y="320" text-anchor="middle" fill="#7b341e" font-weight="700">later recurrent blocks</text>
+    <text x="613" y="337" text-anchor="middle" fill="#7b341e">write the value into S</text>
+    <line x1="710" y1="323" x2="770" y2="323" stroke="#4a5568" stroke-width="2.5" marker-end="url(#ar)"/>
+    <text x="810" y="328" text-anchor="middle" fill="#1a202c" font-weight="700">answer</text>
+  </g>
+  <text x="50" y="378" font-size="13" fill="#1a202c">✔ Fits: a pre-question swap is repaired by re-reading KV; a post-question swap replaces the freshly written trace.</text>
+  <text x="50" y="400" font-size="13" fill="#1a202c">✘ Not shown: nobody observed the write. Pre-question info could also be overwritten or masked by the question.</text>
+  <text x="50" y="422" font-size="13" fill="#6b46c1" font-weight="600">PROPOSED test: layer-selective splice (S from blocks before vs after a full-attention block) — not run.</text>
+  <text x="50" y="444" font-size="12" fill="#4a5568">Pre and post runs used different CUDA prefill batching, so compare effects within each run, not their raw ratio.</text>
+</svg>

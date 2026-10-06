@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-01",
+  "role": "data-aware assignment arm for the 0.8B hybrid screen; no Bonsai 2 quality or recipe claim",
+  "amends": {
+    "protocol": "results/quality_pilot/protocol.json",
+    "protocol_sha256": "3371fba15bff36a93c456079118d70983463e6e349248ef47fe57ae78f00286c",
+    "selection_sha256": "ed24836c019bb8846e5602a5ea44757e28d5b72156cd573731c0b4a6088aa025",
+    "results_sha256": "66aa4381bd0588923d3cafc4c4468fee3d77ded3eb339a2a2138f82474ac6162"
+  },
+  "source": "Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17",
+  "scoring": {
+    "runtime": "prism-b10735-842b188 CPU F32 logits",
+    "tokenization": "model tokenizer, BOS added, first 128 tokens of each slice",
+    "targets": "token positions 64 through 127 inclusive; 64 targets per slice",
+    "reset": "clear recurrent and attention memory between slices",
+    "batch": 128,
+    "microbatch": 128,
+    "threads": 8,
+    "metric": "mean teacher-forced NLL in nat/token, paired by book"
+  },
+  "calibration": {
+    "books": [
+      {
+        "book": "emma.txt",
+        "source_sha256": "532b122b4e6a76cc556d6fdcd729b5892f5c4ce4a1b7060b9f832adfad8680dc",
+        "tokens": 220937,
+        "windows": 22,
+        "starts": [
+          11046,
+          20490,
+          29934,
+          39379,
+          48823,
+          58267,
+          67712,
+          77156,
+          86601,
+          96045,
+          105489,
+          114934,
+          124378,
+          133822,
+          143267,
+          152711,
+          162156,
+          171600,
+          181044,
+          190489,
+          199933,
+          209378
+        ]
+      },
+      {
+        "book": "little_women.txt",
+        "source_sha256": "677d034b4a3d1cea92d075939878f852a7a3ec757dc9ed05ef0c40cab5c1e6de",
+        "tokens": 258982,
+        "windows": 21,
+        "starts": [
+          12949,
+          24577,
+          36206,
+          47834,
+          59463,
+          71091,
+          82720,
+          94348,
+          105977,
+          117605,
+          129234,
+          140863,
+          152491,
+          164120,
+          175748,
+          187377,
+          199005,
+          210634,
+          222262,
+          233891,
+          245520
+        ]
+      },
+      {
+        "book": "middlemarch.txt",
+        "source_sha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50",
+        "tokens": 441421,
+        "windows": 21,
+        "starts": [
+          22071,
+          41909,
+          61747,
+          81585,
+          101424,
+          121262,
+          141100,
+          160939,
+          180777,
+          200615,
+          220454,
+          240292,
+          260130,
+          279968,
+          299807,
+          319645,
+          339483,
+          359322,
+          379160,
+          398998,
+          418837
+        ]
+      }
+    ],
+    "window_tokens": 512,
+    "windows": 64,
+    "tokenization": "HF tokenizer from work/qwen35_08b/base, no special tokens",
+    "ids_file": "calibration_ids.npy",
+    "ids_sha256": "0b1d9504424adad04ce4bb3d087e8ad41ef63a2e0eefa58048920c01e09df3c1",
+    "disjointness": "calibration books are not validation or held-out books of either protocol"
+  },
+  "new_heldout_entries": [
+    {
+      "id": "monte_cristo-25",
+      "split": "heldout_new",
+      "book": "monte_cristo.txt",
+      "source_path": "analysis/bonsai2/fresh_state/documents/monte_cristo.txt",
+      "source_sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836",
+      "byte_offset": 696808,
+      "text_sha256": "d67ea8319326f93cc6868aab27e9733f1cbf8749531d482a0b3d55f3946af366",
+      "text_file": "monte_cristo-25.txt"
+    },
+    {
+      "id": "monte_cristo-65",
+      "split": "heldout_new",
+      "book": "monte_cristo.txt",
+      "source_path": "analysis/bonsai2/fresh_state/documents/monte_cristo.txt",
+      "source_sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836",
+      "byte_offset": 1811640,
+      "text_sha256": "8c5c1b2eea71049f10614f54a0a09eb2ea2780fc6e2c7db28f1f071866de0500",
+      "text_file": "monte_cristo-65.txt"
+    },
+    {
+      "id": "war_of_the_worlds-25",
+      "split": "heldout_new",
+      "book": "war_of_the_worlds.txt",
+      "source_path": "analysis/bonsai2/fresh_state/documents/war_of_the_worlds.txt",
+      "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+      "byte_offset": 91666,
+      "text_sha256": "3b709e9dbb01f8e7744fe4dbc392d56975e9711151c9a4f6f8301dea5f147635",
+      "text_file": "war_of_the_worlds-25.txt"
+    },
+    {
+      "id": "war_of_the_worlds-65",
+      "split": "heldout_new",
+      "book": "war_of_the_worlds.txt",
+      "source_path": "analysis/bonsai2/fresh_state/documents/war_of_the_worlds.txt",
+      "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+      "byte_offset": 238334,
+      "text_sha256": "18a5d145ae357081bfe27d64fb3035fefbd7097accd0a5ade95842e0763bafec",
+      "text_file": "war_of_the_worlds-65.txt"
+    },
+    {
+      "id": "wuthering_heights-25",
+      "split": "heldout_new",
+      "book": "wuthering_heights.txt",
+      "source_path": "analysis/bonsai2/fresh_state/documents/wuthering_heights.txt",
+      "source_sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02",
+      "byte_offset": 173484,
+      "text_sha256": "ea2f82296bf5fe728649f6a2979dd5e0406cf3b4a1121751e01e01d1bc29c245",
+      "text_file": "wuthering_heights-25.txt"
+    },
+    {
+      "id": "wuthering_heights-65",
+      "split": "heldout_new",
+      "book": "wuthering_heights.txt",
+      "source_path": "analysis/bonsai2/fresh_state/documents/wuthering_heights.txt",
+      "source_sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02",
+      "byte_offset": 450999,
+      "text_sha256": "9c1b6367e0e0b28fa174c7c77e38ff64478de704feb0350ce08c799a4250510d",
+      "text_file": "wuthering_heights-65.txt"
+    }
+  ],
+  "arms": [
+    "base-pq2-gptq",
+    "folded-pq2-gptq"
+  ],
+  "gptq": {
+    "objective": "per linear layer, minimize tr((W - Q) H (W - Q)^T) with H = sum over calibration tokens of x x^T of that layer's input",
+    "order": "sequential by decoder layer: inputs to layer i are computed with layers < i already replaced by their dequantized packed weights; linears inside layer i see full-precision earlier sublayers",
+    "tied_embedding": "token_embd (tied output head) quantized last using the Hessian of final-norm hidden states; earlier layers are calibrated with full-precision input embeddings",
+    "folded_basis": "H_rot = R H R^T with R = H512 S / sqrt(512) and the signs in work/qwen35_08b/folded/hadamard_packing.json; W is the folded F32 GGUF tensor",
+    "damping": "0.01 * mean(diag(H)) added to the diagonal; zero-diagonal columns get H_jj=1 and W[:, j]=0",
+    "columns": "natural order (no activation reordering), 128-column blocks aligned with PQ2_0 groups",
+    "group_scale": "at the start of each 128-column group, per row: the independent-group least-squares ternary rule (make_ls_pilot.py 'ls') applied to the error-updated group values; scale rounded to FP16",
+    "code": "clamp(round_half_even(w / s), -1, 1) with the FP16 scale; s == 0 gives an all-zero group",
+    "precision": "float32 weights and Hessians, torch highest matmul precision, CUDA",
+    "tensor_policy": "only the same 151 PQ2_0 payloads are rewritten in a copy of {basis}-pq2.gguf; BF16 and F32 tensors stay byte-identical"
+  },
+  "selection": {
+    "rule": "lowest mean validation NLL among all eight packed arms; prior six arms use the validation scores in results/quality_pilot/selection.json under the same scorer and slices; lexical tie break",
+    "note": "validation books (dracula, pride_and_prejudice) are unchanged"
+  },
+  "heldout": {
+    "books": [
+      "frankenstein.txt",
+      "sherlock_holmes.txt",
+      "monte_cristo.txt",
+      "war_of_the_worlds.txt",
+      "wuthering_heights.txt"
+    ],
+    "arms_scored": [
+      "base-f32",
+      "base-pq2-ls",
+      "the GPTQ arm with the lower validation NLL"
+    ],
+    "sealing": "the three new books are unscored by any arm until selection.json is written; frankenstein and sherlock_holmes were opened once before for base-f32 and base-pq2-ls, so their GPTQ comparison is a second look",
+    "unit": "book (mean of its two slices); five books"
+  },
+  "decision": {
+    "gap_closure": "C = (NLL_ls - NLL_gptq) / (NLL_ls - NLL_fp) on the five-book held-out mean; also reported per book",
+    "rule_1": "C >= 0.5: data-aware reconstruction substantially helps; include it in the matched 1.7B comparison",
+    "rule_2": "C < 0.5 and NLL_gptq - NLL_fp > 1.0 nat/token: a quality shortfall remains after data-aware PTQ; this meets the plan's entry criterion to propose a bounded training experiment (user decision, profiled resources)",
+    "otherwise": "report without a routing decision",
+    "claim_limit": "five books, one seed-free deterministic method, one 0.8B model; descriptive, not a non-inferiority test"
+  },
+  "byte_ceiling": 220000000
+}

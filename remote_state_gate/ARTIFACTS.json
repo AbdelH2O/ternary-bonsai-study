@@ -1,0 +1,890 @@
+{
+  "purpose": "completed remote-value recurrent-state sensitivity gate",
+  "freeze_sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78",
+  "files": {
+    "analysis/bonsai2/remote_state_gate/DESIGN.md": {
+      "bytes": 3748,
+      "sha256": "a4e07a4543fa64de97518703c3d6b97e5d03fb4a4d0aa47793e1bd3f0143d45b"
+    },
+    "analysis/bonsai2/remote_state_gate/REMOTE_STATE_FREEZE.json": {
+      "bytes": 40881,
+      "sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78"
+    },
+    "analysis/bonsai2/remote_state_gate/REMOTE_STATE_REPORT.md": {
+      "bytes": 4625,
+      "sha256": "aa3178e80bd89beba93b7acf76879e835b5bbdcb2498b0d8cb05c63df67a5173"
+    },
+    "analysis/bonsai2/remote_state_gate/analysis_summary.json": {
+      "bytes": 6129,
+      "sha256": "954e327df7ffb7ace62fd48fc1242bef97061dfafc8d5183553e8550fb73c7d4"
+    },
+    "analysis/bonsai2/remote_state_gate/baseline.jsonl": {
+      "bytes": 8853,
+      "sha256": "026a8774c1229eba02116b1464508c7eb37bd055d46eb6440d19d65b904db1fb"
+    },
+    "analysis/bonsai2/remote_state_gate/baseline.log": {
+      "bytes": 128434,
+      "sha256": "22a9021ab567559752f8bb00876c2b6ef44f32ae1a2cf0c1d65c34a69220ed94"
+    },
+    "analysis/bonsai2/remote_state_gate/baseline_cases.tsv": {
+      "bytes": 3712,
+      "sha256": "638ad72450fe5147605a7d8ed4951faf6a9a22937c5b7699c78b0356efbd17e3"
+    },
+    "analysis/bonsai2/remote_state_gate/baseline_gate.json": {
+      "bytes": 2637,
+      "sha256": "706e1675abc13eadcdddc901f29c53ab5c0a4f363887e8bb7bf271310a3cf9a3"
+    },
+    "analysis/bonsai2/remote_state_gate/build.sh": {
+      "bytes": 724,
+      "sha256": "a22f8ca8a52195b863b21fd647454bd817460833ef415f7a7a09d01a9da32688"
+    },
+    "analysis/bonsai2/remote_state_gate/capture_gate.json": {
+      "bytes": 10576,
+      "sha256": "f11b84a3a01ec0fb3cec52586a4bdb2fc2ad04aa7786e5cd1a4e3cebab95faf9"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.full.bin": {
+      "bytes": 963364676,
+      "sha256": "8c499f1c4a4c04e3786aeebbec023f30ae75d0bbbaa8c647f17a17a5d4ebc787"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.json": {
+      "bytes": 866,
+      "sha256": "d48b58f689239a465aeca9d40da0f49cbd05213fc4f54b9671d3956a5346a6a6"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "d063641633e8cd682b2d071db643ae98d6dcff2da6d2ca4d4325f4d0e7cd46a7"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "0bb095f878e04c4657278f53f42ec8ce648eaea0d382768821266402a9da8077"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "29dc349ca321a38ab4b7804ff39a0480300db93d5cbd8582fe79bf191673f602"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.full.bin": {
+      "bytes": 963364676,
+      "sha256": "4c9fd3fa8dd8583a2b2af89b95d9306ff0ffaa225234284a10d605ff9a7dc1d7"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.json": {
+      "bytes": 857,
+      "sha256": "5aa8694d7fe04b9e304ac2e531412984d77f8d09ea9bd7eb706b549ea48c50b1"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "5b47627fbd1ae5dff6ff37a5fd1691d11957a6bc9b212963e22ea658998bc5c2"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "7d45cf6edefa396c7b02738a7ed9d48a76b40dc941cf636bc467ca23d3828d7e"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "bac79e1de54e4cd102850f560787750e385fc03527b7df3a34294e79ed503398"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.full.bin": {
+      "bytes": 962250224,
+      "sha256": "868a39ddb2ec98001debdce708f43a0e666acfe93d2baec9ebdf06669de32765"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.json": {
+      "bytes": 854,
+      "sha256": "dd72dd664e89ea7ab384670131333c2878c41b57272a0be6a91e3642c4d4e881"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "eb60790129a3d7868dc8d6181918ee0bff5dfb730fd419f279adcb60ba99e6e7"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "4ce76dde255789119a6a4e16be5986102e3f92071125adf36e561b07d5454d31"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "7c10bff2769c5a9fc811b1d6f9e0035b83ee265a12a5e10faf730057c2d36505"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.full.bin": {
+      "bytes": 962250224,
+      "sha256": "d720f42c0c35687817fec6c04357b7d9564b8536047c71a1d222fc2661e6ce40"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.json": {
+      "bytes": 863,
+      "sha256": "ca47cdf85b3525f340f74d9a6801746d7b975a7134b5044c33add71a8402b6e1"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "1e3dc21a774d33119a5bfc9d4a4d36ef8c51ac363ff06c46a5c3151add475135"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "283b41728f73f8f4ac57f5dc526408aec2f831474f81b5e9e676ae048dfdf28c"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "11d4bd71a55e8a085f0d7ded7070d14aae15f033e37a9a3ea5f10c1cd3ebe003"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.full.bin": {
+      "bytes": 962119112,
+      "sha256": "3f5a2b676e449b89a9f75cedcfed94d91420d8fc5af3fbe53d077d4b5f64f0f3"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.json": {
+      "bytes": 866,
+      "sha256": "9ad10fb7a43a625773e92da18b46de7487ea55313c39e4a18c71cf5282421462"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "74821a8facd90bd3e3ea53a997aa49f02995147c4588556465d62256094aa634"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "ea3b268f4493fe6c40a2b6cd14753b6c536cf876d37689982e67c99cc50dff1a"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "c13364088c8ed72a703d3db18e5d47af906e7e62d8407ae874cbeeb9d49af81e"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.full.bin": {
+      "bytes": 962119112,
+      "sha256": "b723df2b1c81020942c9333003952081d472d2128a20bfbf4b5f047a488f8db8"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.json": {
+      "bytes": 848,
+      "sha256": "2acb818669b30eddb7012913c5230593db52fbf41c8377c69f3923dfb5017a48"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "3c4166211d0dc05b6dc2e7ceafe7176b00d08942f9debad4a147dadb44b01e50"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "0010cc3b41ea3a1ab2475567e3816a0d52e993f92ab655001b9f35d9d135062a"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "5dee7d1a2d5741d419f290d815f26b5b84ea10f428a75ed169c4d9d37a1c4fb4"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.full.bin": {
+      "bytes": 963430232,
+      "sha256": "1c6e82ad1759c3525d4bd82add7722495b7713db572410d099fbad5fa0158a2e"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.json": {
+      "bytes": 869,
+      "sha256": "5578345e7a4c6798dc3abcdf6f5408dd25a760f7696ba4290be15c6152c69afd"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "4363df4af521c9ea3d1d564a45a1b293fcdd6b5d17b98e96577fbf9236b3d53d"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "16ceafcda575a179be4f6f94e844b00041675338d05dd800fd7597a59c7666c6"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "e7c6bbb9a283997709a96715e248b91ce1f22db178e87daf10de64f73ac2a003"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.full.bin": {
+      "bytes": 963430232,
+      "sha256": "6e1ac722432e70585139db829bb211c861fe74747482c2d9b66a4c5de1270cc8"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.json": {
+      "bytes": 866,
+      "sha256": "7575b528d772f46c7a00c5ad8be9976de9f58e991b4c3dd0e7559b0c42ddb60d"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "7f98827880b5897d243c796524ae389bc33e6591220036772eb2186f82890de6"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "846560e9bcdbcb55cab517f2ad8a9e746a2d69461ff9f662bb135d0502e40813"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "973863add8a117c46190056b4fd206c7f598da02ba75b482768fee07dc0830ba"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.full.bin": {
+      "bytes": 963889124,
+      "sha256": "4448fa72e3fe5d2382a6c0d19fe21726a3e66a609800aba18ff9c5b2a02d4e54"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.json": {
+      "bytes": 866,
+      "sha256": "15e3fedb4cb526dcc32590f594441b3427558b190acbf9da85b2a3ab4f18b113"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "9c8425c6c93f3a00518a48c3bd4f8ef909f1519582f3e9484e272e1a80329d58"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "22b1d084c4087ccaec88026663d5756354a5362034e9e12e0a666fac8b98b833"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "64d67f0cc45b4aab984131d6d6cfbe838c2991260ed9e3050f6ba33671827a2f"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.full.bin": {
+      "bytes": 963889124,
+      "sha256": "5c9d77a8ce300c33345b48f7bc449f92d6c8c63671c8e843db0370cbf71fd06b"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.json": {
+      "bytes": 863,
+      "sha256": "0ce07bb9a64f5273ef6cfccde7a29c7fe80a71cfbeb1e944bc674eee5fae1a69"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "6c8942a4425706c892a964f683ac1c932c964891e1cab6cd7e6b8e37d22d9669"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "ba96c097b68b773d801248aa94e0a12e5c0c90c5ee4171209c032668e3527eed"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "0ced64d3c32649dfea85a443c1a874b290cb8cf7b84db47d5eb334c84d747934"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.full.bin": {
+      "bytes": 962053556,
+      "sha256": "31f8907378bda39e3017bd426a27cd60131e121eb0fc6773e23323afa4a03890"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.json": {
+      "bytes": 866,
+      "sha256": "36395f48f9a75e8faccb53c49524b169c58060f3d77c27add9c7c2d05646d5b8"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "7056a49d450619499362b64ae91f6bfe213a1582636ad2457570de8828d0712d"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "d8a1e3064bd9c2f6005707c064c7ea1e94e28c04506fe159e4d10cf28daadbe9"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "f6e845154805f6a246f3d8f2923b45ff52e7c397ebf96bf4243e481662b02fb2"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.full.bin": {
+      "bytes": 962053556,
+      "sha256": "2496b3a0f8040886171c959f255e721d0de44c23019bf595878ab810868607c7"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.json": {
+      "bytes": 875,
+      "sha256": "7764b90fd8b58adb0b823d7bf1bf8c3ddb0c3c2c78aad0a6340e5fc98540ea69"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "7fe328c6156715cceaf5c0a21ce2102d3845dd9858ef3909ca3cbb3b70487601"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "bb45d53e572a4c1e1f3fa5967bb4c4a197afb7920b10c4a28b87d8c853f51b82"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "7120d66a77bc547dbe9a5571c2c172a6d49d88a786f11b2f570fcae156a60ba9"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.full.bin": {
+      "bytes": 962446892,
+      "sha256": "3918ce1e6d772d415f2652bf042869bf2f0036596aa14b785480a19e00f83d25"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.json": {
+      "bytes": 857,
+      "sha256": "d3c85778bc3c8095e3729ae41ad85ac81076ef1a4715b509d3347bac02284b74"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "0cb5e4a9b969749a79e2d010fdd2ae955a5b5b6dce49f14898755fecfd1bb081"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "b6ac9fba2fa32fb62d4b97f8e1c0deea0335a564c722005854d867afcb0c4427"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "929923c5631f52896b353532bada97ad2c4da35c39e9de93a20e240806cfeb86"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.full.bin": {
+      "bytes": 962446892,
+      "sha256": "63c586733630835928f6159c22d420616d81e82cb92b1db3b3ac3988b6de6099"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.json": {
+      "bytes": 863,
+      "sha256": "a3cb7bb7f143a1f37058bc414ddaa6fedb674378fb1cb3062e361f780707a8c9"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "a8df9f6a9be4306aa10e64812e110d29cc4ca57459b690ec0ffb8f39fb6dc105"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "8922106d4fbb48e78a88035fc940fdb35ef44394bd62a10ba89b1cd69ad3dbe7"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "43635fa0c40db27125f95d5cdae3470702a312ec8698b433a830d4da91136faa"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.full.bin": {
+      "bytes": 963168008,
+      "sha256": "f5e59f7718062f9f63cfcd2b12188b8690ef2c051a4d6f46899101218367bc71"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.json": {
+      "bytes": 863,
+      "sha256": "e330a909af90ce7bb7aaed6a8a42e7783b65c714b76092306e8f114695edacea"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.log": {
+      "bytes": 126812,
+      "sha256": "3f403d9039fe982cb8d7f0e640183444c65187108cceb16e02cce965b63bdc0a"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.meta.json": {
+      "bytes": 349,
+      "sha256": "859bc125351cb5d8f60946c1e49eed33b3a7daffab9a935c13487b0d36b326c9"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "6e9e3ecfc57d9965c10590df38c1f28e1ae985022e104652342c1dc62b17eee2"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.full.bin": {
+      "bytes": 963168008,
+      "sha256": "11f8a1e29f189f0668b4dd00074e63037da17876e87c21438003b02908439fdb"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.json": {
+      "bytes": 857,
+      "sha256": "15051fe2a7f907a1137c57b6b971f24cc5fbce8a27a78b1d1b8efa68008d588d"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.log": {
+      "bytes": 126812,
+      "sha256": "fb6935f2d125f95222954afcabf7fb0514026b8cc4ee4950228c23ba5b6f335f"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.meta.json": {
+      "bytes": 349,
+      "sha256": "bc7425210c5f026d7b10a7358a4daf2c8acb96d439f7458d5695d97cd78e8562"
+    },
+    "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "fa9b6175c7f26c2fe9a9cc8d4c5572716c42f3949de5285566f7cef0030c82d4"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-base-gold.json": {
+      "bytes": 1567,
+      "sha256": "8eb5eb81cc4b770bc071d8fa79219c514ead1807a3c34019921f49b770dde640"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "10badc459167da0288a028f610c446171e0561d46a50f79319dfbc80b3007822"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "00407a0a0f553f5ac52c2b9382eb5f90962b096ef342815a93cbc04c521bcd58"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-base-wrong.json": {
+      "bytes": 1492,
+      "sha256": "e3729be87bc46240f8927ac979e9a41cac1616b1226c6e0c8d29a69fc76a77ce"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "5a1d434124df7823b8d0d66d6a79914048b0add009be265575557d5bb0985209"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "fe243ea6211f9cfe1ab1f50679c4de7f14c3caca3a6de7634ea3d611b3557163"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-swap-gold.json": {
+      "bytes": 1552,
+      "sha256": "979aa1d3fe1cb7b7dc35180bd9401065c31fda04a841c32e4db2efcffae094c9"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "5162fe53126485d773f97bde19b85e501f7a14860076893998a2a43530441b16"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "9d95b828f9af014d9deb2ac7272e695f81b5e3ee182aac192c8ce1a9be6d4dc3"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-swap-wrong.json": {
+      "bytes": 1470,
+      "sha256": "dd118741c2150cf33ed606eb5bc2cb38acfe825a42e1d5365ecb57ee812a7dd6"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "de6919c3f360b7cbf63a15d6b48eb52c077ac307286004cda7ea188087760cb4"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-08-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "43538a4679b2803edd92dc9adb39c98deaf1cda39c43b2fe1617b105a981daed"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-base-gold.json": {
+      "bytes": 1549,
+      "sha256": "d8c2f54b992cde306c39738d0f93b157cb6b75fd7de33b10d94b0664b30846fa"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "640a106d09fb10100851d04f5ed0c5affc36887448e533e370a40fc3e3c805bb"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "f0fe80732d811df38242860278b7eaae1ae4c1da9487cbc7bd1a9e792eb06ef7"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-base-wrong.json": {
+      "bytes": 1489,
+      "sha256": "73062da4f72a1d6db18365553d7811d055af8379bf8c495ddd166be05b4b593b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "bdc2c9846eb8da4c54b99dcb01667c2f9280589c39da7ad1d78f2e05ad384095"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "f0b11ef3e90c32afc528eed2fe1eda52a878f4f5db4c5bc812253da605618ccd"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-swap-gold.json": {
+      "bytes": 1563,
+      "sha256": "2b221c6124e126a47fd9c8387c1d542539a233e68c505fcde4c42c50c01432d3"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "f33f94875aa1c7cd21974c0b5dde8f1ac1cf8638d4c4262eefb24ba026a29a7f"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "641d9c50bbeb6845f1d93976214fdb6ec79ef4ca3385d3b43c8ab2ad5efebfb2"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-swap-wrong.json": {
+      "bytes": 1492,
+      "sha256": "f7dffe59bd2a349d22aaa564ffab540c75968a6c3f1de681b049738df6a76c4a"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "6c78b22fc557495c87d2f7d9adcb0b333ea1df6716500ed56fc1832ee0236c47"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-09-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "013f15fd85109d84206fcab7ab4390b3c3f3cf76566f9aa710721908765edbe6"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-base-gold.json": {
+      "bytes": 1565,
+      "sha256": "a3fee94c02e2709c0f52b60ad9f98144f9e9daf806d45ed6f5bf4c345d3623d5"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "7b9f917dc18f87c3945305357741704bd2090771755ba0c58d86b2e634b4f1a9"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "339a1d5d20fa856e28ce8531b5b7255291c2e63b63564f438cd161ed62a61f24"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-base-wrong.json": {
+      "bytes": 1500,
+      "sha256": "5a68b3a406dc155f9b491df4b8fe53a51fc598196ff017b7f14883a104aaada9"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "bcc6f5c6c5d81924ffe9e688b0e70c4b18b79abfe5427fe0a4cb18ad20689559"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "36e5a4f2acdbf766c6792d1dee4ae191117ebba6828cd1b84798911f346bde42"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-swap-gold.json": {
+      "bytes": 1540,
+      "sha256": "684f019e544237450f617b824e6c4a53e2e9fc6bbcedc89286cdaf1229871577"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "5ed87f02302b52a95ba93b48c5510989b2a16b60b293649b4591cc7024253503"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "ef3e2259740298cdcea9dcf23b40caec663839c4096ad2eedade472c95cfff48"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-swap-wrong.json": {
+      "bytes": 1481,
+      "sha256": "02eaa683aa22599ac4f706c3ef87b74e444dcc58d9cb3d40f03ab3d0d6e19fc3"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "60a5b089bf616b183c73a039db95c5cc858a550eff0b48c0e5043c2e994573a4"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-10-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "b3a830b2156e8aec33901bbdd1cbbe63f0573f013b63a217de4f72b41135b321"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-base-gold.json": {
+      "bytes": 1570,
+      "sha256": "5d40b23dfffd5fe36eb04e4ccc10d15cb384704d61da92bc7bba97db46bd804e"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "54771191118f95fa0f80f9e7df2f9d0305c20dac52c2ca06e75dd2667cbd3331"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "ddb31cf33c9672e4ceba40d5a31bca49e39a0d53dccdae3e210d05edec08ced5"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-base-wrong.json": {
+      "bytes": 1506,
+      "sha256": "65f8231c43c2fd34f5ef9f959c389c6e36ade24f11932fd79f6582128cb928de"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "4d224a42c5b93ea95a3efb82f15d438b88b2c54748ac96e1eeccf96a8d98b60b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "77c0aecec79e2ad07ef0d06444430c94948db4cfb8724cba8ca043d3bf3b3077"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-swap-gold.json": {
+      "bytes": 1567,
+      "sha256": "3bfa28711f0cc85f42a79a2819baf93e079a5251bbd595ef1f28064af1050fa3"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "a0f9b8b863054622c0f8068ae7fea229d6b6a63512223c9eecd15954be544195"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "77e2c326de781afd28ad81cc91bc2226cb2498699a3097b815ad6b1e2fd09300"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-swap-wrong.json": {
+      "bytes": 1492,
+      "sha256": "b7dc9621bbe836c4d73c6a010c063b4b5ccddc973063bff364d6b6085c1879fd"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "32106ad1412e558a0a415616ba566d766bad1be95512e0ff54cb56cf0aaa6f70"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-11-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "1f635c8775facbb5e880be7941ddeee9720c62e8ace0c36550f8603b6f3ff1be"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-base-gold.json": {
+      "bytes": 1566,
+      "sha256": "464a89c90e844c1a05399e7fef7851df5c06fb3b114cc3139faa0f001c4dbb39"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "c1653582b9b3f55a1e6dc06803cfbbb8bed83ad4193559b2b5411bd25ed00227"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "01dc639f8dbe65b45d7f891a0014d1404a167ba9957a0f4371ef77a73b11bba8"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-base-wrong.json": {
+      "bytes": 1502,
+      "sha256": "f4af57a7bb7d0cafce833e1e4e1e631cbf3bc5f0e4da4898f09086a164470aa7"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "67ddef6c2c26312b2d6ddafd23ef2a0eca0825f952aa881e6a9439070bdd2957"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "5e2707609884962ddc727e95e13ad3bf578d5c895e4171bf74dc748a8e8c7f7b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-swap-gold.json": {
+      "bytes": 1562,
+      "sha256": "e556f242c74ad1232db1909cb86bdcbfd23422b166d1d6fab11c4fa8630e8657"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "b5352766105a5d75283159039091e88d65b7612a43e7370a5a00374508db12af"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "6e43c3491d490b9c4dd90d1c39e507a63849cfc29cd299ad04e2a52d82453f20"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-swap-wrong.json": {
+      "bytes": 1492,
+      "sha256": "d1e1d52b72c55315c955aaf2290bc351b56f7934c048501e8d129e440603ff67"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "ba00148717f593ba77ea3b7b292f7fb80a1ceef4857b6d7f3d39ce211d4c9452"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-12-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "436b9659b9f532a632105a82f210b2975152c722488a956f74163787c332dd2b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-base-gold.json": {
+      "bytes": 1568,
+      "sha256": "e478c116311fc653805352213e61905e3e0b94ac891afdfa52e121f8420bf773"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "196b4b6060c82e55abf6e3f12a07e4988da3fe5ad12259902eac806dbe2b7bd9"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "6bd80a960c1776558e14187d0b6a0898aefc50d7d1753f106e61e186692befbd"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-base-wrong.json": {
+      "bytes": 1517,
+      "sha256": "3626ceb602c95ec684b5ad9665d316b92d85cd517ad9a379c56c7f165c5188a8"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "92f4fcfa83502bf30ae0ef0272600ef0ecedfaaa392a0b818fa83ec9a2f9aa37"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "275b38389d67cf2a61a6f8046256ac8dd995f7a0bad305dbba09ee5e8114cb65"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-swap-gold.json": {
+      "bytes": 1581,
+      "sha256": "03a51650e92c6ab5a3a1f360e4d3cf499b261b14ed9f16d0780e5d24599745ad"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "400a8da561b0b984440a139c8245ca367062782f3c6b65f756938f0bb8f7508c"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "b2de94b5cbd8777ee7477839b4fe37db8d7e93bdb0d4d9ea2683fd68b111c05d"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-swap-wrong.json": {
+      "bytes": 1516,
+      "sha256": "60a96e736b373f8b0109a5463604948cfd2bd51e6c477aac71d92748e54b2a3b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "b9b9c99a2d6baa2c274dad87e4777f05e741835bf3a2fd5f4b7019ee7a60e2e5"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-13-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "6b7f395df4369bc03f7a183b5aa0f03ad395013c89da14072b77f7109593096a"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-base-gold.json": {
+      "bytes": 1554,
+      "sha256": "a9976151c61bb0d26bfb93a6c1f562e8b8901e3bfc93eefaf984cf022d3ffd6b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "f19550c1af30607e79f999d807570c2dae378a877aae5597d2829b8e78d54309"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "e23821aac038bdbe766c2c5e7eca90f0da067450f32b2f4e62464bd5bb2a2c52"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-base-wrong.json": {
+      "bytes": 1496,
+      "sha256": "8954a9c4dad2328b24459c544f89dcf4f484856ad9ae3fab7fd0df1e1096573b"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "f798c31a917b2e82b8e1948c508ecbeaadfc78d548f30f7e00881ede776b52ad"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "6aa142e3095ab3f1c9dfa9120b82995d67e8c073592061b09d68d4b96cdcff01"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-swap-gold.json": {
+      "bytes": 1563,
+      "sha256": "ab90e087f1d67f4afd44fc487fdb9b43d7df1e75ba3aba2808699215b23b4b2d"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "eb708d36a5ed703745416abaa4735ce045202fdb1d755957300a186389ef2ac0"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "762be5e8f57fb2145c14277bd69854ad677453b3d4b20301a90445fe1c18a14d"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-swap-wrong.json": {
+      "bytes": 1481,
+      "sha256": "17808f6fa4e9c99d3ff24315dae0da4811e11980e9d953abcfaab85216cc42bc"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "63983505c371a4e4eb7f762bf8dc2fb8d03e80c9cdc15b1f143bcfbc84b93426"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-14-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "371d8fa40fd4c106220c91d07996aeabddedcde7af15d303a7608678d1dc06cd"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-base-gold.json": {
+      "bytes": 1562,
+      "sha256": "22f5b7cef00804ce973c07834e85cf0480aa687c47db24a8b607deb6f01c69d6"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-base-gold.log": {
+      "bytes": 126968,
+      "sha256": "850d52891d85dd3149f6794a4e1e3cbefdaf3c4be11c1d7259f6b4e715ace8c2"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-base-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "adbd52be9e43fc532acf1c00fd72316706e1fb7eecbaaad6bb13a52262ff0862"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-base-wrong.json": {
+      "bytes": 1508,
+      "sha256": "4bfe5f76c33bcc918cedba49572792b15aed124c056e5d581a7018e4938fef06"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-base-wrong.log": {
+      "bytes": 126968,
+      "sha256": "814b46f01d8311ed602c51acbdb479edb4750823f37f47e49626ea8a83bd2523"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-base-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "9d0e2566d0e7e59173c4a98b5f451d154f497dbf01aae728f097e81ea62e3e73"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-swap-gold.json": {
+      "bytes": 1553,
+      "sha256": "7f4481d0dc15684075d2fbb972ee1bc294da33d813d5dfd6f3d1dbb57156063d"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-swap-gold.log": {
+      "bytes": 126968,
+      "sha256": "a6f63ee033bc5997123b5b60e83f097daee08d4696776ec08f87e9902486c640"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-swap-gold.meta.json": {
+      "bytes": 362,
+      "sha256": "1c6d82e5945f7ae324404269e000dc06bdced849301e07ca97b191fd0e2d8ad0"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-swap-wrong.json": {
+      "bytes": 1504,
+      "sha256": "d0150a29e3b2391021a1133757f7d41c108a0e24b33675bc6d3847e4f2d75ade"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-swap-wrong.log": {
+      "bytes": 126968,
+      "sha256": "0977ca1a7d6431ce1617cf8d7a9a1f7b3bd3c2ce56985eb607d569ded7046c11"
+    },
+    "analysis/bonsai2/remote_state_gate/comparisons/rv2-15-q1-long-far-swap-wrong.meta.json": {
+      "bytes": 362,
+      "sha256": "c1e37b16d695037b49b32c34670a21ef7ce224d62a38f6eb6c76fe6bf864851d"
+    },
+    "analysis/bonsai2/remote_state_gate/gate.py": {
+      "bytes": 24030,
+      "sha256": "8683fdf2a2483c36cae5ed88fe82c48d0fbb876ca80657d67b8fa24d8ab5e757"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-08-q1-long-far-base-gold.ids": {
+      "bytes": 57025,
+      "sha256": "96d3341a9f18961981f950e20a40dc23965bd857499fd820529179308c187e98"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-08-q1-long-far-base-wrong.ids": {
+      "bytes": 57025,
+      "sha256": "ec8cf744929e3406670b8585033836e906425306d145a39d5f0477c3b5d7a1c8"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-08-q1-long-far-swap-gold.ids": {
+      "bytes": 57025,
+      "sha256": "e27740b0853a6956323ed0bc4c939e0f3cc2c7ac89a140e3f208f87343baccb4"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-08-q1-long-far-swap-wrong.ids": {
+      "bytes": 57025,
+      "sha256": "4455dda9136f4f368596d8c30462bb2062948e09dee0e528fead687010bb5321"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-09-q1-long-far-base-gold.ids": {
+      "bytes": 56936,
+      "sha256": "29e3b09cb44e8d1e0647ccd381912304495c05122d1a7ddb03a599889c60f1cd"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-09-q1-long-far-base-wrong.ids": {
+      "bytes": 56936,
+      "sha256": "97db6fc39817e7b1c7ab16cc1d8550ab6561e82a3d565d2bff5065041637b248"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-09-q1-long-far-swap-gold.ids": {
+      "bytes": 56936,
+      "sha256": "009b26d0259b66f4a4c1502773076a1e7d870e33699698a5659d32b7501c1a25"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-09-q1-long-far-swap-wrong.ids": {
+      "bytes": 56936,
+      "sha256": "f66994a27b32929e19b4446d33aa22017d9d8228d5f31581517f44850585e5b1"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-10-q1-long-far-base-gold.ids": {
+      "bytes": 56934,
+      "sha256": "4f58c3cccbf37bd5471d5e21e53eb77c445f9bfedcd85739f610ce99fd92d9b6"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-10-q1-long-far-base-wrong.ids": {
+      "bytes": 56934,
+      "sha256": "1779845a0656f510eb953737c99cd68850b4c766c11df837fb119f50c106cd6a"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-10-q1-long-far-swap-gold.ids": {
+      "bytes": 56934,
+      "sha256": "9f31b368b23a44bb879ec413703c44a018120e84508ee08e634f5cf1505cf546"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-10-q1-long-far-swap-wrong.ids": {
+      "bytes": 56934,
+      "sha256": "516db86b218485e940dbc167e5356dbd6f497ffcd8a33d1578ce9c4d738853bd"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-11-q1-long-far-base-gold.ids": {
+      "bytes": 57019,
+      "sha256": "694bf488a76990072d592ae39051fe4aa587cd6afb71fd8b18edec7f1098e2a5"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-11-q1-long-far-base-wrong.ids": {
+      "bytes": 57019,
+      "sha256": "927616c4be81b70602c9f3e631deb51677a7b35c87275ee8357ae9cda7f8e5c0"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-11-q1-long-far-swap-gold.ids": {
+      "bytes": 57019,
+      "sha256": "2cff41f44225fba9996ae92d8499fd465ac27f39f35cacb9f82856fe17a0d480"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-11-q1-long-far-swap-wrong.ids": {
+      "bytes": 57019,
+      "sha256": "7b557b7a2e6ad1c913729731c662f5358d2b1126610c173a4d6b5f2c6f32bd60"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-12-q1-long-far-base-gold.ids": {
+      "bytes": 57041,
+      "sha256": "ef692432d8f66b52e1415889f5cec7d97b97b5bf08759d5ba222b9623ea7bb7d"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-12-q1-long-far-base-wrong.ids": {
+      "bytes": 57041,
+      "sha256": "45763807edb33a50abd3c82a862706b26cdcff000202285bb3cffca4be78e80a"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-12-q1-long-far-swap-gold.ids": {
+      "bytes": 57041,
+      "sha256": "9e788bf8ecb60ee9631020fc35af8e82b7a46be488f9d10a5172be69db9012a8"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-12-q1-long-far-swap-wrong.ids": {
+      "bytes": 57041,
+      "sha256": "67cd733a66efa399ed8a8bb2623ed74269a7aa39c39a32c650753e22487e213e"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-13-q1-long-far-base-gold.ids": {
+      "bytes": 56926,
+      "sha256": "1f6afc0bee6286ce1203ef636030559791409ad4b8518dddd6a66db20716af01"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-13-q1-long-far-base-wrong.ids": {
+      "bytes": 56926,
+      "sha256": "0f6e017d229e4d8e9307a8165d80a1ccde4dd27df273fea30d0060229f053e41"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-13-q1-long-far-swap-gold.ids": {
+      "bytes": 56926,
+      "sha256": "47c99ba82f8e6fb7446e9bbe0696a28aea146d2790dbd95a2ece9637d01e7af2"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-13-q1-long-far-swap-wrong.ids": {
+      "bytes": 56926,
+      "sha256": "585f3297cb693474ae78fa1f853b19bf5b94367c06f7b2e05f35a040a0401d35"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-14-q1-long-far-base-gold.ids": {
+      "bytes": 56954,
+      "sha256": "eef5d99612c2a3825cb082fc9e3769f20bef28cb649039b6cb36878fc1acb9ff"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-14-q1-long-far-base-wrong.ids": {
+      "bytes": 56954,
+      "sha256": "e0998612bffe1d6e42d7b398f15b1c169b2392cd085661e7fab1c8d0f689187f"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-14-q1-long-far-swap-gold.ids": {
+      "bytes": 56954,
+      "sha256": "d07b7b98522827106b22138b85dda58f0770353582b9b252cffa885aa035b7b1"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-14-q1-long-far-swap-wrong.ids": {
+      "bytes": 56954,
+      "sha256": "f063118dbd275ce570a204ef95dbeb7168ef26a637867159aa58d6b9ae0a1c1e"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-15-q1-long-far-base-gold.ids": {
+      "bytes": 57001,
+      "sha256": "448131788e2d9a6eed2e15164720b2adad1339fca475b600b4ed6a0e0c7f69ef"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-15-q1-long-far-base-wrong.ids": {
+      "bytes": 57001,
+      "sha256": "a6a84d81ba86ca714c81d18a981c8764bd877c5f099493b9ac2ab8d0752f0f28"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-15-q1-long-far-swap-gold.ids": {
+      "bytes": 57001,
+      "sha256": "05bd3e8ca24957f95e346148519be41ed74f0bbf7011ad24594359464e77926b"
+    },
+    "analysis/bonsai2/remote_state_gate/ids/rv2-15-q1-long-far-swap-wrong.ids": {
+      "bytes": 57001,
+      "sha256": "32741c9b278bde00fcd2022221f51a27f31ee3bb5afd01309032b5c2a58be804"
+    },
+    "analysis/bonsai2/remote_state_gate/split_scorer": {
+      "bytes": 52328,
+      "sha256": "a9fbd5e43ca30f5c618ef5827f918689906c9f26bd4306577bac2b9ab497dcce"
+    },
+    "analysis/bonsai2/remote_state_gate/split_scorer.cpp": {
+      "bytes": 7445,
+      "sha256": "8109b266e01a08e0b2619d8f8b475e57a4a9598461aaf031e98ab6b3c1ae8764"
+    }
+  }
+}

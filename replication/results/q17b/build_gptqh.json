@@ -1,0 +1,2186 @@
+{
+  "arm": "gptqh",
+  "basis": "folded",
+  "target": "work/qwen3_17b/folded-pq2-gptq.gguf",
+  "sha256": "c77c82ba644d304409b407e8bd30bdc267e2fe585d38eebe7d57e647293ed740",
+  "bytes": 463480640,
+  "template_sha256": "7091d3b79c1bb9d247c04b1c897787076b2b15fd5df879df81f0b571e7625fb8",
+  "source_sha256": "ed6619558cb16b16092ec3f3d918b9035ae9b03f5764d1eec9e7df9a554e2098",
+  "protocol_sha256": "b70dec33009a3c1aba7075b006be154b207fd61369754bcde628edf82dcc61b9",
+  "builder_sha256": "fae1b8dc8084710e4ad149ee76685c79a0fc91851201523eabac3db699d894c6",
+  "seconds": 150.02265691757202,
+  "tensors": [
+    {
+      "tensor": "blk.0.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.455169677734375,
+      "damping": 3.46688232421875,
+      "rel_output_error_gptq": 0.009402210974410526,
+      "rel_output_error_ls": 0.06997434728630633
+    },
+    {
+      "tensor": "blk.0.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4557061195373535,
+      "damping": 3.953363037109375,
+      "rel_output_error_gptq": 0.028630037864071704,
+      "rel_output_error_ls": 0.12590540908428777
+    },
+    {
+      "tensor": "blk.0.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45511293411254883,
+      "damping": 3.46688232421875,
+      "rel_output_error_gptq": 0.010806469359492516,
+      "rel_output_error_ls": 0.07561250239375417
+    },
+    {
+      "tensor": "blk.0.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4543638229370117,
+      "damping": 3.46688232421875,
+      "rel_output_error_gptq": 0.05005901494055673,
+      "rel_output_error_ls": 0.2099142559557822
+    },
+    {
+      "tensor": "blk.0.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4552946885426839,
+      "damping": 1.9090155029296876,
+      "rel_output_error_gptq": 0.04646097489942363,
+      "rel_output_error_ls": 0.15661773293818632
+    },
+    {
+      "tensor": "blk.0.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4534207185109456,
+      "damping": 10.586419677734375,
+      "rel_output_error_gptq": 0.019083638103164956,
+      "rel_output_error_ls": 0.08483496456357441
+    },
+    {
+      "tensor": "blk.0.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4536592165629069,
+      "damping": 10.586419677734375,
+      "rel_output_error_gptq": 0.04789583940058359,
+      "rel_output_error_ls": 0.16191234654566833
+    },
+    {
+      "tensor": "blk.1.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45458173751831055,
+      "damping": 2.555944519042969,
+      "rel_output_error_gptq": 0.008868241873120984,
+      "rel_output_error_ls": 0.07100810797763925
+    },
+    {
+      "tensor": "blk.1.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45360589027404785,
+      "damping": 1.2969134521484376,
+      "rel_output_error_gptq": 0.033365938265185274,
+      "rel_output_error_ls": 0.14476626016260163
+    },
+    {
+      "tensor": "blk.1.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4550492763519287,
+      "damping": 2.555944519042969,
+      "rel_output_error_gptq": 0.012944061406984142,
+      "rel_output_error_ls": 0.09171080987090591
+    },
+    {
+      "tensor": "blk.1.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4552168846130371,
+      "damping": 2.555944519042969,
+      "rel_output_error_gptq": 0.041850366285241164,
+      "rel_output_error_ls": 0.21006139509200075
+    },
+    {
+      "tensor": "blk.1.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4503334363301595,
+      "damping": 2.9306951904296876,
+      "rel_output_error_gptq": 0.027357543803905638,
+      "rel_output_error_ls": 0.16591376058897483
+    },
+    {
+      "tensor": "blk.1.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45451005299886066,
+      "damping": 247.40941406250002,
+      "rel_output_error_gptq": 0.001832937568104747,
+      "rel_output_error_ls": 0.05405081286894046
+    },
+    {
+      "tensor": "blk.1.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45497695604960126,
+      "damping": 247.40941406250002,
+      "rel_output_error_gptq": 0.04057276890633496,
+      "rel_output_error_ls": 0.46004216051756425
+    },
+    {
+      "tensor": "blk.2.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45516061782836914,
+      "damping": 5.7456640625,
+      "rel_output_error_gptq": 0.010277976336471624,
+      "rel_output_error_ls": 0.08507287739040126
+    },
+    {
+      "tensor": "blk.2.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4533505439758301,
+      "damping": 2.5730911254882813,
+      "rel_output_error_gptq": 0.03401997742528231,
+      "rel_output_error_ls": 0.1461424894068523
+    },
+    {
+      "tensor": "blk.2.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4545462131500244,
+      "damping": 5.7456640625,
+      "rel_output_error_gptq": 0.014301594119508664,
+      "rel_output_error_ls": 0.10472729037690492
+    },
+    {
+      "tensor": "blk.2.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45480966567993164,
+      "damping": 5.7456640625,
+      "rel_output_error_gptq": 0.042467454561120666,
+      "rel_output_error_ls": 0.2525437715972904
+    },
+    {
+      "tensor": "blk.2.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45702703793843585,
+      "damping": 19126.537500000002,
+      "rel_output_error_gptq": 7.916298266127799e-05,
+      "rel_output_error_ls": 0.317129990846597
+    },
+    {
+      "tensor": "blk.2.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4548173745473226,
+      "damping": 168.92265625000002,
+      "rel_output_error_gptq": 0.0032318228525671875,
+      "rel_output_error_ls": 0.061961912194788145
+    },
+    {
+      "tensor": "blk.2.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45564524332682294,
+      "damping": 168.92265625000002,
+      "rel_output_error_gptq": 0.05763088458525518,
+      "rel_output_error_ls": 0.5642362173057256
+    },
+    {
+      "tensor": "blk.3.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45534181594848633,
+      "damping": 35.5983349609375,
+      "rel_output_error_gptq": 0.019202476614181174,
+      "rel_output_error_ls": 0.13060946185696304
+    },
+    {
+      "tensor": "blk.3.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4542539119720459,
+      "damping": 3.588888854980469,
+      "rel_output_error_gptq": 0.040963410816966195,
+      "rel_output_error_ls": 0.16838573836828022
+    },
+    {
+      "tensor": "blk.3.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45497655868530273,
+      "damping": 35.5983349609375,
+      "rel_output_error_gptq": 0.011601219839231259,
+      "rel_output_error_ls": 0.08911214048393225
+    },
+    {
+      "tensor": "blk.3.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45546817779541016,
+      "damping": 35.5983349609375,
+      "rel_output_error_gptq": 0.05726281351156061,
+      "rel_output_error_ls": 0.31155820378098353
+    },
+    {
+      "tensor": "blk.3.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4544253349304199,
+      "damping": 7.141898193359375,
+      "rel_output_error_gptq": 0.044627276035169014,
+      "rel_output_error_ls": 0.20023985294898505
+    },
+    {
+      "tensor": "blk.3.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4551217555999756,
+      "damping": 175.6923828125,
+      "rel_output_error_gptq": 0.005042193090564052,
+      "rel_output_error_ls": 0.06848127603788161
+    },
+    {
+      "tensor": "blk.3.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45563165346781415,
+      "damping": 175.6923828125,
+      "rel_output_error_gptq": 0.058665964775623844,
+      "rel_output_error_ls": 0.43540642798217694
+    },
+    {
+      "tensor": "blk.4.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45503997802734375,
+      "damping": 40.448750000000004,
+      "rel_output_error_gptq": 0.007958781398325456,
+      "rel_output_error_ls": 0.07761132497987437
+    },
+    {
+      "tensor": "blk.4.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4548304080963135,
+      "damping": 7.36126220703125,
+      "rel_output_error_gptq": 0.04533767233402803,
+      "rel_output_error_ls": 0.19946759609528084
+    },
+    {
+      "tensor": "blk.4.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.455186128616333,
+      "damping": 40.448750000000004,
+      "rel_output_error_gptq": 0.01107762449032798,
+      "rel_output_error_ls": 0.09627301931918518
+    },
+    {
+      "tensor": "blk.4.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4560532569885254,
+      "damping": 40.448750000000004,
+      "rel_output_error_gptq": 0.04898315181106736,
+      "rel_output_error_ls": 0.31222342883819615
+    },
+    {
+      "tensor": "blk.4.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45444655418395996,
+      "damping": 9.672433471679687,
+      "rel_output_error_gptq": 0.05081065588136733,
+      "rel_output_error_ls": 0.19797473302273147
+    },
+    {
+      "tensor": "blk.4.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45543599128723145,
+      "damping": 143.05515625,
+      "rel_output_error_gptq": 0.007155666071561317,
+      "rel_output_error_ls": 0.07228852106978222
+    },
+    {
+      "tensor": "blk.4.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4559166431427002,
+      "damping": 143.05515625,
+      "rel_output_error_gptq": 0.059671992520785894,
+      "rel_output_error_ls": 0.3390859292529539
+    },
+    {
+      "tensor": "blk.5.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4548048973083496,
+      "damping": 62.0940283203125,
+      "rel_output_error_gptq": 0.011078928834573211,
+      "rel_output_error_ls": 0.0983123547782062
+    },
+    {
+      "tensor": "blk.5.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45430564880371094,
+      "damping": 11.03145263671875,
+      "rel_output_error_gptq": 0.052968131690263855,
+      "rel_output_error_ls": 0.17897127674668775
+    },
+    {
+      "tensor": "blk.5.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.455045223236084,
+      "damping": 62.0940283203125,
+      "rel_output_error_gptq": 0.013376155504116709,
+      "rel_output_error_ls": 0.11052992026554513
+    },
+    {
+      "tensor": "blk.5.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45469045639038086,
+      "damping": 62.0940283203125,
+      "rel_output_error_gptq": 0.04957435560951997,
+      "rel_output_error_ls": 0.33074893771089364
+    },
+    {
+      "tensor": "blk.5.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45553239186604816,
+      "damping": 9.6584326171875,
+      "rel_output_error_gptq": 0.06591988459258619,
+      "rel_output_error_ls": 0.18943760920686584
+    },
+    {
+      "tensor": "blk.5.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45549432436625165,
+      "damping": 66.409814453125,
+      "rel_output_error_gptq": 0.01573481465331555,
+      "rel_output_error_ls": 0.08720637116671495
+    },
+    {
+      "tensor": "blk.5.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4556568463643392,
+      "damping": 66.409814453125,
+      "rel_output_error_gptq": 0.06500331976449951,
+      "rel_output_error_ls": 0.25662487323654176
+    },
+    {
+      "tensor": "blk.6.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4540886878967285,
+      "damping": 43.2054052734375,
+      "rel_output_error_gptq": 0.01717117801010505,
+      "rel_output_error_ls": 0.10725261302777143
+    },
+    {
+      "tensor": "blk.6.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45368051528930664,
+      "damping": 12.34831787109375,
+      "rel_output_error_gptq": 0.045927155906238304,
+      "rel_output_error_ls": 0.17362989407390902
+    },
+    {
+      "tensor": "blk.6.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45473504066467285,
+      "damping": 43.2054052734375,
+      "rel_output_error_gptq": 0.013732031575548115,
+      "rel_output_error_ls": 0.09120198847535864
+    },
+    {
+      "tensor": "blk.6.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4552907943725586,
+      "damping": 43.2054052734375,
+      "rel_output_error_gptq": 0.06156450022950301,
+      "rel_output_error_ls": 0.32300909928799065
+    },
+    {
+      "tensor": "blk.6.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45545029640197754,
+      "damping": 11.808964843750001,
+      "rel_output_error_gptq": 0.0699860009607106,
+      "rel_output_error_ls": 0.19550898831406738
+    },
+    {
+      "tensor": "blk.6.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4554557005564372,
+      "damping": 85.33064453125,
+      "rel_output_error_gptq": 0.015584461679632448,
+      "rel_output_error_ls": 0.08502065604670181
+    },
+    {
+      "tensor": "blk.6.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45581912994384766,
+      "damping": 85.33064453125,
+      "rel_output_error_gptq": 0.0701125852883048,
+      "rel_output_error_ls": 0.26106484075959263
+    },
+    {
+      "tensor": "blk.7.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45473241806030273,
+      "damping": 102.919052734375,
+      "rel_output_error_gptq": 0.01820343261925168,
+      "rel_output_error_ls": 0.11261281723989584
+    },
+    {
+      "tensor": "blk.7.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4551725387573242,
+      "damping": 21.406923828125,
+      "rel_output_error_gptq": 0.05916151039686694,
+      "rel_output_error_ls": 0.20581872282627894
+    },
+    {
+      "tensor": "blk.7.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45592689514160156,
+      "damping": 102.919052734375,
+      "rel_output_error_gptq": 0.018889936177537946,
+      "rel_output_error_ls": 0.11138153748805385
+    },
+    {
+      "tensor": "blk.7.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45593881607055664,
+      "damping": 102.919052734375,
+      "rel_output_error_gptq": 0.07182127229025531,
+      "rel_output_error_ls": 0.3510328881259812
+    },
+    {
+      "tensor": "blk.7.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45526957511901855,
+      "damping": 15.548022460937501,
+      "rel_output_error_gptq": 0.06864707942158897,
+      "rel_output_error_ls": 0.1999197293226768
+    },
+    {
+      "tensor": "blk.7.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45609092712402344,
+      "damping": 121.292021484375,
+      "rel_output_error_gptq": 0.013876662719042662,
+      "rel_output_error_ls": 0.0801744751651088
+    },
+    {
+      "tensor": "blk.7.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4557192325592041,
+      "damping": 121.292021484375,
+      "rel_output_error_gptq": 0.07010962175461545,
+      "rel_output_error_ls": 0.2611708040152191
+    },
+    {
+      "tensor": "blk.8.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45560455322265625,
+      "damping": 116.80853515625,
+      "rel_output_error_gptq": 0.023648770106835675,
+      "rel_output_error_ls": 0.11759001218115615
+    },
+    {
+      "tensor": "blk.8.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45459675788879395,
+      "damping": 22.094003906250002,
+      "rel_output_error_gptq": 0.04885986801103373,
+      "rel_output_error_ls": 0.21806917131666614
+    },
+    {
+      "tensor": "blk.8.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4554872512817383,
+      "damping": 116.80853515625,
+      "rel_output_error_gptq": 0.023718577776548854,
+      "rel_output_error_ls": 0.11955166234321135
+    },
+    {
+      "tensor": "blk.8.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4549579620361328,
+      "damping": 116.80853515625,
+      "rel_output_error_gptq": 0.05244524182366439,
+      "rel_output_error_ls": 0.22415740635945702
+    },
+    {
+      "tensor": "blk.8.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4551254113515218,
+      "damping": 16.956673583984376,
+      "rel_output_error_gptq": 0.07583720297122254,
+      "rel_output_error_ls": 0.20614664325267293
+    },
+    {
+      "tensor": "blk.8.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4557064374287923,
+      "damping": 113.9540625,
+      "rel_output_error_gptq": 0.017164903159109405,
+      "rel_output_error_ls": 0.08671955376894923
+    },
+    {
+      "tensor": "blk.8.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4562852382659912,
+      "damping": 113.9540625,
+      "rel_output_error_gptq": 0.0728585403736678,
+      "rel_output_error_ls": 0.2531563704861168
+    },
+    {
+      "tensor": "blk.9.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45502376556396484,
+      "damping": 251.79542968750002,
+      "rel_output_error_gptq": 0.022883618272213878,
+      "rel_output_error_ls": 0.1342965739539717
+    },
+    {
+      "tensor": "blk.9.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45450353622436523,
+      "damping": 49.0167578125,
+      "rel_output_error_gptq": 0.05574879131313264,
+      "rel_output_error_ls": 0.24952048888393732
+    },
+    {
+      "tensor": "blk.9.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4552316665649414,
+      "damping": 251.79542968750002,
+      "rel_output_error_gptq": 0.016749436400737644,
+      "rel_output_error_ls": 0.10456984166994096
+    },
+    {
+      "tensor": "blk.9.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4558572769165039,
+      "damping": 251.79542968750002,
+      "rel_output_error_gptq": 0.0707089618123291,
+      "rel_output_error_ls": 0.33407023558876053
+    },
+    {
+      "tensor": "blk.9.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45516061782836914,
+      "damping": 23.521572265625,
+      "rel_output_error_gptq": 0.06444032948760074,
+      "rel_output_error_ls": 0.21750392347444056
+    },
+    {
+      "tensor": "blk.9.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455687681833903,
+      "damping": 109.13871093750001,
+      "rel_output_error_gptq": 0.0191133858762751,
+      "rel_output_error_ls": 0.09591177483337229
+    },
+    {
+      "tensor": "blk.9.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4562563896179199,
+      "damping": 109.13871093750001,
+      "rel_output_error_gptq": 0.06265112657475133,
+      "rel_output_error_ls": 0.23461950888229618
+    },
+    {
+      "tensor": "blk.10.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4544954299926758,
+      "damping": 211.295078125,
+      "rel_output_error_gptq": 0.01927816932192152,
+      "rel_output_error_ls": 0.11938799204356085
+    },
+    {
+      "tensor": "blk.10.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4555187225341797,
+      "damping": 64.16822265625,
+      "rel_output_error_gptq": 0.04899883015648714,
+      "rel_output_error_ls": 0.22552432165308425
+    },
+    {
+      "tensor": "blk.10.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4550192356109619,
+      "damping": 211.295078125,
+      "rel_output_error_gptq": 0.01714643570643168,
+      "rel_output_error_ls": 0.10695647039692742
+    },
+    {
+      "tensor": "blk.10.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4555239677429199,
+      "damping": 211.295078125,
+      "rel_output_error_gptq": 0.055238543793164556,
+      "rel_output_error_ls": 0.28911614627972054
+    },
+    {
+      "tensor": "blk.10.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4544227123260498,
+      "damping": 35.87564453125,
+      "rel_output_error_gptq": 0.054115813560812215,
+      "rel_output_error_ls": 0.19717214182453935
+    },
+    {
+      "tensor": "blk.10.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45563435554504395,
+      "damping": 109.53076171875,
+      "rel_output_error_gptq": 0.020452599456896783,
+      "rel_output_error_ls": 0.10131999175486867
+    },
+    {
+      "tensor": "blk.10.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45591139793395996,
+      "damping": 109.53076171875,
+      "rel_output_error_gptq": 0.052067425190240026,
+      "rel_output_error_ls": 0.20271325625494588
+    },
+    {
+      "tensor": "blk.11.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4557375907897949,
+      "damping": 412.298515625,
+      "rel_output_error_gptq": 0.016262361152707048,
+      "rel_output_error_ls": 0.12509148812635826
+    },
+    {
+      "tensor": "blk.11.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4557051658630371,
+      "damping": 145.24439453125,
+      "rel_output_error_gptq": 0.055775873030760224,
+      "rel_output_error_ls": 0.2328941162465832
+    },
+    {
+      "tensor": "blk.11.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45498228073120117,
+      "damping": 412.298515625,
+      "rel_output_error_gptq": 0.012960497095577356,
+      "rel_output_error_ls": 0.10672579902576745
+    },
+    {
+      "tensor": "blk.11.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45457935333251953,
+      "damping": 412.298515625,
+      "rel_output_error_gptq": 0.04445079386835527,
+      "rel_output_error_ls": 0.2987604538707528
+    },
+    {
+      "tensor": "blk.11.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4551890691121419,
+      "damping": 37.74459716796875,
+      "rel_output_error_gptq": 0.06833862120605369,
+      "rel_output_error_ls": 0.21863175742721963
+    },
+    {
+      "tensor": "blk.11.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45563141504923504,
+      "damping": 95.02239257812501,
+      "rel_output_error_gptq": 0.023568120233598656,
+      "rel_output_error_ls": 0.10527482932826181
+    },
+    {
+      "tensor": "blk.11.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45552317301432294,
+      "damping": 95.02239257812501,
+      "rel_output_error_gptq": 0.05816485239083176,
+      "rel_output_error_ls": 0.20819319888717908
+    },
+    {
+      "tensor": "blk.12.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4546980857849121,
+      "damping": 391.354921875,
+      "rel_output_error_gptq": 0.013893029888432436,
+      "rel_output_error_ls": 0.10020939899092132
+    },
+    {
+      "tensor": "blk.12.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45489954948425293,
+      "damping": 120.21291015625,
+      "rel_output_error_gptq": 0.05156532554428943,
+      "rel_output_error_ls": 0.26026552252164553
+    },
+    {
+      "tensor": "blk.12.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4552175998687744,
+      "damping": 391.354921875,
+      "rel_output_error_gptq": 0.01693583584238449,
+      "rel_output_error_ls": 0.11047653319726647
+    },
+    {
+      "tensor": "blk.12.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45532798767089844,
+      "damping": 391.354921875,
+      "rel_output_error_gptq": 0.030419571980325362,
+      "rel_output_error_ls": 0.18296822267390805
+    },
+    {
+      "tensor": "blk.12.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4556727409362793,
+      "damping": 43.0175146484375,
+      "rel_output_error_gptq": 0.07204086095625079,
+      "rel_output_error_ls": 0.2188633990801095
+    },
+    {
+      "tensor": "blk.12.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4556283156077067,
+      "damping": 95.16693359375,
+      "rel_output_error_gptq": 0.023807175423607604,
+      "rel_output_error_ls": 0.10048581439029773
+    },
+    {
+      "tensor": "blk.12.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45581992467244464,
+      "damping": 95.16693359375,
+      "rel_output_error_gptq": 0.06374112083373516,
+      "rel_output_error_ls": 0.2128726759798327
+    },
+    {
+      "tensor": "blk.13.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4548778533935547,
+      "damping": 632.580546875,
+      "rel_output_error_gptq": 0.012797785662950438,
+      "rel_output_error_ls": 0.10450184281393651
+    },
+    {
+      "tensor": "blk.13.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45482397079467773,
+      "damping": 213.36001953125,
+      "rel_output_error_gptq": 0.04330322147661269,
+      "rel_output_error_ls": 0.28320008946634834
+    },
+    {
+      "tensor": "blk.13.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.454801082611084,
+      "damping": 632.580546875,
+      "rel_output_error_gptq": 0.01620581575356102,
+      "rel_output_error_ls": 0.12433807430040966
+    },
+    {
+      "tensor": "blk.13.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45494699478149414,
+      "damping": 632.580546875,
+      "rel_output_error_gptq": 0.032107084137034066,
+      "rel_output_error_ls": 0.22356301938160705
+    },
+    {
+      "tensor": "blk.13.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4556565284729004,
+      "damping": 51.386376953125,
+      "rel_output_error_gptq": 0.0777578548947334,
+      "rel_output_error_ls": 0.2268610014144638
+    },
+    {
+      "tensor": "blk.13.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4555717309315999,
+      "damping": 105.792587890625,
+      "rel_output_error_gptq": 0.02518227982627187,
+      "rel_output_error_ls": 0.10578925239796069
+    },
+    {
+      "tensor": "blk.13.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45569030443827313,
+      "damping": 105.792587890625,
+      "rel_output_error_gptq": 0.06127196816547839,
+      "rel_output_error_ls": 0.20913345019252536
+    },
+    {
+      "tensor": "blk.14.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45450592041015625,
+      "damping": 976.2913281250001,
+      "rel_output_error_gptq": 0.012954126852007565,
+      "rel_output_error_ls": 0.1052576891027034
+    },
+    {
+      "tensor": "blk.14.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45528197288513184,
+      "damping": 159.662333984375,
+      "rel_output_error_gptq": 0.050465292944240084,
+      "rel_output_error_ls": 0.21239877508469282
+    },
+    {
+      "tensor": "blk.14.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4551048278808594,
+      "damping": 976.2913281250001,
+      "rel_output_error_gptq": 0.015984306158432913,
+      "rel_output_error_ls": 0.11937115130902412
+    },
+    {
+      "tensor": "blk.14.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45490407943725586,
+      "damping": 976.2913281250001,
+      "rel_output_error_gptq": 0.037675637598367936,
+      "rel_output_error_ls": 0.23455947389354
+    },
+    {
+      "tensor": "blk.14.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45514512062072754,
+      "damping": 69.16625,
+      "rel_output_error_gptq": 0.06961667839745034,
+      "rel_output_error_ls": 0.21966662323250555
+    },
+    {
+      "tensor": "blk.14.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45571335156758624,
+      "damping": 115.32659179687501,
+      "rel_output_error_gptq": 0.027373528042608744,
+      "rel_output_error_ls": 0.10881285726174315
+    },
+    {
+      "tensor": "blk.14.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45577144622802734,
+      "damping": 115.32659179687501,
+      "rel_output_error_gptq": 0.05876144484544264,
+      "rel_output_error_ls": 0.19455882079610426
+    },
+    {
+      "tensor": "blk.15.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45460081100463867,
+      "damping": 1985.22640625,
+      "rel_output_error_gptq": 0.018729066042845067,
+      "rel_output_error_ls": 0.13328590906780044
+    },
+    {
+      "tensor": "blk.15.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4553043842315674,
+      "damping": 315.708203125,
+      "rel_output_error_gptq": 0.03957294675744438,
+      "rel_output_error_ls": 0.22890130338233636
+    },
+    {
+      "tensor": "blk.15.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45464348793029785,
+      "damping": 1985.22640625,
+      "rel_output_error_gptq": 0.015157913054893193,
+      "rel_output_error_ls": 0.11215195204056166
+    },
+    {
+      "tensor": "blk.15.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45490598678588867,
+      "damping": 1985.22640625,
+      "rel_output_error_gptq": 0.06525040385007054,
+      "rel_output_error_ls": 0.37245998141260545
+    },
+    {
+      "tensor": "blk.15.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4546993573506673,
+      "damping": 108.59546875000001,
+      "rel_output_error_gptq": 0.06297450803574876,
+      "rel_output_error_ls": 0.2141894164617838
+    },
+    {
+      "tensor": "blk.15.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4557341734568278,
+      "damping": 144.04859375,
+      "rel_output_error_gptq": 0.02453920787201606,
+      "rel_output_error_ls": 0.11072357781615368
+    },
+    {
+      "tensor": "blk.15.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45579806963602704,
+      "damping": 144.04859375,
+      "rel_output_error_gptq": 0.04875739408216351,
+      "rel_output_error_ls": 0.1887323404958377
+    },
+    {
+      "tensor": "blk.16.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45440101623535156,
+      "damping": 2586.2915625,
+      "rel_output_error_gptq": 0.01741004097502154,
+      "rel_output_error_ls": 0.14144087447380932
+    },
+    {
+      "tensor": "blk.16.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4534296989440918,
+      "damping": 419.0859375,
+      "rel_output_error_gptq": 0.03533405944949436,
+      "rel_output_error_ls": 0.22276806235721563
+    },
+    {
+      "tensor": "blk.16.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4549856185913086,
+      "damping": 2586.2915625,
+      "rel_output_error_gptq": 0.013308700035775535,
+      "rel_output_error_ls": 0.12611497445561304
+    },
+    {
+      "tensor": "blk.16.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45539426803588867,
+      "damping": 2586.2915625,
+      "rel_output_error_gptq": 0.052419621888540206,
+      "rel_output_error_ls": 0.3751329119201724
+    },
+    {
+      "tensor": "blk.16.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4536450703938802,
+      "damping": 303.55646484375,
+      "rel_output_error_gptq": 0.03584470252000157,
+      "rel_output_error_ls": 0.17885071704714023
+    },
+    {
+      "tensor": "blk.16.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455629825592041,
+      "damping": 174.1417578125,
+      "rel_output_error_gptq": 0.019409604175866246,
+      "rel_output_error_ls": 0.10390329921325173
+    },
+    {
+      "tensor": "blk.16.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45594263076782227,
+      "damping": 174.1417578125,
+      "rel_output_error_gptq": 0.03699466329282915,
+      "rel_output_error_ls": 0.1660793315658526
+    },
+    {
+      "tensor": "blk.17.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4550633430480957,
+      "damping": 7888.5181250000005,
+      "rel_output_error_gptq": 0.012544058895250992,
+      "rel_output_error_ls": 0.12244834675262867
+    },
+    {
+      "tensor": "blk.17.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45506906509399414,
+      "damping": 1145.133125,
+      "rel_output_error_gptq": 0.03627315211205619,
+      "rel_output_error_ls": 0.24260757515448383
+    },
+    {
+      "tensor": "blk.17.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45491933822631836,
+      "damping": 7888.5181250000005,
+      "rel_output_error_gptq": 0.012626324553175666,
+      "rel_output_error_ls": 0.12184260084127724
+    },
+    {
+      "tensor": "blk.17.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4560527801513672,
+      "damping": 7888.5181250000005,
+      "rel_output_error_gptq": 0.06217201154708238,
+      "rel_output_error_ls": 0.47750239252524745
+    },
+    {
+      "tensor": "blk.17.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4531533718109131,
+      "damping": 381.6635546875,
+      "rel_output_error_gptq": 0.04430249539036816,
+      "rel_output_error_ls": 0.21615817994882883
+    },
+    {
+      "tensor": "blk.17.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455513874689738,
+      "damping": 259.78109375,
+      "rel_output_error_gptq": 0.019645368333361703,
+      "rel_output_error_ls": 0.1116216805104455
+    },
+    {
+      "tensor": "blk.17.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4556893507639567,
+      "damping": 259.78109375,
+      "rel_output_error_gptq": 0.032466731600164785,
+      "rel_output_error_ls": 0.16466181993462475
+    },
+    {
+      "tensor": "blk.18.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45513010025024414,
+      "damping": 9446.90875,
+      "rel_output_error_gptq": 0.01470860128326789,
+      "rel_output_error_ls": 0.1528999376261824
+    },
+    {
+      "tensor": "blk.18.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4533557891845703,
+      "damping": 1227.488125,
+      "rel_output_error_gptq": 0.02147473159893251,
+      "rel_output_error_ls": 0.15583520668361406
+    },
+    {
+      "tensor": "blk.18.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4554717540740967,
+      "damping": 9446.90875,
+      "rel_output_error_gptq": 0.011129703188032084,
+      "rel_output_error_ls": 0.12352529825479136
+    },
+    {
+      "tensor": "blk.18.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45437049865722656,
+      "damping": 9446.90875,
+      "rel_output_error_gptq": 0.04882642061495816,
+      "rel_output_error_ls": 0.42131992928082485
+    },
+    {
+      "tensor": "blk.18.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45192639032999676,
+      "damping": 591.4823046875,
+      "rel_output_error_gptq": 0.04241732575561126,
+      "rel_output_error_ls": 0.20620832172824566
+    },
+    {
+      "tensor": "blk.18.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45525113741556805,
+      "damping": 354.3125390625,
+      "rel_output_error_gptq": 0.015263172478767474,
+      "rel_output_error_ls": 0.1009167830773503
+    },
+    {
+      "tensor": "blk.18.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45570095380147296,
+      "damping": 354.3125390625,
+      "rel_output_error_gptq": 0.026651329825305745,
+      "rel_output_error_ls": 0.15613260223554837
+    },
+    {
+      "tensor": "blk.19.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45456457138061523,
+      "damping": 15804.577500000001,
+      "rel_output_error_gptq": 0.012844461772951888,
+      "rel_output_error_ls": 0.13374308839897356
+    },
+    {
+      "tensor": "blk.19.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45407700538635254,
+      "damping": 1682.17375,
+      "rel_output_error_gptq": 0.029131377541946803,
+      "rel_output_error_ls": 0.18323504563023876
+    },
+    {
+      "tensor": "blk.19.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45516371726989746,
+      "damping": 15804.577500000001,
+      "rel_output_error_gptq": 0.01115634974511788,
+      "rel_output_error_ls": 0.1319042562081015
+    },
+    {
+      "tensor": "blk.19.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45464468002319336,
+      "damping": 15804.577500000001,
+      "rel_output_error_gptq": 0.05143000569942814,
+      "rel_output_error_ls": 0.43608994409391244
+    },
+    {
+      "tensor": "blk.19.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4519058068593343,
+      "damping": 1407.2040625,
+      "rel_output_error_gptq": 0.03632044228398316,
+      "rel_output_error_ls": 0.21970075196399322
+    },
+    {
+      "tensor": "blk.19.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4553671677907308,
+      "damping": 478.408984375,
+      "rel_output_error_gptq": 0.013472315248366831,
+      "rel_output_error_ls": 0.09791621503135657
+    },
+    {
+      "tensor": "blk.19.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455413023630778,
+      "damping": 478.408984375,
+      "rel_output_error_gptq": 0.024119364622624772,
+      "rel_output_error_ls": 0.14742521558581306
+    },
+    {
+      "tensor": "blk.20.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4553208351135254,
+      "damping": 25726.127500000002,
+      "rel_output_error_gptq": 0.01577453869474881,
+      "rel_output_error_ls": 0.17867059102424754
+    },
+    {
+      "tensor": "blk.20.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45365452766418457,
+      "damping": 1765.80625,
+      "rel_output_error_gptq": 0.021138447555573103,
+      "rel_output_error_ls": 0.15272253914720704
+    },
+    {
+      "tensor": "blk.20.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4548962116241455,
+      "damping": 25726.127500000002,
+      "rel_output_error_gptq": 0.01116927125089942,
+      "rel_output_error_ls": 0.14188918180560636
+    },
+    {
+      "tensor": "blk.20.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4543886184692383,
+      "damping": 25726.127500000002,
+      "rel_output_error_gptq": 0.05192228006536074,
+      "rel_output_error_ls": 0.5238271835137355
+    },
+    {
+      "tensor": "blk.20.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45094529787699383,
+      "damping": 1643.43046875,
+      "rel_output_error_gptq": 0.03193758861756737,
+      "rel_output_error_ls": 0.19251879512928388
+    },
+    {
+      "tensor": "blk.20.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45513105392456055,
+      "damping": 609.15203125,
+      "rel_output_error_gptq": 0.012253817650527465,
+      "rel_output_error_ls": 0.09471326109271702
+    },
+    {
+      "tensor": "blk.20.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455367644627889,
+      "damping": 609.15203125,
+      "rel_output_error_gptq": 0.026357004408594537,
+      "rel_output_error_ls": 0.163941793886287
+    },
+    {
+      "tensor": "blk.21.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4542832374572754,
+      "damping": 33192.54,
+      "rel_output_error_gptq": 0.01854744887636004,
+      "rel_output_error_ls": 0.19646567351146024
+    },
+    {
+      "tensor": "blk.21.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45316648483276367,
+      "damping": 1618.034375,
+      "rel_output_error_gptq": 0.03470048560689568,
+      "rel_output_error_ls": 0.20925121427160084
+    },
+    {
+      "tensor": "blk.21.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4548909664154053,
+      "damping": 33192.54,
+      "rel_output_error_gptq": 0.013772986591503555,
+      "rel_output_error_ls": 0.1611401461745659
+    },
+    {
+      "tensor": "blk.21.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4548025131225586,
+      "damping": 33192.54,
+      "rel_output_error_gptq": 0.05255688710117597,
+      "rel_output_error_ls": 0.4919348426567165
+    },
+    {
+      "tensor": "blk.21.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4492784341176351,
+      "damping": 2296.39046875,
+      "rel_output_error_gptq": 0.026613807761694464,
+      "rel_output_error_ls": 0.1984289319761723
+    },
+    {
+      "tensor": "blk.21.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45548264185587567,
+      "damping": 673.98984375,
+      "rel_output_error_gptq": 0.011898042185256854,
+      "rel_output_error_ls": 0.0898035712360572
+    },
+    {
+      "tensor": "blk.21.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45554320017496747,
+      "damping": 673.98984375,
+      "rel_output_error_gptq": 0.03269985655794032,
+      "rel_output_error_ls": 0.18727896220326012
+    },
+    {
+      "tensor": "blk.22.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4541130065917969,
+      "damping": 49803.955,
+      "rel_output_error_gptq": 0.01566077270864608,
+      "rel_output_error_ls": 0.19706390413253858
+    },
+    {
+      "tensor": "blk.22.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.454754114151001,
+      "damping": 2754.595625,
+      "rel_output_error_gptq": 0.0237738724289088,
+      "rel_output_error_ls": 0.18531695955235877
+    },
+    {
+      "tensor": "blk.22.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4547300338745117,
+      "damping": 49803.955,
+      "rel_output_error_gptq": 0.011577691423487527,
+      "rel_output_error_ls": 0.15575894509443752
+    },
+    {
+      "tensor": "blk.22.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45405149459838867,
+      "damping": 49803.955,
+      "rel_output_error_gptq": 0.04855253391189123,
+      "rel_output_error_ls": 0.5382644282166184
+    },
+    {
+      "tensor": "blk.22.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4490524133046468,
+      "damping": 2297.685625,
+      "rel_output_error_gptq": 0.023817634457398342,
+      "rel_output_error_ls": 0.2000353145638564
+    },
+    {
+      "tensor": "blk.22.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4554561773935954,
+      "damping": 759.0225,
+      "rel_output_error_gptq": 0.011330305575920574,
+      "rel_output_error_ls": 0.09104551273265934
+    },
+    {
+      "tensor": "blk.22.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4554284413655599,
+      "damping": 759.0225,
+      "rel_output_error_gptq": 0.035719832336755464,
+      "rel_output_error_ls": 0.2108728945809231
+    },
+    {
+      "tensor": "blk.23.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45346975326538086,
+      "damping": 59046.31,
+      "rel_output_error_gptq": 0.011445620920513995,
+      "rel_output_error_ls": 0.1558587555466448
+    },
+    {
+      "tensor": "blk.23.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4541184902191162,
+      "damping": 2806.2740625,
+      "rel_output_error_gptq": 0.026478833558289085,
+      "rel_output_error_ls": 0.18507707940422663
+    },
+    {
+      "tensor": "blk.23.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4544649124145508,
+      "damping": 59046.31,
+      "rel_output_error_gptq": 0.009519862037758816,
+      "rel_output_error_ls": 0.14101264761246393
+    },
+    {
+      "tensor": "blk.23.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45389842987060547,
+      "damping": 59046.31,
+      "rel_output_error_gptq": 0.04404436178846737,
+      "rel_output_error_ls": 0.5019806630600667
+    },
+    {
+      "tensor": "blk.23.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.4495686690012614,
+      "damping": 3621.639375,
+      "rel_output_error_gptq": 0.017810409041565497,
+      "rel_output_error_ls": 0.20926545662184937
+    },
+    {
+      "tensor": "blk.23.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45542136828104657,
+      "damping": 918.94875,
+      "rel_output_error_gptq": 0.010711839769173444,
+      "rel_output_error_ls": 0.08988741140678504
+    },
+    {
+      "tensor": "blk.23.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45575110117594403,
+      "damping": 918.94875,
+      "rel_output_error_gptq": 0.03264668751265086,
+      "rel_output_error_ls": 0.20557150330302384
+    },
+    {
+      "tensor": "blk.24.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4531588554382324,
+      "damping": 87339.86,
+      "rel_output_error_gptq": 0.009371884872561336,
+      "rel_output_error_ls": 0.1320733943109438
+    },
+    {
+      "tensor": "blk.24.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45380663871765137,
+      "damping": 5143.925625,
+      "rel_output_error_gptq": 0.013869424903406745,
+      "rel_output_error_ls": 0.14659405682439147
+    },
+    {
+      "tensor": "blk.24.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45351076126098633,
+      "damping": 87339.86,
+      "rel_output_error_gptq": 0.007591856745557439,
+      "rel_output_error_ls": 0.109045282073726
+    },
+    {
+      "tensor": "blk.24.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45311975479125977,
+      "damping": 87339.86,
+      "rel_output_error_gptq": 0.039495456295792146,
+      "rel_output_error_ls": 0.43338368841125713
+    },
+    {
+      "tensor": "blk.24.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45079859097798664,
+      "damping": 5225.619375,
+      "rel_output_error_gptq": 0.012772916698838824,
+      "rel_output_error_ls": 0.19683883734602864
+    },
+    {
+      "tensor": "blk.24.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455435832341512,
+      "damping": 991.8002343750001,
+      "rel_output_error_gptq": 0.010316552391000922,
+      "rel_output_error_ls": 0.09776273049945046
+    },
+    {
+      "tensor": "blk.24.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45534245173136395,
+      "damping": 991.8002343750001,
+      "rel_output_error_gptq": 0.029734325194811433,
+      "rel_output_error_ls": 0.21969903095162532
+    },
+    {
+      "tensor": "blk.25.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45276498794555664,
+      "damping": 96563.47,
+      "rel_output_error_gptq": 0.009821222476252552,
+      "rel_output_error_ls": 0.13677326610137977
+    },
+    {
+      "tensor": "blk.25.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45431041717529297,
+      "damping": 4491.793125,
+      "rel_output_error_gptq": 0.014199856428739928,
+      "rel_output_error_ls": 0.13458365712136086
+    },
+    {
+      "tensor": "blk.25.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45306396484375,
+      "damping": 96563.47,
+      "rel_output_error_gptq": 0.006591759958255251,
+      "rel_output_error_ls": 0.1132718472389814
+    },
+    {
+      "tensor": "blk.25.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45201969146728516,
+      "damping": 96563.47,
+      "rel_output_error_gptq": 0.03745130558614311,
+      "rel_output_error_ls": 0.44433501194041525
+    },
+    {
+      "tensor": "blk.25.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45158012708028156,
+      "damping": 6928.295,
+      "rel_output_error_gptq": 0.013833598977123234,
+      "rel_output_error_ls": 0.19604866895205658
+    },
+    {
+      "tensor": "blk.25.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4549246629079183,
+      "damping": 1019.891875,
+      "rel_output_error_gptq": 0.010607009527989783,
+      "rel_output_error_ls": 0.10840773305752516
+    },
+    {
+      "tensor": "blk.25.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45562219619750977,
+      "damping": 1019.891875,
+      "rel_output_error_gptq": 0.024909231099114363,
+      "rel_output_error_ls": 0.20960831320523451
+    },
+    {
+      "tensor": "blk.26.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4527139663696289,
+      "damping": 96013.68000000001,
+      "rel_output_error_gptq": 0.011254461358056137,
+      "rel_output_error_ls": 0.16286668433776114
+    },
+    {
+      "tensor": "blk.26.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45481348037719727,
+      "damping": 10022.748125,
+      "rel_output_error_gptq": 0.009374182908662255,
+      "rel_output_error_ls": 0.09784578304774638
+    },
+    {
+      "tensor": "blk.26.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.4535229206085205,
+      "damping": 96013.68000000001,
+      "rel_output_error_gptq": 0.011318709757091696,
+      "rel_output_error_ls": 0.16746453381930018
+    },
+    {
+      "tensor": "blk.26.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.4523277282714844,
+      "damping": 96013.68000000001,
+      "rel_output_error_gptq": 0.03545111277998313,
+      "rel_output_error_ls": 0.4293341632443245
+    },
+    {
+      "tensor": "blk.26.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45339449246724445,
+      "damping": 13776.48,
+      "rel_output_error_gptq": 0.009316715663249084,
+      "rel_output_error_ls": 0.18908770848397918
+    },
+    {
+      "tensor": "blk.26.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.455255667368571,
+      "damping": 1316.8496875,
+      "rel_output_error_gptq": 0.010141559537930686,
+      "rel_output_error_ls": 0.1366710182450682
+    },
+    {
+      "tensor": "blk.26.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4553745587666829,
+      "damping": 1316.8496875,
+      "rel_output_error_gptq": 0.01738333620577108,
+      "rel_output_error_ls": 0.20916726734755214
+    },
+    {
+      "tensor": "blk.27.attn_k.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45534849166870117,
+      "damping": 48211.815,
+      "rel_output_error_gptq": 0.006684568533421983,
+      "rel_output_error_ls": 0.09691317433842798
+    },
+    {
+      "tensor": "blk.27.attn_output.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45503878593444824,
+      "damping": 5717.4712500000005,
+      "rel_output_error_gptq": 0.020100145313954224,
+      "rel_output_error_ls": 0.182137265012875
+    },
+    {
+      "tensor": "blk.27.attn_q.weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "zero_fraction": 0.45490574836730957,
+      "damping": 48211.815,
+      "rel_output_error_gptq": 0.007776492475655444,
+      "rel_output_error_ls": 0.09766515124598031
+    },
+    {
+      "tensor": "blk.27.attn_v.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "zero_fraction": 0.45624303817749023,
+      "damping": 48211.815,
+      "rel_output_error_gptq": 0.044185596580578704,
+      "rel_output_error_ls": 0.42893468047193856
+    },
+    {
+      "tensor": "blk.27.ffn_down.weight",
+      "shape": [
+        2048,
+        6144
+      ],
+      "zero_fraction": 0.45589462916056317,
+      "damping": 172722.0,
+      "rel_output_error_gptq": 0.0017935873723239491,
+      "rel_output_error_ls": 0.3203083785431162
+    },
+    {
+      "tensor": "blk.27.ffn_gate.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.45518843332926434,
+      "damping": 2472.01609375,
+      "rel_output_error_gptq": 0.0056492346489221065,
+      "rel_output_error_ls": 0.11851709389083083
+    },
+    {
+      "tensor": "blk.27.ffn_up.weight",
+      "shape": [
+        6144,
+        2048
+      ],
+      "zero_fraction": 0.4553507963816325,
+      "damping": 2472.01609375,
+      "rel_output_error_gptq": 0.00921995770540265,
+      "rel_output_error_ls": 0.16746379782435594
+    },
+    {
+      "tensor": "token_embd.weight",
+      "shape": [
+        151936,
+        2048
+      ],
+      "zero_fraction": 0.45531216487225706,
+      "damping": 1879.25265625,
+      "rel_output_error_gptq": 0.00558890258187792,
+      "rel_output_error_ls": 0.1640380438345186
+    }
+  ],
+  "torch": "2.14.0+cu130",
+  "calibration_nll_fp": 3.436870757847616,
+  "calibration_nll_packed_torch": 4.313299809883252,
+  "calibration_nll_note": "in-sample diagnostic on calibration windows; not an evaluation",
+  "gpu": "NVIDIA GeForce RTX 5070"
+}

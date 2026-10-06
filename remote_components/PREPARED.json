@@ -1,0 +1,135 @@
+{
+  "old_freeze_sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78",
+  "boundaries": {
+    "rv2-08-q1-long-far-base": {
+      "p": 12273,
+      "answer_p": 12302,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "724003ecd09e9f1da68331263e2171ce4985fca4b465d9db399c6b2ba94d78da"
+    },
+    "rv2-08-q1-long-far-swap": {
+      "p": 12273,
+      "answer_p": 12302,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "ea4753210b0c10d29539ad3e3f13e2fb102b11f393e065844b0e9a917084f830"
+    },
+    "rv2-09-q1-long-far-base": {
+      "p": 12257,
+      "answer_p": 12285,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "fb9f7e17d55976c733b2fee0b85c98fd9c246e924a1efa2c268608d53d89a56c"
+    },
+    "rv2-09-q1-long-far-swap": {
+      "p": 12257,
+      "answer_p": 12285,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "99ad112958b2b39947c49593e2c5a7bcf3a8a826d59808de8a42cb3d9b68b22e"
+    },
+    "rv2-10-q1-long-far-base": {
+      "p": 12255,
+      "answer_p": 12283,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "d44aab21abb43503d68848b438143ff0599ff8befa5ad3c1d8ea7408773a66d8"
+    },
+    "rv2-10-q1-long-far-swap": {
+      "p": 12255,
+      "answer_p": 12283,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "e7b2374c7ce58a6e2f18760f2927f8ce122c8356cad5ab1531c80e9ad8c3a736"
+    },
+    "rv2-11-q1-long-far-base": {
+      "p": 12275,
+      "answer_p": 12303,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "f6d9dca8d1a5f6e8792c933203036e56ae5c929dd0cb45baeac68e80c252c875"
+    },
+    "rv2-11-q1-long-far-swap": {
+      "p": 12275,
+      "answer_p": 12303,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "fa561d23cd493b1908df1c7875ed428645e85c51337d85cfec08dce2820701b8"
+    },
+    "rv2-12-q1-long-far-base": {
+      "p": 12281,
+      "answer_p": 12310,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "abbc7fd8f26d5cc77a3c1dcf7963465aed971da59b8b889d54dcbdb91fd65ebc"
+    },
+    "rv2-12-q1-long-far-swap": {
+      "p": 12281,
+      "answer_p": 12310,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "99ac2d5bbf4c2a7d4a8afb7228a5b50253a7f7abaffda946a0d6a4c100cc69bc"
+    },
+    "rv2-13-q1-long-far-base": {
+      "p": 12253,
+      "answer_p": 12282,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "d1c2455fe7f7b53d57add286f66499a6cc2e9eb7b287f2924c2fba0e1d74e618"
+    },
+    "rv2-13-q1-long-far-swap": {
+      "p": 12253,
+      "answer_p": 12282,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "4ad46f8d5ac458125bdd3d7fd564647d532a1f9ccd1e8f9330d43d5a9b6ad821"
+    },
+    "rv2-14-q1-long-far-base": {
+      "p": 12260,
+      "answer_p": 12288,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "564167ca8360efb0a63f0333aa87bec24898d0f79a09d21632c76e64350fe7c1"
+    },
+    "rv2-14-q1-long-far-swap": {
+      "p": 12260,
+      "answer_p": 12288,
+      "suffix_target_count": 37,
+      "before_ids_sha256": "5b82aec22ffcb428592d8ac2c03b93048f394b1d315da756ee674eb0e1f4c5d1"
+    },
+    "rv2-15-q1-long-far-base": {
+      "p": 12270,
+      "answer_p": 12299,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "b54e9dbad338039d547977cd8a4d0fd0a5d6d6d16410184aafc999ec67c4f1ca"
+    },
+    "rv2-15-q1-long-far-swap": {
+      "p": 12270,
+      "answer_p": 12299,
+      "suffix_target_count": 38,
+      "before_ids_sha256": "c67c934860082acfafe37472b72fd1a3597d200375be567c097aff9c62c5f9b4"
+    }
+  },
+  "hybrid_hashes": {
+    "analysis/bonsai2/remote_components/hybrids/rv2-08-q1-long-far-base.r_only.bin": "0e39ec8c7d5232bfdc49f24441ae76bc6b7dcdf40662f003d3e34271a2eeb928",
+    "analysis/bonsai2/remote_components/hybrids/rv2-08-q1-long-far-base.s_only.bin": "fa761b0c47d0b3d3aa4b76306971a6ecef2ca2708849c2147aaa03f5f536c06b",
+    "analysis/bonsai2/remote_components/hybrids/rv2-08-q1-long-far-swap.r_only.bin": "fa761b0c47d0b3d3aa4b76306971a6ecef2ca2708849c2147aaa03f5f536c06b",
+    "analysis/bonsai2/remote_components/hybrids/rv2-08-q1-long-far-swap.s_only.bin": "0e39ec8c7d5232bfdc49f24441ae76bc6b7dcdf40662f003d3e34271a2eeb928",
+    "analysis/bonsai2/remote_components/hybrids/rv2-09-q1-long-far-base.r_only.bin": "61abcb45e8890e0feb8ba9f44308453f86e15037a2db8cf3a097ba04ee1c8f20",
+    "analysis/bonsai2/remote_components/hybrids/rv2-09-q1-long-far-base.s_only.bin": "a6d294fbc947838b009b58ff6354ace3b02d95e964e511a4a58190956498cddc",
+    "analysis/bonsai2/remote_components/hybrids/rv2-09-q1-long-far-swap.r_only.bin": "a6d294fbc947838b009b58ff6354ace3b02d95e964e511a4a58190956498cddc",
+    "analysis/bonsai2/remote_components/hybrids/rv2-09-q1-long-far-swap.s_only.bin": "61abcb45e8890e0feb8ba9f44308453f86e15037a2db8cf3a097ba04ee1c8f20",
+    "analysis/bonsai2/remote_components/hybrids/rv2-10-q1-long-far-base.r_only.bin": "22bc0cff48625cd66caf80f5417b2d8eb5aaabc1d1d6594142a032ebf22e3317",
+    "analysis/bonsai2/remote_components/hybrids/rv2-10-q1-long-far-base.s_only.bin": "fd9a3a04c3f93e378e5c861e5aede48d985687372accca1bf175ee3574bee7c1",
+    "analysis/bonsai2/remote_components/hybrids/rv2-10-q1-long-far-swap.r_only.bin": "fd9a3a04c3f93e378e5c861e5aede48d985687372accca1bf175ee3574bee7c1",
+    "analysis/bonsai2/remote_components/hybrids/rv2-10-q1-long-far-swap.s_only.bin": "22bc0cff48625cd66caf80f5417b2d8eb5aaabc1d1d6594142a032ebf22e3317",
+    "analysis/bonsai2/remote_components/hybrids/rv2-11-q1-long-far-base.r_only.bin": "161303330138396906e41ebc4c7da7bd82e6419cef7b61c9b98587fa7ad55ff3",
+    "analysis/bonsai2/remote_components/hybrids/rv2-11-q1-long-far-base.s_only.bin": "bd64d727d1652d868f0bb02bd8456cfb17693868c2c393061fa50e4515527cf8",
+    "analysis/bonsai2/remote_components/hybrids/rv2-11-q1-long-far-swap.r_only.bin": "bd64d727d1652d868f0bb02bd8456cfb17693868c2c393061fa50e4515527cf8",
+    "analysis/bonsai2/remote_components/hybrids/rv2-11-q1-long-far-swap.s_only.bin": "161303330138396906e41ebc4c7da7bd82e6419cef7b61c9b98587fa7ad55ff3",
+    "analysis/bonsai2/remote_components/hybrids/rv2-12-q1-long-far-base.r_only.bin": "00074040cab448a4ab0dd5799fba6f7a5ac02d7fb2a554bf3d4f0c6c67d6ca04",
+    "analysis/bonsai2/remote_components/hybrids/rv2-12-q1-long-far-base.s_only.bin": "de3eaa91c77a243e6afb66d7f01477244d8b3a23dc3f3c169d526bcaadc2e93f",
+    "analysis/bonsai2/remote_components/hybrids/rv2-12-q1-long-far-swap.r_only.bin": "de3eaa91c77a243e6afb66d7f01477244d8b3a23dc3f3c169d526bcaadc2e93f",
+    "analysis/bonsai2/remote_components/hybrids/rv2-12-q1-long-far-swap.s_only.bin": "00074040cab448a4ab0dd5799fba6f7a5ac02d7fb2a554bf3d4f0c6c67d6ca04",
+    "analysis/bonsai2/remote_components/hybrids/rv2-13-q1-long-far-base.r_only.bin": "2cb1f6f380d5cf800bcb645cf3d39a42de8c1998de76d352116477d162310a23",
+    "analysis/bonsai2/remote_components/hybrids/rv2-13-q1-long-far-base.s_only.bin": "c339b3447d2acbb24b1bcb3b3b092995b4c17f35fc99d1ca163e7d0be4b466a1",
+    "analysis/bonsai2/remote_components/hybrids/rv2-13-q1-long-far-swap.r_only.bin": "c339b3447d2acbb24b1bcb3b3b092995b4c17f35fc99d1ca163e7d0be4b466a1",
+    "analysis/bonsai2/remote_components/hybrids/rv2-13-q1-long-far-swap.s_only.bin": "2cb1f6f380d5cf800bcb645cf3d39a42de8c1998de76d352116477d162310a23",
+    "analysis/bonsai2/remote_components/hybrids/rv2-14-q1-long-far-base.r_only.bin": "40c940a13bd756ad2b1e2139f51b67954e4c729a8c77aae1fd81cb999912662b",
+    "analysis/bonsai2/remote_components/hybrids/rv2-14-q1-long-far-base.s_only.bin": "19a6290f516aff7ff121393c59a4fa8c77ebfc046eef10d48735d4455c1080b8",
+    "analysis/bonsai2/remote_components/hybrids/rv2-14-q1-long-far-swap.r_only.bin": "19a6290f516aff7ff121393c59a4fa8c77ebfc046eef10d48735d4455c1080b8",
+    "analysis/bonsai2/remote_components/hybrids/rv2-14-q1-long-far-swap.s_only.bin": "40c940a13bd756ad2b1e2139f51b67954e4c729a8c77aae1fd81cb999912662b",
+    "analysis/bonsai2/remote_components/hybrids/rv2-15-q1-long-far-base.r_only.bin": "b425ce2d4537fcf6fa79d9e90c07c88df69a629bba50a1dfb3ebdf696af29d90",
+    "analysis/bonsai2/remote_components/hybrids/rv2-15-q1-long-far-base.s_only.bin": "c6196244f9e51e5931c868791b3cf8e5281878da5012e05d403888a97cbfed27",
+    "analysis/bonsai2/remote_components/hybrids/rv2-15-q1-long-far-swap.r_only.bin": "c6196244f9e51e5931c868791b3cf8e5281878da5012e05d403888a97cbfed27",
+    "analysis/bonsai2/remote_components/hybrids/rv2-15-q1-long-far-swap.s_only.bin": "b425ce2d4537fcf6fa79d9e90c07c88df69a629bba50a1dfb3ebdf696af29d90"
+  }
+}

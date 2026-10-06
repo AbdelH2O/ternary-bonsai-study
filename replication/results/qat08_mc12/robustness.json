@@ -1,0 +1,690 @@
+{
+  "status": "wording_robust",
+  "fp_sanity": {
+    "original": {
+      "fp_sane": true,
+      "reasons": []
+    },
+    "give_letter": {
+      "fp_sane": true,
+      "reasons": []
+    },
+    "pick_choice": {
+      "fp_sane": true,
+      "reasons": []
+    },
+    "output_single": {
+      "fp_sane": true,
+      "reasons": []
+    }
+  },
+  "sane_novel_variants": [
+    "give_letter",
+    "pick_choice",
+    "output_single"
+  ],
+  "m_minus_c_letter_pairwise": {
+    "original": {
+      "mean": 7.559681697612755,
+      "lo": 5.148841694752575,
+      "hi": 9.970521700472936,
+      "n": 1508
+    },
+    "give_letter": {
+      "mean": 8.59858532272325,
+      "lo": 6.274129094007225,
+      "hi": 10.923041551439276,
+      "n": 1508
+    },
+    "pick_choice": {
+      "mean": 8.731211317418222,
+      "lo": 6.361587799539022,
+      "hi": 11.100834835297421,
+      "n": 1508
+    },
+    "output_single": {
+      "mean": 7.029177718832893,
+      "lo": 4.602610924954499,
+      "hi": 9.455744512711288,
+      "n": 1508
+    }
+  },
+  "table": {
+    "original": {
+      "fp": {
+        "letter_raw_accuracy": 43.50132625994695,
+        "letter_calibrated_accuracy": 44.761273209549074,
+        "letter_bias": [
+          -1.79133880755598,
+          -1.846524978038009,
+          -4.2013688209263895,
+          -1.251938070643556
+        ],
+        "letter_pairwise": 65.69407603890355,
+        "letter_pairwise_ci": [
+          63.81658955629863,
+          67.57156252150847
+        ],
+        "letter_mass": 0.9681355658083761,
+        "letter_predicted": {
+          "D": 812,
+          "A": 328,
+          "B": 300,
+          "C": 68
+        },
+        "binding_raw_accuracy": 99.25,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 397,
+          "mean": 99.25,
+          "lo": 97.81838919722998,
+          "hi": 99.74461570370148
+        },
+        "binding_calibrated_accuracy": 94.0,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 376,
+          "mean": 94.0,
+          "lo": 91.22765567969421,
+          "hi": 95.9352319475339
+        },
+        "binding_pairwise": 98.00000000000001,
+        "binding_pairwise_ci": [
+          97.22323809032144,
+          98.77676190967857
+        ],
+        "binding_predicted": {
+          "A": 99,
+          "B": 101,
+          "C": 101,
+          "D": 99
+        }
+      },
+      "C": {
+        "letter_raw_accuracy": 24.93368700265252,
+        "letter_calibrated_accuracy": 26.724137931034484,
+        "letter_bias": [
+          -0.7682908477661029,
+          -2.335920551242282,
+          -1.9821545140071655,
+          -1.4445289254710596
+        ],
+        "letter_pairwise": 51.259946949602096,
+        "letter_pairwise_ci": [
+          49.360515012710955,
+          53.15937888649324
+        ],
+        "letter_mass": 0.7877483720858656,
+        "letter_predicted": {
+          "A": 1311,
+          "D": 147,
+          "C": 47,
+          "B": 3
+        },
+        "binding_raw_accuracy": 25.5,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 102,
+          "mean": 25.5,
+          "lo": 21.475600851610615,
+          "hi": 29.99051853777373
+        },
+        "binding_calibrated_accuracy": 27.25,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 109,
+          "mean": 27.250000000000004,
+          "lo": 23.118418800549204,
+          "hi": 31.81440634673627
+        },
+        "binding_pairwise": 51.916666666666714,
+        "binding_pairwise_ci": [
+          48.25737176446402,
+          55.5759615688694
+        ],
+        "binding_predicted": {
+          "C": 56,
+          "D": 54,
+          "A": 288,
+          "B": 2
+        }
+      },
+      "M": {
+        "letter_raw_accuracy": 36.737400530503976,
+        "letter_calibrated_accuracy": 35.145888594164454,
+        "letter_bias": [
+          -1.6425687482880253,
+          -1.644842555763063,
+          -1.9235803790368073,
+          -1.2734255506439174
+        ],
+        "letter_pairwise": 58.81962864721485,
+        "letter_pairwise_ci": [
+          56.93180991184603,
+          60.707447382583666
+        ],
+        "letter_mass": 0.9534560983207186,
+        "letter_predicted": {
+          "A": 361,
+          "B": 362,
+          "D": 597,
+          "C": 188
+        },
+        "binding_raw_accuracy": 80.25,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 321,
+          "mean": 80.25,
+          "lo": 76.06869088608799,
+          "hi": 83.85579435763132
+        },
+        "binding_calibrated_accuracy": 80.25,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 321,
+          "mean": 80.25,
+          "lo": 76.06869088608799,
+          "hi": 83.85579435763132
+        },
+        "binding_pairwise": 91.25000000000001,
+        "binding_pairwise_ci": [
+          89.29138206621958,
+          93.20861793378043
+        ],
+        "binding_predicted": {
+          "A": 77,
+          "B": 107,
+          "C": 93,
+          "D": 123
+        }
+      }
+    },
+    "give_letter": {
+      "fp": {
+        "letter_raw_accuracy": 42.771883289124666,
+        "letter_calibrated_accuracy": 45.95490716180371,
+        "letter_bias": [
+          -1.1476209769165708,
+          -1.8965963639029688,
+          -2.8246966121334345,
+          -1.796978023858543
+        ],
+        "letter_pairwise": 66.93191865605654,
+        "letter_pairwise_ci": [
+          65.09427698491892,
+          68.76956032719414
+        ],
+        "letter_mass": 0.9912030659766459,
+        "letter_predicted": {
+          "D": 291,
+          "A": 854,
+          "B": 234,
+          "C": 129
+        },
+        "binding_raw_accuracy": 97.5,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 390,
+          "mean": 97.5,
+          "lo": 95.45979351700657,
+          "hi": 98.63650562602375
+        },
+        "binding_calibrated_accuracy": 97.0,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 388,
+          "mean": 97.0,
+          "lo": 94.83009668703323,
+          "hi": 98.27571509659678
+        },
+        "binding_pairwise": 98.91666666666669,
+        "binding_pairwise_ci": [
+          98.29227097441151,
+          99.54106235892186
+        ],
+        "binding_predicted": {
+          "A": 91,
+          "B": 99,
+          "C": 103,
+          "D": 107
+        }
+      },
+      "C": {
+        "letter_raw_accuracy": 25.19893899204244,
+        "letter_calibrated_accuracy": 25.59681697612732,
+        "letter_bias": [
+          -0.6033125805919148,
+          -2.542116897175853,
+          -1.965882609630604,
+          -1.7581040211003038
+        ],
+        "letter_pairwise": 50.46419098143233,
+        "letter_pairwise_ci": [
+          48.56779622549911,
+          52.36058573736556
+        ],
+        "letter_mass": 0.6943252292865432,
+        "letter_predicted": {
+          "A": 1436,
+          "D": 24,
+          "C": 45,
+          "B": 3
+        },
+        "binding_raw_accuracy": 25.25,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 101,
+          "mean": 25.25,
+          "lo": 21.241625232287653,
+          "hi": 29.72925047739654
+        },
+        "binding_calibrated_accuracy": 25.25,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 101,
+          "mean": 25.25,
+          "lo": 21.241625232287653,
+          "hi": 29.72925047739654
+        },
+        "binding_pairwise": 50.250000000000014,
+        "binding_pairwise_ci": [
+          46.58595753129477,
+          53.91404246870526
+        ],
+        "binding_predicted": {
+          "C": 32,
+          "A": 356,
+          "D": 11,
+          "B": 1
+        }
+      },
+      "M": {
+        "letter_raw_accuracy": 34.54907161803713,
+        "letter_calibrated_accuracy": 36.3395225464191,
+        "letter_bias": [
+          -1.584377060280929,
+          -1.7383842573395396,
+          -1.8969278035964119,
+          -1.072865310729991
+        ],
+        "letter_pairwise": 59.062776304155605,
+        "letter_pairwise_ci": [
+          57.15019741260138,
+          60.97535519570984
+        ],
+        "letter_mass": 0.86963184658833,
+        "letter_predicted": {
+          "D": 872,
+          "B": 217,
+          "A": 295,
+          "C": 124
+        },
+        "binding_raw_accuracy": 75.0,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 300,
+          "mean": 75.0,
+          "lo": 70.53220081939278,
+          "hi": 78.99216715062317
+        },
+        "binding_calibrated_accuracy": 75.5,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 302,
+          "mean": 75.5,
+          "lo": 71.05566038330045,
+          "hi": 79.45919494611584
+        },
+        "binding_pairwise": 88.83333333333339,
+        "binding_pairwise_ci": [
+          86.6569273326244,
+          91.00973933404237
+        ],
+        "binding_predicted": {
+          "C": 90,
+          "B": 93,
+          "D": 146,
+          "A": 71
+        }
+      }
+    },
+    "pick_choice": {
+      "fp": {
+        "letter_raw_accuracy": 45.09283819628647,
+        "letter_calibrated_accuracy": 46.88328912466844,
+        "letter_bias": [
+          -1.4431783177866382,
+          -1.8201187781434685,
+          -2.6315848800858967,
+          -2.7776975902441188
+        ],
+        "letter_pairwise": 67.50663129973461,
+        "letter_pairwise_ci": [
+          65.67249984813705,
+          69.34076275133218
+        ],
+        "letter_mass": 0.9947234260273499,
+        "letter_predicted": {
+          "A": 644,
+          "B": 464,
+          "D": 193,
+          "C": 207
+        },
+        "binding_raw_accuracy": 99.75,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 399,
+          "mean": 99.75,
+          "lo": 98.59763590327523,
+          "hi": 99.95585635705656
+        },
+        "binding_calibrated_accuracy": 99.75,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 399,
+          "mean": 99.75,
+          "lo": 98.59763590327523,
+          "hi": 99.95585635705656
+        },
+        "binding_pairwise": 99.83333333333334,
+        "binding_pairwise_ci": [
+          99.50666666666667,
+          100.16000000000001
+        ],
+        "binding_predicted": {
+          "A": 100,
+          "B": 99,
+          "C": 101,
+          "D": 100
+        }
+      },
+      "C": {
+        "letter_raw_accuracy": 25.59681697612732,
+        "letter_calibrated_accuracy": 24.20424403183024,
+        "letter_bias": [
+          -0.8065674938208481,
+          -1.9408868270669515,
+          -2.014101321331765,
+          -1.5117574238539604
+        ],
+        "letter_pairwise": 49.60212201591509,
+        "letter_pairwise_ci": [
+          47.73262130350003,
+          51.47162272833016
+        ],
+        "letter_mass": 0.8319076791684547,
+        "letter_predicted": {
+          "A": 1328,
+          "D": 115,
+          "C": 41,
+          "B": 24
+        },
+        "binding_raw_accuracy": 25.75,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 103,
+          "mean": 25.75,
+          "lo": 21.70975795094459,
+          "hi": 30.251605118139924
+        },
+        "binding_calibrated_accuracy": 24.75,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 99,
+          "mean": 24.75,
+          "lo": 20.77422550606482,
+          "hi": 29.20616284421905
+        },
+        "binding_pairwise": 49.58333333333336,
+        "binding_pairwise_ci": [
+          45.897603383491955,
+          53.26906328317476
+        ],
+        "binding_predicted": {
+          "A": 352,
+          "D": 15,
+          "C": 31,
+          "B": 2
+        }
+      },
+      "M": {
+        "letter_raw_accuracy": 34.681697612732094,
+        "letter_calibrated_accuracy": 34.61538461538461,
+        "letter_bias": [
+          -1.557789869460759,
+          -1.6169032581292573,
+          -1.6992589724162876,
+          -1.5997390214586253
+        ],
+        "letter_pairwise": 58.33333333333338,
+        "letter_pairwise_ci": [
+          56.43889944539847,
+          60.227767221268294
+        ],
+        "letter_mass": 0.9659990673588604,
+        "letter_predicted": {
+          "A": 434,
+          "B": 448,
+          "D": 364,
+          "C": 262
+        },
+        "binding_raw_accuracy": 80.75,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 323,
+          "mean": 80.75,
+          "lo": 76.60101517682139,
+          "hi": 84.31395742629824
+        },
+        "binding_calibrated_accuracy": 80.5,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 322,
+          "mean": 80.5,
+          "lo": 76.33473269466909,
+          "hi": 84.08499622875041
+        },
+        "binding_pairwise": 90.83333333333331,
+        "binding_pairwise_ci": [
+          88.76634128198167,
+          92.90032538468496
+        ],
+        "binding_predicted": {
+          "A": 97,
+          "B": 105,
+          "C": 100,
+          "D": 98
+        }
+      }
+    },
+    "output_single": {
+      "fp": {
+        "letter_raw_accuracy": 44.827586206896555,
+        "letter_calibrated_accuracy": 46.286472148541115,
+        "letter_bias": [
+          -1.6427880267228447,
+          -1.9324357931093292,
+          -2.6215927744080405,
+          -2.2401833671136977
+        ],
+        "letter_pairwise": 66.82139699381065,
+        "letter_pairwise_ci": [
+          64.96491086419532,
+          68.67788312342597
+        ],
+        "letter_mass": 0.9764034800842102,
+        "letter_predicted": {
+          "D": 381,
+          "C": 199,
+          "A": 542,
+          "B": 386
+        },
+        "binding_raw_accuracy": 98.75,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 395,
+          "mean": 98.75,
+          "lo": 97.10758472688622,
+          "hi": 99.46493281464495
+        },
+        "binding_calibrated_accuracy": 99.0,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 396,
+          "mean": 99.0,
+          "lo": 97.45730330055919,
+          "hi": 99.61045792067212
+        },
+        "binding_pairwise": 99.58333333333333,
+        "binding_pairwise_ci": [
+          99.15258870403133,
+          100.01407796263533
+        ],
+        "binding_predicted": {
+          "A": 97,
+          "B": 99,
+          "C": 102,
+          "D": 102
+        }
+      },
+      "C": {
+        "letter_raw_accuracy": 25.53050397877984,
+        "letter_calibrated_accuracy": 26.25994694960212,
+        "letter_bias": [
+          -0.9015633604728335,
+          -1.9200021114050916,
+          -1.8016596763928914,
+          -1.5576086164625602
+        ],
+        "letter_pairwise": 51.39257294429708,
+        "letter_pairwise_ci": [
+          49.50926716055643,
+          53.27587872803772
+        ],
+        "letter_mass": 0.8034318428671352,
+        "letter_predicted": {
+          "A": 1190,
+          "D": 186,
+          "C": 95,
+          "B": 37
+        },
+        "binding_raw_accuracy": 25.25,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 101,
+          "mean": 25.25,
+          "lo": 21.241625232287653,
+          "hi": 29.72925047739654
+        },
+        "binding_calibrated_accuracy": 27.0,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 108,
+          "mean": 27.0,
+          "lo": 22.883207265888466,
+          "hi": 31.55437420169685
+        },
+        "binding_pairwise": 50.91666666666668,
+        "binding_pairwise_ci": [
+          47.21732008825416,
+          54.616013245079195
+        ],
+        "binding_predicted": {
+          "C": 43,
+          "A": 342,
+          "D": 10,
+          "B": 5
+        }
+      },
+      "M": {
+        "letter_raw_accuracy": 34.814323607427056,
+        "letter_calibrated_accuracy": 35.0132625994695,
+        "letter_bias": [
+          -1.626756884893784,
+          -1.539264405007784,
+          -1.6967507058937472,
+          -1.521745549475308
+        ],
+        "letter_pairwise": 58.42175066313,
+        "letter_pairwise_ci": [
+          56.523360322839864,
+          60.32014100342013
+        ],
+        "letter_mass": 0.9361791397708966,
+        "letter_predicted": {
+          "A": 373,
+          "B": 490,
+          "D": 383,
+          "C": 262
+        },
+        "binding_raw_accuracy": 82.75,
+        "binding_raw_wilson": {
+          "n": 400,
+          "correct": 331,
+          "mean": 82.75,
+          "lo": 78.74038632508436,
+          "hi": 86.13653571563657
+        },
+        "binding_calibrated_accuracy": 83.5,
+        "binding_calibrated_wilson": {
+          "n": 400,
+          "correct": 334,
+          "mean": 83.5,
+          "lo": 79.54710126340741,
+          "hi": 86.81555181641397
+        },
+        "binding_pairwise": 92.16666666666669,
+        "binding_pairwise_ci": [
+          90.23228239896632,
+          94.10105093436705
+        ],
+        "binding_predicted": {
+          "A": 85,
+          "B": 114,
+          "C": 109,
+          "D": 92
+        }
+      }
+    }
+  },
+  "criterion_variants": [
+    "original",
+    "give_letter",
+    "pick_choice",
+    "output_single"
+  ],
+  "excluded_from_criterion_only": [],
+  "protocol_sha256": "de416a69e5ab549f64fe2cd22fc93b0bc398242703d68324d63ee33970761335",
+  "score_sha256": {
+    "work/qat08_mc12/robust/fp-original-letter.jsonl": "891904133afcd18a2f9274a2943b6ae13c94f54e41204fdc20228d2d627371a7",
+    "work/qat08_mc12/robust/fp-original-binding.jsonl": "0935ab0988cf3ba6ddd8b42f6d4da1d11c8aeb39058ff148706a1cebc5b2bf0e",
+    "work/qat08_mc12/robust/fp-give_letter-letter.jsonl": "c24271e63198c04097be09be239276a1267b558c8f9df15d4cb227236b599031",
+    "work/qat08_mc12/robust/fp-give_letter-binding.jsonl": "f6c9e16965e9584fd20364741244704e22eb7fbaedd468f0f96b8b308cf4fcad",
+    "work/qat08_mc12/robust/fp-pick_choice-letter.jsonl": "1d33e98ffaa4f2b649c34e367724f8f41575d87cfbdf7739e3507c7d9b550932",
+    "work/qat08_mc12/robust/fp-pick_choice-binding.jsonl": "15954e3498c3e2cbc1bac4cc3c505933f39c02cd6176b032ac3a10521116f7f3",
+    "work/qat08_mc12/robust/fp-output_single-letter.jsonl": "3b268dbefc0f7070bbdf9d69d4b47308382ba9fe6947e6537065f259ddbb0a79",
+    "work/qat08_mc12/robust/fp-output_single-binding.jsonl": "92b1b85ff66bdde96ec4071d6592e12642c612c86552128badbd0ca74bc8e828",
+    "work/qat08_mc12/robust/C-original-letter.jsonl": "e0d7e42e6ccf405a4e3b3941429af0af6b5f8c2e07387f12230430e87aa57ae5",
+    "work/qat08_mc12/robust/C-original-binding.jsonl": "c138595084ef9bb5c600ddeb96352230d0feffc29f34128098fe8b0c62a5f366",
+    "work/qat08_mc12/robust/C-give_letter-letter.jsonl": "147fe227b3c9bd175a1d945f6d4d8dd3c7eec5fbcc6232226b5f0b8898a72f79",
+    "work/qat08_mc12/robust/C-give_letter-binding.jsonl": "cc155964fb136491b5c2ffc86e201d8eda8eb3dd8833ad9d14fe18f009e420c6",
+    "work/qat08_mc12/robust/C-pick_choice-letter.jsonl": "2b08ac53ca58147fff6f1ec42ae12ef474f16400cc1bb6bde2488d49a1158c8f",
+    "work/qat08_mc12/robust/C-pick_choice-binding.jsonl": "7f07cca8e0dd82346b17f9e081b4ce5706f12274905299a6d9f7bfe15b7fb23e",
+    "work/qat08_mc12/robust/C-output_single-letter.jsonl": "4d2891b30efcc290335395c24c749772864f7b6c98361b78ced110b463a8a68e",
+    "work/qat08_mc12/robust/C-output_single-binding.jsonl": "ba7102826d9ad20ff1d75f427e969118297efbcb642fbcbf9e825dc33a675cb4",
+    "work/qat08_mc12/robust/M-original-letter.jsonl": "5b75f223b2bab3338af923df57c50a430a3f6483fe74391627cfdfce073edfb1",
+    "work/qat08_mc12/robust/M-original-binding.jsonl": "be9cdf13a64f2f0ea9ebe1d984be435f2cbdf3759012c7d8dfc35f08b43450c1",
+    "work/qat08_mc12/robust/M-give_letter-letter.jsonl": "183879a97c982b2f3897b6f74d1f1a6ff19543fed7dfdc3dd7f7186358c769b6",
+    "work/qat08_mc12/robust/M-give_letter-binding.jsonl": "b4cd48da441ab028f95e8e3b84a99d474526e13a0fe4ff6ebe2a23370c2abe15",
+    "work/qat08_mc12/robust/M-pick_choice-letter.jsonl": "125d9341ff7d7d1ea6c6bb77397342c13487bc54f0a528b5c0fb20abe6d1b411",
+    "work/qat08_mc12/robust/M-pick_choice-binding.jsonl": "3e7992678a64d3b69598d15659d433402f7a8eeb2a50ef19452cff1bd3603e3a",
+    "work/qat08_mc12/robust/M-output_single-letter.jsonl": "8f0390a54ae7a89927786a9e01094849f49331e85dd413c2223f77f9d78af9a1",
+    "work/qat08_mc12/robust/M-output_single-binding.jsonl": "ba5e18895f040de26d5e6fc7ba1dab687e2c64aa1e7092ddcb52d04fb9fa1545"
+  },
+  "reproduction_vs_diagnostics_max_abs_logprob_diff": {
+    "fp-letter": 0.0,
+    "fp-binding": 0.0,
+    "C-letter": 0.0,
+    "C-binding": 0.0
+  }
+}

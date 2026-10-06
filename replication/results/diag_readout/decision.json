@@ -1,0 +1,21 @@
+{
+  "branch": "harness_invalid",
+  "arms_required": [],
+  "arms_optional": [],
+  "stop": true,
+  "reasons": [
+    "FP failed the harness sanity floor; investigate before any experiment"
+  ],
+  "results_sha256": "be394537311adb908a2d447b819a4899399ea681319765de5865212bd2ca2222",
+  "plan_sha256": "8c08c1fefc15b782b61cc1d2c983504b396d4b7ec880fe6510749459c6e5b41a",
+  "rule": {
+    "fp_binding_min": 95.0,
+    "fp_letter_pairwise_min": 60.0,
+    "fp_cloze_pairwise_lo_min": 55.0,
+    "readout_broken_below": 70.0,
+    "readout_intact_at_least": 90.0,
+    "knowledge_pairwise_lo_above": 52.0,
+    "trajectory_rise_points": 2.0
+  },
+  "rule_text": "harness_invalid if FP binding calibrated < 95% or FP letter pairwise < 60%; else with chat-final binding b: b < 70 -> readout_broken (M, U; optional MU); b >= 90 but FP's best cloze pairwise lower bound <= 55 (cloze uninformative) -> ambiguous (M, U; optional MU); b >= 90 and no student cloze pairwise lower bound > 52 -> knowledge_lost (U, B); b >= 90 with such a signal -> closed_book_readout (M, U; optional MU); otherwise ambiguous (M, U; optional MU); add B if letter or raw-cloze final minus t8m has mean >= 2 points and lower bound > 0"
+}

@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bonsai 2 research — interactive playground</title>
+<style>
+  :root {
+    --ink:#1a202c; --muted:#4a5568; --line:#e2e8f0; --bg:#f7fafc; --card:#fff;
+    --blue:#3b5b92; --blue-l:#e6edf8; --orange:#c05621; --orange-l:#fde6d8;
+    --amber:#b7791f; --amber-l:#fdf1dc; --teal:#2c7a7b; --teal-l:#dcf1f0;
+    --green:#2f855a; --green-l:#c6f6d5; --red:#c53030; --purple:#6b46c1; --purple-l:#e9d8fd;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Inter, system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--ink); background:var(--bg); line-height:1.5; }
+  header { background:var(--card); border-bottom:1px solid var(--line); padding:18px 28px 0; position:sticky; top:0; z-index:5; }
+  header h1 { margin:0 0 4px; font-size:20px; }
+  header p { margin:0 0 12px; color:var(--muted); font-size:14px; }
+  nav { display:flex; gap:4px; flex-wrap:wrap; }
+  nav button { border:0; background:none; padding:10px 14px; font:inherit; font-size:14px; color:var(--muted); cursor:pointer; border-bottom:3px solid transparent; }
+  nav button.on { color:var(--ink); font-weight:600; border-bottom-color:var(--blue); }
+  main { max-width:1040px; margin:0 auto; padding:24px 20px 60px; }
+  section { display:none; }
+  section.on { display:block; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-bottom:18px; }
+  h2 { font-size:19px; margin:0 0 6px; }
+  h3 { font-size:15px; margin:18px 0 8px; }
+  .lede { color:var(--muted); margin:0 0 14px; font-size:14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:18px; }
+  label { font-size:13px; color:var(--muted); display:block; }
+  input[type=range] { width:100%; accent-color:var(--blue); }
+  input[type=number] { width:100px; padding:5px 8px; font:inherit; border:1px solid #cbd5e0; border-radius:6px; }
+  select { font:inherit; padding:5px 8px; border:1px solid #cbd5e0; border-radius:6px; }
+  .row { display:flex; align-items:center; gap:10px; margin:6px 0; }
+  .row > span.v { min-width:56px; font-variant-numeric:tabular-nums; font-weight:600; }
+  .big { font-size:26px; font-weight:700; font-variant-numeric:tabular-nums; }
+  .pill { display:inline-block; padding:3px 10px; border-radius:999px; font-size:13px; font-weight:600; }
+  .pill.support { background:var(--green-l); color:#22543d; }
+  .pill.exclusion { background:var(--amber-l); color:#744210; }
+  .pill.unresolved { background:#edf2f7; color:var(--muted); }
+  .note { font-size:13px; color:var(--muted); }
+  .warn { font-size:13px; color:var(--red); font-weight:600; }
+  table { border-collapse:collapse; font-size:14px; font-variant-numeric:tabular-nums; }
+  td, th { padding:5px 10px; border-bottom:1px solid var(--line); text-align:right; }
+  th { color:var(--muted); font-weight:600; }
+  td:first-child, th:first-child { text-align:left; }
+  button.act { border:1px solid var(--blue); background:var(--blue); color:#fff; padding:7px 14px; border-radius:8px; font:inherit; font-size:14px; cursor:pointer; }
+  button.ghost { border:1px solid #cbd5e0; background:#fff; color:var(--ink); padding:7px 14px; border-radius:8px; font:inherit; font-size:14px; cursor:pointer; }
+  .quiz-item { border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin:10px 0; }
+  .quiz-item .opts { display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; }
+  .quiz-item .fb { margin-top:8px; font-size:13px; }
+  .ok { color:var(--green); font-weight:600; } .bad { color:var(--red); font-weight:600; }
+  svg text { font-family:inherit; }
+  code { background:#edf2f7; padding:1px 5px; border-radius:4px; font-size:13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bonsai 2 research — interactive playground</h1>
+  <p>Companion to the <a href="README.md">learning set</a>. Toy numbers are marked ⚪; real report numbers are marked 🟢.</p>
+  <nav id="tabs">
+    <button data-t="nll" class="on">1 · Softmax &amp; NLL</button>
+    <button data-t="decay">2 · Decay horizon</button>
+    <button data-t="pos">3 · Position matching</button>
+    <button data-t="margin">4 · Answer margin</button>
+    <button data-t="dod">5 · Difference of differences</button>
+    <button data-t="stats">6 · Clusters &amp; gates</button>
+    <button data-t="quiz">7 · Claim sorter</button>
+  </nav>
+</header>
+<main>
+
+<!-- 1. Softmax & NLL -->
+<section id="nll" class="on">
+  <div class="card">
+    <h2>Logits → probabilities → loss</h2>
+    <p class="lede">⚪ Drag the logits for the next token after <em>"The cat sat on the"</em>. Pick which token is actually next. Watch the NLL of that true token.</p>
+    <div class="grid">
+      <div id="nll-sliders"></div>
+      <div>
+        <svg id="nll-bars" viewBox="0 0 360 220" width="100%"></svg>
+        <div class="row">True next token: <select id="nll-true"></select></div>
+        <div>q (probability of the true token) = <b id="nll-q"></b></div>
+        <div>NLL = −ln q = <span class="big" id="nll-v"></span> nat</div>
+        <div class="note">Perplexity of this single token = e<sup>NLL</sup> = <b id="nll-ppl"></b> (≈ "as unsure as choosing uniformly among that many tokens")</div>
+      </div>
+    </div>
+    <p class="note">Try: make every logit equal (NLL = ln 4 ≈ 1.386). Push the true token's logit far above the rest (NLL → 0). Make a wrong token dominant (NLL explodes).</p>
+  </div>
+</section>
+
+<!-- 2. Decay -->
+<section id="decay">
+  <div class="card">
+    <h2>Decay horizon (and why it is not retention)</h2>
+    <p class="lede">⚪ A <b>fixed</b> gate g &lt; 0 with <b>no new input</b> multiplies the state by e<sup>g</sup> each step. Add periodic "refresh" writes to see why the real model is not this simple.</p>
+    <div class="grid">
+      <div>
+        <div class="row"><label style="min-width:90px">g</label><input id="dg" type="range" min="-0.2" max="-0.001" step="0.001" value="-0.02"><span class="v" id="dg-v"></span></div>
+        <div>keep per step e<sup>g</sup> = <b id="dk"></b></div>
+        <div>horizon 1/|g| = <span class="big" id="dh"></span> tokens</div>
+        <div class="row" style="margin-top:12px"><label style="min-width:90px">refresh every</label><input id="dr" type="range" min="0" max="200" step="10" value="0"><span class="v" id="dr-v"></span></div>
+        <p class="note">With refreshes, the same item stays available far beyond the horizon. In the real model, writes, input-dependent gates and full attention all break the simple curve.</p>
+      </div>
+      <svg id="decay-plot" viewBox="0 0 440 240" width="100%"></svg>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Position matching -->
+<section id="pos">
+  <div class="card">
+    <h2>Nested histories vs chunked perplexity</h2>
+    <p class="lede">A 16,384-token document. <b>Top:</b> the position-matched scorer. Change the history length and the 96 scored targets never move. <b>Bottom:</b> a stock chunked perplexity tool. Change its context size and the <em>set of scored positions</em> changes.</p>
+    <div class="row"><label style="min-width:160px">history h (matched scorer)</label>
+      <select id="ph"><option>1024</option><option selected>4096</option><option>12288</option></select></div>
+    <div class="row"><label style="min-width:160px">context c (stock tool)</label>
+      <select id="pc"><option>1024</option><option selected>2048</option><option>4096</option><option>8192</option></select></div>
+    <svg id="pos-plot" viewBox="0 0 900 240" width="100%"></svg>
+    <p class="note" id="pos-note"></p>
+  </div>
+</section>
+
+<!-- 4. Margin -->
+<section id="margin">
+  <div class="card">
+    <h2>Answer margin and own-minus-counterfactual effect</h2>
+    <p class="lede">Enter the total NLL of each complete 9-token answer. Defaults ⚪ echo the lesson example: a strong gold preference that shrinks slightly after a counterfactual import.</p>
+    <div class="grid">
+      <div>
+        <h3>Own state</h3>
+        <div class="row"><label style="min-width:110px">NLL(gold)</label><input type="number" id="m-og" value="1.50" step="0.05"></div>
+        <div class="row"><label style="min-width:110px">NLL(wrong)</label><input type="number" id="m-ow" value="12.50" step="0.05"></div>
+        <h3>Counterfactual import</h3>
+        <div class="row"><label style="min-width:110px">NLL(gold)</label><input type="number" id="m-cg" value="1.50" step="0.05"></div>
+        <div class="row"><label style="min-width:110px">NLL(wrong)</label><input type="number" id="m-cw" value="12.25" step="0.05"></div>
+      </div>
+      <div>
+        <div>M<sub>own</sub> = NLL(wrong) − NLL(gold) = <b id="m-mo"></b></div>
+        <div>M<sub>cf</sub> = <b id="m-mc"></b></div>
+        <div style="margin-top:8px">effect = M<sub>own</sub> − M<sub>cf</sub> = <span class="big" id="m-e"></span> nat/answer</div>
+        <div id="m-verdict" class="note" style="margin-top:6px"></div>
+        <p class="note">🟢 In the real remote-state gate almost the entire effect came from the <b>wrong</b> code's NLL falling (−0.249 on average) while gold barely moved (+0.0001). Try reproducing that pattern: keep gold fixed and lower only the counterfactual NLL(wrong).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. DoD -->
+<section id="dod">
+  <div class="card">
+    <h2>Difference of differences (interaction)</h2>
+    <p class="lede">Excess NLL (nat/token) for each arm at short and long history. Defaults are the 🟢 measured held-out three-seed means.</p>
+    <div class="grid">
+      <div>
+        <table>
+          <tr><th></th><th>1K</th><th>12K</th></tr>
+          <tr><td>alpha</td><td><input type="number" id="d-a1" value="0.003026" step="0.0005"></td><td><input type="number" id="d-a12" value="0.003136" step="0.0005"></td></tr>
+          <tr><td>MLP</td><td><input type="number" id="d-m1" value="0.007664" step="0.0005"></td><td><input type="number" id="d-m12" value="0.008279" step="0.0005"></td></tr>
+        </table>
+        <div style="margin-top:12px">alpha growth = <b id="d-ga"></b>, MLP growth = <b id="d-gm"></b></div>
+        <div>I = <span class="big" id="d-i"></span> nat/token</div>
+        <div id="d-match" style="margin-top:6px"></div>
+        <button class="ghost" style="margin-top:10px" id="d-reset">Reset to measured values</button>
+      </div>
+      <svg id="dod-plot" viewBox="0 0 380 240" width="100%"></svg>
+    </div>
+    <p class="note">The original model's loss cancels out of I. A positive I still would not isolate recurrent state: the changed weights act at every token, and attention and readout can carry the effect.</p>
+  </div>
+</section>
+
+<!-- 6. Stats -->
+<section id="stats">
+  <div class="card">
+    <h2>Eight registries: interval, gate and leave-one-out</h2>
+    <p class="lede">🟢 Real per-registry effects (nat/answer) from the reports. Untick a registry to see leave-one-out sensitivity. Each registry is one independent unit, so n is the number ticked, not the number of tokens.</p>
+    <div class="row">Dataset:
+      <select id="s-set">
+        <option value="post">After question, R+S (remote-state gate)</option>
+        <option value="spost">After question, S only (exploratory; T illustrative)</option>
+        <option value="rpost">After question, R only (exploratory; T illustrative)</option>
+        <option value="pre">Before question, R+S</option>
+      </select>
+      Threshold T: <input type="number" id="s-T" value="0.5" step="0.05">
+    </div>
+    <div class="grid">
+      <div>
+        <table id="s-table"></table>
+      </div>
+      <div>
+        <div>n = <b id="s-n"></b> · mean = <span class="big" id="s-mean"></span></div>
+        <div>sd = <b id="s-sd"></b> · se = sd/√n = <b id="s-se"></b> · t<sub>0.975, n−1</sub> = <b id="s-t"></b></div>
+        <div>95% t interval = <b id="s-ci"></b></div>
+        <div style="margin:8px 0">positive units: <b id="s-pos"></b></div>
+        <div>Verdict: <span id="s-verdict" class="pill"></span></div>
+        <p class="note" id="s-rule"></p>
+        <svg id="s-plot" viewBox="0 0 420 120" width="100%"></svg>
+      </div>
+    </div>
+    <h3>Cluster bootstrap</h3>
+    <p class="note">Resample the ticked registries with replacement and recompute the mean, many times. More repeats give a smoother histogram but <b>no new data</b>: the spread is set by the 8 registries.</p>
+    <div class="row"><button class="act" id="s-boot">Run 20,000 bootstrap replicates</button><span id="s-bci" class="note"></span></div>
+    <svg id="s-hist" viewBox="0 0 700 170" width="100%"></svg>
+  </div>
+</section>
+
+<!-- 7. Quiz -->
+<section id="quiz">
+  <div class="card">
+    <h2>Claim sorter: measured, inferred or proposed?</h2>
+    <p class="lede">Tag each statement the way the reports would. Feedback explains why.</p>
+    <div id="quiz-list"></div>
+    <p><b id="quiz-score"></b></p>
+  </div>
+</section>
+
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, text) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text !== undefined) e.textContent = text; return e; }
+function clear(s) { while (s.firstChild) s.removeChild(s.firstChild); }
+const C = { ink:"#1a202c", muted:"#4a5568", grid:"#e2e8f0", blue:"#3b5b92", blueL:"#e6edf8", orange:"#c05621", orangeL:"#fde6d8", amber:"#b7791f", teal:"#2c7a7b", green:"#2f855a", greenL:"#c6f6d5", red:"#c53030", purple:"#6b46c1" };
+const fmt = (x, d=3) => (x >= 0 ? "+" : "−") + Math.abs(x).toFixed(d);
+
+// tabs
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x === b));
+  document.querySelectorAll("section").forEach(s => s.classList.toggle("on", s.id === b.dataset.t));
+});
+
+function showTab(t) {
+  const b = document.querySelector(`#tabs button[data-t="${t}"]`);
+  if (b) b.click();
+}
+window.addEventListener("hashchange", () => showTab(location.hash.slice(1)));
+
+// ---------- 1. softmax ----------
+const toks = ["mat", "floor", "sofa", "moon"];
+const logits = [3, 2, 1, -1];
+(function initNll() {
+  const box = $("nll-sliders");
+  toks.forEach((t, i) => {
+    const r = document.createElement("div"); r.className = "row";
+    r.innerHTML = `<label style="min-width:60px">${t}</label><input type="range" min="-5" max="8" step="0.1" value="${logits[i]}" id="lg${i}"><span class="v" id="lgv${i}"></span>`;
+    box.appendChild(r);
+    const o = document.createElement("option"); o.textContent = t; $("nll-true").appendChild(o);
+  });
+  toks.forEach((_, i) => $("lg" + i).oninput = drawNll);
+  $("nll-true").onchange = drawNll;
+  drawNll();
+})();
+function drawNll() {
+  const l = toks.map((_, i) => +$("lg" + i).value);
+  l.forEach((v, i) => $("lgv" + i).textContent = v.toFixed(1));
+  const m = Math.max(...l), ex = l.map(v => Math.exp(v - m)), z = ex.reduce((a, b) => a + b, 0), p = ex.map(v => v / z);
+  const ti = $("nll-true").selectedIndex, q = p[ti], nll = -Math.log(q);
+  $("nll-q").textContent = q.toFixed(4); $("nll-v").textContent = nll.toFixed(3); $("nll-ppl").textContent = Math.exp(nll).toFixed(2);
+  const s = $("nll-bars"); clear(s);
+  s.appendChild(el("line", { x1: 20, y1: 180, x2: 340, y2: 180, stroke: C.muted }));
+  p.forEach((v, i) => {
+    const x = 35 + i * 78, h = v * 150;
+    s.appendChild(el("rect", { x, y: 180 - h, width: 55, height: h, fill: i === ti ? "#68d391" : C.greenL, stroke: C.green }));
+    s.appendChild(el("text", { x: x + 27.5, y: 172 - h, "text-anchor": "middle", "font-size": 12, fill: C.ink }, v.toFixed(3)));
+    s.appendChild(el("text", { x: x + 27.5, y: 198, "text-anchor": "middle", "font-size": 12, fill: i === ti ? C.ink : C.muted, "font-weight": i === ti ? 700 : 400 }, toks[i]));
+  });
+  s.appendChild(el("text", { x: 180, y: 216, "text-anchor": "middle", "font-size": 11, fill: C.muted }, "softmax probabilities (sum = 1)"));
+}
+
+// ---------- 2. decay ----------
+function drawDecay() {
+  const g = +$("dg").value, every = +$("dr").value;
+  $("dg-v").textContent = g.toFixed(3); $("dk").textContent = Math.exp(g).toFixed(4);
+  $("dh").textContent = (1 / Math.abs(g)).toFixed(0);
+  $("dr-v").textContent = every ? every : "never";
+  const s = $("decay-plot"); clear(s);
+  const x0 = 45, y0 = 15, w = 380, h = 190, T = 600;
+  const X = t => x0 + w * t / T, Y = v => y0 + h * (1 - v);
+  [0, .25, .5, .75, 1].forEach(v => { s.appendChild(el("line", { x1: x0, y1: Y(v), x2: x0 + w, y2: Y(v), stroke: C.grid })); s.appendChild(el("text", { x: x0 - 6, y: Y(v) + 4, "text-anchor": "end", "font-size": 10, fill: C.muted }, v.toFixed(2))); });
+  [0, 200, 400, 600].forEach(t => s.appendChild(el("text", { x: X(t), y: y0 + h + 14, "text-anchor": "middle", "font-size": 10, fill: C.muted }, t)));
+  s.appendChild(el("text", { x: x0 + w / 2, y: y0 + h + 30, "text-anchor": "middle", "font-size": 11, fill: C.muted }, "steps"));
+  s.appendChild(el("line", { x1: x0, y1: Y(1 / Math.E), x2: x0 + w, y2: Y(1 / Math.E), stroke: C.red, "stroke-dasharray": "4 4" }));
+  let pts = "", v = 1;
+  for (let t = 0; t <= T; t++) { if (every && t > 0 && t % every === 0) v = 1; pts += `${X(t).toFixed(1)},${Y(v).toFixed(1)} `; v *= Math.exp(g); }
+  s.appendChild(el("polyline", { points: pts, fill: "none", stroke: C.orange, "stroke-width": 2.5 }));
+  const hz = 1 / Math.abs(g);
+  if (hz <= T) s.appendChild(el("circle", { cx: X(hz), cy: Y(1 / Math.E), r: 5, fill: C.blue }));
+}
+["dg", "dr"].forEach(id => $(id).oninput = drawDecay); drawDecay();
+
+// ---------- 3. position ----------
+function drawPos() {
+  const N = 16384, h = +$("ph").value, c = +$("pc").value, p = 12800, m = 96;
+  const s = $("pos-plot"); clear(s);
+  const x0 = 20, w = 860, X = t => x0 + w * t / N;
+  s.appendChild(el("text", { x: x0, y: 18, "font-size": 13, "font-weight": 700, fill: C.ink }, "Position-matched scorer (feed IDs[p−h : p], score IDs[p : p+96], p = 12,800)"));
+  s.appendChild(el("rect", { x: x0, y: 28, width: w, height: 26, fill: "#edf2f7", stroke: "#a0aec0" }));
+  s.appendChild(el("rect", { x: X(p - h), y: 28, width: X(p) - X(p - h), height: 26, fill: C.blueL, stroke: C.blue }));
+  s.appendChild(el("rect", { x: X(p), y: 24, width: Math.max(6, X(p + m) - X(p)), height: 34, fill: "#68d391", stroke: C.green }));
+  s.appendChild(el("text", { x: (X(p - h) + X(p)) / 2, y: 46, "text-anchor": "middle", "font-size": 11, fill: C.ink }, `history h = ${h.toLocaleString()}`));
+  s.appendChild(el("text", { x: X(p) + 12, y: 72, "font-size": 11, fill: C.green, "font-weight": 700 }, "96 targets: same IDs, same positions for every h"));
+  s.appendChild(el("text", { x: x0, y: 100, "font-size": 13, "font-weight": 700, fill: C.ink }, `Stock chunked tool with c = ${c.toLocaleString()} (resets each chunk, scores the second half)`));
+  let scored = 0;
+  for (let st = 0; st + c <= N; st += c) {
+    s.appendChild(el("rect", { x: X(st), y: 110, width: X(st + c / 2) - X(st), height: 26, fill: "#edf2f7", stroke: "#a0aec0" }));
+    s.appendChild(el("rect", { x: X(st + c / 2), y: 110, width: X(st + c) - X(st + c / 2), height: 26, fill: C.orangeL, stroke: C.orange }));
+    scored += c / 2;
+  }
+  s.appendChild(el("rect", { x: x0, y: 150, width: 14, height: 14, fill: C.orangeL, stroke: C.orange }));
+  s.appendChild(el("text", { x: x0 + 20, y: 162, "font-size": 12, fill: C.ink }, "scored positions"));
+  s.appendChild(el("rect", { x: x0 + 150, y: 150, width: 14, height: 14, fill: "#edf2f7", stroke: "#a0aec0" }));
+  s.appendChild(el("text", { x: x0 + 170, y: 162, "font-size": 12, fill: C.ink }, "context only (not scored)"));
+  const tgtInScored = ((p % c) >= c / 2);
+  s.appendChild(el("line", { x1: X(p), y1: 60, x2: X(p), y2: 140, stroke: C.green, "stroke-dasharray": "3 3" }));
+  s.appendChild(el("text", { x: x0, y: 200, "font-size": 12.5, fill: C.ink }, `Scored positions: ${scored.toLocaleString()} of ${N.toLocaleString()}. Position 12,800 ${tgtInScored ? `is scored at c = ${c}, seeing only ${(p % c).toLocaleString()} tokens of context (reset at chunk start)` : `falls in the unscored first half of its chunk at c = ${c}`}.`));
+  s.appendChild(el("text", { x: x0, y: 222, "font-size": 12.5, fill: C.red, "font-weight": 600 }, "Changing c changes WHICH tokens are averaged, so a perplexity change can come from scoring different text."));
+  $("pos-note").textContent = "Switch c between 1024 and 8192: the orange pattern changes completely. Switch h: the green target never moves.";
+}
+["ph", "pc"].forEach(id => $(id).onchange = drawPos); drawPos();
+
+// ---------- 4. margin ----------
+function drawMargin() {
+  const og = +$("m-og").value, ow = +$("m-ow").value, cg = +$("m-cg").value, cw = +$("m-cw").value;
+  const mo = ow - og, mc = cw - cg, e = mo - mc;
+  $("m-mo").textContent = fmt(mo, 2); $("m-mc").textContent = fmt(mc, 2); $("m-e").textContent = fmt(e, 3);
+  const dg = cg - og, dw = cw - ow;
+  let v = mc > 0 ? "Gold is still preferred after the import (no answer flip)." : "⚠ The counterfactual margin is ≤ 0: the preferred answer flipped.";
+  v += ` Gold NLL changed by ${fmt(dg, 3)}, wrong NLL by ${fmt(dw, 3)}.`;
+  $("m-verdict").textContent = v;
+}
+["m-og", "m-ow", "m-cg", "m-cw"].forEach(id => $(id).oninput = drawMargin); drawMargin();
+
+// ---------- 5. DoD ----------
+const dodDefaults = { "d-a1": 0.003026, "d-a12": 0.003136, "d-m1": 0.007664, "d-m12": 0.008279 };
+function drawDod() {
+  const a1 = +$("d-a1").value, a12 = +$("d-a12").value, m1 = +$("d-m1").value, m12 = +$("d-m12").value;
+  const ga = a12 - a1, gm = m12 - m1, I = ga - gm;
+  $("d-ga").textContent = fmt(ga, 6); $("d-gm").textContent = fmt(gm, 6); $("d-i").textContent = fmt(I, 6);
+  const gap = Math.abs(a1 - m1);
+  $("d-match").innerHTML = gap <= 0.003 ? `<span class="ok">1K doses within the 0.003 tolerance (gap ${gap.toFixed(4)})</span>` : `<span class="bad">1K doses NOT matched: gap ${gap.toFixed(4)} &gt; 0.003 tolerance</span>`;
+  const s = $("dod-plot"); clear(s);
+  const top = Math.max(a1, a12, m1, m12, 0.001) * 1.25, x0 = 50, y0 = 15, h = 180;
+  const Y = v => y0 + h * (1 - Math.max(0, v) / top);
+  [0, .5, 1].forEach(f => { const v = top * f; s.appendChild(el("line", { x1: x0, y1: Y(v), x2: 370, y2: Y(v), stroke: C.grid })); s.appendChild(el("text", { x: x0 - 5, y: Y(v) + 4, "text-anchor": "end", "font-size": 10, fill: C.muted }, v.toFixed(4))); });
+  [[a1, C.blueL, C.blue, "α 1K"], [a12, C.blue, C.blue, "α 12K"], [m1, C.orangeL, C.orange, "MLP 1K"], [m12, C.orange, C.orange, "MLP 12K"]].forEach(([v, f, st, lab], i) => {
+    const x = x0 + 15 + i * 78 + (i >= 2 ? 20 : 0);
+    s.appendChild(el("rect", { x, y: Y(v), width: 55, height: Y(0) - Y(v), fill: f, stroke: st }));
+    s.appendChild(el("text", { x: x + 27, y: Y(0) + 16, "text-anchor": "middle", "font-size": 11, fill: C.muted }, lab));
+  });
+}
+Object.keys(dodDefaults).forEach(id => $(id).oninput = drawDod);
+$("d-reset").onclick = () => { for (const k in dodDefaults) $(k).value = dodDefaults[k]; drawDod(); };
+drawDod();
+
+// ---------- 6. stats ----------
+const DATA = {
+  post:  { T: 0.5, v: [0.108780, 0.299903, 0.216186, 0.119139, 0.095315, -0.008040, 0.470604, 0.693921] },
+  spost: { T: 0.1, v: [0.117246, 0.243453, 0.177691, 0.104183, 0.084799, 0.029743, 0.447968, 0.616194] },
+  rpost: { T: 0.1, v: [0.050025, 0.040776, 0.059174, 0.011831, 0.024075, -0.014135, 0.044171, 0.065311] },
+  pre:   { T: 0.1, v: [-0.004697, -0.011947, 0.001827, 0.015817, 0.008237, 0.005807, 0.026020, 0.008703] },
+};
+const TQ = [NaN, 12.706, 4.303, 3.182, 2.776, 2.571, 2.447, 2.365, 2.306, 2.262, 2.228];
+let keep = Array(8).fill(true);
+function stats(v) {
+  const n = v.length, m = v.reduce((a, b) => a + b, 0) / n;
+  const sd = n > 1 ? Math.sqrt(v.reduce((a, b) => a + (b - m) ** 2, 0) / (n - 1)) : NaN;
+  const se = sd / Math.sqrt(n), t = TQ[n - 1];
+  return { n, m, sd, se, t, lo: m - t * se, hi: m + t * se };
+}
+function buildTable() {
+  const set = DATA[$("s-set").value], tb = $("s-table");
+  tb.innerHTML = "<tr><th>use</th><th>registry</th><th>effect</th></tr>";
+  set.v.forEach((x, i) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td><input type="checkbox" ${keep[i] ? "checked" : ""} data-i="${i}"></td><td style="text-align:left">${String(i + 8).padStart(2, "0")}</td><td>${fmt(x, 6)}</td>`;
+    tb.appendChild(tr);
+  });
+  tb.querySelectorAll("input").forEach(cb => cb.onchange = () => { keep[+cb.dataset.i] = cb.checked; drawStats(); });
+}
+function drawStats() {
+  const set = DATA[$("s-set").value], T = +$("s-T").value;
+  const v = set.v.filter((_, i) => keep[i]);
+  const s = $("s-plot"); clear(s);
+  if (v.length < 2) { $("s-verdict").textContent = "need ≥ 2 units"; return; }
+  const r = stats(v), pos = v.filter(x => x > 0).length;
+  $("s-n").textContent = r.n; $("s-mean").textContent = fmt(r.m, 4); $("s-sd").textContent = r.sd.toFixed(4); $("s-se").textContent = r.se.toFixed(4); $("s-t").textContent = r.t.toFixed(3);
+  $("s-ci").textContent = `[${fmt(r.lo, 4)}, ${fmt(r.hi, 4)}]`; $("s-pos").textContent = `${pos} of ${r.n}`;
+  const needPos = Math.ceil(0.75 * r.n);
+  let verdict, cls;
+  if (r.m >= T && r.lo > 0 && pos >= needPos) { verdict = `support (≥ ${T})`; cls = "support"; }
+  else if (r.hi < T) { verdict = `exclusion of +${T}`; cls = "exclusion"; }
+  else { verdict = "unresolved"; cls = "unresolved"; }
+  const vEl = $("s-verdict"); vEl.textContent = verdict; vEl.className = "pill " + cls;
+  $("s-rule").textContent = `Rule used here (modelled on the remote-state freeze): support if mean ≥ T, lower bound > 0 and ≥ ${needPos}/${r.n} positive; exclusion if upper bound < T; otherwise unresolved. Exclusion does not mean zero.`;
+  const lo = Math.min(r.lo, 0, ...v) - 0.02 * (T + 0.01), hi = Math.max(r.hi, T, ...v) * 1.1 + 0.001;
+  const X = x => 20 + 380 * (x - lo) / (hi - lo);
+  s.appendChild(el("line", { x1: X(0), y1: 22, x2: X(0), y2: 100, stroke: C.muted }));
+  s.appendChild(el("text", { x: X(0), y: 114, "text-anchor": "middle", "font-size": 10, fill: C.muted }, "0"));
+  s.appendChild(el("line", { x1: X(T), y1: 22, x2: X(T), y2: 100, stroke: C.purple, "stroke-dasharray": "4 3" }));
+  s.appendChild(el("text", { x: X(T), y: 114, "text-anchor": "middle", "font-size": 10, fill: C.purple }, "T"));
+  v.forEach(x => s.appendChild(el("circle", { cx: X(x), cy: 38, r: 4, fill: C.orange, opacity: .75 })));
+  const col = cls === "support" ? C.green : cls === "exclusion" ? C.amber : C.muted;
+  s.appendChild(el("line", { x1: X(r.lo), y1: 70, x2: X(r.hi), y2: 70, stroke: col, "stroke-width": 4 }));
+  s.appendChild(el("circle", { cx: X(r.m), cy: 70, r: 6, fill: "#fff", stroke: col, "stroke-width": 2 }));
+  s.appendChild(el("text", { x: 20, y: 14, "font-size": 10, fill: C.muted }, "units (dots) and 95% t interval (bar)"));
+}
+$("s-set").onchange = () => { keep = Array(8).fill(true); $("s-T").value = DATA[$("s-set").value].T; buildTable(); drawStats(); clear($("s-hist")); $("s-bci").textContent = ""; };
+$("s-T").oninput = drawStats;
+$("s-boot").onclick = () => {
+  const v = DATA[$("s-set").value].v.filter((_, i) => keep[i]), n = v.length, B = 20000, means = new Float64Array(B);
+  for (let b = 0; b < B; b++) { let sum = 0; for (let j = 0; j < n; j++) sum += v[(Math.random() * n) | 0]; means[b] = sum / n; }
+  means.sort();
+  const lo = means[Math.floor(0.025 * B)], hi = means[Math.floor(0.975 * B)];
+  $("s-bci").textContent = `percentile bootstrap 95%: [${fmt(lo, 4)}, ${fmt(hi, 4)}] from ${n} units (small-n bootstraps are often too narrow)`;
+  const s = $("s-hist"); clear(s);
+  const mn = means[0], mx = means[B - 1], bins = 50, cnt = new Array(bins).fill(0);
+  for (const m of means) cnt[Math.min(bins - 1, Math.floor((m - mn) / (mx - mn) * bins))]++;
+  const cmax = Math.max(...cnt), bw = 640 / bins;
+  cnt.forEach((c, i) => s.appendChild(el("rect", { x: 30 + i * bw, y: 140 - 120 * c / cmax, width: bw - 1, height: 120 * c / cmax, fill: C.blueL, stroke: C.blue, "stroke-width": .5 })));
+  const X = x => 30 + 640 * (x - mn) / (mx - mn);
+  [lo, hi].forEach(x => s.appendChild(el("line", { x1: X(x), y1: 10, x2: X(x), y2: 145, stroke: C.red, "stroke-dasharray": "4 3" })));
+  s.appendChild(el("text", { x: 30, y: 162, "font-size": 11, fill: C.muted }, fmt(mn, 3)));
+  s.appendChild(el("text", { x: 670, y: 162, "text-anchor": "end", "font-size": 11, fill: C.muted }, fmt(mx, 3)));
+  s.appendChild(el("text", { x: 350, y: 162, "text-anchor": "middle", "font-size": 11, fill: C.muted }, "bootstrap means (lumpy: only a handful of distinct units to resample)"));
+};
+buildTable(); drawStats();
+if (location.hash) showTab(location.hash.slice(1));
+
+// ---------- 7. quiz ----------
+const Q = [
+  ["After the question, importing the counterpart's S alone changed the answer margin by +0.228 nat on average over eight registries.", "M", "It is a completed run's estimate with an interval."],
+  ["Full attention retrieves the remote record from KV while the question is read, and later recurrent blocks write it into S.", "I", "It fits the timing result but the write was never observed. That makes it the leading inference."],
+  ["A layer-selective splice comparing S from early blocks with S from blocks after full attention would localise the write.", "P", "It has not been run, and even a positive result would not pin the exact write step."],
+  ["In the held-out study, the 1K alpha and MLP doses differed by 0.0046 nat/token, beyond the 0.003 tolerance.", "M", "A measured value compared against a frozen tolerance."],
+  ["The pre-question null could reflect the receiver's KV overwriting or masking the imported state during the question.", "I", "An alternative explanation compatible with the data, not a measurement."],
+  ["An attention-controlled gate on fresh registry families would test long-range recurrent retention.", "P", "Proposed next study: not implemented, frozen or run."],
+  ["All 16 pre-question captures had exact full and recurrent-only roundtrip NLL vectors.", "M", "A technical identity check from a completed run (validity, not hypothesis evidence)."],
+  ["The small post-question effect shows S retained the fact across 12K tokens of filler.", "X", "Overclaim! The swap happened after the question, so S may have received the value from attention moments earlier. Accurate version: 🟢 post-question S matters; 🟡 when the information entered S is unknown."],
+];
+(function initQuiz() {
+  const box = $("quiz-list"), names = { M: "🟢 Measured", I: "🟡 Inferred", P: "🟣 Proposed", X: "✘ Overclaim" };
+  let score = 0, answered = 0;
+  Q.forEach(([stmt, ans, why]) => {
+    const d = document.createElement("div"); d.className = "quiz-item";
+    d.innerHTML = `<div>${stmt}</div><div class="opts"></div><div class="fb"></div>`;
+    ["M", "I", "P", "X"].forEach(k => {
+      const b = document.createElement("button"); b.className = "ghost"; b.textContent = names[k];
+      b.onclick = () => {
+        if (d.dataset.done) return; d.dataset.done = 1; answered++;
+        const ok = k === ans; if (ok) score++;
+        d.querySelector(".fb").innerHTML = `<span class="${ok ? "ok" : "bad"}">${ok ? "Correct" : "Not quite: " + names[ans]}</span>. ${why}`;
+        $("quiz-score").textContent = `Score: ${score} / ${answered}` + (answered === Q.length ? " (done)" : "");
+      };
+      d.querySelector(".opts").appendChild(b);
+    });
+    box.appendChild(d);
+  });
+})();
+</script>
+</body>
+</html>

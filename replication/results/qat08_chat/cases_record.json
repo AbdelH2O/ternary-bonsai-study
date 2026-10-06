@@ -1,0 +1,633 @@
+{
+  "book_entries": [
+    {
+      "id": "bleak_house-25",
+      "split": "validation",
+      "book": "bleak_house",
+      "gutenberg_id": 1023,
+      "title_line": "The Project Gutenberg eBook of Bleak House",
+      "raw_sha256": "27e002dee487817b00ba884f3d5ffd8dbb821f82353e914cdc22bf33c413ba16",
+      "body_sha256": "4690f2d6ded2ebc6715bd11a009fd635b9b0be411dfe6bbe583a9d55437ed42b",
+      "byte_offset": 496279
+    },
+    {
+      "id": "bleak_house-65",
+      "split": "validation",
+      "book": "bleak_house",
+      "gutenberg_id": 1023,
+      "title_line": "The Project Gutenberg eBook of Bleak House",
+      "raw_sha256": "27e002dee487817b00ba884f3d5ffd8dbb821f82353e914cdc22bf33c413ba16",
+      "body_sha256": "4690f2d6ded2ebc6715bd11a009fd635b9b0be411dfe6bbe583a9d55437ed42b",
+      "byte_offset": 1290352
+    },
+    {
+      "id": "return_of_the_native-25",
+      "split": "validation",
+      "book": "return_of_the_native",
+      "gutenberg_id": 122,
+      "title_line": "The Project Gutenberg eBook of The Return of the Native",
+      "raw_sha256": "bdd2c262086b9c8ae4361ef1e7f29fcc9e462bbab108cbe94c3e972276444b14",
+      "body_sha256": "99ad02eb8013c33bdf0a4566386c466f1a30ae979e1512c87a1396b1a6db3de3",
+      "byte_offset": 200660
+    },
+    {
+      "id": "return_of_the_native-65",
+      "split": "validation",
+      "book": "return_of_the_native",
+      "gutenberg_id": 122,
+      "title_line": "The Project Gutenberg eBook of The Return of the Native",
+      "raw_sha256": "bdd2c262086b9c8ae4361ef1e7f29fcc9e462bbab108cbe94c3e972276444b14",
+      "body_sha256": "99ad02eb8013c33bdf0a4566386c466f1a30ae979e1512c87a1396b1a6db3de3",
+      "byte_offset": 521603
+    },
+    {
+      "id": "mayor_of_casterbridge-25",
+      "split": "validation",
+      "book": "mayor_of_casterbridge",
+      "gutenberg_id": 143,
+      "title_line": "The Project Gutenberg eBook of The Mayor of Casterbridge",
+      "raw_sha256": "afc11a8bb54ae3d37551d4d6d3523e5df2371665781da769344597969c116a00",
+      "body_sha256": "f13ad5aeedc6b59cda992a715ef2e1d664375024735d3c0168b1ecfe6fd2019c",
+      "byte_offset": 166925
+    },
+    {
+      "id": "mayor_of_casterbridge-65",
+      "split": "validation",
+      "book": "mayor_of_casterbridge",
+      "gutenberg_id": 143,
+      "title_line": "The Project Gutenberg eBook of The Mayor of Casterbridge",
+      "raw_sha256": "afc11a8bb54ae3d37551d4d6d3523e5df2371665781da769344597969c116a00",
+      "body_sha256": "f13ad5aeedc6b59cda992a715ef2e1d664375024735d3c0168b1ecfe6fd2019c",
+      "byte_offset": 433890
+    },
+    {
+      "id": "mill_on_the_floss-25",
+      "split": "heldout",
+      "book": "mill_on_the_floss",
+      "gutenberg_id": 6688,
+      "title_line": "The Project Gutenberg eBook of The Mill on the Floss",
+      "raw_sha256": "6cd9e230aa05eb249e2c42630d051325cb865d9cf05902819a57177860d7947d",
+      "body_sha256": "cb1c299aaa2fd0a5c57de5c5a5663f729447d259bf82ea3fa8f0cbb98fdcd2da",
+      "byte_offset": 292855
+    },
+    {
+      "id": "mill_on_the_floss-65",
+      "split": "heldout",
+      "book": "mill_on_the_floss",
+      "gutenberg_id": 6688,
+      "title_line": "The Project Gutenberg eBook of The Mill on the Floss",
+      "raw_sha256": "6cd9e230aa05eb249e2c42630d051325cb865d9cf05902819a57177860d7947d",
+      "body_sha256": "cb1c299aaa2fd0a5c57de5c5a5663f729447d259bf82ea3fa8f0cbb98fdcd2da",
+      "byte_offset": 761401
+    },
+    {
+      "id": "adam_bede-25",
+      "split": "heldout",
+      "book": "adam_bede",
+      "gutenberg_id": 507,
+      "title_line": "The Project Gutenberg eBook of Adam Bede",
+      "raw_sha256": "be0e4681617825580f2f1bff1f04f477a9af2d49b9835bcb7d9ab9eb9ef3aecb",
+      "body_sha256": "dc611ac798881e6a5a7750d1737226a9f41d191dd4d699ad5ae16d3bc8bd351b",
+      "byte_offset": 296955
+    },
+    {
+      "id": "adam_bede-65",
+      "split": "heldout",
+      "book": "adam_bede",
+      "gutenberg_id": 507,
+      "title_line": "The Project Gutenberg eBook of Adam Bede",
+      "raw_sha256": "be0e4681617825580f2f1bff1f04f477a9af2d49b9835bcb7d9ab9eb9ef3aecb",
+      "body_sha256": "dc611ac798881e6a5a7750d1737226a9f41d191dd4d699ad5ae16d3bc8bd351b",
+      "byte_offset": 772084
+    },
+    {
+      "id": "hard_times-25",
+      "split": "heldout",
+      "book": "hard_times",
+      "gutenberg_id": 786,
+      "title_line": "The Project Gutenberg eBook of Hard Times",
+      "raw_sha256": "dd239b4a0c9c1b72be40f9f7e1aabce511c022b238a8feb2a9e63f169a7436d9",
+      "body_sha256": "bb2a733e2c7f49be75a91f0e38acb273addaab8c76f660ff568c44a33dd4c1a1",
+      "byte_offset": 148700
+    },
+    {
+      "id": "hard_times-65",
+      "split": "heldout",
+      "book": "hard_times",
+      "gutenberg_id": 786,
+      "title_line": "The Project Gutenberg eBook of Hard Times",
+      "raw_sha256": "dd239b4a0c9c1b72be40f9f7e1aabce511c022b238a8feb2a9e63f169a7436d9",
+      "body_sha256": "bb2a733e2c7f49be75a91f0e38acb273addaab8c76f660ff568c44a33dd4c1a1",
+      "byte_offset": 386648
+    },
+    {
+      "id": "david_copperfield-25",
+      "split": "heldout",
+      "book": "david_copperfield",
+      "gutenberg_id": 766,
+      "title_line": "The Project Gutenberg eBook of David Copperfield",
+      "raw_sha256": "51650d348820a64ca4d4233da035f804819d2231801b59373db4e1279a1985e0",
+      "body_sha256": "58d9656b4201ae294770edfe654c5abc81d096cf02cecc8469361aed0b0ce366",
+      "byte_offset": 493846
+    },
+    {
+      "id": "david_copperfield-65",
+      "split": "heldout",
+      "book": "david_copperfield",
+      "gutenberg_id": 766,
+      "title_line": "The Project Gutenberg eBook of David Copperfield",
+      "raw_sha256": "51650d348820a64ca4d4233da035f804819d2231801b59373db4e1279a1985e0",
+      "body_sha256": "58d9656b4201ae294770edfe654c5abc81d096cf02cecc8469361aed0b0ce366",
+      "byte_offset": 1283921
+    },
+    {
+      "id": "wives_and_daughters-25",
+      "split": "heldout",
+      "book": "wives_and_daughters",
+      "gutenberg_id": 4274,
+      "title_line": "The Project Gutenberg eBook of Wives and Daughters",
+      "raw_sha256": "2a98894fb00ca366f261ec651dfe4f5ae640f980755098887ca68e573a22b5e5",
+      "body_sha256": "9235e724ba630360a48a07a68d7ab6053142d45a104f5cd4e080ef6320f6f575",
+      "byte_offset": 370258
+    },
+    {
+      "id": "wives_and_daughters-65",
+      "split": "heldout",
+      "book": "wives_and_daughters",
+      "gutenberg_id": 4274,
+      "title_line": "The Project Gutenberg eBook of Wives and Daughters",
+      "raw_sha256": "2a98894fb00ca366f261ec651dfe4f5ae640f980755098887ca68e573a22b5e5",
+      "body_sha256": "9235e724ba630360a48a07a68d7ab6053142d45a104f5cd4e080ef6320f6f575",
+      "byte_offset": 962701
+    },
+    {
+      "id": "cranford-25",
+      "split": "heldout",
+      "book": "cranford",
+      "gutenberg_id": 394,
+      "title_line": "The Project Gutenberg eBook of Cranford",
+      "raw_sha256": "3bb263075a97afd4058933534549f6176d881f7a9f74bb62eb52be26670e3cb0",
+      "body_sha256": "b725d315101e34d45dee8b4ec7945fe33eac4abe4c4daae8e7e801d9207597cb",
+      "byte_offset": 98769
+    },
+    {
+      "id": "cranford-65",
+      "split": "heldout",
+      "book": "cranford",
+      "gutenberg_id": 394,
+      "title_line": "The Project Gutenberg eBook of Cranford",
+      "raw_sha256": "3bb263075a97afd4058933534549f6176d881f7a9f74bb62eb52be26670e3cb0",
+      "body_sha256": "b725d315101e34d45dee8b4ec7945fe33eac4abe4c4daae8e7e801d9207597cb",
+      "byte_offset": 256793
+    },
+    {
+      "id": "villette-25",
+      "split": "heldout",
+      "book": "villette",
+      "gutenberg_id": 9182,
+      "title_line": "The Project Gutenberg eBook of Villette",
+      "raw_sha256": "a89ca6c4ccdeb01263da50f96f68f28d68663b064f0eae325ea7c4398aa198c8",
+      "body_sha256": "31816e4d475820d97b4acbb4c348c60529ad91bc3308ac4a0be55af19dd1ec25",
+      "byte_offset": 278245
+    },
+    {
+      "id": "villette-65",
+      "split": "heldout",
+      "book": "villette",
+      "gutenberg_id": 9182,
+      "title_line": "The Project Gutenberg eBook of Villette",
+      "raw_sha256": "a89ca6c4ccdeb01263da50f96f68f28d68663b064f0eae325ea7c4398aa198c8",
+      "body_sha256": "31816e4d475820d97b4acbb4c348c60529ad91bc3308ac4a0be55af19dd1ec25",
+      "byte_offset": 723368
+    },
+    {
+      "id": "tenant_of_wildfell_hall-25",
+      "split": "heldout",
+      "book": "tenant_of_wildfell_hall",
+      "gutenberg_id": 969,
+      "title_line": "The Project Gutenberg eBook of The Tenant of Wildfell Hall",
+      "raw_sha256": "a3aab47ab84eac0ce05210be83907b6bce654abc3e1c882d4975bc516ec67f0b",
+      "body_sha256": "a60651f7c6f594f2fcaa04df6dfafee9fde0b36e57609eb2f1d214477a92fcfa",
+      "byte_offset": 239192
+    },
+    {
+      "id": "tenant_of_wildfell_hall-65",
+      "split": "heldout",
+      "book": "tenant_of_wildfell_hall",
+      "gutenberg_id": 969,
+      "title_line": "The Project Gutenberg eBook of The Tenant of Wildfell Hall",
+      "raw_sha256": "a3aab47ab84eac0ce05210be83907b6bce654abc3e1c882d4975bc516ec67f0b",
+      "body_sha256": "a60651f7c6f594f2fcaa04df6dfafee9fde0b36e57609eb2f1d214477a92fcfa",
+      "byte_offset": 621930
+    },
+    {
+      "id": "lorna_doone-25",
+      "split": "heldout",
+      "book": "lorna_doone",
+      "gutenberg_id": 840,
+      "title_line": "The Project Gutenberg eBook of Lorna Doone: A Romance of Exmoor",
+      "raw_sha256": "6d6112e87f6e5e8ae886e3b7ecae36b8bd3396d0e9a585b345619a4ea4d92967",
+      "body_sha256": "1e1d1a24234b90bda1465cec545610005e16c35e0ae016eca978b7e97231e2a0",
+      "byte_offset": 358242
+    },
+    {
+      "id": "lorna_doone-65",
+      "split": "heldout",
+      "book": "lorna_doone",
+      "gutenberg_id": 840,
+      "title_line": "The Project Gutenberg eBook of Lorna Doone: A Romance of Exmoor",
+      "raw_sha256": "6d6112e87f6e5e8ae886e3b7ecae36b8bd3396d0e9a585b345619a4ea4d92967",
+      "body_sha256": "1e1d1a24234b90bda1465cec545610005e16c35e0ae016eca978b7e97231e2a0",
+      "byte_offset": 931411
+    },
+    {
+      "id": "ben_hur-25",
+      "split": "heldout",
+      "book": "ben_hur",
+      "gutenberg_id": 2145,
+      "title_line": "The Project Gutenberg eBook of Ben-Hur: A tale of the Christ",
+      "raw_sha256": "763c441de7fd00c97be268ca1ac670e6b046a3adcbd605779100f02b0d1dfaee",
+      "body_sha256": "4855e8697b8458cd9b10e366fd1ea665ad14524356ac44b3c4e84fd466b00f80",
+      "byte_offset": 279970
+    },
+    {
+      "id": "ben_hur-65",
+      "split": "heldout",
+      "book": "ben_hur",
+      "gutenberg_id": 2145,
+      "title_line": "The Project Gutenberg eBook of Ben-Hur: A tale of the Christ",
+      "raw_sha256": "763c441de7fd00c97be268ca1ac670e6b046a3adcbd605779100f02b0d1dfaee",
+      "body_sha256": "4855e8697b8458cd9b10e366fd1ea665ad14524356ac44b3c4e84fd466b00f80",
+      "byte_offset": 727856
+    },
+    {
+      "id": "last_of_the_mohicans-25",
+      "split": "heldout",
+      "book": "last_of_the_mohicans",
+      "gutenberg_id": 940,
+      "title_line": "The Project Gutenberg eBook of The Last of the Mohicans; A narrative of 1757",
+      "raw_sha256": "0edf30ebe6709f554bc67af937025535ad11fcea9849e919d835da1ec70d1714",
+      "body_sha256": "d05231a0ea69e5bddec0a2e43c0a917f64eca49c7fc42070c6bd4921ac16b04f",
+      "byte_offset": 214236
+    },
+    {
+      "id": "last_of_the_mohicans-65",
+      "split": "heldout",
+      "book": "last_of_the_mohicans",
+      "gutenberg_id": 940,
+      "title_line": "The Project Gutenberg eBook of The Last of the Mohicans; A narrative of 1757",
+      "raw_sha256": "0edf30ebe6709f554bc67af937025535ad11fcea9849e919d835da1ec70d1714",
+      "body_sha256": "d05231a0ea69e5bddec0a2e43c0a917f64eca49c7fc42070c6bd4921ac16b04f",
+      "byte_offset": 556899
+    },
+    {
+      "id": "red_badge_of_courage-25",
+      "split": "heldout",
+      "book": "red_badge_of_courage",
+      "gutenberg_id": 73,
+      "title_line": "The Project Gutenberg eBook of The Red Badge of Courage: An Episode of the American Civil War",
+      "raw_sha256": "d92b53cb377500c26f325b5249c23c364c9b946b4b8265c54dd0e1eb09bba06c",
+      "body_sha256": "8a8f9241964ceb772c9bcb2d8505930b14242fad71484b57ce4d48fb397c5215",
+      "byte_offset": 65920
+    },
+    {
+      "id": "red_badge_of_courage-65",
+      "split": "heldout",
+      "book": "red_badge_of_courage",
+      "gutenberg_id": 73,
+      "title_line": "The Project Gutenberg eBook of The Red Badge of Courage: An Episode of the American Civil War",
+      "raw_sha256": "d92b53cb377500c26f325b5249c23c364c9b946b4b8265c54dd0e1eb09bba06c",
+      "body_sha256": "8a8f9241964ceb772c9bcb2d8505930b14242fad71484b57ce4d48fb397c5215",
+      "byte_offset": 171337
+    }
+  ],
+  "book_cases": {
+    "validation": {
+      "file": "cases/validation_books.tsv",
+      "sha256": "b69c7c250e9caa9f0bd4b624fd6f8ffa0bb5fe3037aa3efb3ba0c88cc9a736ad",
+      "cases": 6
+    },
+    "heldout": {
+      "file": "cases/heldout_books.tsv",
+      "sha256": "bbf14e387bdf607ccdaba61aaf486c8624097e21b47a07fdeb83d7e26a212358",
+      "cases": 24
+    }
+  },
+  "titles": {
+    "bleak_house": {
+      "gutenberg_id": 1023,
+      "expected": "Bleak House",
+      "actual": "Bleak House",
+      "raw_sha256": "27e002dee487817b00ba884f3d5ffd8dbb821f82353e914cdc22bf33c413ba16"
+    },
+    "return_of_the_native": {
+      "gutenberg_id": 122,
+      "expected": "The Return of the Native",
+      "actual": "The Return of the Native",
+      "raw_sha256": "bdd2c262086b9c8ae4361ef1e7f29fcc9e462bbab108cbe94c3e972276444b14"
+    },
+    "mayor_of_casterbridge": {
+      "gutenberg_id": 143,
+      "expected": "The Mayor of Casterbridge",
+      "actual": "The Mayor of Casterbridge",
+      "raw_sha256": "afc11a8bb54ae3d37551d4d6d3523e5df2371665781da769344597969c116a00"
+    },
+    "mill_on_the_floss": {
+      "gutenberg_id": 6688,
+      "expected": "The Mill on the Floss",
+      "actual": "The Mill on the Floss",
+      "raw_sha256": "6cd9e230aa05eb249e2c42630d051325cb865d9cf05902819a57177860d7947d"
+    },
+    "adam_bede": {
+      "gutenberg_id": 507,
+      "expected": "Adam Bede",
+      "actual": "Adam Bede",
+      "raw_sha256": "be0e4681617825580f2f1bff1f04f477a9af2d49b9835bcb7d9ab9eb9ef3aecb"
+    },
+    "hard_times": {
+      "gutenberg_id": 786,
+      "expected": "Hard Times",
+      "actual": "Hard Times",
+      "raw_sha256": "dd239b4a0c9c1b72be40f9f7e1aabce511c022b238a8feb2a9e63f169a7436d9"
+    },
+    "david_copperfield": {
+      "gutenberg_id": 766,
+      "expected": "David Copperfield",
+      "actual": "David Copperfield",
+      "raw_sha256": "51650d348820a64ca4d4233da035f804819d2231801b59373db4e1279a1985e0"
+    },
+    "wives_and_daughters": {
+      "gutenberg_id": 4274,
+      "expected": "Wives and Daughters",
+      "actual": "Wives and Daughters",
+      "raw_sha256": "2a98894fb00ca366f261ec651dfe4f5ae640f980755098887ca68e573a22b5e5"
+    },
+    "cranford": {
+      "gutenberg_id": 394,
+      "expected": "Cranford",
+      "actual": "Cranford",
+      "raw_sha256": "3bb263075a97afd4058933534549f6176d881f7a9f74bb62eb52be26670e3cb0"
+    },
+    "villette": {
+      "gutenberg_id": 9182,
+      "expected": "Villette",
+      "actual": "Villette",
+      "raw_sha256": "a89ca6c4ccdeb01263da50f96f68f28d68663b064f0eae325ea7c4398aa198c8"
+    },
+    "tenant_of_wildfell_hall": {
+      "gutenberg_id": 969,
+      "expected": "The Tenant of Wildfell Hall",
+      "actual": "The Tenant of Wildfell Hall",
+      "raw_sha256": "a3aab47ab84eac0ce05210be83907b6bce654abc3e1c882d4975bc516ec67f0b"
+    },
+    "lorna_doone": {
+      "gutenberg_id": 840,
+      "expected": "Lorna Doone",
+      "actual": "Lorna Doone: A Romance of Exmoor",
+      "raw_sha256": "6d6112e87f6e5e8ae886e3b7ecae36b8bd3396d0e9a585b345619a4ea4d92967"
+    },
+    "ben_hur": {
+      "gutenberg_id": 2145,
+      "expected": "Ben-Hur",
+      "actual": "Ben-Hur: A tale of the Christ",
+      "raw_sha256": "763c441de7fd00c97be268ca1ac670e6b046a3adcbd605779100f02b0d1dfaee"
+    },
+    "last_of_the_mohicans": {
+      "gutenberg_id": 940,
+      "expected": "The Last of the Mohicans",
+      "actual": "The Last of the Mohicans; A narrative of 1757",
+      "raw_sha256": "0edf30ebe6709f554bc67af937025535ad11fcea9849e919d835da1ec70d1714"
+    },
+    "red_badge_of_courage": {
+      "gutenberg_id": 73,
+      "expected": "The Red Badge of Courage",
+      "actual": "The Red Badge of Courage: An Episode of the American Civil War",
+      "raw_sha256": "d92b53cb377500c26f325b5249c23c364c9b946b4b8265c54dd0e1eb09bba06c"
+    }
+  },
+  "prior_freeze_inventories": {
+    "dose_calibration/freeze_doses.py": {
+      "sha256": "515d8cdf10df14f8ec722d0a5582f090ba16c96abbd13c8e2c8b7812bb5a8cb4",
+      "gutenberg_ids": []
+    },
+    "dose_calibration/freeze_perturbed_pilot.py": {
+      "sha256": "c3114b318db3a961339f491d03462e25471d9cfd266256126389d34073f5db1f",
+      "gutenberg_ids": []
+    },
+    "replication/freeze_17b.py": {
+      "sha256": "df0faffe34236d81cf9be5031580bc1ac9ea62ae754b645cf2755f2136ef8dc5",
+      "gutenberg_ids": [
+        161,
+        215,
+        43,
+        76,
+        2554,
+        105,
+        2814,
+        55,
+        164,
+        103,
+        2852,
+        113,
+        45,
+        1257,
+        33
+      ]
+    },
+    "replication/freeze_gptq_pilot.py": {
+      "sha256": "e7d2f079b464fc158bba19c8abc76d08c82fd92ae80f0fc5de52a7a42e763a6c",
+      "gutenberg_ids": []
+    },
+    "replication/freeze_gptq_v2.py": {
+      "sha256": "30eea55158dfff09c0c03395527c01de13337dbab2838afa20e415e902e41827",
+      "gutenberg_ids": [
+        1400,
+        1260,
+        74,
+        2701,
+        98,
+        120,
+        174,
+        35,
+        219
+      ]
+    },
+    "replication/freeze_qat08.py": {
+      "sha256": "635a14cdb4e5cb64fb2b7aed0f4c962e70b3809172c49b71cba207b4a97b996d",
+      "gutenberg_ids": [
+        121,
+        550,
+        5230,
+        730,
+        599,
+        110,
+        107,
+        421,
+        95,
+        82,
+        271,
+        141,
+        155,
+        5658,
+        4517
+      ]
+    },
+    "replication/freeze_quality_pilot.py": {
+      "sha256": "3fa0d9b38f14e357ace7139c16c14b26b693f6f119c3f2d672dca922ec0d37aa",
+      "gutenberg_ids": []
+    }
+  },
+  "mmlu": {
+    "repo": "edinburgh-dawg/mmlu-redux-2.0",
+    "revision": "372ea425445d51e1ba1188c56e5e893f8138621f",
+    "file": "cases/mmlu.tsv",
+    "sha256": "a81c3f166c0e1132a7ddb4d238e91cced3bbff93f6d53d621c3c028acb65ff2d",
+    "items": 5330,
+    "subjects": {
+      "abstract_algebra": 89,
+      "anatomy": 99,
+      "astronomy": 94,
+      "business_ethics": 85,
+      "clinical_knowledge": 99,
+      "college_biology": 98,
+      "college_chemistry": 75,
+      "college_computer_science": 97,
+      "college_mathematics": 99,
+      "college_medicine": 87,
+      "college_physics": 100,
+      "computer_security": 97,
+      "conceptual_physics": 92,
+      "econometrics": 97,
+      "electrical_engineering": 98,
+      "elementary_mathematics": 97,
+      "formal_logic": 87,
+      "global_facts": 88,
+      "high_school_biology": 95,
+      "high_school_chemistry": 99,
+      "high_school_computer_science": 100,
+      "high_school_european_history": 91,
+      "high_school_geography": 100,
+      "high_school_government_and_politics": 100,
+      "high_school_macroeconomics": 97,
+      "high_school_mathematics": 100,
+      "high_school_microeconomics": 98,
+      "high_school_physics": 97,
+      "high_school_psychology": 96,
+      "high_school_statistics": 98,
+      "high_school_us_history": 100,
+      "high_school_world_history": 99,
+      "human_aging": 87,
+      "human_sexuality": 81,
+      "international_law": 95,
+      "jurisprudence": 99,
+      "logical_fallacies": 74,
+      "machine_learning": 89,
+      "management": 99,
+      "marketing": 96,
+      "medical_genetics": 100,
+      "miscellaneous": 90,
+      "moral_disputes": 96,
+      "moral_scenarios": 97,
+      "nutrition": 97,
+      "philosophy": 89,
+      "prehistory": 100,
+      "professional_accounting": 92,
+      "professional_law": 82,
+      "professional_medicine": 99,
+      "professional_psychology": 96,
+      "public_relations": 91,
+      "security_studies": 94,
+      "sociology": 98,
+      "us_foreign_policy": 99,
+      "virology": 43,
+      "world_religions": 99
+    },
+    "source_sha256": {
+      "abstract_algebra": "fe3b1b5aeb5a4a8542707fffb71011757e58102c963891723e72f85ed59e7360",
+      "anatomy": "02e5430bb850c999fd0360c4d0a7b8b497d6a77baa032ddf75a9bbb61edfa2e1",
+      "astronomy": "14ce04c3ab6cce3041b72d5b669d5a2f02bb847e86ea37b45c248b189e5a7b04",
+      "business_ethics": "a951880958fb05bf5a1b413fb8f67db98a4454f8d6c659240fe918039d106028",
+      "clinical_knowledge": "22751969c400ca778350327bf672389cf998b2243c8774ec799fe1dde73cfb70",
+      "college_biology": "e1f6533faf45cc16a5931d73ef73a0f730604aeea55314a2c9304ddb91cefd12",
+      "college_chemistry": "f6c3c5955ef320051bae52881ffd6006bb1d2d1f187fde18a241111f5b155800",
+      "college_computer_science": "f4c2115b5da06e23b5bfcfb5be7d909bb658ac86a1506b564f83339b1163f6ca",
+      "college_mathematics": "86d49192ad35f31bf9666ee194d43d3b852dd52f7463474e8b7b1d691e86cc37",
+      "college_medicine": "77c854a9268649408cce3dc7b9bac2d7140f01b52b8f6fdf1ee70895ce264802",
+      "college_physics": "9877df1697482b5c1add4f1e0169e96ca7413aac9a361d599b23bf3d2cfc7a6a",
+      "computer_security": "c8c91dad780d00c0d6a51123bc870a0eb85fc6d9198b86d053e04c9036b23cf8",
+      "conceptual_physics": "82f09349d8ffb74646bbbe7ce0fa10e43d9c898ee4370b2799cdc25f7e4dcefc",
+      "econometrics": "95ae4551a0df3b6cc84924f5d9fc4bd17f1743b44f5dab7725057126b86354f0",
+      "electrical_engineering": "5c88d812fcb1b10d57d5fa735e2ee8c0d4974ba5e5d3e33a01a3cc2378e0e5b9",
+      "elementary_mathematics": "f4b986d25dd5b76c3dd5bbba6109f39c84caee7b604b97c01fe0d8cc25806cbe",
+      "formal_logic": "9c1b0d50c4c871fe0e8e59d36b53e16f4e241fa6fdb21055336eac180273bb03",
+      "global_facts": "47d3e105a90e91210a942e1d73b36bd86b3c9acf642be5c9e5bbc4090ccb7c97",
+      "high_school_biology": "7921b3460b8faacbe3125e09129f8c8b43d9115ac108b585c96d145af7559026",
+      "high_school_chemistry": "df3ac67951d86f992e997fae622ae8b07b4b54f60ef5cfefdc636880920f8706",
+      "high_school_computer_science": "f478f5265e23fbd20005accdf9631fdc1bf41feb5ae76e50770ce0179f4573db",
+      "high_school_european_history": "bbcd2d1c51a96698f0581b8db6795ed6be4216ca7429822b2ca634d1f15590cf",
+      "high_school_geography": "4fad69de3874d0a36ac2aa5ade2d6700e507d67e9ea11deacac7f424d482d8f3",
+      "high_school_government_and_politics": "d6309c6050c3d5da9320320887504c1b1bd7d34681e3ea38c27e0dab27226658",
+      "high_school_macroeconomics": "4049f204336f1314b84219100f45d857a995a6d33e6e84e0a4a341053fe83e94",
+      "high_school_mathematics": "2b738b8cfeab0ded298c13a8dd5de316304148ddbf345134210a5b10cd748143",
+      "high_school_microeconomics": "a55042dbeb07e799515a0e1da593220d2050fa32ca1e6aceb2fca86cc1775871",
+      "high_school_physics": "645ee034f57fbd95d4200f5ea11303dd0e5a0f059ea6bda6e5b5dd439ae9eec0",
+      "high_school_psychology": "c153b49f62249eed94acd0edec9bd99b60ff3276191424721086c030e65af63b",
+      "high_school_statistics": "56b17e083f6a2a1603425108e84bace31a17003aa1a499d3feabbc14f5090ef5",
+      "high_school_us_history": "97dd3acc62d9e8e6b6a75f8c5e4021a34e27b5e9737228c9384f21bb84c5772d",
+      "high_school_world_history": "e1cb493310b14c680342f67f0b7673543555fb16f4287a6fcd36f2cf39b08f79",
+      "human_aging": "d307bbeb48f2f3aadab26a205f92333a079f455d2fceb0fd69cb9f43118b6fcd",
+      "human_sexuality": "6aa24317b00dc19b2fbd60ad283f4bc1f9377bfab7de74b93cbc6cfdc191af56",
+      "international_law": "f6efce8412ceeed65e96425c6ce2f1e38a4fc1386bdae24225b81e7edab9970d",
+      "jurisprudence": "e76c98d24d27ce8e846a73dbdd54c217d2bcf35d172bc50b303d0a140ee01f57",
+      "logical_fallacies": "38485e4408802f675196563d3e58f613c53b6481e0c78f54f4bc0411d839ac41",
+      "machine_learning": "3b02f5e1b78c35f055c32b7eee84df7b51afa675546742d4118d3e2f1a9c7734",
+      "management": "def84bb6273b45fa6edbfd40481119a0fb71f7e5120d62027e8b1e7fbab7c28c",
+      "marketing": "9519c42a10af236db619dc7bae97dc512a0b2a69ad2eb0a47d93d5da2e7e7675",
+      "medical_genetics": "5e986a5c15a0608b70d56d57ecfb1a1407200519930f96f4e652b03ce1919b3c",
+      "miscellaneous": "e889cf0f0c5a7548addeeeae9b466ced84e7ef5e4ae0634bd837240ae54dfe48",
+      "moral_disputes": "7a82a2394729c58858c0ecbf793c1503727cfe55aee57483c9a8794383c57cc7",
+      "moral_scenarios": "2bb49ed349c1b197745062937029032a75bac696489c514e9518f509c7b1ce87",
+      "nutrition": "bc091ad9e2e0f8a9138d8a63fee63ea1db0ab74b5ef30157975c446b90102e2a",
+      "philosophy": "ef81ced829d9ba6ef07cdb738f2b1684f392b32793dbeff73a9e9f4aaef0019d",
+      "prehistory": "0b19068bddbd35c09492fac5b446cdda08270e4eed2c7627d2f8832fdc6c3066",
+      "professional_accounting": "5bcc48f8dc90f7ca1c6cfcacd2fd2d1912f882008ebd6e80bee77c467793ad69",
+      "professional_law": "96e999ac932c6f16dfabc6a75ca010e4e834df5fc4c232a5111b39ab63cead73",
+      "professional_medicine": "4ac9504b1c446a79970f9b738e257bcee6bd23861ed53feb04ee15441d375adc",
+      "professional_psychology": "c2ce518a4e5a77ee8eac6888301b0d1f5cffdef7664631c3a790b979e8a872e0",
+      "public_relations": "fd73ee7872e32e7b92ad1b17623a6b5267fc25673eacadb2655c7a48e20b4980",
+      "security_studies": "b107d1a96a3cf0afd220a82ef1a88b50cf8efe51279b06f30e4cd05b972a9203",
+      "sociology": "f4ba2696248ad871f13a86f937e8f4151b486ac90b667172e9c2cec51ff9fa97",
+      "us_foreign_policy": "f116de49a5b8fa99b28f139ed9033ef633ff00549cad74894808e8e8613f2b73",
+      "virology": "0582accdff6d056143441c1a1170876f51b09098cbca31cbd0b9ecbca5210c53",
+      "world_religions": "17982b7da6d53701879648508ecd674dbb497f37eb43bf6d75b90af1a682deac"
+    },
+    "letter_token_ids": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "filter": "error_type == 'ok', exactly 4 choices, prompt <= 2000 tokens",
+    "prompt": "zero-shot, Qwen3 chat template, thinking disabled (empty think block), answer = next token",
+    "scores": "accuracy = argmax over the four letter log-probabilities; margin = log p(gold) - max log p(wrong letter)"
+  },
+  "gsm8k": {
+    "repo": "openai/gsm8k",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "source_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "file": "cases/gsm8k.jsonl",
+    "sha256": "413b4c81cb0192bc460dd11a2c834eeeb9019a7338d011bd8667924c676bde08",
+    "items": 1319,
+    "generation": "llama-server /completion with prompt token IDs; temperature 0, top_k 1, n_predict 1024, stop at end-of-generation; 8 parallel slots",
+    "parse": "last \\boxed{...} content, else last number in the output; remove commas, '$', and a trailing '.'; correct if numerically equal to the gold answer after '####'"
+  },
+  "retrieval": {
+    "file": "cases/retrieval.tsv",
+    "sha256": "8bcf6e551210091bfdb40588cd60eaa525d67b560c0337448a3ebca5fecdcea8",
+    "registries": 200,
+    "entries_per_registry": 30,
+    "seed": 20261001,
+    "design": "raw text; 30 distinct 'First Last: NNNN' lines; the queried entry cycles through all 30 positions; the wrong answer is another entry's code from the same registry (value swap)",
+    "score": "margin = NLL(wrong code tokens) - NLL(gold code tokens), nat/answer; accuracy = margin > 0"
+  }
+}

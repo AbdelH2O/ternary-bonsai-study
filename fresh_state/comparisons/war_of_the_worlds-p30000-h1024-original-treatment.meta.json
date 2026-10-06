@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "493926c0a24b5c6976683327e1b2b97498ae4bf6d55ff1970c213cb1c614f1f9",
+  "raw_sha256": "271402f5ebeefe553a24b6abb03b1a89bae83dcd7e13eb88d6156ddf26b70342",
+  "source_sha256": {
+    "alpha_recurrent": "734385db2c2ba8d6c96fd7a4610dbea32adf08f031befe58412250adb1ec5f54",
+    "alpha_full": "f9352bef9bedcb126ecc5a0032312567c913e7aeb01e2c50ae4ed56b9f0e899c",
+    "mlp_recurrent": "2728e42f1e6dd752e45ec55da961e9cca6e6d00b50163e6f79fa65a74a1f25ee",
+    "mlp_full": "a824a79e89a21461ff7626dc50be3123a0120a9500772221f449b38efc596f66"
+  }
+}

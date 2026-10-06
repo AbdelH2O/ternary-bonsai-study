@@ -1,0 +1,449 @@
+{
+  "purpose": "completed validation follow-up artifact integrity inventory",
+  "files": {
+    "analysis/bonsai2/margin_extension/MARGIN_EXTENSION_FREEZE.json": {
+      "bytes": 113550,
+      "sha256": "62e228396134696ee020e5725c11a18033d6335bdfec7a5ea92423699c8ae04d"
+    },
+    "analysis/bonsai2/margin_extension/MARGIN_EXTENSION_REPORT.md": {
+      "bytes": 3938,
+      "sha256": "8c81591e64336590464a4d8fa9204dd7011c57bc295770be127ea611d729674d"
+    },
+    "analysis/bonsai2/margin_extension/alpha-d200-c1000-s20260929.jsonl": {
+      "bytes": 13710,
+      "sha256": "1833b12d059cdfee592b0a190f0b8febf366cb7aa5312a8bf8cf8c8fbd3e94f6"
+    },
+    "analysis/bonsai2/margin_extension/alpha-d200-c1000-s20260929.log": {
+      "bytes": 129793,
+      "sha256": "221205cc45487feab624a6f253bb3e6344aa7d495c852c3fb0a694381fefeec4"
+    },
+    "analysis/bonsai2/margin_extension/analyze.py": {
+      "bytes": 7259,
+      "sha256": "3154f921cab42c79d57df36e6385c7522b8161c7621ad68507b66c3a33ab8f69"
+    },
+    "analysis/bonsai2/margin_extension/baseline.jsonl": {
+      "bytes": 27113,
+      "sha256": "861ac62dbfea03a1acb9fdec92e6f8afc617988f7f2e8ebd5a7ac8e813e0f691"
+    },
+    "analysis/bonsai2/margin_extension/baseline.log": {
+      "bytes": 133301,
+      "sha256": "70f7a9e3ac825abdc1c2abd9b1b860599418fcf7b1ed9c1abda22e34489203cc"
+    },
+    "analysis/bonsai2/margin_extension/baseline_cases.tsv": {
+      "bytes": 13360,
+      "sha256": "14adec49787d56fdf933b88bebdc0d21034bee8e113e798b2702a494f7f64f49"
+    },
+    "analysis/bonsai2/margin_extension/baseline_gate.json": {
+      "bytes": 21909,
+      "sha256": "c97bbd52cdd95c36647558b81331505cdf52ba1b3ef44f1b6bd8f004c1e26286"
+    },
+    "analysis/bonsai2/margin_extension/freeze.py": {
+      "bytes": 8514,
+      "sha256": "3861c2a95f16f1eb27d0629c6188b7862344c5d1f9b429f2909c48dbfc164dde"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-base-present-gold.ids": {
+      "bytes": 57003,
+      "sha256": "c37859377ecfbc5b3c5d050f9a20e67b7d3ec31ba7548a6e792b75b067e67dfd"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-base-present-wrong.ids": {
+      "bytes": 57003,
+      "sha256": "3641056789c2888ad078757fcb2fb162ab5e850d12726c10bc0edb63e2c0c6b1"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-base-target-removed-gold.ids": {
+      "bytes": 56839,
+      "sha256": "3b23a2736be9046d35746b8d3c142444982b2723d8e0e7bccd7b2569530997f1"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-base-target-removed-wrong.ids": {
+      "bytes": 56839,
+      "sha256": "72c37a4f013efe65a1622ffb2e76be2def3e0148310cac3dd733a33bb969cc3b"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-swap-present-gold.ids": {
+      "bytes": 57003,
+      "sha256": "3e331d9eccbf1b44d7a428bdd158421761b8d7ab4ee5fd7966a2fe0b0ed9047f"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-swap-present-wrong.ids": {
+      "bytes": 57003,
+      "sha256": "35b7c82d973a7bd5e4bac46b780cdb6c1c6ff0f002bd3d094c2210965ce6cf35"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-swap-target-removed-gold.ids": {
+      "bytes": 56839,
+      "sha256": "f113454051a17f41a770b9ff78c63866d8775d6e089c00d4f5a838693854054b"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-far-swap-target-removed-wrong.ids": {
+      "bytes": 56839,
+      "sha256": "61aee33b76d78fa8d9229afefe363cb815d2d48b00dbe86cf3b8518e3285177b"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-base-present-gold.ids": {
+      "bytes": 57003,
+      "sha256": "8fbaab1be7f0f25623a4fdffee80a8c1bfdc30d5b786c7f21c96ca966849c78d"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-base-present-wrong.ids": {
+      "bytes": 57003,
+      "sha256": "05da3d362eca78fec4380df93909ed343a5852b8b4a83fe59000c2978a079efc"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-base-target-removed-gold.ids": {
+      "bytes": 56839,
+      "sha256": "9c5ec98cd663f28d5d3ef78eb26d978d5ad477b9b70266992cc718d67203c504"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-base-target-removed-wrong.ids": {
+      "bytes": 56839,
+      "sha256": "9ac41af1b18d96406a8ed54b2d4bb0c8a7c3a14e243ddf7cab89b199fe53bbd2"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-swap-present-gold.ids": {
+      "bytes": 57003,
+      "sha256": "e511d4ea9b57f9f52c9681bded5bde190364a3c97ab65dd7583a8e1ac74eeb93"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-swap-present-wrong.ids": {
+      "bytes": 57003,
+      "sha256": "623e9ad10105039017f51682a08aac79827496aac770f98fadaef5b1003550f3"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-swap-target-removed-gold.ids": {
+      "bytes": 56839,
+      "sha256": "5e43326173e420626c0f9cf04ffabf789c5df8dab2450b6fbd33ce582adcf392"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-long-near-swap-target-removed-wrong.ids": {
+      "bytes": 56839,
+      "sha256": "5db83d222bc556b87df02710b5b85fa830f97f3394079e3ed89120f5306b44ad"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-base-present-gold.ids": {
+      "bytes": 4591,
+      "sha256": "e0848384c9dd5381b62f7e4996cc3d7e8d05bcb308a28ddf420d107e30db8c0e"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-base-present-wrong.ids": {
+      "bytes": 4591,
+      "sha256": "ff942eba6102e6519504608e428131796013fc40db543c03dbfa70b79a777c53"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-base-target-removed-gold.ids": {
+      "bytes": 4427,
+      "sha256": "4c9725c139d6557a8407628cbd39c50ab5e54aa41636e4b248ae1545dcc274b7"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-base-target-removed-wrong.ids": {
+      "bytes": 4427,
+      "sha256": "85e7cf9ef8b67675ba689cda1753bca319cf354b84bf25e628b976c9e483acd0"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-swap-present-gold.ids": {
+      "bytes": 4591,
+      "sha256": "78752f40af1dce720c7c341695ef81120c0dba3a53d4c1e607d98d0671fddeff"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-swap-present-wrong.ids": {
+      "bytes": 4591,
+      "sha256": "a756e1f61b83937787e4f183a42527255812b6c62740fd543e5f215dd761e15c"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-swap-target-removed-gold.ids": {
+      "bytes": 4427,
+      "sha256": "9e92f84502581a13bbb6680f7973ea2cf497c4e33973fa129ef111c9d30f38de"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-04-q1-short-near-swap-target-removed-wrong.ids": {
+      "bytes": 4427,
+      "sha256": "3e57cf24fa32b75c5aa287820b0b700906362a8c7b8ec40fa8249861a57e2d68"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-base-present-gold.ids": {
+      "bytes": 56947,
+      "sha256": "b2e264a04a2fe67b58095ca4324e35fe1b8cd649c0db9d7016d4795e43a8fa3d"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-base-present-wrong.ids": {
+      "bytes": 56947,
+      "sha256": "3666ba59fd9cbff680a61e2b6f01d1de33a23540a3ad738213bde255991743a2"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-base-target-removed-gold.ids": {
+      "bytes": 56778,
+      "sha256": "0e624d1309eccf21a26663bccb2f85797485f16888a1731e5c38430905aada1f"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-base-target-removed-wrong.ids": {
+      "bytes": 56778,
+      "sha256": "8915a37ff4ddba66d91e1a62b3658de5d036680cf495990db0ecd95a386c7862"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-swap-present-gold.ids": {
+      "bytes": 56947,
+      "sha256": "b91aa79b8f8b318b7ef045b497ab8fcabe2d7fb99d2b0f76dcef1712d13bf2f1"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-swap-present-wrong.ids": {
+      "bytes": 56947,
+      "sha256": "d51e7c60b70740c0d9c4bcda8de32bbecd8631c950d1c2c9dfe3ebdbb83109ab"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-swap-target-removed-gold.ids": {
+      "bytes": 56778,
+      "sha256": "6e2e9492f7e6aee8d44efec514999beb450d3e1088f18802d972384664a7a8d5"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-far-swap-target-removed-wrong.ids": {
+      "bytes": 56778,
+      "sha256": "3c8f504a5b3c6b35902f81c912c1360be952b6464c08851ff81cffc8aa19ca33"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-base-present-gold.ids": {
+      "bytes": 56947,
+      "sha256": "05e8744effcf6943f00f0df83c0b0e5c76a00951db99d2251bdbfeb133038d59"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-base-present-wrong.ids": {
+      "bytes": 56947,
+      "sha256": "e679602601ddddd691b3cc7a81d1134424ce97921559d4afd1e7467f9e862075"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-base-target-removed-gold.ids": {
+      "bytes": 56778,
+      "sha256": "4713a4d6cc1595666ab91592b4f75c9f77a3271aa5fd6bfb8a39b24b8854bdcb"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-base-target-removed-wrong.ids": {
+      "bytes": 56778,
+      "sha256": "eb6b05682c331301b36530a010ac51d92f1e77105d42403cea8c106aee6b525e"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-swap-present-gold.ids": {
+      "bytes": 56947,
+      "sha256": "48cdb8e1a4b7ee8f2102ca68509dd5b51c17884a7532f7563ad2d937c9feeec3"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-swap-present-wrong.ids": {
+      "bytes": 56947,
+      "sha256": "b1b2e90b37c36c951ee5c96bf6913b33397c6cc3ff22243b48178ad40bd66ad8"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-swap-target-removed-gold.ids": {
+      "bytes": 56778,
+      "sha256": "baf6a02c7900b5881744016075cd854df5cea44b0ded825a72ed9a5b6135bd38"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-long-near-swap-target-removed-wrong.ids": {
+      "bytes": 56778,
+      "sha256": "53ab6e71117b4ffe6499b2af2f1e6d5843e48fa6f393a4f3f094b576473db1a9"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-base-present-gold.ids": {
+      "bytes": 4622,
+      "sha256": "e6005d13704ed716eecd95675108d33ad4e1a5f3a90126c6cdf9a0b03b0956f1"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-base-present-wrong.ids": {
+      "bytes": 4622,
+      "sha256": "cf8e393a055307e451c65c870150060fd467aac82833175c9b108dbbea068498"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-base-target-removed-gold.ids": {
+      "bytes": 4453,
+      "sha256": "a6aa3be0b8d1089c11db76759d7bf8b81bf779277f22f8ebba10ab654a2c9721"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-base-target-removed-wrong.ids": {
+      "bytes": 4453,
+      "sha256": "c77b62ea66ef911139a71787ad96da8e9969dba1e5b5828a108c11c451f4faff"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-swap-present-gold.ids": {
+      "bytes": 4622,
+      "sha256": "4d8d5b2c7d9060753183ef8410b970d6f11455f5cbf5375157a0b9ea8563da82"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-swap-present-wrong.ids": {
+      "bytes": 4622,
+      "sha256": "b5295f0e415148dc5e023d773758305ba88b973ffd9196b3d7fde2c066f26933"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-swap-target-removed-gold.ids": {
+      "bytes": 4453,
+      "sha256": "d7b357b509795e11725bfc0de0d54736cba971bba1940eff7d0c462f1bb4b30f"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-05-q1-short-near-swap-target-removed-wrong.ids": {
+      "bytes": 4453,
+      "sha256": "da14dba54666cedde0065d7bdea782f85ab40cca73d433ebb13212437690f5a5"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-base-present-gold.ids": {
+      "bytes": 56965,
+      "sha256": "932f85519ce7032ab431de9988ca19b9fda829dd5b60a9afe6d887fea669267a"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-base-present-wrong.ids": {
+      "bytes": 56965,
+      "sha256": "f778ca7e77ead702e2c3d316b27c3f3ab385c1908322c710d7ab48e6e2aa42f8"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-base-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "75b8bb04eb1e46c6b9412262244b4b7e142de6db5624d3dbe0d7cc7e2ee55c11"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-base-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "1643d2d1c3cb777f5042a40fa9df6aef1e9cdeec7192221feca4150f7ba686fc"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-swap-present-gold.ids": {
+      "bytes": 56965,
+      "sha256": "56c0fbd167903f263fbf2553662867149197161d77702cd6dbb82eadf34b2b74"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-swap-present-wrong.ids": {
+      "bytes": 56965,
+      "sha256": "4989e9a5701ee051e7b0eb60c2b0c6bbfe23abaf6ab99b6cb28824d0f4e66f93"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-swap-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "9230975ee24e269c802a0124fe89963aef32cc334f3757ea70710e61e0817aca"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-far-swap-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "1c48cbf221ddad28ee3df474bb3076f7089a72843fc56a4509df447a7a1ebed2"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-base-present-gold.ids": {
+      "bytes": 56965,
+      "sha256": "7b43b27fa37a90e78f5695775e3e87b10f1da9e8ea79878712692f400ebe3261"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-base-present-wrong.ids": {
+      "bytes": 56965,
+      "sha256": "682c41e19fbe3871949d55a5f99e05901b17b1ed2a5564a05a3cacae9ad6fad3"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-base-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "080839a0e9ff64a092f090a523a003a0a762ab4e173c46e6431c62ece8b901a1"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-base-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "a04a6c377b6bff6d997a430a7bb6b49cd97546c8f7b74034e60148bd7e9e998b"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-swap-present-gold.ids": {
+      "bytes": 56965,
+      "sha256": "88153dd5cf8e9cbca42be9cc5812639579472d3a60b3763aaa5c75ce866d7a98"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-swap-present-wrong.ids": {
+      "bytes": 56965,
+      "sha256": "446d5b2195e3e1f8eb67781d7985effc573cdd0384bb51ea030d2057e6a2a674"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-swap-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "b20884bd7a837f98e0d76c8985388bba321a9d46bbbe52388a21bf846c075ecc"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-long-near-swap-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "cbc800e4b20a4df16b6fc53451f34ebf63edd255399a93437328e1f3fec691f4"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-base-present-gold.ids": {
+      "bytes": 4597,
+      "sha256": "6c9d0823a9e5d8e4efb6fb312e159a7804e3a5c903305e6e548718d88274b230"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-base-present-wrong.ids": {
+      "bytes": 4597,
+      "sha256": "1c7be0098df34494ee7960384de09a14747bbbe233674baa3c96f2dc6b9980a3"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-base-target-removed-gold.ids": {
+      "bytes": 4433,
+      "sha256": "61986574ef647568d8067c87a1daae0167224d68ad4ce69b98180066f21554ff"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-base-target-removed-wrong.ids": {
+      "bytes": 4433,
+      "sha256": "41bd8fb34935b66f3b429f34570a7a896816621a78c557da1c603efe2f03b5f3"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-swap-present-gold.ids": {
+      "bytes": 4597,
+      "sha256": "8931954b9baee76e65f322544d49ee569e1652d71d4ebdfdb035a7509e5ce26c"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-swap-present-wrong.ids": {
+      "bytes": 4597,
+      "sha256": "556a291dba1176d3f3850627c52e485eebc63ba289eee82cb46ed5e22b68314f"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-swap-target-removed-gold.ids": {
+      "bytes": 4433,
+      "sha256": "7f5f15d0c2de834160ccbd7dc728580411198305de1c30a96b58d60c57398cb8"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-06-q1-short-near-swap-target-removed-wrong.ids": {
+      "bytes": 4433,
+      "sha256": "b817fc4a6afc0145cff31ed86291a0124a957aa1c26d11de0a5f1b648a33bc0c"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-base-present-gold.ids": {
+      "bytes": 56969,
+      "sha256": "17602a0151d95cfd74e3593730f5d8b551fd1c37e27d84aa1a268bf65b05b882"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-base-present-wrong.ids": {
+      "bytes": 56969,
+      "sha256": "d8a417c242ff4e43cf60b49d8e3490dc8bae026b3fcb89014c0562d1826567d1"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-base-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "2569d79b9a7d55d09bd96901c41701ba721a5de6c4a16063d6e4c3b57fc4a51f"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-base-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "5e786d1bf5a4723a8ce0658cec8a9be7ae149258bfc8f27e1976902e11db0ea5"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-swap-present-gold.ids": {
+      "bytes": 56969,
+      "sha256": "a262d582a6b619168edefa5b25580fc3e88b4ba756d4a1db30b42f5d5fa7b12c"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-swap-present-wrong.ids": {
+      "bytes": 56969,
+      "sha256": "57370e977f77bfd71cd2b8adfafe1246d3c25080ce9e41140689fe3f65f2954f"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-swap-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "a246c85870c73f304c385b3c6bc19e8a81996758dce2bbdce4d96c67ff93550d"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-far-swap-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "9835cd0697ef74beb1b83bfe24bd2b67bf9458d03fb6d9cc4257622f5fff8c93"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-base-present-gold.ids": {
+      "bytes": 56969,
+      "sha256": "1e6f973cb8db8d5d12740f090b5ddd1caf849cb65d7036b406841396a14476f6"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-base-present-wrong.ids": {
+      "bytes": 56969,
+      "sha256": "0e1f3ad88ba4a4a2c4dbe4e189b064863134d4f60b0552083bc63bf8922026a8"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-base-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "5a59948fba0110030909258d0757acab61a81911fd7d1a007cdc8eececf7bdab"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-base-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "730b45b0858abc5c3a94663d2d6fd5d781419208f5d7cf47dda04c4780bedc18"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-swap-present-gold.ids": {
+      "bytes": 56969,
+      "sha256": "3f9901c3ea79c5598fe5762c2cbaef278d9ea50eabbf82b0808ee8bb1148ccc5"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-swap-present-wrong.ids": {
+      "bytes": 56969,
+      "sha256": "f1e73eaff76ba26ddfb85d9fe8fd2ff1126a138ffc82b6f6ca186ea666deb1ff"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-swap-target-removed-gold.ids": {
+      "bytes": 56801,
+      "sha256": "46d3394660d24c9902576e62b4f2c998685500e22aab992a98d0b4e181d507b9"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-long-near-swap-target-removed-wrong.ids": {
+      "bytes": 56801,
+      "sha256": "a1fa490d22ed8db11d83f0e73a9efd81fd0588428a878411b04317d3f791033d"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-base-present-gold.ids": {
+      "bytes": 4610,
+      "sha256": "8ca8d5ea429ee537ffdc4ab5f366422240bd0a35e09523b33ba77a2fcdfd8013"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-base-present-wrong.ids": {
+      "bytes": 4610,
+      "sha256": "8e62209c6397c56cf7d259685970abacd6350ea62ee9f9649b78c36aa40316b4"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-base-target-removed-gold.ids": {
+      "bytes": 4442,
+      "sha256": "59202854b533d6a17ad8a12f478dda9f35283499b4f0684d4c06ad25f78e0db6"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-base-target-removed-wrong.ids": {
+      "bytes": 4442,
+      "sha256": "10cc42e74147061d85db329a8429933a7cae2e05f2d0a00443d0e6bf80df207d"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-swap-present-gold.ids": {
+      "bytes": 4610,
+      "sha256": "c096d480d891dd92a647497b96e5b9d287095a6e52e135e63e6e77d44851eeea"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-swap-present-wrong.ids": {
+      "bytes": 4610,
+      "sha256": "ef9e8b8c8c6d591dc1aee4cb90a6e93b66ffdd42eddbb8d8d149dc01b1ea0a7a"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-swap-target-removed-gold.ids": {
+      "bytes": 4442,
+      "sha256": "65ecaac3a5a748e36e0a625b843713078515545474378696d78a98eef5f5ae93"
+    },
+    "analysis/bonsai2/margin_extension/ids/rv2-07-q1-short-near-swap-target-removed-wrong.ids": {
+      "bytes": 4442,
+      "sha256": "80573e60c8a3f0adcfcff0cf5987f0bd9c9fbdea9da4378089ec7406390706fd"
+    },
+    "analysis/bonsai2/margin_extension/mlp-d200-c200-s20260929.jsonl": {
+      "bytes": 13718,
+      "sha256": "2fd2e5494446aaea2d6e00f80bfcfe2aa1feb8d36b139186eb167066aef09ebb"
+    },
+    "analysis/bonsai2/margin_extension/mlp-d200-c200-s20260929.log": {
+      "bytes": 129791,
+      "sha256": "6905b8cd5c4220c39af23d9bbd0cacee38d5ef4a0407ffa36831cf8a0d7b43d1"
+    },
+    "analysis/bonsai2/margin_extension/run.py": {
+      "bytes": 4251,
+      "sha256": "35d652a5a7cbc4c4dd7e379d65653702afdf7af398f0be3020720757893c1aa4"
+    },
+    "analysis/bonsai2/margin_extension/variant_cases.tsv": {
+      "bytes": 6352,
+      "sha256": "ef7896a956822695cf5ee16ccf0ea5e01b57e105e803e9f123262f0b77678f94"
+    },
+    "analysis/bonsai2/margin_extension/variant_summary.json": {
+      "bytes": 70970,
+      "sha256": "9139314ff28f146bdbbeb54c356ab0159500c1640da6e38f791fdb82d0e0e81f"
+    }
+  }
+}

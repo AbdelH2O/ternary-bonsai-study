@@ -1,0 +1,94 @@
+{
+  "audit": {
+    "all_code_prefixes_uniform": true,
+    "all_codes_unique": true,
+    "all_name_formats_uniform": true,
+    "chance_per_record": 0.0625,
+    "question_blind_shared_registry_upper_bound": 0.5,
+    "rules": {
+      "first_record": {
+        "accuracy": 0.03125,
+        "correct": 1,
+        "total": 32
+      },
+      "last_record": {
+        "accuracy": 0.09375,
+        "correct": 3,
+        "total": 32
+      },
+      "lexicographically_first_code": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 32
+      },
+      "lexicographically_first_name": {
+        "accuracy": 0.09375,
+        "correct": 3,
+        "total": 32
+      },
+      "smallest_numeric_suffix": {
+        "accuracy": 0.03125,
+        "correct": 1,
+        "total": 32
+      },
+      "unique_code_prefix": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 32
+      },
+      "unique_name_format": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 32
+      }
+    },
+    "target_position_counts": {
+      "1": 1,
+      "2": 2,
+      "3": 2,
+      "4": 3,
+      "5": 1,
+      "6": 1,
+      "7": 3,
+      "8": 2,
+      "9": 3,
+      "11": 2,
+      "12": 4,
+      "13": 2,
+      "14": 3,
+      "16": 3
+    },
+    "two_different_answers_per_registry": true
+  },
+  "chat_render_fixture_sha256": "48b6a61ae35a567fcf51fb997425a4a0a7c02bed003a125b2fe70092515f4418",
+  "filler_paragraphs": {
+    "long": 200,
+    "short": 6
+  },
+  "items": 192,
+  "max_long_near_far_token_difference": 0,
+  "model_path": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+  "questions_per_registry": 2,
+  "records_per_registry": 16,
+  "registries": 16,
+  "rows_sha256": "0a907a9f05ddfdd949bd9253747d8c3ffa8814460af5f4c2e1cdd957c7ea1e28",
+  "seed": 20260929,
+  "source_model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "token_policy": "GGUF Jinja chat template, user message, add_generation_prompt=True, enable_thinking=False; Prism llama-tokenize --stdin --show-count --no-bos",
+  "token_ranges": {
+    "long-far": [
+      12281,
+      12310
+    ],
+    "long-near": [
+      12281,
+      12310
+    ],
+    "short-near": [
+      1036,
+      1044
+    ]
+  },
+  "tokenizer_path": "bin/cuda/llama-tokenize",
+  "tokenizer_sha256": "0257bbad52af031f62628ebefdb76c33b0daa21f3e797044f15c6b74e47fa0e7"
+}

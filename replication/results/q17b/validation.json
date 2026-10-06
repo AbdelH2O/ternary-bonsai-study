@@ -1,0 +1,41 @@
+[
+  {
+    "arm": "ls",
+    "file": "base-pq2-ls.gguf",
+    "bytes": 463441632,
+    "byte_ceiling": 464290464,
+    "tensor_types": {
+      "F32": 113,
+      "PQ2_0": 197
+    },
+    "f32_payloads_identical_to_template": 113,
+    "pq2_payloads_changed_from_absmax_template": 197,
+    "sampled_groups_c_python_identical": 1576
+  },
+  {
+    "arm": "gptq",
+    "file": "base-pq2-gptq.gguf",
+    "bytes": 463441632,
+    "byte_ceiling": 464290464,
+    "tensor_types": {
+      "F32": 113,
+      "PQ2_0": 197
+    },
+    "f32_payloads_identical_to_template": 113,
+    "pq2_payloads_changed_from_absmax_template": 197,
+    "sampled_groups_c_python_identical": 1576
+  },
+  {
+    "arm": "gptqh",
+    "file": "folded-pq2-gptq.gguf",
+    "bytes": 463480640,
+    "byte_ceiling": 464290464,
+    "tensor_types": {
+      "F32": 113,
+      "PQ2_0": 197
+    },
+    "f32_payloads_identical_to_template": 113,
+    "pq2_payloads_changed_from_absmax_template": 197,
+    "sampled_groups_c_python_identical": 1576
+  }
+]

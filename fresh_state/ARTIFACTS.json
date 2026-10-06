@@ -1,0 +1,2717 @@
+{
+  "purpose": "fresh-document state-assay artifact integrity inventory",
+  "files": {
+    "analysis/bonsai2/fresh_state/DESIGN.md": {
+      "bytes": 4889,
+      "sha256": "65309e27484b1abec638d68e6f8b97be4d9ee49573fcc516932114c185945567"
+    },
+    "analysis/bonsai2/fresh_state/FRESH_STATE_FREEZE.json": {
+      "bytes": 19135,
+      "sha256": "493926c0a24b5c6976683327e1b2b97498ae4bf6d55ff1970c213cb1c614f1f9"
+    },
+    "analysis/bonsai2/fresh_state/FRESH_STATE_REPORT.md": {
+      "bytes": 5678,
+      "sha256": "8064d7c3198759651e63aa1fc464dc52e020d4172d7f5556df92d2fdec6504c9"
+    },
+    "analysis/bonsai2/fresh_state/analysis_summary.json": {
+      "bytes": 10591,
+      "sha256": "0b26eb2351ecae1bd87918eb0e52d50bf789b98e5b045db5011d41b42ec9c411"
+    },
+    "analysis/bonsai2/fresh_state/analyze.py": {
+      "bytes": 8735,
+      "sha256": "9e9c0bbfae2b3e77957226ba3687978bf126ce9ad3cae6931d6a266f0a8c0577"
+    },
+    "analysis/bonsai2/fresh_state/capture_gate.json": {
+      "bytes": 62624,
+      "sha256": "5afd137cb54b2cbda9199f3ec8041dd695f5ce15bdeaaabee8d807e252b3c239"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "cb1e4934200729a1301d9ef748ff050093d6294275c19b17b3b41b74d3b14cdf"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "30ef97979e9e3bce4bf94e8c8ab5748826c33dd321d217a0d65c607f80c33696"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha.json": {
+      "bytes": 4521,
+      "sha256": "db832092208e07a5e23bdcd06b2c113ae08c743617b270492245a696eafa64bb"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "f0eba11befa2f545ef95bfa41efc5c82adb146406bf5f7f7478b1f19d4f0a4a5"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "6beb65e69851401d13159c55a51f73b3736b8c4ae5bca4c4e5cc254c61a76768"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "a52254f72ba11010e918f4bdf8327b89722b2cdf86ab1f051987b1191127aaee"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "921bbfcff6fa323ca3dac26147162e623919d84a544e4d9c332e3f3a3f14039b"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp.json": {
+      "bytes": 4521,
+      "sha256": "c70970ac5e81b226c788dfafb2e2c41d4d9df2e133eb93f95fb8c5b6621d529e"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "57658c82f613c3b7957e064b037c8f7129857596086af47ed19e33dc3cc08aa7"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "0e360944d8ed997620468c8c327774e170312fdb890733368f4bd23e734b0613"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "4ef6b9024d875cd74b0d3cc08f137497a11194656e2dcd16fed800681fade03e"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "3ff2c093c748fe09d81ec488f97e9d22bd151d6ff6cd5c99dafaac69f18ebc18"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original.json": {
+      "bytes": 4523,
+      "sha256": "8c97c1358b7c42d72d725ad2722cbbf3d63392e1e8980ad03e158846e7ac1be1"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "77481c33eb4668c990146b59981e9d3098f5565214290843d37dd60ed5dfd75a"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "886bfb336484a4ac290d1ed4ae814ed81edb8a65aa45ac524ce4f7430ea70669"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "5bbec6f8102860988be217f3541d4dc624c46c4f92948b8bc6893b2b50211eec"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "b0841cc19060936f1b1c5c8a8c93b1c8efd148645d8aa6f7141fcd279bb3d1d0"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha.json": {
+      "bytes": 4531,
+      "sha256": "e06ceb6583bdbb3a32d30e788f414f75603d7ffb145b2e18ce06905dc829fb6c"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "39c3a580b7925a3a08b4b52b5edc5bbe81af4900816838f36ecd5eb9f5658edd"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "f2006401c3eb20e530dca55f1493301b17283090e3303b6e7c17695b69d764c8"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "fabf09a68777c5c1b99f32133efff8db02fbaa8b7ad19791c6d751460f08ffa0"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "0f2494d0446b9b764f0d5c21aae9b8dbd7275646f8b182fadc076af57ef4a823"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp.json": {
+      "bytes": 4543,
+      "sha256": "59b628069aee6adde89ac48cfd1ccb2f1fa9e24ccb7ca85f31ecbcd373e7f556"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "49304c13b30bef55fbab3228a1a34b47397c8451a80a8b34044be7650f9a0af1"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "6d18f4eed598f1e88cb64e14afc5934a40cf86978018561b75a2afedf9d6da6a"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "b65853210f63349ece6a8eaa0f33bb44f24b9c1580985bb4406f45d5211a4fc7"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "dc5363b1b330a483be6b403988d65f7b352ebb019f5688d65b2d460523ea45f2"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original.json": {
+      "bytes": 4518,
+      "sha256": "85c9bcd1a9dcabca9c1c399607a6f2a21360b6f1defe0a8baa397c078d2cfa44"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "badd40b4892c1d83db294151c56ba6796022bbbd0af8e728b7a78a56c867d45c"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p30000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "7a24ae0e8a4c7a083bd0cb6e0e9863a3a273f4910201dbb068495a7d58b0471b"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "33d2fd249e3892552dee72ee1ed61d58c6aafdb4ed49ae60a8366dc3e8e1343d"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "0dcacc3013705c64bdb450c0f3f2660dad74eb5da027c7487b6333a81e2ea262"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha.json": {
+      "bytes": 4512,
+      "sha256": "3b30280db3a39dbcaf3248106fed6a941f9ddf24990f3af1e0885e1fb64eb4b0"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "c65677290ee4717c57bdd1a51ceaa66a9337ec4e0409b48c76b33fb6fe4f7f6a"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "ca7f9fd1644dda9c661a8b465c83e02f83264c546a4db94838643c4133c03c10"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "73d2cab94bec8b47d46f80d089eb4a0d361755d36abe6c477987912e38b98cdc"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "15aad7e55a7bb53e161faaf95aac13eee19479b3feec1d17c46e407a95284f11"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp.json": {
+      "bytes": 4527,
+      "sha256": "94972d677755553474603ff136e7470931fef70522bb28b800a985726b1db651"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "94d2cd85e857ba6d721bd5f0bd6189b28b83952f5711c81c79d05cef43ae2791"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "2f2789d95639597c3308ca113b465cb5777ed0d8bde41042144ef33f4340c3f9"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "d0d26cbdaa74a0926aa8bd54dd2776644a9cd2c3bf2c16f089253e65e2dc0d86"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "c96a8a3a5fdb0da46ba289a300286680908f67b687a3cb31c4ddd3b4d9fcd29f"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original.json": {
+      "bytes": 4514,
+      "sha256": "790c6c73542b7e680a3530d5c80a0c7fd9f26d4a9177aa69b75988a9bd73f8bf"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "96f88dd5bea19a307cce6ede3aa33490ab71156fe02d4bdad6f791cdd28ffc39"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "edb8efe73ee52e0468b22c7ef7c91e91a15ade87f2733ef7bbd3a0f8334ab683"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "01bf05075339cdf71e27ade51f76161ea4cf2620b99988e743559b9aa3f5d0b8"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "e8f451a2ebbe925c6e15a35bb00309023fafda1cb9b88362e09a4fcc8b656516"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha.json": {
+      "bytes": 4537,
+      "sha256": "1537e7f67e39f60dd731581cdcdcee73f6c3a918f13ed195293afc5a4d58d5c9"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "c3c390c6de4c071e7eded6c045531fc37ea2c889cda1657654c65dabbc413bf2"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "4f5d3b41c516be6929ae9ce19d5343686ebc033678a74b3c181868d36ea5ee47"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "1a78bb7157cdc4501e863534f1c7dd86959f2191bfab65c92ad7f3014a374f95"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4e3b7bebfc2b80842aed500e6c33d1bcd9fc2e22cc04cc10070c9c38ee7b6ced"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp.json": {
+      "bytes": 4540,
+      "sha256": "a1d50523a513f70d941db09f0ea7858d187840abcccf1f4896f9fe7ce3c2f112"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "eb21c0cc7dd78442fa16a4114be39bcd43b65133acbdf40b2977f886b19aabad"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "f035925f3dd0561405d50efe7367bb770b864895279ba79443dc46e85778958c"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "70760ea28859856b043d0891de1582df786c1c4601e62e1f0d79579681130471"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "0b050e292d067537c8188a78a19b4e908cd05427676846af25f0b835e8ef49dd"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original.json": {
+      "bytes": 4518,
+      "sha256": "99207e75ad501259c8384162ab1b6987906ff83887ed60eebaa5b672bae5d230"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "5217feb283d7b0abb8cda455b403b055c395a99f98c312a3a1a43ce5f51350f8"
+    },
+    "analysis/bonsai2/fresh_state/captures/emma-p50000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "4fb4febae0485373ba5d22a316c96e7b92197206134ab79924d772bf5dd03023"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "45a617f1e694c5ca8d477d80805fa05c7714ed09447fec8845e1ae38cb2b77fa"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4831b0241e30ec9ce215dbee600d660f8ad5cebb70af95c0e02d0540d2931bb0"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha.json": {
+      "bytes": 4505,
+      "sha256": "3e9dead6e77bbd75e6b56f2d3a429f3334995284208ef99fef607182633ec140"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "613447cde280d9796b19c68907786e75ad7c77e6977c562a9aca98627dd3c9f6"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "a2e971748ecf4819f90163620237c37fd9dc013397af47f56cc167ae8a8d7457"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "663c8e487caf20fcf384cf187cf0fac0a294d3d1fce66778e53067c0f9fd7d6f"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "c75dbaec1a64ea7d233c2bcdea5ada8d8da833fa57b3959401a078d66f427e43"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp.json": {
+      "bytes": 4499,
+      "sha256": "642a6e97eae0d25aa4ee9b03b1e182f6efd2989593cc42fa319052dbd65cf26b"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "3b05f7c1d3ab44a427df0ea11759b621ba4ab8f08d4966dff6f89c065766bbc8"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "70e6a49b44ea0bf4ad4814cd4ae27745cec2cb393e2c514cf41b97b0d1a890e7"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "ca419c5a60420289bc9efd0b999686bc61cdd5efbc88777b9a71c6ad66a6acde"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "e78a27aa498ff0b707259156b0e9b93457a80225228d148028e95f63975beb91"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original.json": {
+      "bytes": 4477,
+      "sha256": "13ac082a305f2dfd61c8dd19048c3c38952bb58fe36c8b2d5247e3e084d48c72"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "f85ba0babb8f25c31869dc4e1f54dc4f2ff40f32bbb1bdb6eb7e07e5bd0dabb8"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "f509f9de495ab5e79d3c2552140587a3376f1b00f4bf1bbd6477c87fd8c3f71d"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "51af83e15d30c2d78744ae19db066a995b27b6b598ea90f978e35d5f078dc780"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4b916c4d15bc1e3ce170740c03295ae6b022bbc4b93a94cb0f80e3a2d7cb59c3"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha.json": {
+      "bytes": 4515,
+      "sha256": "7cf11e83b11593d3e3b9b082c8be658c0b90c2304a5a75c7d9d0f297978b1885"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "56ead8377b95b26173612596d47b41f063cd94a5752a05fef8b9b2a20b1e8663"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "cff7230454b723b3bf603d38a066d818f9658443aa1a2d043393da86afb82757"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "c5d9c34c22aa6887714d7dfe0bfb929867cfdad70a50ea2280884238b339174c"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "626c828bc089b5d646d7f52cc10fb8ea5041b2b1789cd576bc350b1a24387dd3"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp.json": {
+      "bytes": 4515,
+      "sha256": "259fb87e42be84f99d9c28782098484abbe9e3eb394d51ee916794ac3ed1dca8"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "388e901b15fed3067c697b35be68d56cc8fefe3ed149ee534bc6ab41c1bd472e"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "2533aa824c8f24d76e116182041fe8503bba2f70addbcaa97f536442ff4a7d8f"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "3c5d6aa5830b7a0cfb569e010f15eb6113135ca8355d4eee96ab1a0b866c54f3"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "bd4cd19df07ca765160241be5c2a6e075518bdd88008fc9791eab94abefc6c73"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original.json": {
+      "bytes": 4520,
+      "sha256": "76acff459f4aab55b09886e0d42f271df5be8f9ab88a5aad697acb1f26df6f1e"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "35b32312c47638c93023967d0ef7ede34f4367eef6930fb8be5f33961d223669"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p30000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "29e08a6ef38820a70930312868f25f848314e25d317214dd9e94588d0bcf944f"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "b3ff76eac4ae79343c368aae3af0a46c785665146f095d07c7a3e3f06d28e262"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "2fc302721e4216be3cb435dfcc86a94e677223c450dc9e3d55826659489a4d92"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha.json": {
+      "bytes": 4532,
+      "sha256": "b0d1a073d6921c2da6eb15d56573dde012b213df4f75e40272ff63ab49b12fa6"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "137b7f9caf1380a3a373566fe0704ba8ed1118beb82dac686ac214fa97ced5da"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "1980409bb035e948a5095bcd467c7e3fc5e8510f06845c92e79ba81541529f29"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "2f7f02a5c96b047bced3f130fe6dccd877dfd87e7183d6638f5c4b5d5da6ea65"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "812daa4600a63cf76665bfc3425f845c425fd29838c09e105916a6078d773f1e"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp.json": {
+      "bytes": 4544,
+      "sha256": "01af651edded406aee6bd6face0cb8354832a7d396fdf85614d1879b9f5cd624"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "39e5c7bd8b1577849a8c05de651ad9ee3fb285566da58a78b3aa3a0c38f3acdc"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "a7c09a0fa2b740c93d8f743bcf2f62df767fc41f590b9256fd239f4b95be1752"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "fd9c5e4303b1eeebca661d159a69891380b2727146b83f3219e3b67c52ff4a9b"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "a495a937b3cdbdeff88b0cdef016debd85e77f5dc80838cd5f45189cb402d9bb"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original.json": {
+      "bytes": 4528,
+      "sha256": "99ad6a00024ec069d3e8157434bcaba2209477f911ac0d67ad687720426beab0"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "25b6bd6876ca7643408c364ea23e307858a5b6f7a730816964048b43445d7660"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "5f0f7f7606eb31085169ee894e91fa1a908e3144d70772a5b62c52f5131eddbe"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "3bdd604451993c3b98cfccc240dd3581d059763d32ed584c38a7745ad63f68f1"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "8e732800d1bec0a8c357593010cdc6b9d0bc17ed0421fbb289cf7af048834af1"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha.json": {
+      "bytes": 4536,
+      "sha256": "f8ac9e9823bd5638a4fbd1d368d8aa50638b173fbe54d914ecfc3628bf0a91bd"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "de974e286904d33e317ca84d375d3bd1da48fc9c032b8f8d5eace5778f2c0533"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "317b65040d589cf3ec99e35a033591793d8e141eb06431b0443df670256c61a5"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "8797b83a26d5a66a8700ad392eb11695d90f11725a2ac8ba01ab55ba133ad737"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "bd83a8ccbf1e8983c89cd03b4968863beb40706905701251916b91de0a3a6d67"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp.json": {
+      "bytes": 4551,
+      "sha256": "dc20ea138690ae7c553e10c6342b5d9d051b5c2500fe0e70a58e90d023f9d5b1"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "a81b1eee76c9df5f17af21d620951ea405b099015e8ba57375a82e9a7a196135"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "7aefc7d2e7b6197e4f7f087ab15b2f0aeabbb179895b3efca792a84a19484bb4"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "ba661cf49b3178cb4c9347029cc1e748824313be57e96c13ff20d16f057e07d9"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "a26190e6cbb14cdb2803960a74980cf643cf61522eb85aeb38e89f226e89379d"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original.json": {
+      "bytes": 4526,
+      "sha256": "164b4e6735a4c517b268d546dfee43dc10e04fd2217cc0ff40f8c00a16b487aa"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "9ba9549ecce3af9a65d3df350a3ecc10f6c8cfd31985f451808201e2bbc6ecb6"
+    },
+    "analysis/bonsai2/fresh_state/captures/little_women-p50000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "5ac367f6abd46237224873f86e478e58a7560b9054e2b676c4db76a0c9aceec7"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "b8f64a9e6f2162c2bff2d0ea23032f29da09d0b4ed62f7ef8109828ff4cfc3bf"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "87a16defb90d703a10cfd308c5f8aaf2244592476d9c218bf6e8ef1b8b4f72b4"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha.json": {
+      "bytes": 4516,
+      "sha256": "3140918a84d5d446909a725309cef2e86199a728e2c14eb2310c0fcfce2b00f0"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "34b0e98bd2afa7f6d79d92a7810d41a7f05ad71d71103fb9849f9be0b3ff833a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "c341678315574ea0383a8562f0c0121fbca55fb16a8a97487cefed398f950cb7"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "7699c780ddaacc6986fd2d0a9048c882a0aeec400df13182273482d9cba4a521"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "0f6c3f943dacfc480b90d2fd09211395bd5396f15a2b6d857a744cab463588b4"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp.json": {
+      "bytes": 4498,
+      "sha256": "7b3bbbf58312229132caa46070f07d25a15470b813d91d9e5fb05b3593206514"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "4ad6f746c1d8c6d353368296c89883a422ce3f50b1e645409f03a96d0c4db280"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "c6559cb1378cbb0be05096719c89dcafc14e8668a729facfcd497a2012acaf04"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "1697b432525959cd9007794558651ef37bc325c9fd3e8bd65e0af74713c39c3d"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "153f09355b4f4b4a2edf5a0464d6aa2a6585c699d1fd63e5c62b15f8cd23c756"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original.json": {
+      "bytes": 4503,
+      "sha256": "8443d294f03b13c0149fbb42e4004cc150fb2ca4d403d6015292b596592a098e"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "2d61fd12e910c3b3e1e5a885311a55876c8e6fc76876779caba530353c394f1a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "d016f896293dd845b74c27fbc74e62efc0569b4d1103566ad8c62ae6888ece62"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "935f27cc173ff996296d3b15e45e7b4de3ff0a42bfef6f91271f1b586124d6f6"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "ad1551b0df72f49aa76e3ef95ff1ff57da6ce1c4df4161235d94281c6a07a889"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha.json": {
+      "bytes": 4547,
+      "sha256": "e01be50cfef2f8446754da932b97d6d5b0a1550df573ea2572345b1f507764f3"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "2811676d7cf759f3ea1bcaa8dc950d76675e6b35d0254d9e9122d91541035a8e"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "10fca828ac848a3a7a1443e62d67c0c2ff7a3048eaf8920af74688014dee6448"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "050f5161c1aaddec23a872c21eaea12a81310a857e56d9a5875a71c29101beaf"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "c44e3158305afe5f2c5122c36d32fa8170b1999319b0410124efb03810ebc62c"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp.json": {
+      "bytes": 4535,
+      "sha256": "0acc63d3a131b12d21ea67710f24fd44f4a92c46b1b8b71918e7574e2965e125"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "65a4f3ea3ddf31ce05d15c7735c7c5d4897c2ce46e5b32504d81fefe66502d19"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "deadd886feb1ebd2081f6fdee9b809b2e93bf394901c9ed1b8ccf187a9cd9151"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "a5d29827bbd0e4da04ccb626bfdafae6e3e342fd602e908f8e2605cf8f65dc2c"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "2c6fed5ef1b06e858c53f98543d8c64a654ff1d95b5de7c6072dfbb151858340"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original.json": {
+      "bytes": 4525,
+      "sha256": "892380c404d551fe9f8831fd5095ef7221ec814848ba62779ef6339a3e0e79a9"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "ba28a08136e7c884d35581b3ac04c047c1253ea85ef66850fce6c5469a0e3ed2"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p30000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "66bb049ea1a5386b222e08d7dbcbc4beaa6dfab61c77d8935e43bd6a53ea2a0a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "4aa3eb0e77b42ca519795f3e6584ea5ae2e233389efd2180ebe82eb83089724a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "ad2984151134ba24cacea0c8e3419d6969344dde388f11e96333d1d6e9a89243"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha.json": {
+      "bytes": 4528,
+      "sha256": "c2df4ddac2e754810c77bedbf24c89946c4e3810e195270bb2065d7e0b6b1742"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "1986b99d39859b5448363bc78ce9697860d36cb2c35d5ac009653d13769d7d88"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "64ab0af6a1f39ddac30e7d2e2d0e3ac366314da89e1552267d08d86fbe2324b7"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "65bd499e03d5df7acccba8b55733ad2e481a6358f327ab34a48c4ee4cc7645d6"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "b6459f286a8a0edbd16a3f6a9fe578976d81656b8b15325a1d6033953195ef9a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp.json": {
+      "bytes": 4546,
+      "sha256": "13d69f207d2697733d4c71fa53f2d80e7011af89a5f4bbe75d84399e641b442c"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "bff26306be44a45a9d579326c4b5f8cf35c2fdb4b1826bcfae9ff57957cd757a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "9d3a6af0c84bcbf236be44120a02b1d9107d3f640af89a82be10b727a2689314"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "a98368239db4fd5543aae70d8ad315db8d4f6b608ceb3e400c1f522ebe7e6af0"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "04e11b89466a2e4a7103e2723c367cdd27be05bffe953b7ea1961124814f0c1a"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original.json": {
+      "bytes": 4533,
+      "sha256": "d17fe3a02b511fa4ccb56e037dc69e4b5c8b779f858cbb88c12d7b352312a9fb"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "47b8ae81b2d4a21b020b9387e763b3bc882802ea21c8e941d863e0010228bef1"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "55ce050d1f43dcf6e4a8d662444866f911b29da2a9fa9e343fd92a7dc9c8518d"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "159af06a6be0a88be64f47e493c2fa53952a9b9f6cd113689be1e65fd4df0c68"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "9017631470b3443e6573f8688d6a723e83a6cbf9cd6d4bada2341239aeb89661"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha.json": {
+      "bytes": 4547,
+      "sha256": "77ba51b8be9ce0de52768accf99a74749de2c28c47fa9844bc5b6053154df5de"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "7789673baeaf8d11b83b190c8ef7d6d93ed4240624f6e1d2950b1a02cb076f2c"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "87139058264719bc0008cd9a87184da68d949553790008de5e5fc969eb3f3352"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "2375246859165b103ab7601266a64e62d5074b8f16b6f2c9dc0fdb2389484b63"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "ebed26bf536575ec842a427b4de73f416f7766ef96be243da121732daf4555bc"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp.json": {
+      "bytes": 4556,
+      "sha256": "6606529e6f14d600f3e83e9333ad7a084aba08c2766ce9956b273c8c4f187e98"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "81f83459bac99e2c39bac6f53b5e5435e80b89b34c50c1f4aae3f11ffd2a193d"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "0ec9c14309c99a28968fd29c8d2662ebceb24258782f1e11afaa3daef25d236e"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "072feb76513b2fa9694fb9d5dd5cbcf2c2e83020f621b1ce9b2a646d9a7f286f"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "e20732641b8978ec41e9ed0e7bad883e78cd577fd9c86d8726566138a98284a6"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original.json": {
+      "bytes": 4543,
+      "sha256": "9efbe4bc8739cf1e5e68d38e5a909484eb6b8c8e83eb627cc2c30936dca65325"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "03552c77c446192e43f63a8f53ef2864882b888a01f30259f03793d537ffcaee"
+    },
+    "analysis/bonsai2/fresh_state/captures/middlemarch-p50000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "90ad3ea8993364fdbb202b1ce9935d34907fbc16771e30341af3b0bf598e9687"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "503fed5cb062c1133e69bb1451d82fe98403c9dc32ae9352df6c355a16643d37"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "06e60f87e2eede5e7ddef6592086ab2ddc55c4eee1bfad5f6ef82fb66759a1d4"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha.json": {
+      "bytes": 4517,
+      "sha256": "bf27cb9d87b4a90802999e808cf7ad279b29e7b43e1981549cb3b211ca9ca064"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "6b9dca6b737cc7127a173d6a16ecf15bd9b4b2324b67b74f0381c710f92bd34b"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "85387ea68ea3bdb27ee040fe4bde9e91042c48bd9d381f11c6b5e3c726635803"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "0b59bc1b651a1d7b5493b76469545c97c5e245973a4fa619c6f55107a3ee4301"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "762056d627f82378ec5f975bc99659aa7300c52896e42681b850b8dc0b1c2cd3"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp.json": {
+      "bytes": 4538,
+      "sha256": "56588a51e7136781f0546c4262ef8e77a82888c9927b09331ab471f874484774"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "c18af9663db51c7ffe59eff5f862ed91717cff06add21107d73205a46d8a33f9"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "2276cfc0c0ba32befa1e1654fa89a281e957b0853e59aae92cb3d89a5a1e55f8"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "801acb93c63dc3404d34a7ceddacc8881097e148fcd2c7f86c50acbf8c4f3a3a"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "17cb733fb8a6ffbb3ed4896b1be0a38924b2540fec13bae539ac3356052255c0"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original.json": {
+      "bytes": 4531,
+      "sha256": "7d7675d2ed2267b284995c43b93e965396a2219b588f7b3feb9dfb6b84c54c4e"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "fa69c54deb665861cf7d43b31d021b9ff1e96b3eac21911f2f39ad664aecf4d1"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "0fd96d841d3eab6deba86b02e3da9e63ddd32ed25e8f824956f95d6c19768400"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "90288fd121aa75895eee9a5e90184339ed045f0e7d89df4245b50509ba3f2a2d"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "e22428110af22d3977f706d0cbde6e3d27d63f42f000be16e30bb88734c8ba5d"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha.json": {
+      "bytes": 4539,
+      "sha256": "7978b660ebf3dfb4493a0573298034a85ba106356ee755c307d3e8555c58fad0"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "07e9106695b3bddca1fb1ccf3bdb31e881f0451eec54c92e09fd4f6a124cc362"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "31b27b68843126950706373e7c4abcf0a97a3ba900a186aca2de01cc32804abb"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "594c9d1d1d35570e696887942be59e10c7fdd108eaaaa2c56c93b53e39b8dc8e"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "fe12858e88d688bd88877341f7153fb26d596316768de461164dbf541977f826"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp.json": {
+      "bytes": 4515,
+      "sha256": "8cfc05e50f808e3adccf13a46d5d885cf09bd100f419450959716f4f20e6cd83"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "c4443a819b9dfa10039e49912eac7aace08227f0c53037f694daa8a14e3d0927"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "3744cd37441967501772c358f746203de4b1126b77230341fca3283505b00d83"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "ca1e9bcacaa0ccee0f432dff5ea8f24863b2e8271d63900bf2df75dabc5e9f29"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "3f8c0b7277395f3c7b9d327d3caf426c0db3f17144ad34c31ab584def87fe004"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original.json": {
+      "bytes": 4529,
+      "sha256": "7683d8873d3445a9e904b9f3925ee90013d0b6a2374374011bf28f610ee076ab"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "a3531cc87b5206e93fe0f09eb426f7b5fe2f0efc3d0b646db0d1b6a75338f8dc"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p30000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "7b6d4f5915ce88cbd1ff9edd99d8cd9c87f93e3a5c937e48caab0e2a36ff30f6"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "3eee4339dc87044242bfda4c8bbf4b639db9ac3ba5ab21775b677a2453f0015e"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "fd309286f47900cbb73bc3781e0e20dec31187e95c3b4da1fc9df27b6466e358"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha.json": {
+      "bytes": 4583,
+      "sha256": "94ed04bd385ab6d39295368eaf9a5bb14eceb7a74656246a055e8f39239c713a"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "15e6918d8303b6d7c644c1493c475764daba889ccf77d71d01eb35443eeb0118"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "64fdc39a46f9dbedc6de6dbf70672a805f581524585a45c5f4b59c730a8b0a69"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "5f046894ebd198df1b64dacbea14514aad1a7665617ed83d2d9f5cef3dfc0545"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "04568a80ed812e55f5f6b5326152d6b646a2062646a6d847539226f6a80d4c1c"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp.json": {
+      "bytes": 4598,
+      "sha256": "df810068e6e0f4d7c897a24f1f43ef160b3cebf883281a33c8be965bd82e3355"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "4f68155f75597e30dd8f845e6fcf402625430c8c084c55ec34ab119de049e04c"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "4edcfe1c6d4c415712fb68299406ca8bb83d6a9317fd1ca0b2f7d3b2af9f9635"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "d2607da46b9a09f97d5e235ba443b09c907890d577f2322fc97551e10b23d3fd"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "fc2549de3974caba1135c0f1767d0543798f7cbbe7696e0e2f1f8edc12e29a82"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original.json": {
+      "bytes": 4582,
+      "sha256": "5542133185b40147adda04c6d12a08f7c5c8a17de2cd3b4cf24c63ca6bc59a97"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "e346284b1b820d8c28be758dac3db4cecf7b7930994e0757a731304591ad4c99"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "e870f5064c2370ccbb405db3c980d84e6bc6b3b9c36051527f2afdcd8429f4aa"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "e940ab1bad648f184c33ee38c4626e9167031923fd2bbf6886b71275b23f7b6c"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "75b510f21f21d524e82cf225b7ac8f0106e61976fa86eccb6851abd049c970a8"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha.json": {
+      "bytes": 4620,
+      "sha256": "9bf98a2d6097219ab7e1dc533a0e1a5e2438f9893202d64829e4c1afa890229c"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "c582e552d412d6e9aced378d491d1b498b579152a13c7c6dae0e1c934b4198ce"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "d878dd17be72776aa7b7ccee2aedfa50e17d3827a3011ee010f6d4f9c711566c"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "f00ec60a03f2931e83878c42ade86cad591de4e01abc939b5291529bbaafe78c"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "2032859cc059b7cc6856d8849a331eaa0ea03ea634d2c4ce0a506d9f649604cb"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp.json": {
+      "bytes": 4602,
+      "sha256": "091eb83472f72afd8710b0e46172e2a5155fb637edef930b069c2f2c129fa145"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "24d4c0612c1cbeac2f8f4a40b24fb3d46c78d3cf562a9d98dbbdec74d8797b05"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "5a6c0ee5400ffc10f2b3ec006b5ab1b6ab69a83b4dd2daad69782af13a4d840a"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "611322ca86b4f7316e902315f9fb159cbedc3a6d31071953cfe4a622dd314406"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "ba0b738a3fde7bdaf3658e2b8493af9943dd82f3fa7e73b0f4ae75148ec28187"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original.json": {
+      "bytes": 4595,
+      "sha256": "7da7f8418487d83857ea92587c2773a10e9f6ffafe2caa8087ff5e4589f12d69"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "338078108475601b938093421f347af3062da119f9c7d175c06e242ddd33a866"
+    },
+    "analysis/bonsai2/fresh_state/captures/monte_cristo-p50000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "38208318dc3f345e7e31373dfb829aee827ff941e730a4b859594631a9eab7aa"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "f9352bef9bedcb126ecc5a0032312567c913e7aeb01e2c50ae4ed56b9f0e899c"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "734385db2c2ba8d6c96fd7a4610dbea32adf08f031befe58412250adb1ec5f54"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha.json": {
+      "bytes": 4558,
+      "sha256": "12ca543ba1a1d03b32594b7980e931a1e77a634305e9cc56a237ecda21833f77"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "4ff92046c33bdc73acd2dcd98c219918d9bd98635b41a8a19ba7694ad9797d6e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "a5eca55f66be09e0f84f02ac43a15f0641371a391d8d12129328cb7a8593666f"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "a824a79e89a21461ff7626dc50be3123a0120a9500772221f449b38efc596f66"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "2728e42f1e6dd752e45ec55da961e9cca6e6d00b50163e6f79fa65a74a1f25ee"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp.json": {
+      "bytes": 4543,
+      "sha256": "a7bcfe8fc92a241c45a020af3d3b032ba207e999470870460e02ac34a890277d"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "16bb89fe23fb796cd417ea11e724c816ff816a31d1eef82df47a46969919cd6e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "89e5e3716d53d9a7f1d2c4d933216d6b2bad61a2dd696e7243fb46842edd3d79"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "b8464a5ccb7af5d052e19605b1bd573da380d152d68a3946fc3e5b743e685230"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "af710f541c5975cc33bef088b146b345eebbef1df67ead49045435fbbffe48a4"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original.json": {
+      "bytes": 4527,
+      "sha256": "b208a32b5a58c6578fc896535e6d0377ee87349e16c4b05274ab84f24cf2884a"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "8cb4a818357223960934801ffaa31a0921210361761fea8df4e05b9d10a93412"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "e49150bdf6e747b58f625d3361436dd0c00b45c8ecab701f871a5bad34b66348"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "71257b151ecfdad4b576527b11371d66601e8d18564c66d0e78ad4e65fb60aaf"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4a23d28ce499a5cd66ca101be2dfd260a847a54ebffedb8218f67a802235a368"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha.json": {
+      "bytes": 4544,
+      "sha256": "b5052203e0272c7c6c3afc51a8fa40802bbedc516af7bd91cb21892d117ea819"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "ca6be292d306e77e6abaf1df4883694bdc67949fd381f72dcf883e733c83dc43"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "0a60b36f30b36f4fc1ec54f537f9721b8265d4c6fe8b6bd9544f08f1a671a776"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "fc2b3b4c293c817818adf78cd907cfff1d6740642d9b9a700c19e00ea294f28a"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4f5a0787b1d4c9252b05bccd02cd83fb4d0db528eb8ffa690555e1bcafdd1059"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp.json": {
+      "bytes": 4535,
+      "sha256": "788db54d49db4b02fca38a97d3bb09326da5dd6e75a3ff17cc805fc17f749ae0"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "619f1bad99e90a76f936faf5ffb525f63aa3140988bd7ae0c5dd6558ba3f9c6e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "a324f1312a7c56990349479e41a853880b308cfcb6b18b67374063dbae79d872"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "af6e815cf480a1df1fc6a36e22e601c6d335668d8ea7c044504c44e3902173d6"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "1b498f0453a530e85439462c8a7aad6538aad6837cfa004d01c7e73597ce7079"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original.json": {
+      "bytes": 4528,
+      "sha256": "dd13d9e5ba09cf52b7849c01dd41d4b8fbc9503c51e7f680e2b7cd658ad79251"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "b4b810cbaa82e0d3e9a131b7a4ee6f1cb3098010c03df747496485da156a3475"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p30000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "8da68df2eb260115c8da5cca53dadbe69445fa98d6e7fe5ae8b6c4de0504e8bc"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "06a79b7f2da4544c0ccd55d0661f705fec5ecc3073ab03bd931a1e244ba20ee2"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "f9db7ae31e053054fb959c7f0638b863e2c09581f193c2b6b9122befc657f80e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha.json": {
+      "bytes": 4516,
+      "sha256": "bbe3fe10722ec52f3e5fd4a57c04fed7c7ad4a047ce58d1a94a5260af4db3da5"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "e56df49f0d81bca35638877c7921b88f8a798e0fc4b8d05de01c4ac811cf3aba"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "87cc130df37283978eb977f6ef9f67de5f81dafed7a9b9f6fc20f1a81f4efd4e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "61d90be95698ccb9d79bcf9a940479f040e9cc2378ab02feb4cf65553dd2f51c"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "60397e93fea1dbd75b62fd71c04ed3a07e08aa79030c9319a66bee149bbd0df7"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp.json": {
+      "bytes": 4504,
+      "sha256": "f6c7b744274dc1d5936752e98e964f0334c005c26b72e9ccc122443419588199"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "b93b2c811dcddc5aca10bb71610f8364298fa5d491fea6ddd46f644fa649d17f"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "00efe66fc69db1318844cfb0e14d189608072d923c2032d876f794ebf3c251e3"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "c0c80feaebbd71eb4a237c564ff05a7f6305585cc79df99677d8339b29aa618f"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "d1008416d830b46dc289f4404fd12bc8e880909f72f47b2bbaec82bcae3f36bc"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original.json": {
+      "bytes": 4479,
+      "sha256": "968158895077092682e71e9677ae81bd1391920b8259362ff951cbf221aa4721"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "cbc10307bf6600dd68c8c41669129124826745beb325fea44dbe5338d0cef5a0"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "e60110e7ba1eea8f601fe1393c3eb6e6e5a1029e51cadf104d2bc22856b5e713"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "6eb33f905fca1404fceb4cfacfed2586750ab20dd7af023aa042902e1807e414"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "878c88865f8bb220af7a159a2741ce7480e7bb04ca3d55c30609060eb64705f2"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha.json": {
+      "bytes": 4559,
+      "sha256": "4f85ec3a26e6c7c00b407718dcbb724bd356c6ea1dccd4777c3904c14d052d28"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "2d2d6adc8c13987f3da852235faa4f6fa36a728f8321bbd6d2f46182b6a70938"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "029e3fb6fc5e7966d7e3d00ed0bc6c4364a49f7153cdb02801bba517289f70bb"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "8ebea10a60e827117a9c14737df58ffd4f6d31b10640a92134d5d92a6a1bfa6c"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "eea9d911cf17fc31055b02c21adf5665b97d1fb431d8eccb7ca36c96813e25fa"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp.json": {
+      "bytes": 4535,
+      "sha256": "fc56ded4a0e965d14efb3c97a46432a8bd201f00e8c44ecd78e1c46479af6837"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "121c0b146c4d5f108d0a4e1141767beda3a6e3e9fd2b0b8c271b9c1d55cd581e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "1f4cb09c51ee3abccbc63e6d47672d870aa7cc95a78b7b66fb5ee28b66dfc08e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "7e10eceeeb8712d7fce4022e2c2561b75b2d120393ef7a76600f831ba61c233e"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4f5f18b857b5f0c16e36d2b608c61259ac4056de41c6c17f1b97c69e678d5c20"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original.json": {
+      "bytes": 4534,
+      "sha256": "46c07cb51745745e5da7bae0c93b9409c55a0906bc3f5512741c7fca4edf3cbe"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "738ebfb94dc5784730465eb3c41f738a1e4c66fad431b5d8399fb73990526a0f"
+    },
+    "analysis/bonsai2/fresh_state/captures/war_of_the_worlds-p50000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "c02f84bf924949f49f7f149f960ebc2ac4bc0d69032492f6baf2bb965236f7da"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "054f606f00c38d95e366032b796cc97a370d7b7c3cd8ace81e4599fcb37c7e8f"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "6aad3a2f33b0af09bcb164bcee381a7e9511a295d910556a45aa59f397671f31"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha.json": {
+      "bytes": 4486,
+      "sha256": "603bb7ef5e92cef2bdcb11d0f84f685551431aac634c382f52219ceebdf2db9a"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "d957dddaf32b6e44c6e46549cc37030c1550a6a88cdb2bac03686fda95f55e21"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "a2f2a259d6917de7b0dfed75331d016945f2e5934d8bf07c436b17bf7511be6a"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "14cb382c98f80804f785ff658b2360b9952c644f087c7be403ea5924e7cfe07b"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "fc65d04cd631ebf321702aa5914f989b1b4bfc46c79d85775a078cf30e40e1df"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp.json": {
+      "bytes": 4504,
+      "sha256": "2ebf729cd8f3bb50410ad893bdcf6ab75e29c7569c37f27e54793a59c42275f3"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "45a1b8cf0bbcdbb064a30cd3f98dde1d5252ff7867a07e8c7d322e60dd135244"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "6b6a5f6e0691c6a9146a0a48cb09625ba8b66da25d4bb02e390eed3627f2107c"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "72c0bd15e5d231edd3c47840409a59b091bdb63664ba68dcf376bdb5e0982db9"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "46f6045f9d429668da256c722c1bd8e1d7afbb57cf98430fc3f5abb600a43a62"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original.json": {
+      "bytes": 4473,
+      "sha256": "ea3946d1a49355bd44a62615eb848e52bd6060220df274d72706b050ca710d9c"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "78e3c8a490cb041389cf4f4784b1d83d50d3ba4cf276a95bf480312e00e4a2a3"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "2c0b647e4c3127691b632914414e107a20c525cab9cef6c4e54bf98a5b38e16c"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "6ff255ce9a00d1205b878dfd06a40edfa9b8bdcaab7cdf0cbea03fae21351483"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "1a966cea473cbfddc4e45d8446a8bc9268ae768cc67c4cc0f2b879e2c9c32648"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha.json": {
+      "bytes": 4505,
+      "sha256": "04397a608d32bc385601cb4ef466ccd7b4f5c366f5ead5f9a8595972186d0968"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "9d8bfd903c7cd51e45490f09850f9542d22d2a55fe49f68c6a4e62038e265414"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "4896ea3597eead1e873df2c4b458308cd32bd8aa6711f54bc6049e4e68181f83"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "87d63828cbe9dc7dac1f99e6ac3a7bcfe615d962897e81dc6dd5c632e07fd37b"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "a2787a22022b812cd7ff45d9b4d329a50be634a07f1b915646920123dda256ef"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp.json": {
+      "bytes": 4502,
+      "sha256": "9fd05dd212e396680da340464b78b81eadba511ca89fa477b3cb8abe12eb8481"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "e1f5bee2af70eebfa808c8fd392b082df03d55c808a92745e91db468accbb661"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "921b1e2ff7f8cce798a755481a78271e522b685f09a3600f68adf58e343d3590"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "473f75ec6ee7bff73b6e268b775b5bc94a5b260e2717f1b8a19c46b337891447"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "c3fb71aa8b39454bb2d0782057a10e90dc434f7253b38f68f1d421eed1825432"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original.json": {
+      "bytes": 4477,
+      "sha256": "3dc89ea1d78120616cdb8565c9d21788d212f34546b4107b7c41cf4c8fe97b9f"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "d916f1b7e7bb690d9db79e4e03595dddf88698c08b1a8e06c674201c512687cc"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p30000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "b428e2a5a4dcf1583ac63263644db133cef8ee9217d06afeab038db56467d94f"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha-full.bin": {
+      "bytes": 224024108,
+      "sha256": "dada7c4c404937802575d1ccb46bad24415f02db28c11d1903d8feb364dc45a5"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "0b2820ad4616364c02600a7fd72c16577ef2fc7395211d9cc002104765cd929b"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha.json": {
+      "bytes": 4504,
+      "sha256": "27297d485f10dc92b029497f07571f39971a6d1ee964340eaa892f13bc5a8e3e"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha.log": {
+      "bytes": 126818,
+      "sha256": "3827e2b6ecbc9b1ea34ad8d1dfb09381cd8f792dace78e725441c3076afbb678"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "494d0d890af6307f1fc5e0672fd92722dd35d42aef4d7d1990bcefc65416e7be"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp-full.bin": {
+      "bytes": 224024108,
+      "sha256": "f8139598e53fbb06216d14b05416d1422e9f821d7f18ff2ac7fd9f01a0aa0806"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "d02fb7b7df850e33fec51d44c684b99e14adf06cfafe5196036ef8111dbc5507"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp.json": {
+      "bytes": 4501,
+      "sha256": "9fa17b875d72f9d77cf90e5c8e82677b76a7e131e3f055d1e9ebf5b22187fbef"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp.log": {
+      "bytes": 126815,
+      "sha256": "28ff902d9191e861bb4c2e7815aed3992ffbde551d309bbe8d3d09e3a013f233"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "63000984f44304403e1d47871e78dc8854747007805205b6506bfdc49fa489f8"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original-full.bin": {
+      "bytes": 224024108,
+      "sha256": "952d4d4e486791251e9fc65d5fb2780fbf188e1625851c99a40d6061e92dc781"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "576689c36ccb2c177435e6b63095ddea14e48d0b657c9f2c78f9f2687f802a5e"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original.json": {
+      "bytes": 4494,
+      "sha256": "abb4e7b765922381cf646575b0237c9f9df871eae6cbcd4a49ebeefeb3505a42"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original.log": {
+      "bytes": 126808,
+      "sha256": "23b5e90e6bf6c54f06918c8b41e51d1740ae2067845877ee7ddd28dfbb5eafdf"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h1024-original.meta.json": {
+      "bytes": 524,
+      "sha256": "dadd115ae52cf75702959beb8b6cd0e3e27302e078df0faff95c647df68f4ecc"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha-full.bin": {
+      "bytes": 962446892,
+      "sha256": "df30b01c65d46965760c45b42e4a84babc80416e46c919cb6ee9081c3afdbc69"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "28f294b0250861144a24864d7af7aa78276ae2599855568140a411882ac3f5a8"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha.json": {
+      "bytes": 4496,
+      "sha256": "b53ffbbb6d3da5668d7ad9072d17367787d6de992f156f44951267f33b3b2b28"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha.log": {
+      "bytes": 126822,
+      "sha256": "7cc3b5c3e2caf204566ec97b9e1781c6be154c83984f7fa803a6b244eda7c6d8"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-alpha.meta.json": {
+      "bytes": 524,
+      "sha256": "2979f27fffcb6884f48cb10066fc3358c595d1378664e2e8deac1975172aa392"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp-full.bin": {
+      "bytes": 962446892,
+      "sha256": "0fe2a2fbf5e3458e100d53862ff3d529036008d7f7f2b0ce4b09febb219d3e0d"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "e714ef585c1c7730e51ce0b8278ab0f10c6e83815b595ba5b985306f29257aff"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp.json": {
+      "bytes": 4469,
+      "sha256": "4c70b098e6f58fec39717ad44a2482a0690b0f9c8f2e3980f228f47f6f624031"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp.log": {
+      "bytes": 126819,
+      "sha256": "3b136d5d29dbff30169ae1dd42ad7d1eafc7a586bbe60657987238a047892a29"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-mlp.meta.json": {
+      "bytes": 524,
+      "sha256": "ca76e4f09b8afb418401bba93f8aeb52c00f323dff6c1f4b456af68a5e70c7f3"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original-full.bin": {
+      "bytes": 962446892,
+      "sha256": "00fd5ee80c74b0470713b6da08e9455cb678b0eb96b0ff1ed8afac8fa51c8ab2"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "25ba4107af9709a05a4c38de52ed9aa135edcdd58228d147ea630581e7a3edaa"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original.json": {
+      "bytes": 4501,
+      "sha256": "dab016f0f6c5ded86abf684a230f7bd8b870780d03541d2a28e47025431c6811"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original.log": {
+      "bytes": 126812,
+      "sha256": "acba4eb69038381aeed59edf8c9c45cd7e365dce139ab6ec0adfb02fefff54db"
+    },
+    "analysis/bonsai2/fresh_state/captures/wuthering_heights-p50000-h12288-original.meta.json": {
+      "bytes": 524,
+      "sha256": "4fffd19c22286329db2b163da391bb9d68340956fa02953121eb213dcf75f94b"
+    },
+    "analysis/bonsai2/fresh_state/cases.tsv": {
+      "bytes": 2336,
+      "sha256": "27609480f47ece218580f22412aeea23a49a4659b475c360f9ef05b25b2406ea"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-alpha-treatment.json": {
+      "bytes": 7666,
+      "sha256": "1fe908bf5a9cf7bebe58f68eae566507f84e28afd162c26d6b1847ae8b33f444"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "c298f311fffdeb2e2ca5da9de44672de442633806e7d1e3306ad7fb17b88711b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "789bd98d676fdbd87ce2450d53d0d37128b1f10c4ae55dcbbc21228f8663c85f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-mlp-treatment.json": {
+      "bytes": 7656,
+      "sha256": "a207f81cbc9dd4e8c5e16c9cc2a560c634659a4ead37bbdfc969bdc6d47ce559"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "907329c7e9fdad26c14efa6c184d6890d1c9ac9d875bedb01cb21cfa2354938d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "7d217653e03120f5e5ca40544c1ca6866cbb1cd2fe83eb81657443422ca9b2a9"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-positive.json": {
+      "bytes": 4691,
+      "sha256": "f457f1c09a966fed7e9bf226f4d86c079f6111b7e0acb81ab09b1e1254b1f125"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "e4a2297ba0c5e9a374b483abf5f78ccfc2b0e36eaff789ba3e7f4a289bd5bc2d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "f0db078308cc2356e62badbca90e2ed87925d8c7a8afaf3ed9539214099806da"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-treatment.json": {
+      "bytes": 13624,
+      "sha256": "1ea20e9cc96af8c86aa792361492359e06ff9180d10d9e69194a02c6ea786654"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "d9d0dda22cc3ce3462b463302b841cbfb31bd040c8750fe3b687509b0793b822"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "413cd6b03e81e53c57d19676ff07f46444860c9109ad4099f22a26476e67cc94"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-alpha-treatment.json": {
+      "bytes": 7688,
+      "sha256": "1dbd4b7f128c7728751366f8e2f176912123ec1ce2d011768cc5963b5398cf9f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "cfacb8bcc905fac88a5dd25f1717b8df4a94497542cb76f59aa669ea63c72570"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "48888c0ce0cc70a5263896165d7e7fcc3fffa02461341ae37bf12ac42c869bc7"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-mlp-treatment.json": {
+      "bytes": 7704,
+      "sha256": "ea2dc0dc284e50e45bc54b59bf9f5d5eb4d69ea033e53f0dd8c3dab4100316db"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "fc81246e79ceeff2238daac64c2b1f1045e822a965651fd1bec4035222ac6f66"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "cded14ef1b07b23e585c4cc643f6702846cf69c167666bf3e30aa1c22595a131"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-positive.json": {
+      "bytes": 4698,
+      "sha256": "1da289de05b66d266d3498d4f8a6b100262fc9acd1cf0f0a6e48909ba474c413"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "5ffe94fa3a4ebbfe3014577b2349a375fe5d3ded6880f617ea9cb6dcf6a14eba"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "3599e7014e33cc0d0c5dfa5619e009e74710775a733650ba52e6b858e218b92e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-treatment.json": {
+      "bytes": 13637,
+      "sha256": "e5e92890504e1fa9708e4a87b9421d426b2bdb0c6635d4dd23a1d0aefe31fa9b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "d96d8bf93370f4daa8d0c3a7a3b65b2418f5f5735d0b5cb14af7ee7481506ca6"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "bc5f99a6de10902c880e973c64dc1802be0b1a32db937e2e2337c2861851dd07"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-alpha-treatment.json": {
+      "bytes": 7658,
+      "sha256": "183b4696dbe5dbff16ed25c0ed98335db65f023ae3ce3e451cfb37fe7abd1a5e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "52041e76800f859d61337de8dfec1d292ee33d68138c98c27bbee9323f24b334"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "4b1166485159301fb63e82d7907bee779c20d899f6b773b74a443792463dc14f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-mlp-treatment.json": {
+      "bytes": 7682,
+      "sha256": "357c04a4f854bcc7ea406bd63e6844bfce9a8b39c7b2ca9d023a450f80a60a1e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "3d4af77efe03b3b14ad306bc772e3b5b181c4ccca4f433ed0610d1759d661311"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "158253d5399467e50713bcbee5276a35db3a3abe08d076a878594b7733616e53"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-positive.json": {
+      "bytes": 4672,
+      "sha256": "ff39d881e058ea8c797809a94ddc02cfcc92eda0019e847eeeedc46e50e5b882"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "e8e944af07042d2bca27de5fbea558f943ac045946c9742cd630c2ae39c0bddc"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "43e1a51bdee1954cc35e61a081e9f713bdc1abdbffd44a067668bb4e8eb83528"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-treatment.json": {
+      "bytes": 13610,
+      "sha256": "c8b0e038798f78e943402749bb89e9a677ab05ee3ef03066b57cace76814dd6c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "e8936aea44e933e33d50124e71d55f4af04b5953cacbdc71cf39a16b59f01a39"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "1dbddeb7b0f5d8ad8904b57e242ed97e33613058ae2caa4e2067e1129e4fd23a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-alpha-treatment.json": {
+      "bytes": 7697,
+      "sha256": "2fa96575443f185d6252b3e4df4f641dacad5d16dd8156722a442f95d84028f8"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "20cfcdf08db90414616996eb1338efac7c1d3f8ec1ffd7cf52aa36ece4b9081f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "485eddc71720359d4bb3941db83ba6a5fb3045b27a2bab19a9cba81c5eac577c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-mlp-treatment.json": {
+      "bytes": 7704,
+      "sha256": "af0ae02233c9bdc661c2010a1b7335f68b964131167773da86708e9ad8470a52"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "b44762e806787b40eb5da9afd15ddedf1ae435d06d32f78b111e446905e1cc0f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "938f4399dab939eaba825241f09b2b5b0edfba4b2bc57b886914149599320591"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-positive.json": {
+      "bytes": 4686,
+      "sha256": "2be53287d19526d4dd010404506546b099a1fd743f0bad324d3cd4d435d6ec5e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "8095f195ddacee99d96aed30ae7b3b29ec90ead6b678a2e000f92af2f8da1861"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "c85bd614af5a3ebb210abcd5e1544461eeccf6334534934a3937f289877dcbcf"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-treatment.json": {
+      "bytes": 13641,
+      "sha256": "6ead2c45ee52eb0cc0a2ba91ea0027d9d610bb024eaa31713af9b4bba661e80a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "3900f559c7bb6b5ff5d9e5caf96fd592d5a3038fb17d522fd57142cf5d7afe04"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "ea1062b7fb4f00b1d5c09a05071335a10d5bcf154171eec7c7fe5b8edc0f1c15"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-alpha-treatment.json": {
+      "bytes": 7650,
+      "sha256": "6f092d3af25b813547aa04ef6b29dbcd72bc61d48f72b87c53abd9e52b26ac64"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "0b07fd4ded9a49f03bb0533de214c2db66952b6539e7ea5b707a8d96dce66888"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "570fedbb105ea5fad8a06a1178d7d7a2cc8e781c94f35b095c10cc7b5005f7bb"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-mlp-treatment.json": {
+      "bytes": 7648,
+      "sha256": "e05874b2f3cf4395d20f3f5383b066bff014dfa1000d706b3b48d5ff16adcca4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "3054c9fbbb58e9b48a9cc81076f1e927d56884b3a0d8b2349f1530b80b288189"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "fd132c747b7af119f24fb29f5a130904c727f5f6431a26722b997b7ff171c8c0"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-positive.json": {
+      "bytes": 4654,
+      "sha256": "2800cdcf1622eb564e6ebe8a581a92497f001c4e65cb2729c9ac817a9ab2f899"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "ac18268c45d499b71365795475602f893e2a55cc3f774c05f934a4798dd12287"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "0fdc06758e61d51dd906bffcb3566a2ad3a19f3417d155ab4efe5fd5fc899f6e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-treatment.json": {
+      "bytes": 13536,
+      "sha256": "c16e7ebafcd860515883b1b004968fcc72508468d90ad7c7a63763acc255ac51"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "0e931d025a3f62fe13301ab13173480c5a798bf8936098dc6125081adaa61d43"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "98366f0c39468bc7a28f2cbbc6e4a99393e3a5d8b4ac008064b8c59bd5f52e6b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-alpha-treatment.json": {
+      "bytes": 7660,
+      "sha256": "d026bfa45561677ff267f6a524bf45b4e2f6d93592bbae6f062bc65da7fab25f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "78017f4f0af529cfdc8da5c65934f4edd42e68c37a0ff1ae992b870fa432c435"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "0452795a4c51b181544f85d4da723d4db35e6bcf0d37426aa66e3563367f1d43"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-mlp-treatment.json": {
+      "bytes": 7663,
+      "sha256": "14e07062bb8e017d529acdfb079ab672391ad8499c82eb29410830afbc91c1d0"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "5013b5fdef7f9dea42979097b01f3ab5fb045fbb26870d2bc8355dd4904fce4e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "5122f69d077c52a687caeaed08a81ba45821564ccc6e8ee988552d547b6f853f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-positive.json": {
+      "bytes": 4686,
+      "sha256": "65014836e572cf1f3e784979f497270a31b11014bbffe2e1b9bee445f3bb2c6c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "c25c541031ab3e2dd263a80ad3ddb6c6775deb295fb226883535c579e847dc54"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "20b798a266ed78b8ff51f63b38f8acbf1d09e5bdb8e2044c457dbdcc60899456"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-treatment.json": {
+      "bytes": 13620,
+      "sha256": "32b6e45ae7dc8cb2810c2c1a695e3fec4a72cf6bba85451d7e6d7154c11c82ae"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "0ca2871155843fdbe9bccd1186274817a514775f52a220fa75ff88c010a4423e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "9610c9c0df65e3469e0fb7cf53d38dd5be6df2b680271b0e27b883715be8d295"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-alpha-treatment.json": {
+      "bytes": 7704,
+      "sha256": "c203441f2a6aef5e7bc13604c50a878c5df34f4dfc2956cd080075e8d60eca0a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "b80222474880b942c8fff64c5d28db57172db8b29936cac17ee57d1c56696474"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "993bc1a4103497166d5d771fbb0e57a92755896dcf35b1185262e4a0edc20fff"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-mlp-treatment.json": {
+      "bytes": 7711,
+      "sha256": "64939a08c5dd9542e09eda7a9d7d603787c064cf379cd6dcbb9c1d6b2da8f830"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "427df2613b010dd091f28db7c11fcd9349e70a09a9a3a1c11b13aef94626d27a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "dfb70a8d6a22b0cccb8ef0a6866dd97e99f7ba4e4323115a908f0b1099f798ed"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-positive.json": {
+      "bytes": 4696,
+      "sha256": "f181f64fafb796928290914090f206fe5cb55dba0ecbd36a4498bdf8c1543ffc"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "f3f52d63fe437d4572b33a5ee16eadb3813634e28d0d81e0cdab89e59d9d2b92"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "cf3bf73a57b1f3d784ea7b7b8f437c0d02b13722a7c6c1f8afed8f930a5f3c58"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-treatment.json": {
+      "bytes": 13673,
+      "sha256": "73f4253c625f5b77d8c1b6ecd114152817e6423831bb445efcbaafb9a824badf"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "f63aa80a3ffc041a08af1e610f238fe54988e783b504db0ec9c198f718ddac0b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "ec58300d2322091350380babf7a41f9c53d3f2728a2ae05b36a3991dbb15520b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-alpha-treatment.json": {
+      "bytes": 7721,
+      "sha256": "d5cb6d70a43067ef175d7eccbb29dff789f56821cc1e3c6b208a107846fca3e5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "c74cfb52c3d4569f010a0c8bb0f7c54aae99c217846ced8f2f273875c542c176"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "4b7460d7e1a32f36742d77c5c048af3c0cff6005d3eb85ee4885b057ce6a8d43"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-mlp-treatment.json": {
+      "bytes": 7730,
+      "sha256": "e1cacf5d3f6b62ee5040611b89932397bbaba049caeb01981dfed330c1fec030"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "d71c9e73cf8f571216f434214835ea26482b20f3be31427164a0bbee22e759ba"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "b0f551b697bef2f932288ec8d17b2f2882b2293e9ad1ce7baf014802787677cc"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-positive.json": {
+      "bytes": 4699,
+      "sha256": "6ab77daa20993178636b9a4aecc990f88579ffdddf1ebe4664e419dc15a645d2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "42f1e48a15d57d408d721bf0b79d3c84ea6b759485ed9e45e63794fd52212b53"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "1810b6a3f2678723a435f6b1f952385daa7682572662e1bd9675294b8fedca70"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-treatment.json": {
+      "bytes": 13681,
+      "sha256": "968ed2e16e67d064ced358c161534d5e2b63119ff05bd7770aa73ae1fee04d89"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "fac8290f3fb4517d37abcaa4b9b5ce513a0aa07914bc20ab4d48abbb5eb08931"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "bcea1a6feef5c36b407ff4f5f6b9ea0d37218b53869ad35f3299ed7283372025"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-alpha-treatment.json": {
+      "bytes": 7669,
+      "sha256": "4e439ff6c52057f96b1fd1c14c05db09859baa13fde050e6915bf11e0412aefa"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "4dc96a880ebd3810eba5ef49e05d55d8ece90cdf4974e00032a4ea8dc9b49ad3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "e03fefbb46fd15e368f88c3c0e3edc496d5298314db7ae9e4173d2bd940805fe"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-mlp-treatment.json": {
+      "bytes": 7640,
+      "sha256": "c13be42e3d8caf2659515aeadb596be04ce2ab8c6a14188055ba9c4229406fed"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "31a0edcb9e51edafe35549e2cb1117f1fd49ccf0fcabe30899a40f706a530d3f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "55f31ea7df5abffd08c476ff2c0c7bf9743297d3b19b94d97328927d9719d3ed"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-positive.json": {
+      "bytes": 4661,
+      "sha256": "ef76ebe6726c125a06e96fe661f6bb762c342f860b7cbcb92c48d297d8412539"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "577378f3865198f53bd802b0685a37f7591ca6b0ef4016e60363b601a20969e1"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "e49ccdbb0145d0f1314c0bfe00cc297dc373627b546a8e4fdc961018c8437388"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-treatment.json": {
+      "bytes": 13604,
+      "sha256": "d7f7f475a05cd3e57bd23acfc510edd2d1c2d2e552609d067c39ecaa459027c7"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "56faf0c6805118b36476cbc25325038e9d2e77d685ccb84e32e677bd98b84954"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "eda99d6f166da546fd29ff0a817e2deada8ace95cfa843726d97f1b30ab931b9"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-alpha-treatment.json": {
+      "bytes": 7717,
+      "sha256": "5d15131762f559bc5d6ec85d83f95b231aaf18642aa30b6394b41133f2a9efc4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "accfe781696afcd9994cc223fb64b6fc070182fa8fae4a19d4a87ed4891fca7b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "af54478178beb6c5e01d953d763b41023e6cb43ec26052f69c10ed1ff48e004c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-mlp-treatment.json": {
+      "bytes": 7706,
+      "sha256": "1ef4bd4cf26feb0ad5edfe2dd73cda08d21669bed4c336029076833146ff8128"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "b9ff1b8859f4d28c86df728f9fc3ba938d07b2f7b193b9ecd51551b7f8b7c4e6"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "adf03c6a4925a898af9d826e5c8d18c92590b3cc65681891c73376c6122c2913"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-positive.json": {
+      "bytes": 4679,
+      "sha256": "5e30a7471b1c7c6c2939d781d293df4e63c4a47e0f34f85cd14a33196d4488d0"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "f49d22a9bd9258e47166fc3679796f5b8f7f79a6a5dd64bbb2c8b2adba8371e3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "974917e1d99d3c98792852d2bcdde54e400e7c31bb15088aa47f229e20d63cc5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-treatment.json": {
+      "bytes": 13660,
+      "sha256": "6916055f903389ebb8cfa66a06b7ba2a9c99127fcedfe83e321e4d5f4f44556f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "d5f6b7c58857ea45c75544546ba99980770cbed7b6835a9b3a759f19d3ac1a06"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "3736a20960dc665d3145f189c197229a12da163566e4094c3c58750b0d5871de"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-alpha-treatment.json": {
+      "bytes": 7691,
+      "sha256": "97158cda4311b7b9b95378c1f41b746743cb39b7dbc3df4fa082f2b18138ed99"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "401bf66ad8d920c6df7bae750aff589736d376f58a6be89ae982521185f60b25"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "1e292016fefa2ca1e6b0b12e727c80a8b912ba2c39fff8805c0e4e0de100bd27"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-mlp-treatment.json": {
+      "bytes": 7723,
+      "sha256": "34db9cdd9a125e5a78f17ee3cea298d173b6ddcafe50ba2dc81e5e1987007b4e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "fae571b52ff61d7426194d1d74265b2ff36a4552a8477cca4ae0a4e221ef5c7a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "1517b9e735a676569192301d262f3f4ddae18a5a34507727c1bb2579dbeb0931"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-positive.json": {
+      "bytes": 4691,
+      "sha256": "85a537d13bcb5ec14fefb8843c971b2188becadc134dcc0d2dea01b29e1b71af"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "a360ea2232206276050d196b9e465398c155fed5c7a293c02b89dd3c8d788e78"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "6752fa46b3e2155a2c6275f09f1c2230cfb5b76f230b578ced78d2d767f0bd2f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-treatment.json": {
+      "bytes": 13684,
+      "sha256": "8ccda83294d3bea2bc98cbec07652266f3abf305ca7050cff712822add1ab2f2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "5964825da2afaaf7b1421ba432f610508e244f25a238ef76a9c55c196282bab7"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "b0e6ab89f72e94aef84331b18b0fe90aead00a63cde3100eb7904764b7331f65"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-alpha-treatment.json": {
+      "bytes": 7722,
+      "sha256": "61b9b336c37f2ec9b114698d9076d0037759cfdc76512bb627cd65e28c7371f9"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "dbc9b782791c64ce133e025c0f1d3e92da321659a525563d3a7681ea3ffea6ed"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "2eb44c486404780ea2a97b26d56cfe28af8aaaff885f7e2a4dd28b9b92860ca4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-mlp-treatment.json": {
+      "bytes": 7744,
+      "sha256": "a99aa0a1eb0a7c473b0a229fceb3b9d2ba13e83dad4ac5c3c97a80960636228e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "8e99ed89ee63b82afdd7fdc22f8878aed72ceb6ddf557655c505938912ba1109"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "73632f5c5cc237d5c60ce701e08e28da249543c9fd07cdaccbf78debaf4bd91c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-positive.json": {
+      "bytes": 4701,
+      "sha256": "51c4ef6af4d79451d468263f443be79d96da069440f0b7f1e403b8f972200532"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "cf2c2c09d1276c646331bc6c31c205463b2ab4a8ba12239d92f7315a414e6a7a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "ca333c6ccf2e618fae87273eefcffff3c3984862d3be6e3ef1b044359f83781e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-treatment.json": {
+      "bytes": 13724,
+      "sha256": "4feac4b628b4dc28cd60f06b422e8139ff4279efa29754e2523261277318faa8"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "f2762419040739b74ee8cf4f95870af7ea3afa76cb10b55b771f54c274518c2c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "2608e456f151d6444d390340425b5e08a8af9fc87dc0f904b99d10ea0627c5f2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-alpha-treatment.json": {
+      "bytes": 7675,
+      "sha256": "946a8526c28180d1da77b9835c55878c8c174522f1997d44ff2e2fe7f5ba5827"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "8e6ed1cee68ad4cf0162ca81999bd44d8ab35c72c00240d8162dc2c17f0ef8b2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "3499c984a77b918ce6b8baa4cb4b458b5711a580acb4f6106150b782edd25dcd"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-mlp-treatment.json": {
+      "bytes": 7707,
+      "sha256": "34e3ace9f4717123668e000e309ece4bf0abc344f17b15a33ddc68eb219b663e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "e259e239a6b82eb22a69a0c57ca112617e8c6bb0b6d8e1753055329686811491"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "c4edc033251fbfbfeb074a04d5337b0f746e532d2a79bd4929451595dd5522a9"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-positive.json": {
+      "bytes": 4690,
+      "sha256": "d69a9c72b23d0cdbe55a61af5a5b48b49c8fdd43cd058ddbbea31cbdfcbd54c3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "266ca1d1d60e9db382e7ccc15420c1008591367378656e4ac0c252b229a66caa"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "d18583aa811b6c5e07de1cf1e1c35c0b951cc5a1b9e224d2dc92dfc16c1e2666"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-treatment.json": {
+      "bytes": 13656,
+      "sha256": "b1e4cc9936da64d971f62ce929c8df105b628d65650d555687e7dfafaeef8f65"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "fa2c43677b6a8ba0739083c180939d87fe31e0c98707fcf243b41562ebb7ec21"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "6e6848489288e74b1ba7db161b028d29b8c2e6d9fe7f102aade91fd34594825c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-alpha-treatment.json": {
+      "bytes": 7714,
+      "sha256": "d52810b5843343fd1dc82a9ddb3796417f61c445a4acaff01351a6cb995fc718"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "70b7a4621c42e93d874ea174e58df46a208b55c2f926ba1ccb0913d38e64b4c9"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "e6d0098110d01d18904389fb8856b43a59c324a3f5a9c468ec79c3ea5d36c688"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-mlp-treatment.json": {
+      "bytes": 7675,
+      "sha256": "75f4cef1cdd613f7595fbd1d333559827187120f8c6ee21f1bcb1e381c452b90"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "668bf7d89fe6e4c9c2be371c170451357189a1081823812c4a79e05a9d44945d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "9b76e8825fb98d3725367e288391cc9f5f3c9bd94da2428ba49c1bd1c7894119"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-positive.json": {
+      "bytes": 4701,
+      "sha256": "eef2ee63779b4320a53cd2474f0b684eca92f212a5dcad4f36074d1446f83844"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "551aeeff0a829478f7b68ca12bfb990f89b892704686f0f0c8f7ef5f898c0be5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "1e4b58a056e1217dbc9c3056e4e1cc844aa7f265edca8d5ee2c0e8ca1fa8d6b2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-treatment.json": {
+      "bytes": 13664,
+      "sha256": "f8c1cfef3598e66a5ddd4969a00a744bfbc1a44b7b7ef40b67e565c5dd728217"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "6e6622c14e9b3cd39e914bad11bfdd528f4787127b2b77d38463e2823daf6bd3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "b88a1f142ef03d7b17d153cb8799af37ed69a0ac9f919aa0a493e3d8b1e87543"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-alpha-treatment.json": {
+      "bytes": 7777,
+      "sha256": "6ee3d240962f384f674de941e0b5b5e62a4ce2eb9aac19c70103e8d229025a42"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "455e804f128c344ae3ea81359c2bad4e54f89f9976f4af3ce2b829258da0388f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "c3faa809dbb9d8cfb5c70f1f08fb2b568786feba9c89b4314a5d40edba3d9dfd"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-mlp-treatment.json": {
+      "bytes": 7810,
+      "sha256": "455e666862b23a3861b3aedb7ce934cfd60cfce8b67cbae6ce4f638878bd83e8"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "0da34f5c8ee4cf094bbc30c342d551f44d3f76f4eb60c104422a19075f192ed4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "2f56266d8b5eb954810cd2afad871f3f4f04be2a90d6b1fc7e6964706098b8a7"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-positive.json": {
+      "bytes": 4725,
+      "sha256": "6eed27ab75f5e2c4a5e6e1bd0a75eb25cb86cc55b8536ee69fc58ec3ad332edb"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "07e97d0c3c08b477198ed46f830a6b9473536741474499ddf80595621bb5132f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "f0b1da2f616839d05018d6518d959d1c1a178dda60ff030cd1e30434b88ab111"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-treatment.json": {
+      "bytes": 13824,
+      "sha256": "c13f8f561f634642f02497d0639b9d5148fb8c82346720e7e213277ecc5526fe"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "972184185c95d2644136cf031a66ce18501d53980d64f40821e38f1529eba6a5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "18d3b7116d598c30088e570fe2dbce5b34cb0ff3d29d263a52811638acee78e3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-alpha-treatment.json": {
+      "bytes": 7838,
+      "sha256": "a04048c6b470114fd70f2ca2e00fe6e5c04d9bcf84924e8f3846f53c3b6ddb35"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "245f544fca0679ef922e30810281e87128c971f0f25050b51a806ff69aec2b64"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "d14fd98b025252b7cd9a92b6400fb523bc02b7143df9780c7280b1a72c8475a6"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-mlp-treatment.json": {
+      "bytes": 7822,
+      "sha256": "71f3a1eeec3305d1cb5baead9b064d3e271f0af7590a47e4ee12688b18a13856"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "ff8476ba51fccf7fb722a05d1ff308f456e4a82be9f69b0fad63f1c3a20493a0"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "13b3efeae6a13be729d0ac139b81b685384b3f61886115301bdb60b0068b6be6"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-positive.json": {
+      "bytes": 4756,
+      "sha256": "5d622c1ebe19e9c6c74cedbbdae360f675769a6f29fe922c82bfb1cdf9ff5c6b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "6a60f3a235511cd5826491287a33d327347a75fd567867d92995a2b4a6a9eb97"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "75cd91f4969e48bb5f4943bec3a131ace4c06f616943ad4a6b8ec648a2b4fd32"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-treatment.json": {
+      "bytes": 13869,
+      "sha256": "94990503b1f9c23dbb089958ac97a5a9e90e16f1e88e4ede5cb55ab9a212fa3d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "b7ab3fde7724ff455107f83f753648bc6050fa35d78d3e2da3a2c6683afdd210"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "f532bde9c0e61988abac8d98818b16b58de9d1db23e02db303ef70fe0f35b317"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-alpha-treatment.json": {
+      "bytes": 7724,
+      "sha256": "366ef82acaf17a57ba3af84ac273d6fe67eada7098ab35c37115acc48353d6c2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "c0bab607298ab52cfd50758f502f822544eefef2721c824efcb9e8f9df40512e"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "3560c711c4b2f90db929073fb3876f0f102109c96f7f2607c6f84f57a08dd69c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-mlp-treatment.json": {
+      "bytes": 7718,
+      "sha256": "43652c975f6c392f4bad1eec3ee6436491714b5288a3541d52821a36667a2c85"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "0da34f5c8ee4cf094bbc30c342d551f44d3f76f4eb60c104422a19075f192ed4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "5c93a98a1566538600dce5e06ebf4f4ea9317247392a0d36dbdbc2a0fc007eea"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-positive.json": {
+      "bytes": 4681,
+      "sha256": "1a006bd6f00198cac53dc6639023a2ce6484ae46fc9eaa2e798eda914e65a253"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "8464097d96c2178e848304fb68257d87d99d0da9145ee3381562976ca0a1eb73"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "573bb291da0ab9d292d3552a7a68bbaee98afa0b73a909e2d4c641c3a07f3074"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-treatment.json": {
+      "bytes": 13675,
+      "sha256": "271402f5ebeefe553a24b6abb03b1a89bae83dcd7e13eb88d6156ddf26b70342"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "dda75b744160d9dfea4baf829a83d9bbee20547e843afe219f7e7ebd3a2d71fd"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "c2e54c1a920f1c4be5537ca95d95fecd67171c329e57d3fa53940ec4675a4c64"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-alpha-treatment.json": {
+      "bytes": 7718,
+      "sha256": "1e251704bc76548250deec1e6e524339b078f5a75c858bafb013b6d23a941165"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "db16f0b644981311c6a5eb8c0c4c57f3b2240c4fad864e1ddf886730d164e75f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "76a4b2ae51e5ef77966253ccef4ff35b5d6e0b9f9aacc04db7cb96fa4d96714d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-mlp-treatment.json": {
+      "bytes": 7703,
+      "sha256": "c85b86317d96d3cc1f493b0683d18aedaa7a6d6c7d2d02cc8cff0d7449a95906"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "2b491e268328941cc559a7999311084b3280b58b859bd6ad9af67e8a3254e201"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "006396fed5d8a14ba27539db648819f4851b7c06c48f3d2c57a3cbd6a483e350"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-positive.json": {
+      "bytes": 4695,
+      "sha256": "39a156c5b408c6eeed083d324ea09077327636f5f2e21063a97c380f75cb8fa5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "2a13728ec6a772912e274ede411db3a71a7528ca5a660fb8dfa354c19c84291a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "ecaf2173c4a24d6f41d180efe8585ad6b4c5f4ecbe55c32562993fd54c3e7349"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-treatment.json": {
+      "bytes": 13661,
+      "sha256": "6f367827da1c6c367a7356da5ca7658dfbc714f1bdc1e5109bf839b77ebc3853"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "f367888d84102af786cca1995dc04e4f3d6a38d8f44b1eac49e98d7e1f410e92"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "e4197fbb098b95f3fae69e10a173ac92fca2812247e22b34cbfe1b1a6cbf534f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-alpha-treatment.json": {
+      "bytes": 7664,
+      "sha256": "617580f18e8c4dacd4266a7fc8f2c41164a0db83b0b2242ddc233ba70ba79e98"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "678d5d9a95e0858568e15b9e8c458f2a50fed0db44a918273c128932c21a37e3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "7355ecac22117b3424f9ff27338055b57e89b4f6ac250068269e222fbc2704a6"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-mlp-treatment.json": {
+      "bytes": 7656,
+      "sha256": "81e811844b7c1173e62f2b1b19f6d787fb9fb7d5165bcb8cc7529fab5f014ea8"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "cb83976d0f2c7c4f760e1984a5e71471f4e2159d2f0b50bc22a936f3a17b830f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "f7e5ae5d13a044e0774a615439c0d728a6a86882bf7495a83f60d286029ed8d1"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-positive.json": {
+      "bytes": 4654,
+      "sha256": "98e9f9975486ce1fe1e12e6a6ac0480a48031003cd5d36c64de2482146a9daa3"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "47f97cdb1ada1ee2c97bfc6e1e57ded03ad4631b415fdb6f9c329eb02bbeac5b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "c2ff81f3b4c38adab9f26dffa532e52abdf503c16423c2c95dd72d9a976a7123"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-treatment.json": {
+      "bytes": 13552,
+      "sha256": "bba26f0e441956709afdd20145ac478ed34f7a75e3b7d6cf82452a5b47f0ffdb"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "7b460c2cd4b38075990d64822d459cd7484e4f2a299ad3dcaffb609be773c112"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "8b62ede2f70d7b0ffa1b383d9833a701012629bca938ef6648de76f117699b67"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-alpha-treatment.json": {
+      "bytes": 7728,
+      "sha256": "a74997d998215c53800c3a4bb9c135d4bf851c7454eb808926d66d8a9adefc1c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "d3528f331814bf3d351cde6960b23e323c6e3495f9962606cd28272957aab3ce"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "32cf757df41a7e26ab3188fa04728d78fe29c64143661ba44593144a22aa2210"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-mlp-treatment.json": {
+      "bytes": 7712,
+      "sha256": "ef2bf257f857c9f412bc6789ea702691fc477578b37ce7f81703e33b0bdac582"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "63dfba06cdea2c1e3b3cae5f694ed85118ca9bf289a7b58e62d6d7982bd0a3a2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "35b528bec8a74500004da2cef9c7e7625bd94c6425a2b2a0683b93d614ead591"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-positive.json": {
+      "bytes": 4706,
+      "sha256": "499cf969f0fb7a6ec1f395a0d4309c57e3cbd5f817a3cd9ac7c2b6f22a76b902"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "4256d958056b156cf4d6b04a3d9d1f2aed09352ce45b4c7a7787b4b766b872dc"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "c445116c1d61e7ffb472dbd5d522cba7be30357dc3afd609e563ad21c557db55"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-treatment.json": {
+      "bytes": 13678,
+      "sha256": "d8a12b350006f8d590f80877f712bde01b1a6b99ab176f5fa52719f8e78ee991"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "09069b4ceb63ee9fecb17cc3dfec6c18782c769b6b41064177494667e76bfcae"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "6069a40e7fae128539813214a4b7c6503119d1270388a904501df9350a166cd2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-alpha-treatment.json": {
+      "bytes": 7638,
+      "sha256": "ee1b23beb96c73b803528710778be752aeaa5ce606f9bd6f90d9a9778ce8196a"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "aa9b030b7711996bb746f0d6e51c01d590e580565a2013ee4bb3c9d3b6351a0f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "2367fd7a3f9cf5139316a5188bb464fcaf90445500a55b00fa4522cc429dce7f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-mlp-treatment.json": {
+      "bytes": 7657,
+      "sha256": "a222855616b73cea1174a4e49ac0204cc9780667f3990e0c04e397629edc6a32"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "7d5f5fd792e9d436dc32827b967a6893f0b0049ee369112f314fd0af4ca3cf63"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "efefc1a778fa491471af92d8a04f832faf5977d572a5f4db4ba3dbb3cadcb8df"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-positive.json": {
+      "bytes": 4647,
+      "sha256": "60653800ddfd44e824155bbf3b0e43b89b0233d0bf9a4394d6822658cc8b6711"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "bcde097af84f8218beb588dbd086033ea6b4fda0fc2f9a1beb014d657e2b56d1"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "1d86616fb4d72430512bad52bf22a1fc43e828ae6c9e5ae026a3b8f80cb24bcd"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-treatment.json": {
+      "bytes": 13549,
+      "sha256": "55bb39fcb5b2b0b3316ca6734fd3e1c1bff3fc0ff2bfded7eda500a0f49d06a9"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "886dac6b578c924efd8bc9343c7870d9274e2e245d3d8b5bcf20fb3cf1bb58ad"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "497f4e7655f6160590739c94c0d9f945b91be5013c8fe8a7e1de3e7215fbe3fd"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-alpha-treatment.json": {
+      "bytes": 7666,
+      "sha256": "6d7474c361c23fcb15c29ee6f1cd304ae98b3b67dc04b32bdf65d24c2dfecb65"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "bd8ff8a821b410fb5247d7891acec3b8710ea9468b68886fdce99ca421fe38e7"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "5630b02270507ce44dc07c40b6af465083f094de63341e90e8a6f6a0372d60e6"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-mlp-treatment.json": {
+      "bytes": 7658,
+      "sha256": "d15aaa5997acc2efa5d1ca436b8bfaee0019df74560d439307eb052d328db281"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "505a6ee6aff066198da524a55c22c22bd5aa7988291260e691ec7c4305c106eb"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "73854b2bab6bcb666c28d2dcb2bd594ab1cbeb6193573b4deee38f4c105ba64d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-positive.json": {
+      "bytes": 4654,
+      "sha256": "6796d2b855622a9739889372adf0cd34e949dfc7a433522ac575be75953d7536"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "bfa3a9c65a97aa57f0e1cab43248969a23cd8e4f06b5113cbe3972da809e9ff4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "59fe71b81fbb0db854dcbf03601e6c24b846f7c3ef81c5929e169973a84d65fa"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-treatment.json": {
+      "bytes": 13562,
+      "sha256": "33976afa945c45d973c7fa2696125f360640b24c215e583004ae26251182fea4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "7e27d9d2bcedc20932075b15c0c1b3e17b169d1f15470844097eab47c6c9b003"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "333bf9f538e93d3d1ef4e8cc8c8723c38f95a3008172962287c7aa07a344e2e0"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-alpha-treatment.json": {
+      "bytes": 7655,
+      "sha256": "560e6267a6c6e088dbb02f10e013e142c6009e86826e92338a7f9971e755ab9c"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-alpha-treatment.log": {
+      "bytes": 126970,
+      "sha256": "5ac77268ee6c2c26083ab48a1b5f25f4a89a1ea478c4fe80c43244dd40fb89d5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "959b30cbdaffea9ce7ebcaa30eb88b8499be2bbc0823a627617613a8d78a1720"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-mlp-treatment.json": {
+      "bytes": 7660,
+      "sha256": "8dc64c8c7ea9a29a3d7bf3bcd3c7702a23ae589f3240195e811b016a1758f46d"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-mlp-treatment.log": {
+      "bytes": 126967,
+      "sha256": "2b2a58638dfdffc76ad0e32928509b248fa56645875b5f963b0b8233e505364f"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "a4988ffeb1cb097bd33894c34a8c1a231ee27016d8f47e6eb747fb4e307c0a41"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-positive.json": {
+      "bytes": 4658,
+      "sha256": "b6146efa516d3d0ffb0eb29bbe48de0f7ae69d7687f1decc3351c825a4274e68"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-positive.log": {
+      "bytes": 126808,
+      "sha256": "614ba149a55cb563373bc727167df3718329b2c20254dcfc8531f5fe2ec00201"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "69b0ceb5ff25aba620a6cd8bafecbad632a09136a85e50f7c6069872c3bd59a7"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-treatment.json": {
+      "bytes": 13577,
+      "sha256": "6cc30e59da3355c7cb044d3dc599a3ba61617669e8c415eb6e61d6274f5f89c5"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-treatment.log": {
+      "bytes": 127264,
+      "sha256": "b469df231a9bed750243fd4d9b43041cde388ea6f8333c18d6562fbf268c8081"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "a2e60ba709a471ae7f53c523673d67869f771c457d3ab19f9218ccd93c5d9f06"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-alpha-treatment.json": {
+      "bytes": 7652,
+      "sha256": "d3d2bad60193e6229ba4af2a6d08ca11025309d9cf0278e8ec8aeb502637b7c2"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-alpha-treatment.log": {
+      "bytes": 126978,
+      "sha256": "45c358370c72b153127efc01d901b7b3048e2f39bf30e468ceba0cb934fdee08"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-alpha-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "c31ff0241a86a1714961a6af49f1cf11b34b77577503b59127a28b4133d77558"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-mlp-treatment.json": {
+      "bytes": 7616,
+      "sha256": "3e0ac67a1f70f980b51f103b706f5e411dff62411cdb7ef60e8d7a5e98740763"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-mlp-treatment.log": {
+      "bytes": 126975,
+      "sha256": "59ece1460df16fc3ed0e9f039c4ec1f9d2334bb42769b390931f2966df2b7285"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-mlp-treatment.meta.json": {
+      "bytes": 382,
+      "sha256": "a1b5b2fe153a4e0097ea55969cf3143a4e2e17bedd296fcecd6e54fca7796dc4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-positive.json": {
+      "bytes": 4668,
+      "sha256": "a80ad6c0b9ce6388ca2d3805ae6cb9b363a504a55b054c9ae9368333627f850b"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-positive.log": {
+      "bytes": 126812,
+      "sha256": "bd1f7790073e931ef6abe5282eefbae40ce362aed214e30e4eb38b41ed193721"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-positive.meta.json": {
+      "bytes": 294,
+      "sha256": "bfec822cfebf69bc78e6786d375751be76840b0954af2d6fd5a3d44c139271c4"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-treatment.json": {
+      "bytes": 13593,
+      "sha256": "3adbe524007508fd278562e75ab931bdef931f645b0068ae21527aad5344dba1"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-treatment.log": {
+      "bytes": 127280,
+      "sha256": "9b33655c4fbac1128ba18731e03bfe119040084ba4c33b74de356d48464915c1"
+    },
+    "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-treatment.meta.json": {
+      "bytes": 549,
+      "sha256": "83fa095a31ce358ec9e26d2f119e303cec12f0e584bb030c481c050e40bff5bd"
+    },
+    "analysis/bonsai2/fresh_state/documents/emma.ids": {
+      "bytes": 1004000,
+      "sha256": "e223bb9e973e2f8188f70bf04935a94e5b15081d7ebd326599ac493675255da1"
+    },
+    "analysis/bonsai2/fresh_state/documents/emma.txt": {
+      "bytes": 933709,
+      "sha256": "532b122b4e6a76cc556d6fdcd729b5892f5c4ce4a1b7060b9f832adfad8680dc"
+    },
+    "analysis/bonsai2/fresh_state/documents/little_women.ids": {
+      "bytes": 1183151,
+      "sha256": "1eca9df16179194056efa0fd2922b83499406c74d952b504e1ab2d1e18c864cc"
+    },
+    "analysis/bonsai2/fresh_state/documents/little_women.txt": {
+      "bytes": 1071405,
+      "sha256": "677d034b4a3d1cea92d075939878f852a7a3ec757dc9ed05ef0c40cab5c1e6de"
+    },
+    "analysis/bonsai2/fresh_state/documents/middlemarch.ids": {
+      "bytes": 2019688,
+      "sha256": "819562da876a7ed7d0577a95b45988ad98413c7146b0d6e5d9afb24b62e41f60"
+    },
+    "analysis/bonsai2/fresh_state/documents/middlemarch.txt": {
+      "bytes": 1865684,
+      "sha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50"
+    },
+    "analysis/bonsai2/fresh_state/documents/monte_cristo.ids": {
+      "bytes": 3047486,
+      "sha256": "6c9881050cf4f6d6123c46bf742a0d2041fec32d0744e299f4c899d63a549eaa"
+    },
+    "analysis/bonsai2/fresh_state/documents/monte_cristo.txt": {
+      "bytes": 2787124,
+      "sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836"
+    },
+    "analysis/bonsai2/fresh_state/documents/war_of_the_worlds.ids": {
+      "bytes": 391996,
+      "sha256": "97ad8c4a2bbe22dfb2600ba67bad174b89ee919c5e4945b4730386e2377131f9"
+    },
+    "analysis/bonsai2/fresh_state/documents/war_of_the_worlds.txt": {
+      "bytes": 366624,
+      "sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d"
+    },
+    "analysis/bonsai2/fresh_state/documents/wuthering_heights.ids": {
+      "bytes": 771438,
+      "sha256": "97fe0149b3490433e2af309af845aba059d879b461275b47511e9dec5f41bd9f"
+    },
+    "analysis/bonsai2/fresh_state/documents/wuthering_heights.txt": {
+      "bytes": 693819,
+      "sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02"
+    },
+    "analysis/bonsai2/fresh_state/freeze.py": {
+      "bytes": 6641,
+      "sha256": "1d66b5f4f8d6d4738ed30ab0352d0f69f4aefa46754a29cae52ef6bae70118c4"
+    },
+    "analysis/bonsai2/fresh_state/positive_gate.json": {
+      "bytes": 17478,
+      "sha256": "58f57a8a74192789892fd98d5a09d63ac93b0a79dd1c9020338e76d805a5e668"
+    },
+    "analysis/bonsai2/fresh_state/reference-alpha.jsonl": {
+      "bytes": 36131,
+      "sha256": "30f0289c700a69b03774e73f67b4614659edf499c180a27ae9e6857118eb670c"
+    },
+    "analysis/bonsai2/fresh_state/reference-alpha.log": {
+      "bytes": 127938,
+      "sha256": "a2394263be2e29ec7ea01f0ab34e0ebb9c81ac62a40dd29672211652085b1462"
+    },
+    "analysis/bonsai2/fresh_state/reference-mlp.jsonl": {
+      "bytes": 36150,
+      "sha256": "61d8fec159340131290fdd3c1e3963e1166d30f0bd406b1e4b885b1808c61af1"
+    },
+    "analysis/bonsai2/fresh_state/reference-mlp.log": {
+      "bytes": 127936,
+      "sha256": "735b69360843426e436e3a587c9c9ac503fb7b4c774abe0f4d5ee2737c6e92a0"
+    },
+    "analysis/bonsai2/fresh_state/reference-original.jsonl": {
+      "bytes": 36120,
+      "sha256": "2e5baccad90048a1f180e53656e3b2ad78da53d151f10af981ce374c0e4e4626"
+    },
+    "analysis/bonsai2/fresh_state/reference-original.log": {
+      "bytes": 127931,
+      "sha256": "c0c8e54a6feeacdc3d870e16a522867f68eb4a29a2bc3fb6572063980acf9b5c"
+    },
+    "analysis/bonsai2/fresh_state/reference_gate.json": {
+      "bytes": 374,
+      "sha256": "8c8c869f4a953b37ba92cba1bb5cd0e7fda6692a6f708586c8ddb81acd2db3bc"
+    },
+    "analysis/bonsai2/fresh_state/run.py": {
+      "bytes": 16475,
+      "sha256": "995e7ebffa3f0856309aed9a7d1b75cc3a8e6651ecaf069ebb645311c1ee4fd9"
+    },
+    "analysis/bonsai2/fresh_state/treatment_gate.json": {
+      "bytes": 88775,
+      "sha256": "73eb0dc0aea9d19b2da466a52c6530e036a3bea9017f7828b61af647b01ae928"
+    }
+  }
+}

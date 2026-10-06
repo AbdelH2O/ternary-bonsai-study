@@ -1,0 +1,19 @@
+{
+  "seed": 20260929,
+  "primary_pairs": 24,
+  "calibration_items": 8,
+  "placement": "12 beginning, 12 middle",
+  "primary_sha256": "b475a7589c137550dee2da1bb8644b97e9fc24d54ad803b40d13bba058f03907",
+  "calibration_sha256": "ccb345b0450bed1db0bc0e2f53820262b002545234b942d050225e29820d1097",
+  "word_ranges": {
+    "short": [
+      341,
+      348
+    ],
+    "long": [
+      7933,
+      8086
+    ]
+  },
+  "calibration_corpus_sha256": "f3152eae25dad97f09e32953745d1ba07e5c31e38b5c0c56e752bcbb7be55aa4"
+}

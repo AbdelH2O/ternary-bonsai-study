@@ -1,0 +1,153 @@
+{
+  "purpose": "completed validation follow-up artifact integrity inventory",
+  "files": {
+    "analysis/bonsai2/controlled_state/CONTROLLED_STATE_FREEZE.json": {
+      "bytes": 8664,
+      "sha256": "6100cb23e6bc1bfc17e1f41376a13a314ceb37bd0c93e3e7a131309ef3aaf2bc"
+    },
+    "analysis/bonsai2/controlled_state/CONTROLLED_STATE_REPORT.md": {
+      "bytes": 3445,
+      "sha256": "cb65997fe58d534e87f3c6f9e2b3a42526ae5f84fd6084c6968b5fc94d6ea586"
+    },
+    "analysis/bonsai2/controlled_state/alpha-h1024-compare.json": {
+      "bytes": 7718,
+      "sha256": "316022f0d4ecf55d7487f7e756f20ef1c60b67d9012a4d32847c4afecc744b8f"
+    },
+    "analysis/bonsai2/controlled_state/alpha-h1024-compare.log": {
+      "bytes": 126970,
+      "sha256": "9df3bcee33303dd882171f5ba4a0a00a458b0433c998213a05a575991168ff3c"
+    },
+    "analysis/bonsai2/controlled_state/alpha-h12288-compare.json": {
+      "bytes": 7682,
+      "sha256": "6e531d13636becea9dacccb5205c4bbc91aa1c86f8a42123c810fa2c60155d40"
+    },
+    "analysis/bonsai2/controlled_state/alpha-h12288-compare.log": {
+      "bytes": 126978,
+      "sha256": "f783fae8986748c4d479372bea0fe5bcfd3aad304d083d46620f4811bb2a064d"
+    },
+    "analysis/bonsai2/controlled_state/build.sh": {
+      "bytes": 723,
+      "sha256": "5dbbefc1f7becbcbbbf814918039085179de0c6a795e056177341812da91b957"
+    },
+    "analysis/bonsai2/controlled_state/capture_summary.json": {
+      "bytes": 2821,
+      "sha256": "1b7453210642add032326c4deacf14eec2791e7c8f960f31a1e981a1b6f31314"
+    },
+    "analysis/bonsai2/controlled_state/controlled_state": {
+      "bytes": 47552,
+      "sha256": "bdae13dc97687f044cce46e172439169b6716b3712cfb855fa668ac3d245897e"
+    },
+    "analysis/bonsai2/controlled_state/controlled_state.cpp": {
+      "bytes": 8580,
+      "sha256": "695f24274b76baf16081d9d070dffb306c2266b0d7912ce2eb72fe471f0d066e"
+    },
+    "analysis/bonsai2/controlled_state/freeze.py": {
+      "bytes": 5698,
+      "sha256": "b91c3e024f794074f636ea351b33879c952a4a5637b8c1b10d1b4ed0b39c7912"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h1024-capture.json": {
+      "bytes": 4545,
+      "sha256": "4f3e51216413d1098f8f8761357a650febd04b6bb6adc65bcd9993022a730947"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h1024-capture.log": {
+      "bytes": 126815,
+      "sha256": "b1caa0043227353d35fdfd85f0eed0197fb9ec5ba7e3d24c9c5f6c4ace25cfdb"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h1024-compare.json": {
+      "bytes": 7706,
+      "sha256": "48e364ad6a203116ce85406b424dcc93c952a9dadd5f1202fea7bc1af4a82b4a"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h1024-compare.log": {
+      "bytes": 126967,
+      "sha256": "24aaf18de8c749a82870d5d38c098f5109b733740ce0ea334a6f1ab035976b38"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h1024-full.bin": {
+      "bytes": 224024108,
+      "sha256": "8e1b7405a1f4f9d5884936dde7857d5961787ad95fe9ca6dd9bc65142d7d504d"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h1024-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "54e4cc081de587f95b8069a03a51caa9ce6b06ce4a3bea9943ef45afa8217037"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h12288-capture.json": {
+      "bytes": 4531,
+      "sha256": "739df52379e900992f3e15da0b6671e49298b63fb9f09091aaee3513f5a42d61"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h12288-capture.log": {
+      "bytes": 126819,
+      "sha256": "c36f1318d5692bf0fd131eb232c8dd3a4119c7bf97df1f066d731a5de95cb513"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h12288-compare.json": {
+      "bytes": 7686,
+      "sha256": "ce119624ceb58c38fe8485cc9b647024ebf1d8072965a74da6e0237e545a18c6"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h12288-compare.log": {
+      "bytes": 126975,
+      "sha256": "b30f40374f6d1d0bd9c6bf58e2f1931d12fa651da180146379ba8d9b0e9d13bf"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h12288-full.bin": {
+      "bytes": 962446892,
+      "sha256": "ace480b9dadcaa4f2c9ea19907975e52973b6ce14879da6018fef8b7a96bc51f"
+    },
+    "analysis/bonsai2/controlled_state/mlp-h12288-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "641855076dfa46a3563f6032eaf53cfe335f78d7d49d1fa50376a26768ed01a9"
+    },
+    "analysis/bonsai2/controlled_state/original-h1024-compare.json": {
+      "bytes": 16540,
+      "sha256": "67602ba9b8b0d597ff8e4029e935bdc826fb1c16254eb0125db599d9b54df228"
+    },
+    "analysis/bonsai2/controlled_state/original-h1024-compare.log": {
+      "bytes": 127416,
+      "sha256": "42ea4fd8cfef639c25023e5cca33c16e9089405d4aff5260f1cdc0413f0f9119"
+    },
+    "analysis/bonsai2/controlled_state/original-h12288-compare.json": {
+      "bytes": 16556,
+      "sha256": "a6470fa5f1a156160e4f28853b65748674a97ed7723ac30c734f580baf45f4b1"
+    },
+    "analysis/bonsai2/controlled_state/original-h12288-compare.log": {
+      "bytes": 127436,
+      "sha256": "651633f40c8c0bbfc3ef1452d58d2d846586319b005a0b55386ef0dd5b585ba5"
+    },
+    "analysis/bonsai2/controlled_state/run.py": {
+      "bytes": 11370,
+      "sha256": "721b6cfbac5645861d76908aa161b5b556ab590485b570ee6d268d7c5ce36346"
+    },
+    "analysis/bonsai2/controlled_state/summary.json": {
+      "bytes": 8935,
+      "sha256": "6966d3c745d1140722c063db2db7b8aef044d1ec763a62c6c65a60dd5c31b25f"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h1024-capture.json": {
+      "bytes": 4529,
+      "sha256": "224be08dfd7dd55208bd5b05c4a5cf808b9df3036b254117c4c649b354ce10d6"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h1024-capture.log": {
+      "bytes": 126808,
+      "sha256": "b4a4cb5e5f27f5723049856cee29a871fcb477476d76e4e40f3c6bcf8cafc8dc"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h1024-full.bin": {
+      "bytes": 224024108,
+      "sha256": "d4213c153b18db6107108e0e89e56a84ac92101608ab29aafc6feaf347fa6d69"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h1024-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "a8d1c8175c3eb53a82b5fcc25797b444711ae81b62e1e937fbdaebae460e0597"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h12288-capture.json": {
+      "bytes": 4521,
+      "sha256": "ea4a291da5ca4ef35ef64b13990967853210e167a446766e53cb51449d5483ee"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h12288-capture.log": {
+      "bytes": 126812,
+      "sha256": "7ec93a1db1adbc9c1d9779ae3f92d4e0e11a3e87e72eae4dddc1cce422724a93"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h12288-full.bin": {
+      "bytes": 962446892,
+      "sha256": "0e5532a17b52a913a83ed39ce2734df8dc3593c5229d2ccd1434b4dc67029f1e"
+    },
+    "analysis/bonsai2/controlled_state/unrelated-h12288-recurrent.bin": {
+      "bytes": 156894364,
+      "sha256": "4b00b9780b04ff9743a554675156d3137bcd3d734aa09456867f5961dcfc388c"
+    }
+  }
+}

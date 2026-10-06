@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "training": "original QAT08 loop on a tiny CPU fixture; 5 steps uninterrupted equals 2 steps + fresh-process restart + 3 steps bit-for-bit in weights, BF16 moments, losses, optimizer step and RNG state",
+  "journal": "incomplete final record repaired with original preserved; interior corruption rejected",
+  "freeze": "exclusive atomic publication refuses overwrite and preserves original bytes",
+  "scope": "synthetic CPU lifecycle test only; no research model training or held-out scoring"
+}

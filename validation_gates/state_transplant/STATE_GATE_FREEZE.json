@@ -1,0 +1,75 @@
+{
+  "purpose": "state serialization identity and cross-checkpoint recurrent-only import feasibility",
+  "source_release": "prism-b10735-842b188 cuda-13.3",
+  "pinned_source_archive_sha256": "84ec38b7e7fb45a9f076e923e064e967e7c30b946b71b3b778444b05e8459c3c",
+  "state_gate_source_sha256": "fe46f78d6c9fb2749ce90418d84bd335a8605716d26e7e3d9fcfad03cdd40450",
+  "state_gate_binary_sha256": "7682160cb8db9779da0e69ae806cc299fc3e54f79eb285b342acc95a966841f0",
+  "linked_cuda_library_sha256": {
+    "bin/cuda/libllama.so.0": "42ec99425416251a90cea26b16f570fff3f905fa4a8069ae8114a7788baf1795",
+    "bin/cuda/libggml.so.0": "9d833265513c5b975b96850ae1ccea15bde9b3e9210d154602431da555902cba",
+    "bin/cuda/libggml-base.so.0": "576eee187cb20f6c856c7e5ecacc075929e9276e8183c8c4d37000e16d51c97a",
+    "bin/cuda/libggml-cpu.so.0": "81bace2c0f8eafe5b01db7bc36661a376ce2415bac48e285cecb361ce2c0f7d1",
+    "bin/cuda/libggml-cuda.so.0": "9c22de50a382eb84a7181dd858a4ef7feb77ed53b8cb2bb10a609627c5d98309",
+    "bin/cuda/libggml-rpc.so.0": "b10cdf25ba8e3940e1ad3ab321822308f152a21d579d600f4a6dd8024502d891"
+  },
+  "original_model_path": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+  "original_model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "variant": {
+    "name": "alpha-d200-c1000-s20260929",
+    "seed": 20260929,
+    "arm": "alpha",
+    "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.gguf",
+    "model_sha256": "2f4d27e650744c880dd11d718a8e4d93354060838c114770857377efcb243542",
+    "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.json",
+    "patch_manifest_sha256": "eecabe3268f31bf6fb6c378c1aba6dfce32fde37737e2a0836a7806f71b1cab4",
+    "changed_values_after_rounding": 11796480
+  },
+  "dose_freeze_sha256": "b4ca7068940df85b5773328f3e0b125af3458ee973217a92a805eec559090bc6",
+  "document": {
+    "id": "pride_and_prejudice",
+    "source_url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+    "source_path": "analysis/bonsai2/scorer/pride_and_prejudice.txt",
+    "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+    "license": "Project Gutenberg ebook; public domain in the United States; retain source terms for redistribution",
+    "ids_path": "analysis/bonsai2/scorer/pride_and_prejudice.ids",
+    "ids_file_sha256": "53eb8a3291e53611b0d6e36b534f53ee2d291fd998eb7ea1ab86a36b2a3f35b9",
+    "all_ids_sha256": "8a098c056263603b7b627fab33b9b0e9268f2a6763c423dd049aef374767fd37",
+    "token_count": 179167
+  },
+  "cases": [
+    {
+      "case_id": "pride_and_prejudice-p30000-h1024",
+      "document_id": "pride_and_prejudice",
+      "target_position": 30000,
+      "target_length": 96,
+      "history_length": 1024,
+      "history_ids_sha256": "7292e4ac2a2c12dc9521dff465ceebe6bd29afaf18e15a52945cb2dfdbe96246",
+      "target_ids_sha256": "ad0102408cfc5858ad78e5d59812331694cee474fc8ffe1c33949cc8e327129a",
+      "scored_ids_sha256": "ad0102408cfc5858ad78e5d59812331694cee474fc8ffe1c33949cc8e327129a",
+      "first_target_from": 29999
+    },
+    {
+      "case_id": "pride_and_prejudice-p30000-h12288",
+      "document_id": "pride_and_prejudice",
+      "target_position": 30000,
+      "target_length": 96,
+      "history_length": 12288,
+      "history_ids_sha256": "521ffb1eabb259fb12af58bf25b38392b4eacf251bda44e670af2dcb7f4504ce",
+      "target_ids_sha256": "ad0102408cfc5858ad78e5d59812331694cee474fc8ffe1c33949cc8e327129a",
+      "scored_ids_sha256": "ad0102408cfc5858ad78e5d59812331694cee474fc8ffe1c33949cc8e327129a",
+      "first_target_from": 29999
+    }
+  ],
+  "prefill_boundary": "feed all h history IDs in the same 512-token batches as the validated scorer; target 0 uses the last history logit, then save state and decode gold target IDs to score targets 1..95. A state import can affect only targets 1..95.",
+  "profile": {
+    "n_ctx": 16384,
+    "n_seq_max": 1,
+    "n_batch": 512,
+    "n_ubatch": 512,
+    "flash_attention": "on",
+    "kv": "f16",
+    "gpu_layers": 99
+  },
+  "identity_gate": "Same-model full and recurrent-only-overlay roundtrips must match direct per-token NLL with maximum absolute difference <=0.0001 nat at both histories; cross-model import is attempted only after all identities pass",
+  "scope": "one first-in-manifest document, one alpha seed, two nested histories; exploratory feasibility, not a mechanism estimate"
+}

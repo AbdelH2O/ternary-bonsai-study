@@ -1,0 +1,29 @@
+{
+  "complete_items": 40,
+  "expected_items": 40,
+  "subset_mean_f1": {
+    "baseline": 0.6097708402514795,
+    "state-d02": 0.5786597291403685,
+    "mlp-d02": 0.6097708402514795
+  },
+  "task_mean_f1": {
+    "baseline": {
+      "qasper_e": 0.494541680502959,
+      "2wikimqa_e": 0.725
+    },
+    "state-d02": {
+      "qasper_e": 0.4323194582807368,
+      "2wikimqa_e": 0.725
+    },
+    "mlp-d02": {
+      "qasper_e": 0.494541680502959,
+      "2wikimqa_e": 0.725
+    }
+  },
+  "state_minus_mlp_mean_f1": -0.03111111111111111,
+  "paired_bootstrap_95pct": [
+    -0.08222222222222222,
+    0.0
+  ],
+  "bootstrap_seed": 20260929
+}

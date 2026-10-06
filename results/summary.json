@@ -1,0 +1,29 @@
+{
+  "model": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+  "gguf_version": 3,
+  "header_bytes": 11120982,
+  "tensor_count": 851,
+  "file_bytes": 7206168928,
+  "metadata": {
+    "general.architecture": "qwen35",
+    "qwen35.block_count": 64,
+    "qwen35.full_attention_interval": 4,
+    "prism.hadamard.block_size": 1024,
+    "prism.hadamard.weight_names": {
+      "count": 401
+    },
+    "prism.hadamard.inverse_weight_names": [
+      "token_embd.weight"
+    ]
+  },
+  "storage_elements": {
+    "BF16": 23592960,
+    "F32": 2645504,
+    "PQ2_0": 26869760000
+  },
+  "storage_bytes": {
+    "BF16": 47185920,
+    "F32": 10582016,
+    "PQ2_0": 7137280000
+  }
+}

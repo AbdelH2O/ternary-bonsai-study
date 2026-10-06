@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-30",
+  "role": "0.8B hybrid method screen; no Bonsai 2 quality claim",
+  "source": "Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17",
+  "split_rule": "two fixed offsets (25%, 65%) per book; books are independent units",
+  "entries": [
+    {
+      "id": "dracula-25",
+      "split": "validation",
+      "book": "dracula.txt",
+      "source_sha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+      "byte_offset": 222604,
+      "text_sha256": "5f56a540947ff4ea5148be415bb31afab2a77e1ee9f73a012ad50155765e3e90",
+      "text_file": "dracula-25.txt"
+    },
+    {
+      "id": "dracula-65",
+      "split": "validation",
+      "book": "dracula.txt",
+      "source_sha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+      "byte_offset": 578752,
+      "text_sha256": "a24b5e6f370236b10320cbc167ce5b8963ec1356d3b80919687323e1299dba2d",
+      "text_file": "dracula-65.txt"
+    },
+    {
+      "id": "pride_and_prejudice-25",
+      "split": "validation",
+      "book": "pride_and_prejudice.txt",
+      "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+      "byte_offset": 193115,
+      "text_sha256": "a53a2a08ff7e25b4078dc067a1465ba30d72e97ff707b69bada722c800caecf2",
+      "text_file": "pride_and_prejudice-25.txt"
+    },
+    {
+      "id": "pride_and_prejudice-65",
+      "split": "validation",
+      "book": "pride_and_prejudice.txt",
+      "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+      "byte_offset": 502080,
+      "text_sha256": "442907a2c8303cd7b2e422ca03e68547419064d0f020db1c0a2d99fc43b677f5",
+      "text_file": "pride_and_prejudice-65.txt"
+    },
+    {
+      "id": "frankenstein-25",
+      "split": "heldout",
+      "book": "frankenstein.txt",
+      "source_sha256": "7810cd483cffcf2cc8a1d8f0d5807931e69d4f48cd14149b8c76f88af82fead3",
+      "byte_offset": 112286,
+      "text_sha256": "20a55c0154236831c8d8c1b727ca04d133fe55830379bda7d3a81ae416c9348d",
+      "text_file": "frankenstein-25.txt"
+    },
+    {
+      "id": "frankenstein-65",
+      "split": "heldout",
+      "book": "frankenstein.txt",
+      "source_sha256": "7810cd483cffcf2cc8a1d8f0d5807931e69d4f48cd14149b8c76f88af82fead3",
+      "byte_offset": 291833,
+      "text_sha256": "c3e141e852684a62825df03e5476bbfbda59fb5a8b5907f8318d7cc8efa92720",
+      "text_file": "frankenstein-65.txt"
+    },
+    {
+      "id": "sherlock_holmes-25",
+      "split": "heldout",
+      "book": "sherlock_holmes.txt",
+      "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+      "byte_offset": 151911,
+      "text_sha256": "35ee05edd0aa0d60ce71e5f70b241c80e78deb281b755f42b8e82044a029ff61",
+      "text_file": "sherlock_holmes-25.txt"
+    },
+    {
+      "id": "sherlock_holmes-65",
+      "split": "heldout",
+      "book": "sherlock_holmes.txt",
+      "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+      "byte_offset": 394988,
+      "text_sha256": "41f1b696e2d4ae7def5cacc85673536d550ea42f24af3dc05af00716b880e72d",
+      "text_file": "sherlock_holmes-65.txt"
+    }
+  ],
+  "scoring": {
+    "runtime": "prism-b10735-842b188 CPU F32 logits",
+    "tokenization": "model tokenizer, BOS added, first 128 tokens of each slice",
+    "targets": "token positions 64 through 127 inclusive; 64 targets per slice",
+    "reset": "clear recurrent and attention memory between slices",
+    "batch": 128,
+    "microbatch": 128,
+    "threads": 8,
+    "metric": "mean teacher-forced NLL in nat/token, paired by book"
+  },
+  "arms": [
+    "base-f32",
+    "folded-f32",
+    "base-pq2-absmax",
+    "folded-pq2-absmax",
+    "base-pq2-fixed86",
+    "folded-pq2-fixed86",
+    "base-pq2-ls",
+    "folded-pq2-ls"
+  ],
+  "amendment": "v2 before any fixed86/LS scores; v1 absmax validation already observed and retained separately",
+  "fixed86": "Within each 128-weight group, choose 86 largest absolute values; stable lower-index tie break; signed code; nonnegative least-squares scale mean absolute selected, rounded to FP16",
+  "ls": "Choose k=1..128 maximizing squared prefix sum of k largest absolute values divided by k; first k on tie; signed code; scale prefix/k rounded to FP16; all-zero group gets zero scale and all-zero codes",
+  "tensor_policy": "same 151 PQ2_0 roles, 36 BF16 recurrent gates, 133 F32 other tensors",
+  "byte_ceiling": 220000000,
+  "screen_rule": "select lower mean validation NLL of packed arms; held-out book scores stay sealed until selection",
+  "interpretation": "descriptive screen only; two validation books cannot establish non-inferiority",
+  "next_gate": "expand to independent books plus retrieval/task metrics before any quality-pass claim"
+}

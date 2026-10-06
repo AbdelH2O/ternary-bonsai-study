@@ -1,0 +1,12 @@
+{
+  "arm": "qat_chat_42",
+  "checkpoint": "final",
+  "rule": "top86",
+  "file": "qat_chat_42-final.gguf",
+  "sha256": "80870d933db98aeb703c35d574ff5b19445fbbacaf530d69ae2140f9c90d084a",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "be9ac8058aa230cd2532eb18007ffa5d2e4ac8c2b6c0b21127fc924b61723dab",
+  "protocol_sha256": "0a6108773dfa513652beb82cffcad2ee3f5e7e7d57f6f9d0d8a79fe22f255519",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916"
+}

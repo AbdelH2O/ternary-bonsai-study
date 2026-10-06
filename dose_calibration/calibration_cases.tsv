@@ -1,0 +1,8 @@
+tale_two_cities-p30000-h1024	analysis/bonsai2/dose_calibration/tale_two_cities.ids	30000	1024	96
+tale_two_cities-p50000-h1024	analysis/bonsai2/dose_calibration/tale_two_cities.ids	50000	1024	96
+jane_eyre-p30000-h1024	analysis/bonsai2/dose_calibration/jane_eyre.ids	30000	1024	96
+jane_eyre-p50000-h1024	analysis/bonsai2/dose_calibration/jane_eyre.ids	50000	1024	96
+moby_dick-p30000-h1024	analysis/bonsai2/dose_calibration/moby_dick.ids	30000	1024	96
+moby_dick-p50000-h1024	analysis/bonsai2/dose_calibration/moby_dick.ids	50000	1024	96
+great_expectations-p30000-h1024	analysis/bonsai2/dose_calibration/great_expectations.ids	30000	1024	96
+great_expectations-p50000-h1024	analysis/bonsai2/dose_calibration/great_expectations.ids	50000	1024	96

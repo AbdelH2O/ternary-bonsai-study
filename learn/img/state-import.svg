@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/></marker></defs>
+  <rect width="880" height="460" fill="#ffffff"/>
+  <text x="440" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">State capture and import: donor → file → receiver</text>
+
+  <!-- donor -->
+  <rect x="30" y="60" width="230" height="200" rx="12" fill="#f7fafc" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="145" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#1a202c">DONOR</text>
+  <text x="145" y="104" text-anchor="middle" font-size="12" fill="#4a5568">e.g. the value-swapped prompt</text>
+  <rect x="50" y="118" width="190" height="32" rx="6" fill="#dcf1f0" stroke="#2c7a7b"/><text x="145" y="139" text-anchor="middle" font-size="13" fill="#234e52">KV (its own)</text>
+  <rect x="50" y="158" width="190" height="32" rx="6" fill="#fdf1dc" stroke="#b7791f"/><text x="145" y="179" text-anchor="middle" font-size="13" fill="#744210">R (its own)</text>
+  <rect x="50" y="198" width="190" height="32" rx="6" fill="#fde6d8" stroke="#c05621"/><text x="145" y="219" text-anchor="middle" font-size="13" fill="#7b341e">S (its own)</text>
+  <text x="145" y="250" text-anchor="middle" font-size="12" fill="#4a5568">after reading a known prefix</text>
+
+  <!-- file -->
+  <line x1="262" y1="160" x2="330" y2="160" stroke="#4a5568" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="296" y="150" text-anchor="middle" font-size="12" fill="#4a5568">capture</text>
+  <rect x="332" y="100" width="210" height="130" rx="8" fill="#fff" stroke="#4a5568" stroke-dasharray="5 3"/>
+  <text x="437" y="124" text-anchor="middle" font-size="14" font-weight="700" fill="#1a202c">state file</text>
+  <text x="437" y="146" text-anchor="middle" font-size="12" fill="#4a5568">header + cell positions</text>
+  <text x="437" y="166" text-anchor="middle" font-size="12" fill="#4a5568">48 R rows, then 48 S rows</text>
+  <text x="437" y="186" text-anchor="middle" font-size="12" fill="#4a5568">(+ KV if full-state)</text>
+  <text x="437" y="212" text-anchor="middle" font-size="12" fill="#4a5568">SHA-256 hashed</text>
+  <line x1="544" y1="160" x2="612" y2="160" stroke="#4a5568" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="578" y="150" text-anchor="middle" font-size="12" fill="#4a5568">import</text>
+
+  <!-- receiver -->
+  <rect x="614" y="60" width="236" height="200" rx="12" fill="#f7fafc" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="732" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#1a202c">RECEIVER (destination)</text>
+  <text x="732" y="104" text-anchor="middle" font-size="12" fill="#4a5568">its weights + its KV must be stated</text>
+  <rect x="634" y="118" width="196" height="32" rx="6" fill="#dcf1f0" stroke="#2c7a7b"/><text x="732" y="139" text-anchor="middle" font-size="13" fill="#234e52">KV: kept (recurrent-only)</text>
+  <rect x="634" y="158" width="196" height="32" rx="6" fill="#fdf1dc" stroke="#b7791f" stroke-width="2.5"/><text x="732" y="179" text-anchor="middle" font-size="13" fill="#744210" font-weight="700">R: replaced by donor's</text>
+  <rect x="634" y="198" width="196" height="32" rx="6" fill="#fde6d8" stroke="#c05621" stroke-width="2.5"/><text x="732" y="219" text-anchor="middle" font-size="13" fill="#7b341e" font-weight="700">S: replaced by donor's</text>
+  <text x="732" y="250" text-anchor="middle" font-size="12" fill="#4a5568">then continue scoring the targets</text>
+
+  <!-- table -->
+  <g font-size="13" fill="#1a202c">
+    <rect x="30" y="285" width="820" height="160" rx="10" fill="#fffaf0" stroke="#e2c08d"/>
+    <text x="50" y="310" font-weight="700">Import type</text><text x="270" y="310" font-weight="700">Replaces in receiver</text><text x="500" y="310" font-weight="700">Purpose</text>
+    <line x1="50" y1="318" x2="830" y2="318" stroke="#e2c08d"/>
+    <text x="50" y="340">full-state</text><text x="270" y="340">KV + R + S</text><text x="500" y="340">roundtrip / restoration checks</text>
+    <text x="50" y="364">recurrent-only (PARTIAL_ONLY)</text><text x="270" y="364">R + S; receiver KV stays</text><text x="500" y="364">isolate the recurrent path from attention KV</text>
+    <text x="50" y="388">own-state</text><text x="270" y="388">R/S from the SAME prompt</text><text x="500" y="388">identity check: must equal direct scoring</text>
+    <text x="50" y="412">counterfactual</text><text x="270" y="412">R/S from the paired swap prompt</text><text x="500" y="412">the treatment: does the answer margin move?</text>
+    <text x="50" y="436" fill="#c53030" font-weight="600">A mixed state (receiver KV + donor R/S) is off the model's normal trajectory: effects are causal for that hybrid.</text>
+  </g>
+</svg>

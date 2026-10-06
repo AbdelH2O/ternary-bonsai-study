@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect width="860" height="400" fill="#ffffff"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Position matching: three histories, one identical target span</text>
+
+  <!-- document axis: position 17,000 .. 31,000 mapped to x 60 .. 760 ; scale 0.05 px/token -->
+  <text x="40" y="72" font-size="13" font-weight="700" fill="#4a5568">one book, as token IDs →</text>
+  <rect x="60" y="82" width="740" height="22" fill="#edf2f7" stroke="#a0aec0"/>
+  <text x="430" y="98" text-anchor="middle" font-size="12" fill="#4a5568">… IDs[17,000] ………………………………………………………………… IDs[30,000] …</text>
+
+  <!-- p marker at 30,000 => x = 60 + (30000-17000)*0.05 = 710 -->
+  <line x1="710" y1="70" x2="710" y2="280" stroke="#c53030" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="710" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#c53030">p = 30,000</text>
+
+  <!-- 12K history: 30000-12288=17712 => x = 60+712*0.05=95.6 -->
+  <rect x="95.6" y="140" width="614.4" height="34" rx="4" fill="#e6edf8" stroke="#3b5b92"/>
+  <text x="400" y="162" text-anchor="middle" font-size="13" fill="#1a202c"><tspan font-weight="700">h = 12,288</tspan>   feed IDs[17,712 : 30,000]</text>
+  <!-- 4K: 30000-4096=25904 => x=60+8904*0.05=505.2 -->
+  <rect x="505.2" y="190" width="204.8" height="34" rx="4" fill="#e6edf8" stroke="#3b5b92"/>
+  <text x="607" y="212" text-anchor="middle" font-size="13" fill="#1a202c"><tspan font-weight="700">h = 4,096</tspan></text>
+  <!-- 1K: 30000-1024 => x=60+11976*0.05=658.8 -->
+  <rect x="658.8" y="240" width="51.2" height="34" rx="4" fill="#e6edf8" stroke="#3b5b92"/>
+  <text x="650" y="262" text-anchor="end" font-size="13" fill="#1a202c"><tspan font-weight="700">h = 1,024</tspan></text>
+
+  <!-- target spans -->
+  <rect x="710" y="140" width="80" height="34" rx="4" fill="#c6f6d5" stroke="#2f855a" stroke-width="2"/>
+  <rect x="710" y="190" width="80" height="34" rx="4" fill="#c6f6d5" stroke="#2f855a" stroke-width="2"/>
+  <rect x="710" y="240" width="80" height="34" rx="4" fill="#c6f6d5" stroke="#2f855a" stroke-width="2"/>
+  <text x="750" y="162" text-anchor="middle" font-size="12" font-weight="700" fill="#22543d">score</text>
+  <text x="750" y="212" text-anchor="middle" font-size="12" font-weight="700" fill="#22543d">score</text>
+  <text x="750" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#22543d">score</text>
+  <text x="750" y="298" text-anchor="middle" font-size="12" fill="#22543d">IDs[30,000 : 30,096]</text>
+  <text x="750" y="314" text-anchor="middle" font-size="12" fill="#22543d">m = 96 targets</text>
+
+  <text x="60" y="350" font-size="13" fill="#1a202c">• Histories are <tspan font-weight="700">nested suffixes</tspan>: every one ends at the same token, so the targets and their positions are identical.</text>
+  <text x="60" y="372" font-size="13" fill="#1a202c">• Only the amount of past text changes. No BOS, no chat template, no re-tokenising after slicing.</text>
+  <text x="60" y="394" font-size="12" fill="#4a5568">(Bars drawn roughly to scale. The 96-token target span is enlarged so it is visible.)</text>
+</svg>

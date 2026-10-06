@@ -1,0 +1,19 @@
+{
+  "selected_arm": "base-pq2-ls",
+  "rule": "lowest mean validation NLL among packed arms; lexical tie break",
+  "validation_mean_nll": {
+    "base-f32": 3.0413614931749997,
+    "folded-f32": 3.0413625844525,
+    "base-pq2-absmax": 16.293186630450002,
+    "folded-pq2-absmax": 16.026036074174996,
+    "base-pq2-fixed86": 12.340637574725,
+    "folded-pq2-fixed86": 11.30028695665,
+    "base-pq2-ls": 10.661437501275,
+    "folded-pq2-ls": 12.321013038250001
+  },
+  "heldout_tolerance_nat_per_token": 0.05,
+  "heldout_gate": "descriptive; two books provide no formal non-inferiority claim",
+  "protocol_sha256": "3371fba15bff36a93c456079118d70983463e6e349248ef47fe57ae78f00286c",
+  "scorer_sha256": "3a67061fe13d13b343f99ec9e5188e2b1b0f3832c431069fcf2f72fcfc4cbd47",
+  "assignment_sha256": "780e04be7beaa2ad25448c69adf1e36071749900ab864ea65ff32cda7ea8fe2b"
+}

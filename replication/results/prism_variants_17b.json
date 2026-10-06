@@ -1,0 +1,414 @@
+{
+  "files": {
+    "t128": "work/qwen3_17b/prism_gguf/Ternary-Bonsai-1.7B-PQ2_0.gguf",
+    "t64": "work/prism17_variants/Ternary-Bonsai-1.7B-Q2_0_g64.gguf",
+    "b128": "work/prism17_variants/Bonsai-1.7B-Q1_0.gguf"
+  },
+  "total": {
+    "elements": 1719904256.0,
+    "ternary_g128_vs_g64": {
+      "code_agreement": 1.0,
+      "opposite_nonzero_signs": 0.0,
+      "no_common_latent_fraction": 0.0,
+      "zero_fraction_g128": 0.3825991009118126,
+      "zero_fraction_g64": 0.3825991009118126
+    },
+    "binary_vs_ternary_g128": {
+      "sign_agreement_on_ternary_nonzeros": 0.9182909522462511
+    },
+    "vs_ancestor": {
+      "ternary_nonzero_sign_agreement": 0.8943189230937755,
+      "binary_sign_agreement_all": 0.7672997833432886,
+      "binary_sign_agreement_on_ternary_nonzeros": 0.8541806231324075,
+      "binary_sign_agreement_on_ternary_zeros": 0.627100006418819,
+      "P_binary_flips_given_ternary_flips": 0.8033198136821201,
+      "P_binary_flips_given_ternary_keeps": 0.06812298418868426,
+      "ancestor_rel_magnitude_at_ternary_zeros": 0.621858910289298,
+      "ancestor_rel_magnitude_at_ternary_nonzeros": 1.2343314388209297
+    },
+    "scale_bf16_exact_fraction": {
+      "t128": 1.0,
+      "t64": 1.0,
+      "b128": 0.999970379746534
+    },
+    "code_plus2_count": 0.0,
+    "s128_over_mean_s64": {
+      "groups": 13436752,
+      "median": 1.0,
+      "p01": 1.0,
+      "p99": 1.0,
+      "within_0.5pct": 1.0,
+      "within_2pct": 1.0
+    },
+    "s1_over_s128": {
+      "groups": 13436752,
+      "median": 1.1129032373428345,
+      "p01": 0.9444444179534912,
+      "p99": 1.3398692607879639,
+      "within_0.5pct": 0.18792167928678002,
+      "within_2pct": 0.21509461512722716
+    }
+  },
+  "by_kind": {
+    "attn_k": {
+      "elements": 58720256.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.40240364415305,
+        "zero_fraction_g64": 0.40240364415305
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.8798139785713213
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.8397030510178234,
+        "binary_sign_agreement_all": 0.7002805982317243,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.789777074248445,
+        "binary_sign_agreement_on_ternary_zeros": 0.5673723388115024,
+        "P_binary_flips_given_ternary_flips": 0.7808440987011158,
+        "P_binary_flips_given_ternary_keeps": 0.10129294992548878,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.7275996096151189,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.183426355256621
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999542236328125
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 458752,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 458752,
+        "median": 1.1124999523162842,
+        "p01": 0.913241982460022,
+        "p99": 1.3606557846069336,
+        "within_0.5pct": 0.014046805245535714,
+        "within_2pct": 0.07314191545758929
+      }
+    },
+    "attn_output": {
+      "elements": 117440512.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.3820810743740627,
+        "zero_fraction_g64": 0.3820810743740627
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.9168921621390154
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.8823632470273175,
+        "binary_sign_agreement_all": 0.7409602148192269,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.8418930388942397,
+        "binary_sign_agreement_on_ternary_zeros": 0.5777270520278027,
+        "P_binary_flips_given_ternary_flips": 0.8187741983247017,
+        "P_binary_flips_given_ternary_keeps": 0.07002674148679518,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.6595063403634136,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.2105392282335439
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999618530273438
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 917504,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 917504,
+        "median": 1.1666666269302368,
+        "p01": 0.9745222926139832,
+        "p99": 1.3984962701797485,
+        "within_0.5pct": 0.00351715087890625,
+        "within_2pct": 0.017186846051897322
+      }
+    },
+    "attn_q": {
+      "elements": 117440512.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.38417427028928486,
+        "zero_fraction_g64": 0.38417427028928486
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.8755356136284876
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.8366575206916859,
+        "binary_sign_agreement_all": 0.7054449915885925,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.789611640099167,
+        "binary_sign_agreement_on_ternary_zeros": 0.5705270865001022,
+        "P_binary_flips_given_ternary_flips": 0.7630178441430917,
+        "P_binary_flips_given_ternary_keeps": 0.10249729591998373,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.7172001198955007,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.1764207490383853
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999629429408482
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 917504,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 917504,
+        "median": 1.0759493112564087,
+        "p01": 0.886227548122406,
+        "p99": 1.2873544692993164,
+        "within_0.5pct": 0.025890895298549106,
+        "within_2pct": 0.12697601318359375
+      }
+    },
+    "attn_v": {
+      "elements": 58720256.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.3897967168263027,
+        "zero_fraction_g64": 0.3897967168263027
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.9406409084930315
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.9063094932130973,
+        "binary_sign_agreement_all": 0.7611085857663836,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.8738366209670413,
+        "binary_sign_agreement_on_ternary_zeros": 0.5846396361425373,
+        "P_binary_flips_given_ternary_flips": 0.8565157763418618,
+        "P_binary_flips_given_ternary_keeps": 0.05066258515480008,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.6024121784154223,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.2539783835040506
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999738420758929
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 458752,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 458752,
+        "median": 1.215384602546692,
+        "p01": 1.0720720291137695,
+        "p99": 1.3867924213409424,
+        "within_0.5pct": 0.00022452218191964285,
+        "within_2pct": 0.0009286063058035714
+      }
+    },
+    "embedding": {
+      "elements": 310618112.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.3086618818930945,
+        "zero_fraction_g64": 0.3086618818930945
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 1.0
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 1.0,
+        "binary_sign_agreement_all": 0.9992552945528174,
+        "binary_sign_agreement_on_ternary_nonzeros": 1.0,
+        "binary_sign_agreement_on_ternary_zeros": 0.9975873099632023,
+        "P_binary_flips_given_ternary_flips": null,
+        "P_binary_flips_given_ternary_keeps": 0.0,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.24710655519642014,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.3361445123415483
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 1.0
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 2426704,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 2426704,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 0.9995318753337861,
+        "within_2pct": 0.9999991758368553
+      }
+    },
+    "ffn_down": {
+      "elements": 352321536.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.4078606509027027,
+        "zero_fraction_g64": 0.4078606509027027
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.9161040457365662
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.8984146628390688,
+        "binary_sign_agreement_all": 0.734698908669608,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.8494472373419009,
+        "binary_sign_agreement_on_ternary_zeros": 0.5681052436528193,
+        "P_binary_flips_given_ternary_flips": 0.8280828230607128,
+        "P_binary_flips_given_ternary_keeps": 0.07394323871604111,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.6412625864319937,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.2470953300574632
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999589465913319
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 2752512,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 2752512,
+        "median": 1.1205673217773438,
+        "p01": 0.991416335105896,
+        "p99": 1.2934131622314453,
+        "within_0.5pct": 0.006199791317894345,
+        "within_2pct": 0.028232029506138394
+      }
+    },
+    "ffn_gate": {
+      "elements": 352321536.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.40891324338458834,
+        "zero_fraction_g64": 0.40891324338458834
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.8828459346825711
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.8571730827996313,
+        "binary_sign_agreement_all": 0.7037938180423918,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.801047251300985,
+        "binary_sign_agreement_on_ternary_zeros": 0.5632133468433467,
+        "P_binary_flips_given_ternary_flips": 0.7863559789182895,
+        "P_binary_flips_given_ternary_keeps": 0.10107637552623679,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.7114125615116963,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.1996444975854659
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999691191173735
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 2752512,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 2752512,
+        "median": 1.13450288772583,
+        "p01": 0.9166666865348816,
+        "p99": 1.3688524961471558,
+        "within_0.5pct": 0.011626107352120536,
+        "within_2pct": 0.0505585443405878
+      }
+    },
+    "ffn_up": {
+      "elements": 352321536.0,
+      "ternary_g128_vs_g64": {
+        "code_agreement": 1.0,
+        "opposite_nonzero_signs": 0.0,
+        "no_common_latent_fraction": 0.0,
+        "zero_fraction_g128": 0.3913561219260806,
+        "zero_fraction_g64": 0.3913561219260806
+      },
+      "binary_vs_ternary_g128": {
+        "sign_agreement_on_ternary_nonzeros": 0.8904715204248032
+      },
+      "vs_ancestor": {
+        "ternary_nonzero_sign_agreement": 0.8510048664523835,
+        "binary_sign_agreement_all": 0.7005069596426827,
+        "binary_sign_agreement_on_ternary_nonzeros": 0.7975503038062045,
+        "binary_sign_agreement_on_ternary_zeros": 0.5495834553871287,
+        "P_binary_flips_given_ternary_flips": 0.811826347633369,
+        "P_binary_flips_given_ternary_keeps": 0.09575917168418172,
+        "ancestor_rel_magnitude_at_ternary_zeros": 0.7103050868637432,
+        "ancestor_rel_magnitude_at_ternary_nonzeros": 1.1862729404282946
+      },
+      "scale_bf16_exact_fraction": {
+        "t128": 1.0,
+        "t64": 1.0,
+        "b128": 0.9999643961588541
+      },
+      "code_plus2_count": 0.0,
+      "s128_over_mean_s64": {
+        "groups": 2752512,
+        "median": 1.0,
+        "p01": 1.0,
+        "p99": 1.0,
+        "within_0.5pct": 1.0,
+        "within_2pct": 1.0
+      },
+      "s1_over_s128": {
+        "groups": 2752512,
+        "median": 1.1458333730697632,
+        "p01": 0.9585798978805542,
+        "p99": 1.3513513803482056,
+        "within_0.5pct": 0.006137666248139881,
+        "within_2pct": 0.029191153390066966
+      }
+    }
+  }
+}

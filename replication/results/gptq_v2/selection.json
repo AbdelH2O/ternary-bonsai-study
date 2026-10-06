@@ -1,0 +1,20 @@
+{
+  "selected_arm": "folded-pq2-gptq",
+  "rule": "lowest mean validation NLL over the three new validation books among the four folded GPTQ arms; lexical tie break; written before any held-out score",
+  "validation_mean_nll": {
+    "base-f32": 3.417606467186667,
+    "folded-pq2-gptq": 4.724145191201667,
+    "folded-pq2-gptq42": 5.375510316871666,
+    "folded-pq2-gptqv2": 4.724774014126667,
+    "folded-pq2-gptq42v2": 5.151881312088332
+  },
+  "protocol_sha256": "c7faf65b216178a8fd9680f129ae3b15a064eaba0af61d91c318cd727519c6fa",
+  "builder_sha256": "4ed6288009cf712737964719b5633da38ac331adc0c2fdfac562f15386d612d2",
+  "scorer_binary_sha256": "729ca950041071ad4b454cc8f4d315f0b014853f0cbe88a396b869caaf2299c3",
+  "build_records_sha256": {
+    "folded-pq2-gptq42": "f4f759e3d4e00570b5f3050edc2067fd46d7d1dc26ca3225d78671f53fdf1acf",
+    "folded-pq2-gptqv2": "b91f7dfd5d27010bca81bc06cc7f517a2423a518e45319cd9660be5afff2bc1a",
+    "folded-pq2-gptq42v2": "a5d4dc0f1b9df33bfd98d05e468c636c21a93563224b295c7f173d2f9bda0417"
+  },
+  "heldout_scored_before_selection": false
+}

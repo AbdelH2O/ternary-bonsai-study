@@ -1,0 +1,12 @@
+pride_and_prejudice-p30000-h1024	analysis/bonsai2/scorer/pride_and_prejudice.ids	30000	1024	96
+pride_and_prejudice-p30000-h4096	analysis/bonsai2/scorer/pride_and_prejudice.ids	30000	4096	96
+pride_and_prejudice-p30000-h12288	analysis/bonsai2/scorer/pride_and_prejudice.ids	30000	12288	96
+frankenstein-p30000-h1024	analysis/bonsai2/scorer/frankenstein.ids	30000	1024	96
+frankenstein-p30000-h4096	analysis/bonsai2/scorer/frankenstein.ids	30000	4096	96
+frankenstein-p30000-h12288	analysis/bonsai2/scorer/frankenstein.ids	30000	12288	96
+sherlock_holmes-p30000-h1024	analysis/bonsai2/scorer/sherlock_holmes.ids	30000	1024	96
+sherlock_holmes-p30000-h4096	analysis/bonsai2/scorer/sherlock_holmes.ids	30000	4096	96
+sherlock_holmes-p30000-h12288	analysis/bonsai2/scorer/sherlock_holmes.ids	30000	12288	96
+dracula-p30000-h1024	analysis/bonsai2/scorer/dracula.ids	30000	1024	96
+dracula-p30000-h4096	analysis/bonsai2/scorer/dracula.ids	30000	4096	96
+dracula-p30000-h12288	analysis/bonsai2/scorer/dracula.ids	30000	12288	96

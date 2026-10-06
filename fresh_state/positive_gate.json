@@ -1,0 +1,438 @@
+{
+  "freeze_sha256": "493926c0a24b5c6976683327e1b2b97498ae4bf6d55ff1970c213cb1c614f1f9",
+  "passed": true,
+  "comparisons": [
+    {
+      "case_id": "emma-p30000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h1024-original-positive.json",
+      "raw_sha256": "f457f1c09a966fed7e9bf226f4d86c079f6111b7e0acb81ab09b1e1254b1f125",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e78a27aa498ff0b707259156b0e9b93457a80225228d148028e95f63975beb91",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.27519354806001467,
+          "mean_absolute_nll_delta": 0.597517783633981
+        }
+      ],
+      "source_document": "little_women"
+    },
+    {
+      "case_id": "emma-p30000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p30000-h12288-original-positive.json",
+      "raw_sha256": "1da289de05b66d266d3498d4f8a6b100262fc9acd1cf0f0a6e48909ba474c413",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "bd4cd19df07ca765160241be5c2a6e075518bdd88008fc9791eab94abefc6c73",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.24335515106684846,
+          "mean_absolute_nll_delta": 0.5438020293401913
+        }
+      ],
+      "source_document": "little_women"
+    },
+    {
+      "case_id": "emma-p50000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h1024-original-positive.json",
+      "raw_sha256": "ff39d881e058ea8c797809a94ddc02cfcc92eda0019e847eeeedc46e50e5b882",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a495a937b3cdbdeff88b0cdef016debd85e77f5dc80838cd5f45189cb402d9bb",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.5911724662216064,
+          "mean_absolute_nll_delta": 0.9775015326716485
+        }
+      ],
+      "source_document": "little_women"
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/emma-p50000-h12288-original-positive.json",
+      "raw_sha256": "2be53287d19526d4dd010404506546b099a1fd743f0bad324d3cd4d435d6ec5e",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "a26190e6cbb14cdb2803960a74980cf643cf61522eb85aeb38e89f226e89379d",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.5859404258568255,
+          "mean_absolute_nll_delta": 0.9312130145803327
+        }
+      ],
+      "source_document": "little_women"
+    },
+    {
+      "case_id": "little_women-p30000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h1024-original-positive.json",
+      "raw_sha256": "2800cdcf1622eb564e6ebe8a581a92497f001c4e65cb2729c9ac817a9ab2f899",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "46f6045f9d429668da256c722c1bd8e1d7afbb57cf98430fc3f5abb600a43a62",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.3182931256861358,
+          "mean_absolute_nll_delta": 0.9368213802236516
+        }
+      ],
+      "source_document": "wuthering_heights"
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p30000-h12288-original-positive.json",
+      "raw_sha256": "65014836e572cf1f3e784979f497270a31b11014bbffe2e1b9bee445f3bb2c6c",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c3fb71aa8b39454bb2d0782057a10e90dc434f7253b38f68f1d421eed1825432",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.39092671989306593,
+          "mean_absolute_nll_delta": 0.8124667405015501
+        }
+      ],
+      "source_document": "wuthering_heights"
+    },
+    {
+      "case_id": "little_women-p50000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h1024-original-positive.json",
+      "raw_sha256": "f181f64fafb796928290914090f206fe5cb55dba0ecbd36a4498bdf8c1543ffc",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "576689c36ccb2c177435e6b63095ddea14e48d0b657c9f2c78f9f2687f802a5e",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.3743480913344861,
+          "mean_absolute_nll_delta": 0.7373627756593565
+        }
+      ],
+      "source_document": "wuthering_heights"
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/little_women-p50000-h12288-original-positive.json",
+      "raw_sha256": "6ab77daa20993178636b9a4aecc990f88579ffdddf1ebe4664e419dc15a645d2",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "25ba4107af9709a05a4c38de52ed9aa135edcdd58228d147ea630581e7a3edaa",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.48149367533557624,
+          "mean_absolute_nll_delta": 0.7829543051725524
+        }
+      ],
+      "source_document": "wuthering_heights"
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h1024-original-positive.json",
+      "raw_sha256": "60653800ddfd44e824155bbf3b0e43b89b0233d0bf9a4394d6822658cc8b6711",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "af710f541c5975cc33bef088b146b345eebbef1df67ead49045435fbbffe48a4",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.48358638673824544,
+          "mean_absolute_nll_delta": 0.9158969205173613
+        }
+      ],
+      "source_document": "war_of_the_worlds"
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p30000-h12288-original-positive.json",
+      "raw_sha256": "6796d2b855622a9739889372adf0cd34e949dfc7a433522ac575be75953d7536",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "1b498f0453a530e85439462c8a7aad6538aad6837cfa004d01c7e73597ce7079",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.5981342811711128,
+          "mean_absolute_nll_delta": 0.979082194225176
+        }
+      ],
+      "source_document": "war_of_the_worlds"
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h1024-original-positive.json",
+      "raw_sha256": "b6146efa516d3d0ffb0eb29bbe48de0f7ae69d7687f1decc3351c825a4274e68",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "d1008416d830b46dc289f4404fd12bc8e880909f72f47b2bbaec82bcae3f36bc",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.43612224602974986,
+          "mean_absolute_nll_delta": 0.9134079125582762
+        }
+      ],
+      "source_document": "war_of_the_worlds"
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/wuthering_heights-p50000-h12288-original-positive.json",
+      "raw_sha256": "a80ad6c0b9ce6388ca2d3805ae6cb9b363a504a55b054c9ae9368333627f850b",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "4f5f18b857b5f0c16e36d2b608c61259ac4056de41c6c17f1b97c69e678d5c20",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.4939924545689316,
+          "mean_absolute_nll_delta": 0.9940471842918769
+        }
+      ],
+      "source_document": "war_of_the_worlds"
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h1024-original-positive.json",
+      "raw_sha256": "1a006bd6f00198cac53dc6639023a2ce6484ae46fc9eaa2e798eda914e65a253",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "17cb733fb8a6ffbb3ed4896b1be0a38924b2540fec13bae539ac3356052255c0",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.3382768130918631,
+          "mean_absolute_nll_delta": 0.8047186712201321
+        }
+      ],
+      "source_document": "monte_cristo"
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p30000-h12288-original-positive.json",
+      "raw_sha256": "39a156c5b408c6eeed083d324ea09077327636f5f2e21063a97c380f75cb8fa5",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "3f8c0b7277395f3c7b9d327d3caf426c0db3f17144ad34c31ab584def87fe004",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.33778338971783056,
+          "mean_absolute_nll_delta": 0.7819407874236052
+        }
+      ],
+      "source_document": "monte_cristo"
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h1024-original-positive.json",
+      "raw_sha256": "98e9f9975486ce1fe1e12e6a6ac0480a48031003cd5d36c64de2482146a9daa3",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "fc2549de3974caba1135c0f1767d0543798f7cbbe7696e0e2f1f8edc12e29a82",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.2982769030327247,
+          "mean_absolute_nll_delta": 0.5372716543894827
+        }
+      ],
+      "source_document": "monte_cristo"
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/war_of_the_worlds-p50000-h12288-original-positive.json",
+      "raw_sha256": "499cf969f0fb7a6ec1f395a0d4309c57e3cbd5f817a3cd9ac7c2b6f22a76b902",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "ba0b738a3fde7bdaf3658e2b8493af9943dd82f3fa7e73b0f4ae75148ec28187",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.31239640865100304,
+          "mean_absolute_nll_delta": 0.4906201126484668
+        }
+      ],
+      "source_document": "monte_cristo"
+    },
+    {
+      "case_id": "monte_cristo-p30000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h1024-original-positive.json",
+      "raw_sha256": "d69a9c72b23d0cdbe55a61af5a5b48b49c8fdd43cd058ddbbea31cbdfcbd54c3",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "153f09355b4f4b4a2edf5a0464d6aa2a6585c699d1fd63e5c62b15f8cd23c756",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.45668686620382093,
+          "mean_absolute_nll_delta": 0.7549455448356653
+        }
+      ],
+      "source_document": "middlemarch"
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p30000-h12288-original-positive.json",
+      "raw_sha256": "eef2ee63779b4320a53cd2474f0b684eca92f212a5dcad4f36074d1446f83844",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "2c6fed5ef1b06e858c53f98543d8c64a654ff1d95b5de7c6072dfbb151858340",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.5344649221087087,
+          "mean_absolute_nll_delta": 0.8189288958838556
+        }
+      ],
+      "source_document": "middlemarch"
+    },
+    {
+      "case_id": "monte_cristo-p50000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h1024-original-positive.json",
+      "raw_sha256": "6eed27ab75f5e2c4a5e6e1bd0a75eb25cb86cc55b8536ee69fc58ec3ad332edb",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "04e11b89466a2e4a7103e2723c367cdd27be05bffe953b7ea1961124814f0c1a",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.48966924219255403,
+          "mean_absolute_nll_delta": 0.7788465339895013
+        }
+      ],
+      "source_document": "middlemarch"
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/monte_cristo-p50000-h12288-original-positive.json",
+      "raw_sha256": "5d622c1ebe19e9c6c74cedbbdae360f675769a6f29fe922c82bfb1cdf9ff5c6b",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "e20732641b8978ec41e9ed0e7bad883e78cd577fd9c86d8726566138a98284a6",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.3972344016598438,
+          "mean_absolute_nll_delta": 0.7293129900471953
+        }
+      ],
+      "source_document": "middlemarch"
+    },
+    {
+      "case_id": "middlemarch-p30000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h1024-original-positive.json",
+      "raw_sha256": "ef76ebe6726c125a06e96fe661f6bb762c342f860b7cbcb92c48d297d8412539",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "3ff2c093c748fe09d81ec488f97e9d22bd151d6ff6cd5c99dafaac69f18ebc18",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.3096588062722849,
+          "mean_absolute_nll_delta": 0.6758162865088624
+        }
+      ],
+      "source_document": "emma"
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p30000-h12288-original-positive.json",
+      "raw_sha256": "5e30a7471b1c7c6c2939d781d293df4e63c4a47e0f34f85cd14a33196d4488d0",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "dc5363b1b330a483be6b403988d65f7b352ebb019f5688d65b2d460523ea45f2",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.3310525506518657,
+          "mean_absolute_nll_delta": 0.7032624240885309
+        }
+      ],
+      "source_document": "emma"
+    },
+    {
+      "case_id": "middlemarch-p50000-h1024",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h1024-original-positive.json",
+      "raw_sha256": "85a537d13bcb5ec14fefb8843c971b2188becadc134dcc0d2dea01b29e1b71af",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "c96a8a3a5fdb0da46ba289a300286680908f67b687a3cb31c4ddd3b4d9fcd29f",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.41922207426462393,
+          "mean_absolute_nll_delta": 0.666794177818726
+        }
+      ],
+      "source_document": "emma"
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "destination": "original",
+      "stage": "positive",
+      "raw_path": "analysis/bonsai2/fresh_state/comparisons/middlemarch-p50000-h12288-original-positive.json",
+      "raw_sha256": "51c4ef6af4d79451d468263f443be79d96da069440f0b7f1e403b8f972200532",
+      "metrics": [
+        {
+          "label": "unrelated_recurrent",
+          "kind": "partial",
+          "source_state_sha256": "0b050e292d067537c8188a78a19b4e908cd05427676846af25f0b835e8ef49dd",
+          "aba_max_token_delta": 0.0,
+          "mean_excess_nll": 0.486199179177953,
+          "mean_absolute_nll_delta": 0.7012976996406487
+        }
+      ],
+      "source_document": "emma"
+    }
+  ]
+}

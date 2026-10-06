@@ -1,0 +1,19 @@
+# Answer-margin validation on four new registry families
+
+The [freeze](MARGIN_EXTENSION_FREEZE.json) fixed corrected retrieval prompts from registry families 04–07, which were outside the earlier 00–03 exact-answer pilot. For each registry it uses question 1, base/value-swap versions, and short-near, long-near, long-far layouts: 24 prompt instances arranged in four registry clusters. Every case scores the same nine candidate IDs for a complete code plus end-of-turn, conditional on the exact GGUF-rendered chat prefix. The gold and other queried entry's code are scored both with the target entry present and after that entry is removed. Long-near and long-far token counts are identical within each registry/swap pair. The [runner](run.py) verifies prompt, scorer, checkpoint, patch, and token-ID hashes; the [raw baseline scores](baseline.jsonl) retain all nine per-token NLLs for each of 96 candidates.
+
+The predeclared [baseline gate](baseline_gate.json) passed: **24/24** present-target gold-minus-wrong log-likelihood margins were positive, and **24/24** matched target-removal controls lowered the margin by at least 1 nat. Mean margin was **+12.242** nats with the target present and **−12.343** nats after removal; the smallest removal drop was **21.980** nats. The base/swap control reverses which code is gold in all 12 matched pairs. Baseline mean long-far minus long-near margin was **−0.866** nats over the eight matched registry/swap pairs. The target-removal manipulation leaves the wrong code in the registry while deleting the gold association, so its large effect validates target sensitivity but is not a neutral no-information condition.
+
+The frozen baseline gate authorized one alpha and one MLP checkpoint to score the 48 present-target candidates each. The [variant summary](variant_summary.json) and separate raw [alpha](alpha-d200-c1000-s20260929.jsonl) and [MLP](mlp-d200-c200-s20260929.jsonl) files give the following complete-code margins:
+
+| Checkpoint | Gold preferred | Mean margin (nats) | Change versus original | Long-far minus long-near | Change versus original |
+|---|---:|---:|---:|---:|---:|
+| Original | 24/24 | +12.2419 | — | −0.8657 | — |
+| Alpha, seed 20260929 | 24/24 | +12.2105 | −0.0314 | −0.8013 | +0.0644 |
+| MLP, seed 20260929 | 24/24 | +12.2019 | −0.0401 | −0.8175 | +0.0482 |
+
+The alpha-minus-MLP change in the matched far-minus-near contrast is **+0.0162 nats**, opposite the sign of extra alpha-specific far-distance margin loss and small relative to the baseline margin. Registry-level alpha-minus-MLP contrasts range from **−0.1565 to +0.1575** nats; averaging the related prompts hides that variation. These 24 prompts are correlated within just four registries, and question 2 was not sampled here. One perturbation seed per arm cannot establish a population effect. The two checkpoints were selected by a separate natural-text calibration whose short-history dose match failed on held-out text; no retrieval-margin dose equivalence is claimed here.
+
+**Decision:** the expanded margin assay passes its baseline validity gate, but this treatment pilot supplies no positive alpha-specific retrieval-loss signal. Do not launch a broad retrieval perturbation matrix from these results. If pursuing the question, first freeze more independent registry families and both question targets, then prespecify a material matched near/far margin contrast and its registry-level uncertainty. The state-import method also needs fresh spans before a mechanistic claim.
+
+Reproduce with `python3 analysis/bonsai2/margin_extension/freeze.py`, `python3 analysis/bonsai2/margin_extension/run.py baseline` on host CUDA, and `python3 analysis/bonsai2/margin_extension/analyze.py`. After the baseline gate passes, run `python3 analysis/bonsai2/margin_extension/run.py variants` on host CUDA and analyze again. The prior frozen retrieval inputs were read without modification.

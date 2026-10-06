@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "sources": {
+    "long_self": "a26190e6cbb14cdb2803960a74980cf643cf61522eb85aeb38e89f226e89379d",
+    "short_raw": "a495a937b3cdbdeff88b0cdef016debd85e77f5dc80838cd5f45189cb402d9bb",
+    "short_rebased": "14cc79202d381f863414f115390f7547418fe34817e570685ae1ff67b6dadcb5"
+  },
+  "raw_sha256": "891825ed4023f334837dfba961b7e62fea6f1f2227ea815234183586f6351075",
+  "rebased_state_path": "analysis/bonsai2/memory_gate/rebased/little_women-p50000-h12288-short-pos12287.bin"
+}

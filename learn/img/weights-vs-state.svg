@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/>
+    </marker>
+  </defs>
+  <rect width="820" height="400" fill="#ffffff"/>
+  <text x="410" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#1a202c">Weights persist. Runtime state is rebuilt for every prompt.</text>
+
+  <!-- Checkpoint -->
+  <rect x="30" y="60" width="330" height="300" rx="14" fill="#e6edf8" stroke="#3b5b92" stroke-width="2"/>
+  <text x="195" y="90" text-anchor="middle" font-size="17" font-weight="700" fill="#3b5b92">CHECKPOINT (weights)</text>
+  <text x="195" y="112" text-anchor="middle" font-size="13" fill="#2d3748">a GGUF file on disk — same for every prompt</text>
+  <rect x="55" y="130" width="280" height="40" rx="8" fill="#fff" stroke="#3b5b92"/>
+  <text x="195" y="155" text-anchor="middle" font-size="13" fill="#1a202c">big matrices: packed ternary PQ2_0</text>
+  <rect x="55" y="180" width="280" height="40" rx="8" fill="#fff" stroke="#3b5b92"/>
+  <text x="195" y="198" text-anchor="middle" font-size="13" fill="#1a202c">gate tensors ssm_alpha / ssm_beta</text>
+  <text x="195" y="213" text-anchor="middle" font-size="12" fill="#4a5568">stored in BF16  ← the studied weights</text>
+  <rect x="55" y="230" width="280" height="40" rx="8" fill="#fff" stroke="#3b5b92"/>
+  <text x="195" y="255" text-anchor="middle" font-size="13" fill="#1a202c">small tensors: ssm_a, ssm_dt.bias (F32) …</text>
+  <text x="195" y="300" text-anchor="middle" font-size="13" fill="#3b5b92" font-weight="600">A perturbation edits THIS.</text>
+  <text x="195" y="320" text-anchor="middle" font-size="12" fill="#2d3748">It is permanent: it acts at every token</text>
+  <text x="195" y="337" text-anchor="middle" font-size="12" fill="#2d3748">of every prompt.</text>
+
+  <!-- arrow -->
+  <line x1="365" y1="210" x2="455" y2="210" stroke="#4a5568" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="410" y="198" text-anchor="middle" font-size="12" fill="#4a5568">process</text>
+  <text x="410" y="230" text-anchor="middle" font-size="12" fill="#4a5568">a prompt</text>
+
+  <!-- Runtime state -->
+  <rect x="460" y="60" width="330" height="300" rx="14" fill="#fffaf0" stroke="#b7791f" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="625" y="90" text-anchor="middle" font-size="17" font-weight="700" fill="#975a16">RUNTIME STATE (memory)</text>
+  <text x="625" y="112" text-anchor="middle" font-size="13" fill="#2d3748">built while reading — thrown away after</text>
+  <rect x="485" y="130" width="280" height="40" rx="8" fill="#dcf1f0" stroke="#2c7a7b"/>
+  <text x="625" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#234e52">KV cache (F16)</text>
+  <text x="625" y="163" text-anchor="middle" font-size="12" fill="#234e52">16 full-attention blocks: grows with prompt</text>
+  <rect x="485" y="180" width="280" height="40" rx="8" fill="#fdf1dc" stroke="#b7791f"/>
+  <text x="625" y="198" text-anchor="middle" font-size="13" font-weight="700" fill="#744210">R  conv buffer (F32)</text>
+  <text x="625" y="213" text-anchor="middle" font-size="12" fill="#744210">48 recurrent blocks: last few inputs</text>
+  <rect x="485" y="230" width="280" height="40" rx="8" fill="#fde6d8" stroke="#c05621"/>
+  <text x="625" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#7b341e">S  DeltaNet state (F32)</text>
+  <text x="625" y="263" text-anchor="middle" font-size="12" fill="#7b341e">48 recurrent blocks: fixed size summary</text>
+  <text x="625" y="300" text-anchor="middle" font-size="13" fill="#975a16" font-weight="600">A state capture / import touches THIS.</text>
+  <text x="625" y="320" text-anchor="middle" font-size="12" fill="#2d3748">It exists only for the current prompt,</text>
+  <text x="625" y="337" text-anchor="middle" font-size="12" fill="#2d3748">and is rebuilt from scratch next time.</text>
+
+  <text x="410" y="388" text-anchor="middle" font-size="13" fill="#c53030" font-weight="600">Editing BF16 gate weights ≠ testing F32 runtime rounding. Different objects, different formats.</text>
+</svg>

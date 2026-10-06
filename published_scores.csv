@@ -1,0 +1,21 @@
+category,benchmark,qwen_xhigh,bonsai_xhigh,qwen_medium,bonsai_medium
+Knowledge and reasoning,MMLU-Redux,91.46,89.09,92.14,89.49
+Knowledge and reasoning,GPQA Diamond,90.51,85.76,84.34,75.56
+Knowledge and reasoning,AA-LCR,78.00,77.00,75.00,74.00
+Math,GSM8K,97.19,96.66,97.50,96.66
+Math,MATH-500,99.80,98.80,99.20,97.60
+Math,AIME25,96.67,95.00,86.25,74.58
+Math,AIME26,94.58,95.83,87.92,80.42
+Coding,HumanEval+,93.29,95.12,94.51,93.29
+Coding,MBPP+,83.86,83.07,83.07,80.69
+Coding,LiveCodeBench v6,90.05,90.07,83.79,80.47
+Coding,BigCodeBench,61.49,58.07,63.95,59.74
+Instruction following,IFEval,91.50,91.31,88.35,87.99
+Instruction following,IFBench,71.00,74.00,55.00,55.33
+Agentic and tool calling,tau2-Bench,82.73,80.22,79.50,70.86
+Agentic and tool calling,BFCL v3,76.74,74.92,77.48,75.12
+Vision,CharXiv,82.02,80.00,81.58,80.02
+Vision,A-OKVQA,89.34,86.81,89.78,87.51
+Vision,OmniDocBench v1.6,92.46,89.13,92.48,88.85
+Vision,RealWorldQA,83.40,80.13,80.00,80.00
+Vision,OCR Bench v2,60.99,56.88,60.53,56.87

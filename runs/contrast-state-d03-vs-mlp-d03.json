@@ -1,0 +1,43 @@
+{
+  "complete_pairs": 24,
+  "missing_pairs": [],
+  "state_arm": "state-d03",
+  "mlp_arm": "mlp-d03",
+  "accuracy": {
+    "baseline": {
+      "short": 1.0,
+      "long": 1.0
+    },
+    "state-d03": {
+      "short": 1.0,
+      "long": 1.0
+    },
+    "mlp-d03": {
+      "short": 1.0,
+      "long": 1.0
+    }
+  },
+  "excess_long_loss": {
+    "state-d03": 0.0,
+    "mlp-d03": 0.0
+  },
+  "state_minus_mlp_excess_long_loss": 0.0,
+  "paired_bootstrap_95pct": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_seed": 20260929,
+  "bootstrap_replicates": 10000,
+  "answer_logprob_secondary": {
+    "complete_pairs": 24,
+    "excess_long_nll": {
+      "state-d03": -0.00011367877990172322,
+      "mlp-d03": 0.0001408352857955227
+    },
+    "state_minus_mlp_excess_long_nll": -0.00025451406569724594,
+    "paired_bootstrap_95pct": [
+      -0.0006671559325089523,
+      0.0001625335941450127
+    ]
+  }
+}

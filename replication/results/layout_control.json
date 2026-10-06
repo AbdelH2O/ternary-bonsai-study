@@ -1,0 +1,20 @@
+{
+  "blk.0.ssm_conv1d.weight": {
+    "correct_correlation": 0.9950385252567385,
+    "unreordered_correlation": 0.7225263876125031,
+    "correct_mean_abs_delta": 0.0026311511173844337,
+    "unreordered_mean_abs_delta": 0.011651342734694481
+  },
+  "blk.0.ssm_a": {
+    "correct_correlation": 0.9999348367855534,
+    "unreordered_correlation": 0.05121853894826428,
+    "correct_mean_abs_delta": 0.00024601060431450605,
+    "unreordered_mean_abs_delta": 0.05034221336245537
+  },
+  "blk.0.ssm_dt.bias": {
+    "correct_correlation": 0.9999999974753229,
+    "unreordered_correlation": -0.10967809271629295,
+    "correct_mean_abs_delta": 8.138021075865254e-05,
+    "unreordered_mean_abs_delta": 8.903239250183105
+  }
+}

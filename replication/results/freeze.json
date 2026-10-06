@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-30",
+  "public_qwen_repo": "Qwen/Qwen3.8-27B",
+  "public_qwen_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "folded_f16_repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+  "folded_f16_revision": "b072e1d3b35a0a630cece372c2127528e0994386",
+  "runtime_release_tag": "prism-b10735-842b188",
+  "source_git_commit_independently_verified": false,
+  "files": {
+    "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+    "bin/cuda/libggml-base.so": "576eee187cb20f6c856c7e5ecacc075929e9276e8183c8c4d37000e16d51c97a",
+    "analysis/bonsai2/replication/metadata/qwen38-index.json": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+    "analysis/bonsai2/replication/metadata/qwen38-config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "/tmp/llama.cpp-842b1880415d6f508f03b789e5ce70194def7bfd/conversion/base.py": "af650b98b34a00d78b6145e597cc7317aecd3ef4946a79526c839a737bb85a40",
+    "/tmp/llama.cpp-842b1880415d6f508f03b789e5ce70194def7bfd/conversion/qwen.py": "ff40ba14b440fce643b5407c55a6e428b30a38d10b71f8f87bec34dbafc156d4",
+    "/tmp/llama.cpp-842b1880415d6f508f03b789e5ce70194def7bfd/src/llama-graph.cpp": "03b2f05258be1025dd99704f88e2da22f7595f797111996e572ac1b53c16c51a",
+    "/tmp/llama.cpp-842b1880415d6f508f03b789e5ce70194def7bfd/src/llama-model.cpp": "ed3a71e8060d7a4fa19e8e3c049a0d387d40f6026906042a0f483e5c0d15eaa1",
+    "/tmp/llama.cpp-842b1880415d6f508f03b789e5ce70194def7bfd/ggml/src/ggml-quants.c": "46dd353f30e7f1c42c7d82d88d91fad64dbe5d6e680b234de25355d9fb482d13"
+  }
+}

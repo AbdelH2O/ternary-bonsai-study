@@ -1,0 +1,124 @@
+{
+  "prism_17b": {
+    "scope": "layers [0, 9, 18, 27], all 7 projection roles; reference = ternary g128, other = 1-bit",
+    "bins_by_ancestor_rel_magnitude": {
+      "0.0-0.25": {
+        "share_of_ref_flips": 0.3591067469267139,
+        "P_other_flips_given_ref_flips": 0.799575881805366,
+        "P_other_flips_given_ref_keeps": 0.18172329310003166,
+        "P_other_flips_given_ref_zero": 0.4800403336441478,
+        "ref_flip_rate_among_nonzero": 0.4261968103431522
+      },
+      "0.25-0.5": {
+        "share_of_ref_flips": 0.24922883521546527,
+        "P_other_flips_given_ref_flips": 0.7819930293809586,
+        "P_other_flips_given_ref_keeps": 0.16210309242358603,
+        "P_other_flips_given_ref_zero": 0.4594743079384758,
+        "ref_flip_rate_among_nonzero": 0.293353189399283
+      },
+      "0.5-1.0": {
+        "share_of_ref_flips": 0.2629411109012488,
+        "P_other_flips_given_ref_flips": 0.7573051005094599,
+        "P_other_flips_given_ref_keeps": 0.13240404476446951,
+        "P_other_flips_given_ref_zero": 0.42566803608148907,
+        "ref_flip_rate_among_nonzero": 0.15591427861135493
+      },
+      "1.0-2.0": {
+        "share_of_ref_flips": 0.1193718546944768,
+        "P_other_flips_given_ref_flips": 0.7143913924000119,
+        "P_other_flips_given_ref_keeps": 0.08508707728209543,
+        "P_other_flips_given_ref_zero": 0.37652066334386175,
+        "ref_flip_rate_among_nonzero": 0.045691762142736105
+      },
+      "2.0-inf": {
+        "share_of_ref_flips": 0.009351452262095277,
+        "P_other_flips_given_ref_flips": 0.6620608854561315,
+        "P_other_flips_given_ref_keeps": 0.036686835420894286,
+        "P_other_flips_given_ref_zero": 0.33185627021419106,
+        "ref_flip_rate_among_nonzero": 0.007577876262649657
+      }
+    }
+  },
+  "control_08b": {
+    "scope": "QAT08 qat_free (absmean) and qat_42 (top-86), 65.5M tokens each, same folded init and data, all 150 projections, folded H512 basis; 'other' sign = sign of its latent",
+    "sign_agreement": {
+      "free_nonzero_vs_anc": 0.993003601161018,
+      "42_nonzero_vs_anc": 0.9932759992157603,
+      "free_vs_42_nonzero_both": 0.9997078893049608
+    },
+    "ref_free_other_42": {
+      "0.0-0.25": {
+        "share_of_ref_flips": 0.744012372322955,
+        "P_other_flips_given_ref_flips": 0.8911103066190996,
+        "P_other_flips_given_ref_keeps": 0.04211716593494693,
+        "P_other_flips_given_ref_zero": 0.3287462541658132,
+        "ref_flip_rate_among_nonzero": 0.20140455765231408
+      },
+      "0.25-0.5": {
+        "share_of_ref_flips": 0.17801105382247115,
+        "P_other_flips_given_ref_flips": 0.7925112239292277,
+        "P_other_flips_given_ref_keeps": 0.01199780478728153,
+        "P_other_flips_given_ref_zero": 0.12048947293423792,
+        "ref_flip_rate_among_nonzero": 0.018713810599195822
+      },
+      "0.5-1.0": {
+        "share_of_ref_flips": 0.06567590853450864,
+        "P_other_flips_given_ref_flips": 0.6692809786340969,
+        "P_other_flips_given_ref_keeps": 0.0022181017371090284,
+        "P_other_flips_given_ref_zero": 0.05088272617098165,
+        "ref_flip_rate_among_nonzero": 0.0015797379228280955
+      },
+      "1.0-2.0": {
+        "share_of_ref_flips": 0.01194237714509238,
+        "P_other_flips_given_ref_flips": 0.5261188761824086,
+        "P_other_flips_given_ref_keeps": 0.0003322179281543711,
+        "P_other_flips_given_ref_zero": 0.04215294594842572,
+        "ref_flip_rate_among_nonzero": 0.00018327600976998532
+      },
+      "2.0-inf": {
+        "share_of_ref_flips": 0.0003582881749727701,
+        "P_other_flips_given_ref_flips": 0.3517647058823529,
+        "P_other_flips_given_ref_keeps": 4.20976912863353e-05,
+        "P_other_flips_given_ref_zero": 0.09529000057369055,
+        "ref_flip_rate_among_nonzero": 1.5584703800236513e-05
+      }
+    },
+    "ref_42_other_free": {
+      "0.0-0.25": {
+        "share_of_ref_flips": 0.7395230435146637,
+        "P_other_flips_given_ref_flips": 0.8877862944798282,
+        "P_other_flips_given_ref_keeps": 0.04433529496082419,
+        "P_other_flips_given_ref_zero": 0.3305761521594,
+        "ref_flip_rate_among_nonzero": 0.202222744261897
+      },
+      "0.25-0.5": {
+        "share_of_ref_flips": 0.17905419247493992,
+        "P_other_flips_given_ref_flips": 0.788316846951491,
+        "P_other_flips_given_ref_keeps": 0.013055706275736741,
+        "P_other_flips_given_ref_zero": 0.12154306559235568,
+        "ref_flip_rate_among_nonzero": 0.01908204979077089
+      },
+      "0.5-1.0": {
+        "share_of_ref_flips": 0.0680162678965567,
+        "P_other_flips_given_ref_flips": 0.6633142138760116,
+        "P_other_flips_given_ref_keeps": 0.0023324818786683065,
+        "P_other_flips_given_ref_zero": 0.049448545347323646,
+        "ref_flip_rate_among_nonzero": 0.001594978114428077
+      },
+      "1.0-2.0": {
+        "share_of_ref_flips": 0.012986081791962605,
+        "P_other_flips_given_ref_flips": 0.5167529750677321,
+        "P_other_flips_given_ref_keeps": 0.00032416915996989634,
+        "P_other_flips_given_ref_zero": 0.03963495897832317,
+        "ref_flip_rate_among_nonzero": 0.0001888961444799813
+      },
+      "2.0-inf": {
+        "share_of_ref_flips": 0.00042041432187704306,
+        "P_other_flips_given_ref_flips": 0.3665254237288136,
+        "P_other_flips_given_ref_keeps": 3.91649281881888e-05,
+        "P_other_flips_given_ref_zero": 0.08418669828608387,
+        "ref_flip_rate_among_nonzero": 1.7308545076521097e-05
+      }
+    }
+  }
+}

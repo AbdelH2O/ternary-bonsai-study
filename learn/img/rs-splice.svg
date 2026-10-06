@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect width="860" height="420" fill="#ffffff"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1a202c">Component splice after the question (measured, 8 registries, nat/answer)</text>
+
+  <text x="300" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#744210">R = own</text>
+  <text x="520" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#744210">R = counterpart</text>
+  <text x="130" y="140" text-anchor="end" font-size="14" font-weight="700" fill="#7b341e">S = own</text>
+  <text x="130" y="250" text-anchor="end" font-size="14" font-weight="700" fill="#7b341e">S = counterpart</text>
+
+  <rect x="195" y="85" width="210" height="100" rx="10" fill="#f7fafc" stroke="#a0aec0"/>
+  <text x="300" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#1a202c">own R / own S</text>
+  <text x="300" y="148" text-anchor="middle" font-size="13" fill="#4a5568">reference (effect 0)</text>
+
+  <rect x="415" y="85" width="210" height="100" rx="10" fill="#fdf1dc" stroke="#b7791f" stroke-width="2"/>
+  <text x="520" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#744210">R-only swapped</text>
+  <text x="520" y="148" text-anchor="middle" font-size="20" font-weight="700" fill="#744210">+0.035</text>
+  <text x="520" y="170" text-anchor="middle" font-size="12" fill="#744210">[+0.013, +0.057]</text>
+
+  <rect x="195" y="195" width="210" height="100" rx="10" fill="#fde6d8" stroke="#c05621" stroke-width="2"/>
+  <text x="300" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#7b341e">S-only swapped</text>
+  <text x="300" y="258" text-anchor="middle" font-size="20" font-weight="700" fill="#7b341e">+0.228</text>
+  <text x="300" y="280" text-anchor="middle" font-size="12" fill="#7b341e">[+0.058, +0.398]</text>
+
+  <rect x="415" y="195" width="210" height="100" rx="10" fill="#fbd3c0" stroke="#9c4221" stroke-width="2.5"/>
+  <text x="520" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#7b341e">R+S swapped</text>
+  <text x="520" y="258" text-anchor="middle" font-size="20" font-weight="700" fill="#7b341e">+0.249</text>
+  <text x="520" y="280" text-anchor="middle" font-size="12" fill="#7b341e">[+0.055, +0.443]</text>
+
+  <g font-size="13" fill="#1a202c">
+    <text x="650" y="110" font-weight="700">R/S interaction</text>
+    <text x="650" y="130">= combined − (R-only + S-only)</text>
+    <text x="650" y="150">= 0.249 − (0.035 + 0.228)</text>
+    <text x="650" y="170" font-weight="700">≈ −0.013</text>
+    <text x="650" y="190" fill="#4a5568">[−0.033, +0.007]</text>
+    <text x="650" y="222">Not exactly additive, so</text>
+    <text x="650" y="240">it is reported, not assumed.</text>
+  </g>
+
+  <text x="40" y="330" font-size="13" fill="#1a202c">• S-only carries ~91% of the combined post-question effect; R-only is small but positive.</text>
+  <text x="40" y="352" font-size="13" fill="#1a202c">• Splice = replace only R payload bytes or only S payload bytes; header and cell positions untouched (byte-verified).</text>
+  <text x="40" y="374" font-size="13" fill="#c53030" font-weight="600">• Caution: an S effect measured AFTER the question may be a fresh trace of what attention just retrieved,</text>
+  <text x="52" y="394" font-size="13" fill="#c53030" font-weight="600">not proof that S carried the fact across 12K tokens. Brackets are 95% t intervals (df 7).</text>
+</svg>

@@ -1,0 +1,242 @@
+{
+  "freeze_sha256": "493926c0a24b5c6976683327e1b2b97498ae4bf6d55ff1970c213cb1c614f1f9",
+  "gate_sha256": {
+    "reference_gate.json": "8c8c869f4a953b37ba92cba1bb5cd0e7fda6692a6f708586c8ddb81acd2db3bc",
+    "capture_gate.json": "5afd137cb54b2cbda9199f3ec8041dd695f5ce15bdeaaabee8d807e252b3c239",
+    "positive_gate.json": "58f57a8a74192789892fd98d5a09d63ac93b0a79dd1c9020338e76d805a5e668",
+    "treatment_gate.json": "73eb0dc0aea9d19b2da466a52c6530e036a3bea9017f7828b61af647b01ae928"
+  },
+  "independent_document_count": 6,
+  "span_count": 12,
+  "target_tokens_per_case": 96,
+  "state_affected_tokens_per_case": 95,
+  "primary_mean": -0.0004483084854276671,
+  "primary_document_bootstrap_95ci": [
+    -0.003823131469413904,
+    0.0030275445431786046
+  ],
+  "primary_positive_document_count": 3,
+  "short_state_dose_mean": -0.002940228752854582,
+  "short_state_dose_document_bootstrap_90ci": [
+    -0.004845594051018591,
+    -0.0012397598033622628
+  ],
+  "short_state_dose_equivalent": false,
+  "primary_decision": "exclude_0p005",
+  "alpha_specific_comparable_dose_support": false,
+  "secondary_document_means": {
+    "alpha_long_minus_short": -0.0018696396576752252,
+    "mlp_long_minus_short": -0.0014213311722475579,
+    "original_1k_minus_12k_gain": 0.133431072768754
+  },
+  "positive_control_min_mean_absolute_delta": 0.4906201126484668,
+  "documents": [
+    {
+      "document_id": "emma",
+      "primary_interaction": -0.006029356451155189,
+      "short_state_dose_alpha_minus_mlp": -0.0027876610809694615,
+      "alpha_long_minus_short": -0.006014451622871805,
+      "mlp_long_minus_short": 1.4904828283383766e-05,
+      "original_1k_minus_12k_gain": 0.06641620485441435
+    },
+    {
+      "document_id": "little_women",
+      "primary_interaction": 0.006951494164352058,
+      "short_state_dose_alpha_minus_mlp": -0.007574091976879404,
+      "alpha_long_minus_short": 0.003167223802385817,
+      "mlp_long_minus_short": -0.003784270361966241,
+      "original_1k_minus_12k_gain": 0.17968322512145396
+    },
+    {
+      "document_id": "wuthering_heights",
+      "primary_interaction": 0.0005155593480354419,
+      "short_state_dose_alpha_minus_mlp": -0.005281624449567519,
+      "alpha_long_minus_short": 0.000488595522328958,
+      "mlp_long_minus_short": -2.6963825706483838e-05,
+      "original_1k_minus_12k_gain": 0.1087009069772078
+    },
+    {
+      "document_id": "war_of_the_worlds",
+      "primary_interaction": -9.06209196847663e-05,
+      "short_state_dose_alpha_minus_mlp": -1.7606518794422224e-05,
+      "alpha_long_minus_short": -0.00019459516155976653,
+      "mlp_long_minus_short": -0.00010397424187500023,
+      "original_1k_minus_12k_gain": 0.35877211115871943
+    },
+    {
+      "document_id": "monte_cristo",
+      "primary_interaction": 0.0016155801171483138,
+      "short_state_dose_alpha_minus_mlp": -0.0010520574071113957,
+      "alpha_long_minus_short": -0.0011661631974323532,
+      "mlp_long_minus_short": -0.002781743314580667,
+      "original_1k_minus_12k_gain": 0.05447165398970122
+    },
+    {
+      "document_id": "middlemarch",
+      "primary_interaction": -0.005652507171261861,
+      "short_state_dose_alpha_minus_mlp": -0.0009283310838052892,
+      "alpha_long_minus_short": -0.007498447288902201,
+      "mlp_long_minus_short": -0.0018459401176403392,
+      "original_1k_minus_12k_gain": 0.03254233451102717
+    }
+  ],
+  "spans": [
+    {
+      "document_id": "emma",
+      "position": 30000,
+      "alpha_recurrent_excess_1k": -0.002546502386526244,
+      "alpha_recurrent_excess_12k": -0.005629423125613446,
+      "mlp_recurrent_excess_1k": 0.00600416986370715,
+      "mlp_recurrent_excess_12k": 0.0028478469832761526,
+      "alpha_long_minus_short": -0.0030829207390872014,
+      "mlp_long_minus_short": -0.0031563228804309977,
+      "primary_interaction": 7.340214134379623e-05,
+      "short_state_dose_alpha_minus_mlp": -0.008550672250233395,
+      "original_1k_minus_12k_gain": 0.08733863354910554
+    },
+    {
+      "document_id": "emma",
+      "position": 50000,
+      "alpha_recurrent_excess_1k": 0.0036318423305615457,
+      "alpha_recurrent_excess_12k": -0.005314140176094864,
+      "mlp_recurrent_excess_1k": 0.0006564922422670736,
+      "mlp_recurrent_excess_12k": 0.003842624779264839,
+      "alpha_long_minus_short": -0.00894598250665641,
+      "mlp_long_minus_short": 0.003186132536997765,
+      "primary_interaction": -0.012132115043654175,
+      "short_state_dose_alpha_minus_mlp": 0.0029753500882944723,
+      "original_1k_minus_12k_gain": 0.045493776159723165
+    },
+    {
+      "document_id": "little_women",
+      "position": 30000,
+      "alpha_recurrent_excess_1k": -0.0034139448991939657,
+      "alpha_recurrent_excess_12k": -0.005439071913245548,
+      "mlp_recurrent_excess_1k": 0.003948013755413821,
+      "mlp_recurrent_excess_12k": -0.0027862531216818324,
+      "alpha_long_minus_short": -0.002025127014051582,
+      "mlp_long_minus_short": -0.006734266877095654,
+      "primary_interaction": 0.004709139863044071,
+      "short_state_dose_alpha_minus_mlp": -0.007361958654607786,
+      "original_1k_minus_12k_gain": 0.1502619437958117
+    },
+    {
+      "document_id": "little_women",
+      "position": 50000,
+      "alpha_recurrent_excess_1k": -0.00701107482347166,
+      "alpha_recurrent_excess_12k": 0.0013484997953515558,
+      "mlp_recurrent_excess_1k": 0.000775150475679361,
+      "mlp_recurrent_excess_12k": -5.9123371157466736e-05,
+      "alpha_long_minus_short": 0.008359574618823216,
+      "mlp_long_minus_short": -0.0008342738468368277,
+      "primary_interaction": 0.009193848465660045,
+      "short_state_dose_alpha_minus_mlp": -0.007786225299151021,
+      "original_1k_minus_12k_gain": 0.20910450644709622
+    },
+    {
+      "document_id": "wuthering_heights",
+      "position": 30000,
+      "alpha_recurrent_excess_1k": 0.00018063656570062043,
+      "alpha_recurrent_excess_12k": 0.0014093652734617056,
+      "mlp_recurrent_excess_1k": 0.003065103116543119,
+      "mlp_recurrent_excess_12k": 0.0017097193988398422,
+      "alpha_long_minus_short": 0.001228728707761085,
+      "mlp_long_minus_short": -0.0013553837177032767,
+      "primary_interaction": 0.002584112425464362,
+      "short_state_dose_alpha_minus_mlp": -0.0028844665508424984,
+      "original_1k_minus_12k_gain": 0.16714121763772827
+    },
+    {
+      "document_id": "wuthering_heights",
+      "position": 50000,
+      "alpha_recurrent_excess_1k": -0.0044589743421472395,
+      "alpha_recurrent_excess_12k": -0.004710512005250409,
+      "mlp_recurrent_excess_1k": 0.0032198080061452993,
+      "mlp_recurrent_excess_12k": 0.004521264072435608,
+      "alpha_long_minus_short": -0.0002515376631031692,
+      "mlp_long_minus_short": 0.001301456066290309,
+      "primary_interaction": -0.0015529937293934782,
+      "short_state_dose_alpha_minus_mlp": -0.007678782348292539,
+      "original_1k_minus_12k_gain": 0.050260596316687334
+    },
+    {
+      "document_id": "war_of_the_worlds",
+      "position": 30000,
+      "alpha_recurrent_excess_1k": 0.004258486513619254,
+      "alpha_recurrent_excess_12k": 0.005457256048541504,
+      "mlp_recurrent_excess_1k": 0.000356230287913784,
+      "mlp_recurrent_excess_12k": -0.0033650957246352605,
+      "alpha_long_minus_short": 0.0011987695349222503,
+      "mlp_long_minus_short": -0.0037213260125490443,
+      "primary_interaction": 0.004920095547471295,
+      "short_state_dose_alpha_minus_mlp": 0.0039022562257054697,
+      "original_1k_minus_12k_gain": 0.17905208200005962
+    },
+    {
+      "document_id": "war_of_the_worlds",
+      "position": 50000,
+      "alpha_recurrent_excess_1k": -0.00315826208872552,
+      "alpha_recurrent_excess_12k": -0.0047462219467673036,
+      "mlp_recurrent_excess_1k": 0.0007792071745687936,
+      "mlp_recurrent_excess_12k": 0.004292584703367837,
+      "alpha_long_minus_short": -0.0015879598580417834,
+      "mlp_long_minus_short": 0.003513377528799044,
+      "primary_interaction": -0.005101337386840828,
+      "short_state_dose_alpha_minus_mlp": -0.003937469263294314,
+      "original_1k_minus_12k_gain": 0.5384921403173792
+    },
+    {
+      "document_id": "monte_cristo",
+      "position": 30000,
+      "alpha_recurrent_excess_1k": 0.0016768490073781925,
+      "alpha_recurrent_excess_12k": -0.0016358198702360978,
+      "mlp_recurrent_excess_1k": -0.0009554027769427206,
+      "mlp_recurrent_excess_12k": -0.00165846803967178,
+      "alpha_long_minus_short": -0.0033126688776142902,
+      "mlp_long_minus_short": -0.0007030652627290593,
+      "primary_interaction": -0.0026096036148852307,
+      "short_state_dose_alpha_minus_mlp": 0.0026322517843209133,
+      "original_1k_minus_12k_gain": 0.03807518430515966
+    },
+    {
+      "document_id": "monte_cristo",
+      "position": 50000,
+      "alpha_recurrent_excess_1k": -0.0009340315142436326,
+      "alpha_recurrent_excess_12k": 4.6310968505951045e-05,
+      "mlp_recurrent_excess_1k": 0.0038023350843000726,
+      "mlp_recurrent_excess_12k": -0.001058086282132202,
+      "alpha_long_minus_short": 0.0009803424827495837,
+      "mlp_long_minus_short": -0.0048604213664322745,
+      "primary_interaction": 0.005840763849181858,
+      "short_state_dose_alpha_minus_mlp": -0.004736366598543705,
+      "original_1k_minus_12k_gain": 0.07086812367424278
+    },
+    {
+      "document_id": "middlemarch",
+      "position": 30000,
+      "alpha_recurrent_excess_1k": -0.0015219876053133691,
+      "alpha_recurrent_excess_12k": -0.014040790848549157,
+      "mlp_recurrent_excess_1k": 0.000753377265310029,
+      "mlp_recurrent_excess_12k": -0.0020922672135303194,
+      "alpha_long_minus_short": -0.012518803243235788,
+      "mlp_long_minus_short": -0.0028456444788403485,
+      "primary_interaction": -0.009673158764395439,
+      "short_state_dose_alpha_minus_mlp": -0.0022753648706233982,
+      "original_1k_minus_12k_gain": -0.010930591393901512
+    },
+    {
+      "document_id": "middlemarch",
+      "position": 50000,
+      "alpha_recurrent_excess_1k": 0.0030906104104681184,
+      "alpha_recurrent_excess_12k": 0.000612519075899505,
+      "mlp_recurrent_excess_1k": 0.0026719077074552986,
+      "mlp_recurrent_excess_12k": 0.0018256719510149687,
+      "alpha_long_minus_short": -0.0024780913345686132,
+      "mlp_long_minus_short": -0.00084623575644033,
+      "primary_interaction": -0.0016318555781282833,
+      "short_state_dose_alpha_minus_mlp": 0.0004187027030128198,
+      "original_1k_minus_12k_gain": 0.07601526041595585
+    }
+  ],
+  "interpretation": "Cross-checkpoint state replacement can be off-manifold; permanent weight changes, F32 runtime state; six document clusters are the uncertainty units."
+}

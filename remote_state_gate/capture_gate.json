@@ -1,0 +1,214 @@
+{
+  "freeze_sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78",
+  "passed": true,
+  "captures": [
+    {
+      "prompt_id": "rv2-08-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-base.recurrent.bin",
+      "full_sha256": "8c499f1c4a4c04e3786aeebbec023f30ae75d0bbbaa8c647f17a17a5d4ebc787",
+      "recurrent_sha256": "29dc349ca321a38ab4b7804ff39a0480300db93d5cbd8582fe79bf191673f602",
+      "raw_sha256": "d48b58f689239a465aeca9d40da0f49cbd05213fc4f54b9671d3956a5346a6a6",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-08-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-08-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "4c9fd3fa8dd8583a2b2af89b95d9306ff0ffaa225234284a10d605ff9a7dc1d7",
+      "recurrent_sha256": "bac79e1de54e4cd102850f560787750e385fc03527b7df3a34294e79ed503398",
+      "raw_sha256": "5aa8694d7fe04b9e304ac2e531412984d77f8d09ea9bd7eb706b549ea48c50b1",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-09-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-base.recurrent.bin",
+      "full_sha256": "868a39ddb2ec98001debdce708f43a0e666acfe93d2baec9ebdf06669de32765",
+      "recurrent_sha256": "7c10bff2769c5a9fc811b1d6f9e0035b83ee265a12a5e10faf730057c2d36505",
+      "raw_sha256": "dd72dd664e89ea7ab384670131333c2878c41b57272a0be6a91e3642c4d4e881",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-09-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-09-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "d720f42c0c35687817fec6c04357b7d9564b8536047c71a1d222fc2661e6ce40",
+      "recurrent_sha256": "11d4bd71a55e8a085f0d7ded7070d14aae15f033e37a9a3ea5f10c1cd3ebe003",
+      "raw_sha256": "ca47cdf85b3525f340f74d9a6801746d7b975a7134b5044c33add71a8402b6e1",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-10-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-base.recurrent.bin",
+      "full_sha256": "3f5a2b676e449b89a9f75cedcfed94d91420d8fc5af3fbe53d077d4b5f64f0f3",
+      "recurrent_sha256": "c13364088c8ed72a703d3db18e5d47af906e7e62d8407ae874cbeeb9d49af81e",
+      "raw_sha256": "9ad10fb7a43a625773e92da18b46de7487ea55313c39e4a18c71cf5282421462",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-10-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-10-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "b723df2b1c81020942c9333003952081d472d2128a20bfbf4b5f047a488f8db8",
+      "recurrent_sha256": "5dee7d1a2d5741d419f290d815f26b5b84ea10f428a75ed169c4d9d37a1c4fb4",
+      "raw_sha256": "2acb818669b30eddb7012913c5230593db52fbf41c8377c69f3923dfb5017a48",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-11-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-base.recurrent.bin",
+      "full_sha256": "1c6e82ad1759c3525d4bd82add7722495b7713db572410d099fbad5fa0158a2e",
+      "recurrent_sha256": "e7c6bbb9a283997709a96715e248b91ce1f22db178e87daf10de64f73ac2a003",
+      "raw_sha256": "5578345e7a4c6798dc3abcdf6f5408dd25a760f7696ba4290be15c6152c69afd",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-11-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-11-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "6e1ac722432e70585139db829bb211c861fe74747482c2d9b66a4c5de1270cc8",
+      "recurrent_sha256": "973863add8a117c46190056b4fd206c7f598da02ba75b482768fee07dc0830ba",
+      "raw_sha256": "7575b528d772f46c7a00c5ad8be9976de9f58e991b4c3dd0e7559b0c42ddb60d",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-12-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-base.recurrent.bin",
+      "full_sha256": "4448fa72e3fe5d2382a6c0d19fe21726a3e66a609800aba18ff9c5b2a02d4e54",
+      "recurrent_sha256": "64d67f0cc45b4aab984131d6d6cfbe838c2991260ed9e3050f6ba33671827a2f",
+      "raw_sha256": "15e3fedb4cb526dcc32590f594441b3427558b190acbf9da85b2a3ab4f18b113",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-12-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-12-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "5c9d77a8ce300c33345b48f7bc449f92d6c8c63671c8e843db0370cbf71fd06b",
+      "recurrent_sha256": "0ced64d3c32649dfea85a443c1a874b290cb8cf7b84db47d5eb334c84d747934",
+      "raw_sha256": "0ce07bb9a64f5273ef6cfccde7a29c7fe80a71cfbeb1e944bc674eee5fae1a69",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-13-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-base.recurrent.bin",
+      "full_sha256": "31f8907378bda39e3017bd426a27cd60131e121eb0fc6773e23323afa4a03890",
+      "recurrent_sha256": "f6e845154805f6a246f3d8f2923b45ff52e7c397ebf96bf4243e481662b02fb2",
+      "raw_sha256": "36395f48f9a75e8faccb53c49524b169c58060f3d77c27add9c7c2d05646d5b8",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-13-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-13-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "2496b3a0f8040886171c959f255e721d0de44c23019bf595878ab810868607c7",
+      "recurrent_sha256": "7120d66a77bc547dbe9a5571c2c172a6d49d88a786f11b2f570fcae156a60ba9",
+      "raw_sha256": "7764b90fd8b58adb0b823d7bf1bf8c3ddb0c3c2c78aad0a6340e5fc98540ea69",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-14-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-base.recurrent.bin",
+      "full_sha256": "3918ce1e6d772d415f2652bf042869bf2f0036596aa14b785480a19e00f83d25",
+      "recurrent_sha256": "929923c5631f52896b353532bada97ad2c4da35c39e9de93a20e240806cfeb86",
+      "raw_sha256": "d3c85778bc3c8095e3729ae41ad85ac81076ef1a4715b509d3347bac02284b74",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-14-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-14-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "63c586733630835928f6159c22d420616d81e82cb92b1db3b3ac3988b6de6099",
+      "recurrent_sha256": "43635fa0c40db27125f95d5cdae3470702a312ec8698b433a830d4da91136faa",
+      "raw_sha256": "a3cb7bb7f143a1f37058bc414ddaa6fedb674378fb1cb3062e361f780707a8c9",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-15-q1-long-far-base",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-base.recurrent.bin",
+      "full_sha256": "f5e59f7718062f9f63cfcd2b12188b8690ef2c051a4d6f46899101218367bc71",
+      "recurrent_sha256": "6e9e3ecfc57d9965c10590df38c1f28e1ae985022e104652342c1dc62b17eee2",
+      "raw_sha256": "e330a909af90ce7bb7aaed6a8a42e7783b65c714b76092306e8f114695edacea",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    },
+    {
+      "prompt_id": "rv2-15-q1-long-far-swap",
+      "full_path": "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.full.bin",
+      "recurrent_path": "analysis/bonsai2/remote_state_gate/captures/rv2-15-q1-long-far-swap.recurrent.bin",
+      "full_sha256": "11f8a1e29f189f0668b4dd00074e63037da17876e87c21438003b02908439fdb",
+      "recurrent_sha256": "fa9b6175c7f26c2fe9a9cc8d4c5572716c42f3949de5285566f7cef0030c82d4",
+      "raw_sha256": "15051fe2a7f907a1137c57b6b971f24cc5fbce8a27a78b1d1b8efa68008d588d",
+      "checks": {
+        "direct": 0.0,
+        "full_roundtrip": 0.0,
+        "recurrent_roundtrip": 0.0
+      }
+    }
+  ]
+}

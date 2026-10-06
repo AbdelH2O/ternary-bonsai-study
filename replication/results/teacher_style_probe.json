@@ -1,0 +1,2274 @@
+{
+ "items": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "models": {
+  "qwen3_1.7b": {
+   "file": "work/qwen3_17b/base_tied-f32.gguf",
+   "rope": "model",
+   "top_openings": [
+    [
+     "We are given the following information:",
+     43
+    ],
+    [
+     "We are given:",
+     15
+    ],
+    [
+     "Let's break down the problem step by step.",
+     12
+    ],
+    [
+     "We are given the following:",
+     4
+    ],
+    [
+     "We are told that:",
+     2
+    ],
+    [
+     "Ellie needs to fix a bicycle, which has two part",
+     1
+    ],
+    [
+     "We are given the number of cars passing Happy St",
+     1
+    ],
+    [
+     "We are given a problem where Valerie needs to pu",
+     1
+    ]
+   ],
+   "outputs": [
+    {
+     "id": 100,
+     "text": "We are given the following information:\n\n- A craft store makes **3/1",
+     "first_token_top": []
+    },
+    {
+     "id": 101,
+     "text": "We are given the following information:\n\n- **Each tube of lip gloss** holds",
+     "first_token_top": []
+    },
+    {
+     "id": 102,
+     "text": "Ellie needs to fix a bicycle, which has two parts: **two wheels",
+     "first_token_top": []
+    },
+    {
+     "id": 103,
+     "text": "We are given the following information:\n\n- **Janice types 6 sentences per",
+     "first_token_top": []
+    },
+    {
+     "id": 104,
+     "text": "We are given the following information:\n\n- **Number of boat trips per day**:",
+     "first_token_top": []
+    },
+    {
+     "id": 105,
+     "text": "We are given the following information:\n\n- **Washington has 140 goats",
+     "first_token_top": []
+    },
+    {
+     "id": 106,
+     "text": "We are given the following information:\n\n- John buys **10 packs** of",
+     "first_token_top": []
+    },
+    {
+     "id": 107,
+     "text": "We are given the number of cars passing Happy Street on each day from **Monday",
+     "first_token_top": []
+    },
+    {
+     "id": 108,
+     "text": "We are given the following information:\n\n- Henry took **9 pills a day**",
+     "first_token_top": []
+    },
+    {
+     "id": 109,
+     "text": "We are given the following information:\n\n- Alyssa, Keely, and Kendall",
+     "first_token_top": []
+    },
+    {
+     "id": 110,
+     "text": "We are given the following information:\n\n- **Cost of each candy bar**: $",
+     "first_token_top": []
+    },
+    {
+     "id": 111,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 112,
+     "text": "We are given the following information:\n\n- The family gallery initially has **40",
+     "first_token_top": []
+    },
+    {
+     "id": 113,
+     "text": "We are given the following:\n\n- Baez starts with **25 mar",
+     "first_token_top": []
+    },
+    {
+     "id": 114,
+     "text": "We are given the following information:\n\n- Ed has **2 dogs**.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 115,
+     "text": "We are given the following information:\n\n- **Three fourths** of the jelly",
+     "first_token_top": []
+    },
+    {
+     "id": 116,
+     "text": "We are given a problem where Valerie needs to put stamps on envelopes she is about",
+     "first_token_top": []
+    },
+    {
+     "id": 117,
+     "text": "We are given the following information:\n\n- The aquarium holds **100 fish",
+     "first_token_top": []
+    },
+    {
+     "id": 118,
+     "text": "We are told that:\n\n- Jeanette starts with **3 objects**.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 119,
+     "text": "Jessa needs to make cupcakes for:\n\n- **3 fourth-grade classes**, each",
+     "first_token_top": []
+    },
+    {
+     "id": 120,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 121,
+     "text": "We are given the following information:\n\n- **Truck capacity**: 60",
+     "first_token_top": []
+    },
+    {
+     "id": 122,
+     "text": "We are given the following information:\n\n- There are **40 chairs**, each",
+     "first_token_top": []
+    },
+    {
+     "id": 123,
+     "text": "We are given two deals for sparkling water:\n\n---\n\n### **Deal 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 124,
+     "text": "We are given the following relationships between the sizes of the balls of yarn:\n\n1",
+     "first_token_top": []
+    },
+    {
+     "id": 125,
+     "text": "We are given:\n\n- Haley's growth rate: **3 inches per year**\n",
+     "first_token_top": []
+    },
+    {
+     "id": 126,
+     "text": "We are given the following information:\n\n- **Bob has 10 roommates",
+     "first_token_top": []
+    },
+    {
+     "id": 127,
+     "text": "We are given the meowing frequencies of three cats over a 5-minute period",
+     "first_token_top": []
+    },
+    {
+     "id": 128,
+     "text": "We are given:\n\n- **30 students** need to stay overnight.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 129,
+     "text": "We are told:\n\n- Every **sixth customer** gets a **free ice",
+     "first_token_top": []
+    },
+    {
+     "id": 130,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Initial",
+     "first_token_top": []
+    },
+    {
+     "id": 131,
+     "text": "We are given the following information:\n\n- Mitchell read **10 chapters** of",
+     "first_token_top": []
+    },
+    {
+     "id": 132,
+     "text": "We are given the following information:\n\n- James buys **5 packs** of beef",
+     "first_token_top": []
+    },
+    {
+     "id": 133,
+     "text": "We are given the following information:\n\n- There are **40 students** in",
+     "first_token_top": []
+    },
+    {
+     "id": 134,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Given:**\n\n",
+     "first_token_top": []
+    },
+    {
+     "id": 135,
+     "text": "We are given the following information:\n\n- Kennedy's house is **600",
+     "first_token_top": []
+    },
+    {
+     "id": 136,
+     "text": "We are given the following information:\n\n- **Large animals** take **4 sticks",
+     "first_token_top": []
+    },
+    {
+     "id": 137,
+     "text": "We are given the following information:\n\n- **3 families of 4 people**",
+     "first_token_top": []
+    },
+    {
+     "id": 138,
+     "text": "We are given the following:\n\n- **Original price of 1 gallon of whole",
+     "first_token_top": []
+    },
+    {
+     "id": 139,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Given:**\n\n",
+     "first_token_top": []
+    },
+    {
+     "id": 140,
+     "text": "We are given the number of students from each school and the percentage of students who",
+     "first_token_top": []
+    },
+    {
+     "id": 141,
+     "text": "We are given the following information about Larry's daily activities with his dog:\n\n1",
+     "first_token_top": []
+    },
+    {
+     "id": 142,
+     "text": "We are given the following information:\n\n- **Spray A** kills **5",
+     "first_token_top": []
+    },
+    {
+     "id": 143,
+     "text": "We are told that:\n\n- **25%** of the goldfish are",
+     "first_token_top": []
+    },
+    {
+     "id": 144,
+     "text": "We are given the following information:\n\n- The **first butcher** delivered **1",
+     "first_token_top": []
+    },
+    {
+     "id": 145,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Given:\n- James",
+     "first_token_top": []
+    },
+    {
+     "id": 146,
+     "text": "We are given the following information:\n\n- **Richard** can clean his room in",
+     "first_token_top": []
+    },
+    {
+     "id": 147,
+     "text": "We are given:\n\n- **Mary has 5 green crayons** and **",
+     "first_token_top": []
+    },
+    {
+     "id": 148,
+     "text": "We are given the following:\n\n- **Winwin won $50 in a",
+     "first_token_top": []
+    },
+    {
+     "id": 149,
+     "text": "We are given the following information:\n\n- In **3 years**, Jayden will",
+     "first_token_top": []
+    },
+    {
+     "id": 150,
+     "text": "We are given the following information:\n\n- Angela needs to deliver **8 times as",
+     "first_token_top": []
+    },
+    {
+     "id": 151,
+     "text": "We are given the following information:\n\n- **Last week**, Keiko sent **",
+     "first_token_top": []
+    },
+    {
+     "id": 152,
+     "text": "We are given:\n\n- **Normal subscription cost**: $80  \n- **",
+     "first_token_top": []
+    },
+    {
+     "id": 153,
+     "text": "Let's break down the costs step by step.\n\n---\n\n### **1. Tim",
+     "first_token_top": []
+    },
+    {
+     "id": 154,
+     "text": "We are given the following information:\n\n- **Ariella has $20",
+     "first_token_top": []
+    },
+    {
+     "id": 155,
+     "text": "We are given the following information:\n\n- **Total mangoes harvested**: 6",
+     "first_token_top": []
+    },
+    {
+     "id": 156,
+     "text": "We are given the following information:\n\n- **Sandwich** costs **$4",
+     "first_token_top": []
+    },
+    {
+     "id": 157,
+     "text": "We are given the following:\n\n- A young girl pours **23 blue beads",
+     "first_token_top": []
+    },
+    {
+     "id": 158,
+     "text": "We are given:\n\n- Total trip distance: **150 miles**\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 159,
+     "text": "We are given the following information:\n\n- **Haircuts are 50%",
+     "first_token_top": []
+    },
+    {
+     "id": 160,
+     "text": "Let's break down the total cost step by step.\n\n---\n\n### **1.",
+     "first_token_top": []
+    },
+    {
+     "id": 161,
+     "text": "We are given:\n\n- Total annual budget = **$32 million**\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 162,
+     "text": "We are given the following information about Daniel's video game collection:\n\n- **Total",
+     "first_token_top": []
+    },
+    {
+     "id": 163,
+     "text": "We are given the following information about James:\n\n- **Each touchdown is worth ",
+     "first_token_top": []
+    },
+    {
+     "id": 164,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 165,
+     "text": "We are given the following information:\n\n- **Distance to the destination**: 5",
+     "first_token_top": []
+    },
+    {
+     "id": 166,
+     "text": "We are given the following information:\n\n- Each movie on the Hallmark channel lasts",
+     "first_token_top": []
+    },
+    {
+     "id": 167,
+     "text": "We are given the following information:\n\n- **Previous movie**: 2 hours long",
+     "first_token_top": []
+    },
+    {
+     "id": 168,
+     "text": "Let's break down Silvia's order step by step and calculate the total cost",
+     "first_token_top": []
+    },
+    {
+     "id": 169,
+     "text": "We are given the following information:\n\n- **Borris liquor store uses 9",
+     "first_token_top": []
+    },
+    {
+     "id": 170,
+     "text": "We are given:\n\n- Mel is **three years younger** than Katherine.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 171,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 172,
+     "text": "We are given the following information:\n\n- Kyle has **2 glass bottles** that",
+     "first_token_top": []
+    },
+    {
+     "id": 173,
+     "text": "We are given:\n\n- **Hare's speed**: 10 feet/",
+     "first_token_top": []
+    },
+    {
+     "id": 174,
+     "text": "We are given the following prices for movie tickets:\n\n- **Monday**: $5",
+     "first_token_top": []
+    },
+    {
+     "id": 175,
+     "text": "We are given the following information about Conner's dune buggy:\n\n- **",
+     "first_token_top": []
+    },
+    {
+     "id": 176,
+     "text": "We are given:\n\n- The store sells **20 packets** of **1",
+     "first_token_top": []
+    },
+    {
+     "id": 177,
+     "text": "We are told that James sells his car for **80% of its value",
+     "first_token_top": []
+    },
+    {
+     "id": 178,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 179,
+     "text": "We are given the following information:\n\n- **Colton had 72 dolphin",
+     "first_token_top": []
+    },
+    {
+     "id": 180,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 181,
+     "text": "We are given:\n\n- The tree is **100 meters tall at the",
+     "first_token_top": []
+    },
+    {
+     "id": 182,
+     "text": "We are given a problem where **Lisa** and **Carly** go shopping",
+     "first_token_top": []
+    },
+    {
+     "id": 183,
+     "text": "We are given:\n\n- **Initial number of birds:**\n  - Chickens",
+     "first_token_top": []
+    },
+    {
+     "id": 184,
+     "text": "We are given the following information:\n\n- **Day 1**: 20",
+     "first_token_top": []
+    },
+    {
+     "id": 185,
+     "text": "Let's break down the problem step by step:\n\n1. **Caleb caught",
+     "first_token_top": []
+    },
+    {
+     "id": 186,
+     "text": "We are given the lengths of three snakes in feet and inches, and we need",
+     "first_token_top": []
+    },
+    {
+     "id": 187,
+     "text": "We are given the following information:\n\n- Madeline has **5 boxes** with",
+     "first_token_top": []
+    },
+    {
+     "id": 188,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 189,
+     "text": "We are given the following relationships:\n\n1. **Thor is 13 times",
+     "first_token_top": []
+    },
+    {
+     "id": 190,
+     "text": "We are given the following information:\n\n1. **Last year**, Dallas was **",
+     "first_token_top": []
+    },
+    {
+     "id": 191,
+     "text": "We are given the following information:\n\n- **Initial number of weasels**:",
+     "first_token_top": []
+    },
+    {
+     "id": 192,
+     "text": "We are given the following data:\n\n- **Apple sold 100 iPhones",
+     "first_token_top": []
+    },
+    {
+     "id": 193,
+     "text": "We are given:\n\n- The sunflowers from **Packet A** are **2",
+     "first_token_top": []
+    },
+    {
+     "id": 194,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 195,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 196,
+     "text": "We are given the following information:\n\n- Herbert is **10 years younger**",
+     "first_token_top": []
+    },
+    {
+     "id": 197,
+     "text": "We are given:\n\n- **16 people** at a dinner party.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 198,
+     "text": "We are given:\n\n- Rosie runs **6 miles per hour**.\n- She",
+     "first_token_top": []
+    },
+    {
+     "id": 199,
+     "text": "We are given:\n\n- **Initial loan amount**: $6,000",
+     "first_token_top": []
+    }
+   ]
+  },
+  "prism_1.7b": {
+   "file": "work/qwen3_17b/prism_gguf/Ternary-Bonsai-1.7B-PQ2_0.gguf",
+   "rope": "none",
+   "top_openings": [
+    [
+     "Let's break down the problem step by step.",
+     51
+    ],
+    [
+     "Let's solve the problem step by step.",
+     12
+    ],
+    [
+     "To solve this problem, let's break it down step ",
+     5
+    ],
+    [
+     "Let's break this down step by step.",
+     2
+    ],
+    [
+     "To find out how much oil Ellie needs in total to",
+     1
+    ],
+    [
+     "Let's break down the problem step by step and so",
+     1
+    ],
+    [
+     "Let's break down the number of cars traveling do",
+     1
+    ],
+    [
+     "To determine how many cupcakes Jessa needs to ma",
+     1
+    ]
+   ],
+   "outputs": [
+    {
+     "id": 100,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 101,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 102,
+     "text": "To find out how much oil Ellie needs in total to fix the bike, we",
+     "first_token_top": []
+    },
+    {
+     "id": 103,
+     "text": "Let's break down the problem step by step and solve it systematically.\n\n---\n\n###",
+     "first_token_top": []
+    },
+    {
+     "id": 104,
+     "text": "To solve this problem, let's break it down step by step.\n\n---\n\n###",
+     "first_token_top": []
+    },
+    {
+     "id": 105,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 106,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 107,
+     "text": "Let's break down the number of cars traveling down Happy Street from **Monday through",
+     "first_token_top": []
+    },
+    {
+     "id": 108,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 109,
+     "text": "Let's break down the problem step by step.\n\nWe are told:\n\n- Aly",
+     "first_token_top": []
+    },
+    {
+     "id": 110,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 111,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Determine",
+     "first_token_top": []
+    },
+    {
+     "id": 112,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 113,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 114,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Count",
+     "first_token_top": []
+    },
+    {
+     "id": 115,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 116,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 117,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 118,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 119,
+     "text": "To determine how many cupcakes Jessa needs to make, we need to calculate the",
+     "first_token_top": []
+    },
+    {
+     "id": 120,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 121,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 122,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 123,
+     "text": "To determine how much more expensive, per can, the grocery store deal is compared",
+     "first_token_top": []
+    },
+    {
+     "id": 124,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### Step 1: Define",
+     "first_token_top": []
+    },
+    {
+     "id": 125,
+     "text": "To find Haley's height after 10 years, we can use the formula",
+     "first_token_top": []
+    },
+    {
+     "id": 126,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 127,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 128,
+     "text": "To determine how many hotel rooms the principal needs to book for a class of ",
+     "first_token_top": []
+    },
+    {
+     "id": 129,
+     "text": "To solve this problem, let's break it down step by step.\n\n---\n\n###",
+     "first_token_top": []
+    },
+    {
+     "id": 130,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 131,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 132,
+     "text": "To find out how much James paid for the beef, we need to calculate the",
+     "first_token_top": []
+    },
+    {
+     "id": 133,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 134,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 135,
+     "text": "We are given the following information:\n\n- Kennedy's house is **600",
+     "first_token_top": []
+    },
+    {
+     "id": 136,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 137,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 138,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 139,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 140,
+     "text": "To find out how many kids got into the R-rated movie, we need to",
+     "first_token_top": []
+    },
+    {
+     "id": 141,
+     "text": "To find out how many minutes Larry spends on his dog each day, we need",
+     "first_token_top": []
+    },
+    {
+     "id": 142,
+     "text": "To solve this problem, we need to determine the **percentage of germs left",
+     "first_token_top": []
+    },
+    {
+     "id": 143,
+     "text": "To solve this problem, let's break it down step by step.\n\n---\n\n###",
+     "first_token_top": []
+    },
+    {
+     "id": 144,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 145,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 146,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 147,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Start",
+     "first_token_top": []
+    },
+    {
+     "id": 148,
+     "text": "To determine how much Winwin was able to take home, we need to calculate",
+     "first_token_top": []
+    },
+    {
+     "id": 149,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 150,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 151,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 152,
+     "text": "To find the cost of the discounted subscription, we need to calculate the **discount",
+     "first_token_top": []
+    },
+    {
+     "id": 153,
+     "text": "Let's break down the costs step by step.\n\n### Step 1: Tim",
+     "first_token_top": []
+    },
+    {
+     "id": 154,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 155,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 156,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 157,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 158,
+     "text": "To solve this problem, let's break it down step by step.\n\n---\n\n###",
+     "first_token_top": []
+    },
+    {
+     "id": 159,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 160,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 161,
+     "text": "To find out how much money is left for managing public spaces, we need to",
+     "first_token_top": []
+    },
+    {
+     "id": 162,
+     "text": "To find out how much Daniel spent on all the games in his collection, we",
+     "first_token_top": []
+    },
+    {
+     "id": 163,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 164,
+     "text": "Let's go through the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 165,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 166,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 167,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 168,
+     "text": "To find out how much Silvia's order will be with the discount, we",
+     "first_token_top": []
+    },
+    {
+     "id": 169,
+     "text": "To solve this problem, let's break it down step by step.\n\n---\n\n###",
+     "first_token_top": []
+    },
+    {
+     "id": 170,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 171,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 172,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 173,
+     "text": "To solve this problem, we need to determine how much **head start** the",
+     "first_token_top": []
+    },
+    {
+     "id": 174,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 175,
+     "text": "To find Conner's **average speed**, we need to calculate the **weighted",
+     "first_token_top": []
+    },
+    {
+     "id": 176,
+     "text": "To find out how many kilograms of sugar the store sells every week, we can",
+     "first_token_top": []
+    },
+    {
+     "id": 177,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 178,
+     "text": "Let's break down Simon's purchase step by step and calculate the total cost,",
+     "first_token_top": []
+    },
+    {
+     "id": 179,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 180,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 181,
+     "text": "To solve this problem, we need to calculate the **total height** of the",
+     "first_token_top": []
+    },
+    {
+     "id": 182,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 183,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Initial",
+     "first_token_top": []
+    },
+    {
+     "id": 184,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Day 1",
+     "first_token_top": []
+    },
+    {
+     "id": 185,
+     "text": "Let's break down the problem step by step.\n\n1. **Caleb caught",
+     "first_token_top": []
+    },
+    {
+     "id": 186,
+     "text": "To find the total length of all the snakes combined, we need to convert all",
+     "first_token_top": []
+    },
+    {
+     "id": 187,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 188,
+     "text": "Let's break down the problem step by step.\n\n1. **David broke ",
+     "first_token_top": []
+    },
+    {
+     "id": 189,
+     "text": "We are given the following relationships:\n\n1. **Thor is 13 times",
+     "first_token_top": []
+    },
+    {
+     "id": 190,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 191,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 192,
+     "text": "To find the **average cost across all products sold today**, we need to calculate",
+     "first_token_top": []
+    },
+    {
+     "id": 193,
+     "text": "To solve this problem, we are given that:\n\n- The sunflowers from **",
+     "first_token_top": []
+    },
+    {
+     "id": 194,
+     "text": "To find the **total cost of the gifts after the rebate**, we will follow",
+     "first_token_top": []
+    },
+    {
+     "id": 195,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Calculate",
+     "first_token_top": []
+    },
+    {
+     "id": 196,
+     "text": "Let's break this down step by step.\n\n1. **Given:**  \n  ",
+     "first_token_top": []
+    },
+    {
+     "id": 197,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 198,
+     "text": "To solve this problem, we'll calculate how many miles Rosie has already run in",
+     "first_token_top": []
+    },
+    {
+     "id": 199,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    }
+   ]
+  },
+  "qwen3_4b": {
+   "file": "work/qwen3_teachers/Qwen3-4B-Q8_0.gguf",
+   "rope": "model",
+   "top_openings": [
+    [
+     "We are given the following information:",
+     23
+    ],
+    [
+     "We are given:",
+     16
+    ],
+    [
+     "Let's break down the problem step by step.",
+     12
+    ],
+    [
+     "Let's break this down step by step.",
+     9
+    ],
+    [
+     "We are told:",
+     5
+    ],
+    [
+     "Let's break down the problem step by step to fin",
+     5
+    ],
+    [
+     "We are given the following:",
+     3
+    ],
+    [
+     "We are given the following information about Jan",
+     2
+    ]
+   ],
+   "outputs": [
+    {
+     "id": 100,
+     "text": "We are told:\n\n- The craft store makes **a third of its sales**",
+     "first_token_top": []
+    },
+    {
+     "id": 101,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 102,
+     "text": "Let's break down the problem step by step:\n\n1. **Oil for each",
+     "first_token_top": []
+    },
+    {
+     "id": 103,
+     "text": "We are given the following information about Janice's typing:\n\n- **Typing",
+     "first_token_top": []
+    },
+    {
+     "id": 104,
+     "text": "We are given the following information:\n\n- There are **4 boat trips per day",
+     "first_token_top": []
+    },
+    {
+     "id": 105,
+     "text": "We are given the following information:\n\n- Paddington has **40 more goats",
+     "first_token_top": []
+    },
+    {
+     "id": 106,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Total",
+     "first_token_top": []
+    },
+    {
+     "id": 107,
+     "text": "We are given the number of cars passing Happy Street each day of the week,",
+     "first_token_top": []
+    },
+    {
+     "id": 108,
+     "text": "We are given the following information:\n\n- Henry took **9 pills a day**",
+     "first_token_top": []
+    },
+    {
+     "id": 109,
+     "text": "We are given the following:\n\n- Alyssa, Keely, and Kendall ordered",
+     "first_token_top": []
+    },
+    {
+     "id": 110,
+     "text": "We are given the following information:\n\n- Each candy bar costs **$2**",
+     "first_token_top": []
+    },
+    {
+     "id": 111,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 112,
+     "text": "We are given the following information:\n\n- The family gallery currently has **40",
+     "first_token_top": []
+    },
+    {
+     "id": 113,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### Step 1: B",
+     "first_token_top": []
+    },
+    {
+     "id": 114,
+     "text": "We are given the following information:\n\n- Ed has **2 dogs**.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 115,
+     "text": "We are given the following information:\n\n- Three fourths of the jelly beans are",
+     "first_token_top": []
+    },
+    {
+     "id": 116,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 117,
+     "text": "We are told:\n\n- The aquarium holds an **equal number of clownfish and",
+     "first_token_top": []
+    },
+    {
+     "id": 118,
+     "text": "We are told that Jeanette starts out juggling **3 objects** and each",
+     "first_token_top": []
+    },
+    {
+     "id": 119,
+     "text": "Let's break this down step by step.\n\n1. **Number of fourth-grade",
+     "first_token_top": []
+    },
+    {
+     "id": 120,
+     "text": "Let's break this down step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 121,
+     "text": "We are given the following information:\n\n- The **truck has a capacity of ",
+     "first_token_top": []
+    },
+    {
+     "id": 122,
+     "text": "We are given the following information:\n\n- There are **40 chairs** in",
+     "first_token_top": []
+    },
+    {
+     "id": 123,
+     "text": "We are given two deals for the same sparkling water:\n\n- **Bulk warehouse**:",
+     "first_token_top": []
+    },
+    {
+     "id": 124,
+     "text": "We are given the following information:\n\n- The **first ball** is **half",
+     "first_token_top": []
+    },
+    {
+     "id": 125,
+     "text": "We are given:\n\n- Haley's **current height** = 20 inches",
+     "first_token_top": []
+    },
+    {
+     "id": 126,
+     "text": "We are given the following information:\n\n- **Bob has 10 roommates",
+     "first_token_top": []
+    },
+    {
+     "id": 127,
+     "text": "We are given the meowing rates of three cats and asked to find the **",
+     "first_token_top": []
+    },
+    {
+     "id": 128,
+     "text": "We are given:\n\n- A **class of 30 students**.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 129,
+     "text": "We are told:\n\n- Dan gives a **free ice cream cone** to **",
+     "first_token_top": []
+    },
+    {
+     "id": 130,
+     "text": "Let's solve the problem step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 131,
+     "text": "Let's break down the problem step by step to find the **total number of",
+     "first_token_top": []
+    },
+    {
+     "id": 132,
+     "text": "Let's break this down step by step:\n\n1. **Find the total weight",
+     "first_token_top": []
+    },
+    {
+     "id": 133,
+     "text": "We are given the following information:\n\n- Total number of students in the class:",
+     "first_token_top": []
+    },
+    {
+     "id": 134,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 135,
+     "text": "We are given the following information:\n\n- Kennedy's house is **600",
+     "first_token_top": []
+    },
+    {
+     "id": 136,
+     "text": "We are told:\n\n- **Large animals** take **4 sticks of wax**",
+     "first_token_top": []
+    },
+    {
+     "id": 137,
+     "text": "Let's break this down step by step.\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 138,
+     "text": "We are given the following information:\n\n- A **gallon of whole milk**",
+     "first_token_top": []
+    },
+    {
+     "id": 139,
+     "text": "We are given the following information about Janice's daily movement:\n\n- She walks",
+     "first_token_top": []
+    },
+    {
+     "id": 140,
+     "text": "We are given the number of kids from three different high schools and the percentage of",
+     "first_token_top": []
+    },
+    {
+     "id": 141,
+     "text": "We are given the following information about how Larry spends time with his dog:\n\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 142,
+     "text": "We are given:\n\n- **Spray A** kills **50%**",
+     "first_token_top": []
+    },
+    {
+     "id": 143,
+     "text": "We are told:\n\n- **25% of goldfish are at the surface",
+     "first_token_top": []
+    },
+    {
+     "id": 144,
+     "text": "We are given the following information:\n\n- The restaurant owner ordered ground beef in **",
+     "first_token_top": []
+    },
+    {
+     "id": 145,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 146,
+     "text": "We are given the following information:\n\n- **Richard** can clean his room in",
+     "first_token_top": []
+    },
+    {
+     "id": 147,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Total",
+     "first_token_top": []
+    },
+    {
+     "id": 148,
+     "text": "Let's break down the problem step by step.\n\n---\n\n**Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 149,
+     "text": "We are given:\n\n- In **3 years**, Jayden will be **half",
+     "first_token_top": []
+    },
+    {
+     "id": 150,
+     "text": "We are given:\n\n- Angela needs to deliver **8 times as many packages as",
+     "first_token_top": []
+    },
+    {
+     "id": 151,
+     "text": "We are given:\n\n- Last week, Keiko sent **111**",
+     "first_token_top": []
+    },
+    {
+     "id": 152,
+     "text": "We are given:\n\n- The **normal cost** of a one-year newspaper subscription",
+     "first_token_top": []
+    },
+    {
+     "id": 153,
+     "text": "Let's break down the problem step by step to find out how much Tim paid",
+     "first_token_top": []
+    },
+    {
+     "id": 154,
+     "text": "We are given the following information:\n\n- **Daniella has $400",
+     "first_token_top": []
+    },
+    {
+     "id": 155,
+     "text": "We are given the following information:\n\n- Colby harvested **60 kilograms**",
+     "first_token_top": []
+    },
+    {
+     "id": 156,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 157,
+     "text": "We are given the following:\n\n- A young girl has **23 blue beads",
+     "first_token_top": []
+    },
+    {
+     "id": 158,
+     "text": "We are given:\n\n- Jerome is taking a **150-mile** bicycle",
+     "first_token_top": []
+    },
+    {
+     "id": 159,
+     "text": "We are told that:\n\n- Haircuts are **50% more expensive during",
+     "first_token_top": []
+    },
+    {
+     "id": 160,
+     "text": "Let's break down the problem step by step to find out **how much John",
+     "first_token_top": []
+    },
+    {
+     "id": 161,
+     "text": "We are given the following:\n\n- Total annual budget: **$32 million",
+     "first_token_top": []
+    },
+    {
+     "id": 162,
+     "text": "We are given the following information about Daniel's video game collection:\n\n- Total number",
+     "first_token_top": []
+    },
+    {
+     "id": 163,
+     "text": "We are given the following information about James's football season:\n\n- He scores **",
+     "first_token_top": []
+    },
+    {
+     "id": 164,
+     "text": "Let's go step by step to figure out how many baseball cards Buddy has on",
+     "first_token_top": []
+    },
+    {
+     "id": 165,
+     "text": "We are given the following information:\n\n- **Distance to destination**: 55",
+     "first_token_top": []
+    },
+    {
+     "id": 166,
+     "text": "We are told that:\n\n- Each movie on the Hallmark channel lasts **9",
+     "first_token_top": []
+    },
+    {
+     "id": 167,
+     "text": "We are given the following information:\n\n- **Previous movie duration**: 2 hours",
+     "first_token_top": []
+    },
+    {
+     "id": 168,
+     "text": "Let's break down Silvia's order step by step to calculate the total cost",
+     "first_token_top": []
+    },
+    {
+     "id": 169,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Determine",
+     "first_token_top": []
+    },
+    {
+     "id": 170,
+     "text": "We are given:\n\n- Mel is **three years younger** than Katherine.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 171,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 172,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 173,
+     "text": "We are given:\n\n- The **hare** runs at **10 feet per",
+     "first_token_top": []
+    },
+    {
+     "id": 174,
+     "text": "We are given the cost of movie tickets on different days:\n\n- **Monday**:",
+     "first_token_top": []
+    },
+    {
+     "id": 175,
+     "text": "We are given the following information about Conner's dune buggy:\n\n- **",
+     "first_token_top": []
+    },
+    {
+     "id": 176,
+     "text": "We are given that the store sells **20 packets of 100",
+     "first_token_top": []
+    },
+    {
+     "id": 177,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 178,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 179,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 180,
+     "text": "We are given that Derek has **$960** to spend on books",
+     "first_token_top": []
+    },
+    {
+     "id": 181,
+     "text": "We are given:\n\n- The tree was **100 meters tall at the",
+     "first_token_top": []
+    },
+    {
+     "id": 182,
+     "text": "We are given the amounts that **Lisa** and **Carly** spent on",
+     "first_token_top": []
+    },
+    {
+     "id": 183,
+     "text": "We are given:\n\n- Initial number of chickens: **300**\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 184,
+     "text": "Let's break down the problem step by step to find the **total number of",
+     "first_token_top": []
+    },
+    {
+     "id": 185,
+     "text": "Let's break this down step by step.\n\n1. **Caleb caught ",
+     "first_token_top": []
+    },
+    {
+     "id": 186,
+     "text": "We are given the lengths of three snakes in different units, and we need to",
+     "first_token_top": []
+    },
+    {
+     "id": 187,
+     "text": "We are given the following information about Madeline's crayons:\n\n- Madeline",
+     "first_token_top": []
+    },
+    {
+     "id": 188,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 189,
+     "text": "We are given the following relationships:\n\n1. **Thor is 13 times",
+     "first_token_top": []
+    },
+    {
+     "id": 190,
+     "text": "We are given the following information:\n\n1. **Dexter is 8 years",
+     "first_token_top": []
+    },
+    {
+     "id": 191,
+     "text": "We are given the following information:\n\n- **Initial population:**\n  - We",
+     "first_token_top": []
+    },
+    {
+     "id": 192,
+     "text": "To find the **average cost across all products sold today**, we need to calculate",
+     "first_token_top": []
+    },
+    {
+     "id": 193,
+     "text": "We are given:\n\n- Sunflowers from **Packet A** are **20",
+     "first_token_top": []
+    },
+    {
+     "id": 194,
+     "text": "Let's break down the problem step by step to find the **total cost of",
+     "first_token_top": []
+    },
+    {
+     "id": 195,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 196,
+     "text": "We are given the following information:\n\n- Herbert is **10 years younger**",
+     "first_token_top": []
+    },
+    {
+     "id": 197,
+     "text": "We are given:\n\n- **16 people** at a dinner party.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 198,
+     "text": "We are given:\n\n- Rosie runs at a speed of **6 miles per hour",
+     "first_token_top": []
+    },
+    {
+     "id": 199,
+     "text": "We are given:\n\n- **Loan amount**: $6,000  \n",
+     "first_token_top": []
+    }
+   ]
+  },
+  "qwen3_8b": {
+   "file": "work/qwen3_teachers/Qwen3-8B-Q8_0.gguf",
+   "rope": "model",
+   "top_openings": [
+    [
+     "We are given the following information:",
+     19
+    ],
+    [
+     "We are given:",
+     16
+    ],
+    [
+     "Let's break this down step by step.",
+     7
+    ],
+    [
+     "Let's break this down step by step:",
+     6
+    ],
+    [
+     "Let's break this down step by step to find out h",
+     6
+    ],
+    [
+     "Let's solve this step by step.",
+     5
+    ],
+    [
+     "Let's break the problem down step by step:",
+     4
+    ],
+    [
+     "Let's break this problem down step by step.",
+     4
+    ]
+   ],
+   "outputs": [
+    {
+     "id": 100,
+     "text": "We are told that a craft store makes:\n\n- **1/3** of",
+     "first_token_top": []
+    },
+    {
+     "id": 101,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Understand",
+     "first_token_top": []
+    },
+    {
+     "id": 102,
+     "text": "Let's break the problem down step by step:\n\n1. **Oil for the",
+     "first_token_top": []
+    },
+    {
+     "id": 103,
+     "text": "We are given that Janice types **6 sentences per minute**. We need",
+     "first_token_top": []
+    },
+    {
+     "id": 104,
+     "text": "We are given the following information:\n\n- There are **4 boat trips per day",
+     "first_token_top": []
+    },
+    {
+     "id": 105,
+     "text": "We are given:\n\n- Washington has **140 goats**.\n- Padding",
+     "first_token_top": []
+    },
+    {
+     "id": 106,
+     "text": "Let's break this down step by step:\n\n1. **Number of packs John",
+     "first_token_top": []
+    },
+    {
+     "id": 107,
+     "text": "Let's break down the number of cars that pass Happy Street each day from **",
+     "first_token_top": []
+    },
+    {
+     "id": 108,
+     "text": "We are given the following information:\n\n- Henry took **9 pills a day**",
+     "first_token_top": []
+    },
+    {
+     "id": 109,
+     "text": "We are given the following information:\n\n- Alyssa, Keely, and Kendall",
+     "first_token_top": []
+    },
+    {
+     "id": 110,
+     "text": "Let's break this problem down step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 111,
+     "text": "Let's break down the problem step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 112,
+     "text": "Let's break the problem down step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 113,
+     "text": "Let's solve this step by step.\n\n---\n\n### **Step 1: Initial",
+     "first_token_top": []
+    },
+    {
+     "id": 114,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Count",
+     "first_token_top": []
+    },
+    {
+     "id": 115,
+     "text": "We are given the following information:\n\n- Three fourths of the jelly beans are",
+     "first_token_top": []
+    },
+    {
+     "id": 116,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Identify",
+     "first_token_top": []
+    },
+    {
+     "id": 117,
+     "text": "We are given the following information:\n\n- The aquarium holds an **equal number of",
+     "first_token_top": []
+    },
+    {
+     "id": 118,
+     "text": "We are told that Jeanette starts juggling **3 objects** and each week",
+     "first_token_top": []
+    },
+    {
+     "id": 119,
+     "text": "Let's break the problem down step by step:\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 120,
+     "text": "Let's break this down step by step:\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 121,
+     "text": "We are given the following information:\n\n- **Truck capacity**: 60",
+     "first_token_top": []
+    },
+    {
+     "id": 122,
+     "text": "We are given the following information:\n\n- There are **40 chairs** in",
+     "first_token_top": []
+    },
+    {
+     "id": 123,
+     "text": "We are given two deals for sparkling water and need to compare the **price per",
+     "first_token_top": []
+    },
+    {
+     "id": 124,
+     "text": "We are given the following relationships about the sizes of the balls of yarn:\n\n1",
+     "first_token_top": []
+    },
+    {
+     "id": 125,
+     "text": "We are given:\n\n- Haley's **current height** = 20 inches",
+     "first_token_top": []
+    },
+    {
+     "id": 126,
+     "text": "We are given:\n\n- **Bob has 10 roommates.**\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 127,
+     "text": "We are given the meowing rates of three cats and asked to find the **",
+     "first_token_top": []
+    },
+    {
+     "id": 128,
+     "text": "We are given:\n\n- There are **30 students**.\n- Each hotel",
+     "first_token_top": []
+    },
+    {
+     "id": 129,
+     "text": "We are told:\n\n- Every **6th customer** gets a **free ice",
+     "first_token_top": []
+    },
+    {
+     "id": 130,
+     "text": "Let's solve this step by step.\n\n---\n\n### **Step 1: Initial",
+     "first_token_top": []
+    },
+    {
+     "id": 131,
+     "text": "We are given the following information:\n\n- Mitchell had read **10 full chapters",
+     "first_token_top": []
+    },
+    {
+     "id": 132,
+     "text": "Let's break the problem down step by step:\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 133,
+     "text": "Let's solve this step by step.\n\n---\n\n### **Step 1: Total",
+     "first_token_top": []
+    },
+    {
+     "id": 134,
+     "text": "Let's break this down step by step:\n\n### Step 1: Determine the",
+     "first_token_top": []
+    },
+    {
+     "id": 135,
+     "text": "We are given the following information:\n\n- Kennedy's house is **600",
+     "first_token_top": []
+    },
+    {
+     "id": 136,
+     "text": "We are given the following information:\n\n- **Large animals** take **4 sticks",
+     "first_token_top": []
+    },
+    {
+     "id": 137,
+     "text": "Let's break this problem down step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 138,
+     "text": "Let's break this down step by step to find out how much you will save",
+     "first_token_top": []
+    },
+    {
+     "id": 139,
+     "text": "We are given the following information:\n\n- Janice walks **up** 3",
+     "first_token_top": []
+    },
+    {
+     "id": 140,
+     "text": "We are given the number of kids from three different schools and the percentage of each",
+     "first_token_top": []
+    },
+    {
+     "id": 141,
+     "text": "We are given the following information about how much time Larry spends on his dog each",
+     "first_token_top": []
+    },
+    {
+     "id": 142,
+     "text": "We are given:\n\n- **Spray A** kills **50%**",
+     "first_token_top": []
+    },
+    {
+     "id": 143,
+     "text": "We are told that **only 25% of the goldfish are at",
+     "first_token_top": []
+    },
+    {
+     "id": 144,
+     "text": "We are given the following information:\n\n- Each package of ground beef weighs **4",
+     "first_token_top": []
+    },
+    {
+     "id": 145,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Determine",
+     "first_token_top": []
+    },
+    {
+     "id": 146,
+     "text": "We are given the time each person takes to clean their room and asked to find",
+     "first_token_top": []
+    },
+    {
+     "id": 147,
+     "text": "Let's break this down step by step.\n\n### Step 1: Total cray",
+     "first_token_top": []
+    },
+    {
+     "id": 148,
+     "text": "Let's break this down step by step to find out how much **Winwin",
+     "first_token_top": []
+    },
+    {
+     "id": 149,
+     "text": "We are given:\n\n- In **3 years**, Jayden will be **half",
+     "first_token_top": []
+    },
+    {
+     "id": 150,
+     "text": "We are given the following information:\n\n- Angela delivers **8 times as many packages",
+     "first_token_top": []
+    },
+    {
+     "id": 151,
+     "text": "We are given:\n\n- Keiko sent **111 text messages last week",
+     "first_token_top": []
+    },
+    {
+     "id": 152,
+     "text": "We are given:\n\n- The **normal cost** of a subscription is **$",
+     "first_token_top": []
+    },
+    {
+     "id": 153,
+     "text": "Let's break this down step by step to find out how much **Tim paid",
+     "first_token_top": []
+    },
+    {
+     "id": 154,
+     "text": "We are given the following information:\n\n- **Daniella has $400",
+     "first_token_top": []
+    },
+    {
+     "id": 155,
+     "text": "Let's break the problem down step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 156,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Define",
+     "first_token_top": []
+    },
+    {
+     "id": 157,
+     "text": "We are given the following:\n\n- A young girl pours **23 blue beads",
+     "first_token_top": []
+    },
+    {
+     "id": 158,
+     "text": "We are told that Jerome wants to ride a total of **150 miles",
+     "first_token_top": []
+    },
+    {
+     "id": 159,
+     "text": "We are told:\n\n- Mario paid **$18** for his haircut on",
+     "first_token_top": []
+    },
+    {
+     "id": 160,
+     "text": "Let's break this down step by step to find out **how much John spent",
+     "first_token_top": []
+    },
+    {
+     "id": 161,
+     "text": "We are given the following information:\n\n- **Total annual budget** = $3",
+     "first_token_top": []
+    },
+    {
+     "id": 162,
+     "text": "We are given the following information about Daniel's video game collection:\n\n- Total number",
+     "first_token_top": []
+    },
+    {
+     "id": 163,
+     "text": "Let's break this down step by step to find out how many points **James",
+     "first_token_top": []
+    },
+    {
+     "id": 164,
+     "text": "Let's break this down step by step:\n\n---\n\n### **Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 165,
+     "text": "We are given the following information:\n\n- **Distance to the destination:** 5",
+     "first_token_top": []
+    },
+    {
+     "id": 166,
+     "text": "We are given the following information:\n\n- Each movie on the Hallmark channel lasts",
+     "first_token_top": []
+    },
+    {
+     "id": 167,
+     "text": "Let's break this problem down step by step.\n\n---\n\n### **Step 1",
+     "first_token_top": []
+    },
+    {
+     "id": 168,
+     "text": "Let's break this down step by step to find the total cost of Silvia",
+     "first_token_top": []
+    },
+    {
+     "id": 169,
+     "text": "Let's break this down step by step:\n\n### Step 1: Determine current",
+     "first_token_top": []
+    },
+    {
+     "id": 170,
+     "text": "We are given:\n\n- **Mel is three years younger than Katherine.**\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 171,
+     "text": "Let's break the problem down step by step:\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 172,
+     "text": "Let's break the problem down step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 173,
+     "text": "We are given:\n\n- **Hare's speed**: 10 feet per",
+     "first_token_top": []
+    },
+    {
+     "id": 174,
+     "text": "Let's break this down step by step.\n\n---\n\n### Step 1: Determine",
+     "first_token_top": []
+    },
+    {
+     "id": 175,
+     "text": "We are given the following information about Conner's dune buggy:\n\n- **",
+     "first_token_top": []
+    },
+    {
+     "id": 176,
+     "text": "We are given:\n\n- The store sells **20 packets** of sugar.\n",
+     "first_token_top": []
+    },
+    {
+     "id": 177,
+     "text": "Let's break this down step by step to find out how much **James was",
+     "first_token_top": []
+    },
+    {
+     "id": 178,
+     "text": "Let's break this down step by step to find out how much change Simon will",
+     "first_token_top": []
+    },
+    {
+     "id": 179,
+     "text": "Let's solve this step by step.\n\n---\n\n### **Step 1: Total",
+     "first_token_top": []
+    },
+    {
+     "id": 180,
+     "text": "Let's break down the problem step by step.\n\n### Step 1: Total",
+     "first_token_top": []
+    },
+    {
+     "id": 181,
+     "text": "We are given:\n\n- The tree was **100 meters tall at the",
+     "first_token_top": []
+    },
+    {
+     "id": 182,
+     "text": "Let's break down the problem step by step and calculate how much **Lisa**",
+     "first_token_top": []
+    },
+    {
+     "id": 183,
+     "text": "We are given the initial number of birds and the daily loss of each type of",
+     "first_token_top": []
+    },
+    {
+     "id": 184,
+     "text": "Let's break this down step by step to find the **total number of positive",
+     "first_token_top": []
+    },
+    {
+     "id": 185,
+     "text": "Let's break this problem down step by step.\n\n---\n\n### Step 1:",
+     "first_token_top": []
+    },
+    {
+     "id": 186,
+     "text": "We are given the lengths of 3 snakes in different units (feet and",
+     "first_token_top": []
+    },
+    {
+     "id": 187,
+     "text": "We are given that Madeline has **5 boxes**, each containing **24",
+     "first_token_top": []
+    },
+    {
+     "id": 188,
+     "text": "Let's break this down step by step:\n\n1. **David broke 2",
+     "first_token_top": []
+    },
+    {
+     "id": 189,
+     "text": "We are given the following relationships:\n\n1. **Thor is 13 times",
+     "first_token_top": []
+    },
+    {
+     "id": 190,
+     "text": "We are given the following information:\n\n1. **Dexter is 8 years",
+     "first_token_top": []
+    },
+    {
+     "id": 191,
+     "text": "We are given:\n\n- **Initial population:**\n  - Weasels:",
+     "first_token_top": []
+    },
+    {
+     "id": 192,
+     "text": "We are given the number of units sold and the average cost per unit for each",
+     "first_token_top": []
+    },
+    {
+     "id": 193,
+     "text": "We are told that:\n\n- The sunflowers from **Packet A** are **",
+     "first_token_top": []
+    },
+    {
+     "id": 194,
+     "text": "Let's break this down step by step to find the **total cost of the",
+     "first_token_top": []
+    },
+    {
+     "id": 195,
+     "text": "Let's solve this step by step.\n\n---\n\n### **Step 1: Calculate",
+     "first_token_top": []
+    },
+    {
+     "id": 196,
+     "text": "We are given:\n\n- Herbert is **10 years younger** than Kris.\n",
+     "first_token_top": []
+    },
+    {
+     "id": 197,
+     "text": "We are given:\n\n- **16 people** at a dinner party.\n-",
+     "first_token_top": []
+    },
+    {
+     "id": 198,
+     "text": "We are given:\n\n- Rosie's running speed: **6 miles per hour**\n",
+     "first_token_top": []
+    },
+    {
+     "id": 199,
+     "text": "We are given the following information:\n\n- Gary borrowed **$6,00",
+     "first_token_top": []
+    }
+   ]
+  }
+ },
+ "opening_agreement": {
+  "qwen3_1.7b~prism_1.7b": 0.12,
+  "qwen3_1.7b~qwen3_4b": 0.46,
+  "qwen3_1.7b~qwen3_8b": 0.32,
+  "prism_1.7b~qwen3_4b": 0.15,
+  "prism_1.7b~qwen3_8b": 0.04,
+  "qwen3_4b~qwen3_8b": 0.32
+ }
+}

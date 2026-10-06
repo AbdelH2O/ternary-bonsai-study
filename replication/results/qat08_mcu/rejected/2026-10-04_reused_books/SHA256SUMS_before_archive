@@ -1,0 +1,3 @@
+16c9553f83e5d02051e73a1de4f54cbc37f15c898ab018182ac2d57c6727032d  results/qat08_mcu/cases_record.json
+1b3d53ffb07df1d48674abbb08b8946221d77e4b33e592ef5faa11be7a59261d  work/qat08_mcu/data/mc_record.json
+c74454b819edcebcef922ac732cbd3954ec012e122769f130fbb8d0189be2736  work/qat08_mcu/data/mc_prompts.jsonl

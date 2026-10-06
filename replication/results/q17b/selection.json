@@ -1,0 +1,26 @@
+{
+  "selected_method": "gptqh",
+  "prism_reference": "prism_noyarn",
+  "validation_primary_nll": {
+    "fp": 3.3417302262454487,
+    "prism": 3.5969288907595907,
+    "prism_noyarn": 3.580631476689115,
+    "absmax": 19.291296745285006,
+    "ls": 13.725626863249952,
+    "gptq": 11.875824115417123,
+    "gptqh": 5.003402136604947
+  },
+  "rule": {
+    "method": "between gptq and gptqh: lower mean primary NLL over the three validation books; lexical tie break",
+    "prism_reference": "between prism and prism_noyarn: lower mean primary NLL over the validation books; the winner is the reference for every held-out comparison, the other is reported",
+    "timing": "both written to selection.json before any held-out metric of any arm is computed"
+  },
+  "protocol_sha256": "b70dec33009a3c1aba7075b006be154b207fd61369754bcde628edf82dcc61b9",
+  "scorer_sha256": "e2c82c2a1609dbd3764e56835e04181c2e710047e7dcfc37c1478d359f3e82f4",
+  "builds_sha256": {
+    "ls": "86141df96af17bdbdbe69f61892c0e81ac45c1daa10787e9afeee20f2e62adef",
+    "gptq": "92652b17cd51d72543d968217bebca4bd6f77ca7c1b960c0150931511ebe8d1a",
+    "gptqh": "712c2ff2cbb5227af13a2e7533b7304852df1f3ad782acb298fd2a1c029936f5"
+  },
+  "heldout_scored_before_selection": false
+}

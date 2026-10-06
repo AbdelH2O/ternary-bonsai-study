@@ -1,0 +1,127 @@
+{
+  "purpose": "small matched alpha/MLP perturbation retrieval sensitivity pilot",
+  "source_dose_freeze_sha256": "b4ca7068940df85b5773328f3e0b125af3458ee973217a92a805eec559090bc6",
+  "source_baseline_responses_sha256": "e041ee949d5964f1aa5fa648acfb6155c1df64a1046124873f4062d8ad129a88",
+  "prompt_file": "analysis/bonsai2/prompts/retrieval_v2.jsonl",
+  "prompt_file_sha256": "0a907a9f05ddfdd949bd9253747d8c3ffa8814460af5f4c2e1cdd957c7ea1e28",
+  "baseline_model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "variant_order": [
+    "alpha-d200-c1000-s20260929",
+    "mlp-d200-c200-s20260929",
+    "alpha-d200-c1000-s20260930",
+    "mlp-d200-c200-s20260930",
+    "alpha-d200-c1000-s20260931",
+    "mlp-d200-c200-s20260931"
+  ],
+  "variants": [
+    {
+      "name": "alpha-d200-c1000-s20260929",
+      "seed": 20260929,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.gguf",
+      "model_sha256": "2f4d27e650744c880dd11d718a8e4d93354060838c114770857377efcb243542",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.json",
+      "patch_manifest_sha256": "eecabe3268f31bf6fb6c378c1aba6dfce32fde37737e2a0836a7806f71b1cab4",
+      "changed_values_after_rounding": 11796480
+    },
+    {
+      "name": "mlp-d200-c200-s20260929",
+      "seed": 20260929,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.gguf",
+      "model_sha256": "3a5bad0799c268c5edb1baf7d8382ca10aa71f7d6b59315371854c2e5e6a40e4",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.json",
+      "patch_manifest_sha256": "2cec56b2822696c4e75d5c0f5a35ee26134c0e4438843625fba41ef87115bfaf",
+      "changed_values_after_rounding": 6684672
+    },
+    {
+      "name": "alpha-d200-c1000-s20260930",
+      "seed": 20260930,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260930.gguf",
+      "model_sha256": "833958aa3c60f6e0b4136483ee3cd700d25752f0ecdd5cd9a49d9d4cff13c33a",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260930.json",
+      "patch_manifest_sha256": "549ab0b2b96ed4625a8cc01f11a7a527b6906a74f6b0e5435612954467b21d14",
+      "changed_values_after_rounding": 11796480
+    },
+    {
+      "name": "mlp-d200-c200-s20260930",
+      "seed": 20260930,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260930.gguf",
+      "model_sha256": "86c2f1309005b3c3ad949411479e439f7141d3236fd01869b2153c70e64f6312",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260930.json",
+      "patch_manifest_sha256": "e0d71b4524c754503505e6fc0d955a617226c8971c038e5fed253131eb68aed7",
+      "changed_values_after_rounding": 6684672
+    },
+    {
+      "name": "alpha-d200-c1000-s20260931",
+      "seed": 20260931,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260931.gguf",
+      "model_sha256": "105b65b7082057ea49b8e557e0639cf1ec242cddcdd816a66f39d58400e7662f",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260931.json",
+      "patch_manifest_sha256": "f2e4b00613205b6b7a89071ae98e806d232a1c108a2d03dc9da24ffdfb6acf03",
+      "changed_values_after_rounding": 11796480
+    },
+    {
+      "name": "mlp-d200-c200-s20260931",
+      "seed": 20260931,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260931.gguf",
+      "model_sha256": "f0007387556d5b85e866676b2b672eba006b95062fe4be4444fcbff89e025bb1",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260931.json",
+      "patch_manifest_sha256": "c7ab649009b986df8456eaa532d1b2d6dd51d5aece01cbeb1f9ed4adaee21ab7",
+      "changed_values_after_rounding": 6684672
+    }
+  ],
+  "item_ids": [
+    "rv2-00-q1-short-near-base",
+    "rv2-00-q1-long-near-base",
+    "rv2-00-q1-long-far-base",
+    "rv2-00-q2-short-near-base",
+    "rv2-00-q2-long-near-base",
+    "rv2-00-q2-long-far-base",
+    "rv2-00-q1-short-near-swap",
+    "rv2-00-q1-long-near-swap",
+    "rv2-00-q1-long-far-swap",
+    "rv2-00-q2-short-near-swap",
+    "rv2-00-q2-long-near-swap",
+    "rv2-00-q2-long-far-swap",
+    "rv2-01-q1-short-near-base",
+    "rv2-01-q1-long-near-base",
+    "rv2-01-q1-long-far-base",
+    "rv2-01-q2-short-near-base",
+    "rv2-01-q2-long-near-base",
+    "rv2-01-q2-long-far-base",
+    "rv2-01-q1-short-near-swap",
+    "rv2-01-q1-long-near-swap",
+    "rv2-01-q1-long-far-swap",
+    "rv2-01-q2-short-near-swap",
+    "rv2-01-q2-long-near-swap",
+    "rv2-01-q2-long-far-swap"
+  ],
+  "item_count_per_variant": 24,
+  "generation": {
+    "temperature": 0,
+    "seed": 20260929,
+    "thinking_budget_tokens": 0,
+    "max_tokens": 32
+  },
+  "profile": {
+    "context": 16384,
+    "parallel": 1,
+    "n_batch": 512,
+    "n_ubatch": 512,
+    "kv": "f16",
+    "gpu_layers": 99,
+    "thinking": "off",
+    "cache_prompt": false
+  },
+  "outcomes": {
+    "primary": "exact code accuracy by layout and arm; paired far-minus-near error count",
+    "secondary": "extracted-code accuracy and base/swap tracking",
+    "sensitivity_gate": "At least one exact error in an intervention arm is required to treat this task as accuracy-sensitive at the frozen doses. Zero errors means no-go for an accuracy-only full retrieval matrix.",
+    "interpretation": "Descriptive pilot only; a far-specific mechanism or held-out effect cannot be established from two registries."
+  }
+}

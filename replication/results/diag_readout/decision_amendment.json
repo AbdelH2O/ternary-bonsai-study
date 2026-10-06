@@ -1,0 +1,44 @@
+{
+  "amends": "results/diag_readout/decision.json",
+  "amends_decision_sha256": "90d5b083f419df1ad858a548297ee2cbbb191db3c54a038d99e3fe4618d6b70c",
+  "results_sha256": "be394537311adb908a2d447b819a4899399ea681319765de5865212bd2ca2222",
+  "plan_sha256": "8c08c1fefc15b782b61cc1d2c983504b396d4b7ec880fe6510749459c6e5b41a",
+  "written_after_results": true,
+  "original_branch": "harness_invalid",
+  "reason": "the frozen FP binding floor used calibrated accuracy; mean-log-prob calibration subtracts per-letter offsets that measure how strongly a confident model rejects wrong letters, not a letter prior, and so flips low-margin items of a near-perfect model. The floor now applies to FP's uncalibrated binding accuracy. Chosen after results were seen; the branch is the same under any FP floor FP passes",
+  "changed_rule": {
+    "fp_binding_floor_metric": {
+      "from": "calibrated_accuracy",
+      "to": "raw_accuracy"
+    },
+    "fp_binding_min": 95.0
+  },
+  "fp_binding": {
+    "raw_accuracy": 99.25,
+    "calibrated_accuracy": 94.0,
+    "pairwise": 98.00000000000001,
+    "pairwise_lo": 97.22323809032144
+  },
+  "amended": {
+    "branch": "readout_broken",
+    "arms_required": [
+      "M",
+      "U",
+      "B"
+    ],
+    "arms_optional": [
+      "MU"
+    ],
+    "stop": false,
+    "reasons": [
+      "FP binding uncalibrated accuracy 99.25% >= 95.0% (amended floor)",
+      "chat binding calibrated accuracy 27.2%",
+      "cloze knowledge signal: False",
+      "rising trajectory: True",
+      "FP cloze informative (lower bound > 55.0): True"
+    ]
+  },
+  "amendment_script_sha256": "145e3bff1d0758df498603cf940b1a25233e7a6c0a9d7a6b6088bc4e3acc6969",
+  "user_instruction": "Let's go with option 1 then",
+  "recorded_at": "2026-10-04T10:53:36.410224+00:00"
+}

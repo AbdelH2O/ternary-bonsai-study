@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "design_sha256": "2963624c41e8b7fe09739f96c83b4eace922b5352b84b470f75fb1e5bd363a10",
+  "reason": "superseded by design v2 (MMLU-fresh contamination exclusions); kept byte-for-byte as the historical v1 record",
+  "archived_at": "2026-10-04T17:25:07.731728+00:00",
+  "files": {
+    "results/qat08_mcu/design.json": {
+      "sha256": "2963624c41e8b7fe09739f96c83b4eace922b5352b84b470f75fb1e5bd363a10",
+      "bytes": 105031,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/design.json"
+    },
+    "results/qat08_mcu/design_approval.json": {
+      "sha256": "70054abe07c96daa10e4f13d31225c4c81938f1bb6e04e4500ebe80443a224f8",
+      "bytes": 516,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/design_approval.json"
+    },
+    "results/qat08_mcu/prep_approval.json": {
+      "sha256": "e4cd2d5248fef139a2c3a5b7c9c4d3df028e88abc04f4422cbf762682fa7ff73",
+      "bytes": 780,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/prep_approval.json"
+    },
+    "results/qat08_mcu/cases_record.json": {
+      "sha256": "75f7055598b8279bec2478522a1264317e5104ef741542f8ba83cfeb9406aba0",
+      "bytes": 79380,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases_record.json"
+    },
+    "results/qat08_mcu/cases/binding.tsv": {
+      "sha256": "c984409152e8d1be7491290db198c05271f31c6ab0ff680e2ef240b6d60aad80",
+      "bytes": 292034,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/binding.tsv"
+    },
+    "results/qat08_mcu/cases/gsm8k.jsonl": {
+      "sha256": "413b4c81cb0192bc460dd11a2c834eeeb9019a7338d011bd8667924c676bde08",
+      "bytes": 717196,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/gsm8k.jsonl"
+    },
+    "results/qat08_mcu/cases/heldout_books.tsv": {
+      "sha256": "dff2ec931b89b44bfb4d91b63e77ce2eb1bfb1f6d65b09adfa12ce92dbaae774",
+      "bytes": 112361,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/heldout_books.tsv"
+    },
+    "results/qat08_mcu/cases/mmlu.tsv": {
+      "sha256": "a81c3f166c0e1132a7ddb4d238e91cced3bbff93f6d53d621c3c028acb65ff2d",
+      "bytes": 3414805,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/mmlu.tsv"
+    },
+    "results/qat08_mcu/cases/mmlu_fresh.tsv": {
+      "sha256": "65b1085729d5768da520b6f8c15cc3ceb36c70445d73d02ee95ab6bcd8eff222",
+      "bytes": 2202098,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/mmlu_fresh.tsv"
+    },
+    "results/qat08_mcu/cases/retrieval.tsv": {
+      "sha256": "8bcf6e551210091bfdb40588cd60eaa525d67b560c0337448a3ebca5fecdcea8",
+      "bytes": 552790,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/retrieval.tsv"
+    },
+    "results/qat08_mcu/cases/validation_books.tsv": {
+      "sha256": "62479635c64e9eee0c946ca1fc412ea466ebec93bc29a963c78230a530f17e8e",
+      "bytes": 28350,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/cases/validation_books.tsv"
+    },
+    "results/qat08_mcu/contamination_train.jsonl": {
+      "sha256": "5da7140db9e9e58f5035ab311e9160088cb0d85aae4510913d59bc2eee963a7a",
+      "bytes": 948496,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/contamination_train.jsonl"
+    },
+    "results/qat08_mcu/contamination_train_B.jsonl": {
+      "sha256": "3219243b175afb2118d703a4f5247f655c6d7ae3ae58a00a7ce14dc201c57480",
+      "bytes": 948418,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/contamination_train_B.jsonl"
+    },
+    "results/qat08_mcu/contamination_train_M.jsonl": {
+      "sha256": "a22032e8e1871c3d0aca02022e33a1aa662d135013e6cc802f2334ec0f2330ba",
+      "bytes": 1086998,
+      "archived_copy": "results/qat08_mcu/versions/v1/results/qat08_mcu/contamination_train_M.jsonl"
+    },
+    "QAT08_MCU_DESIGN.md": {
+      "sha256": "ee2919f7c7e7d3f11f1642c2da626f9fb3e0f54ae08fc7ec418b863270bcf7ff",
+      "bytes": 12449,
+      "archived_copy": "results/qat08_mcu/versions/v1/QAT08_MCU_DESIGN.md"
+    },
+    "prepare_qat08_mcu.py": {
+      "sha256": "34f8eb9a9aac37c51792a1cfc69fc734ae38cdab867f872acdfb038b9b75c964",
+      "bytes": 34155,
+      "archived_copy": "results/qat08_mcu/versions/v1/prepare_qat08_mcu.py"
+    },
+    "freeze_qat08_mcu.py": {
+      "sha256": "88870ea867b2d7905f18c0f2a50108715b7394046de1c11b13f9a1e019a22009",
+      "bytes": 16565,
+      "archived_copy": "results/qat08_mcu/versions/v1/freeze_qat08_mcu.py"
+    },
+    "qat_08b_mcu.py": {
+      "sha256": "1db300ef39437b685187b17007091f3bc69ce074dd8d84bee50d25c468c0f80b",
+      "bytes": 14521,
+      "archived_copy": "results/qat08_mcu/versions/v1/qat_08b_mcu.py"
+    },
+    "score_qat08_mcu.py": {
+      "sha256": "b4a26fff4ad1ed62d6b4c893811275bdb43923f4fc78c867d8b53914f27c1662",
+      "bytes": 11045,
+      "archived_copy": "results/qat08_mcu/versions/v1/score_qat08_mcu.py"
+    },
+    "qat08_mcu_control.py": {
+      "sha256": "6a33a07042f19a1290b7bd9673bf4a2d831e6d7a5142048826a782548e253db9",
+      "bytes": 13602,
+      "archived_copy": "results/qat08_mcu/versions/v1/qat08_mcu_control.py"
+    },
+    "report_qat08_mcu.py": {
+      "sha256": "f766afc50e68c38dac9c009a287c8eba3a74dd48515e1931452b1c55b058739b",
+      "bytes": 3925,
+      "archived_copy": "results/qat08_mcu/versions/v1/report_qat08_mcu.py"
+    },
+    "test_qat08_mcu.py": {
+      "sha256": "984507635de6942e8922042f07ce4ce82936e43db670923fd93b77e01c06ca6a",
+      "bytes": 36584,
+      "archived_copy": "results/qat08_mcu/versions/v1/test_qat08_mcu.py"
+    },
+    "work/qat08_mcu/data/mc_record.json": {
+      "sha256": "1b3d53ffb07df1d48674abbb08b8946221d77e4b33e592ef5faa11be7a59261d",
+      "bytes": 1830,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/data/mc_record.json"
+    },
+    "work/qat08_mcu/data/data_record.json": {
+      "sha256": "c91b83fae3b1a22fcc51c8417c6dea88edc52941f3f96e36f2a09d5c62b47c55",
+      "bytes": 1524,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/data/data_record.json"
+    },
+    "work/qat08_mcu/data/kept_mc.json": {
+      "sha256": "d0220ebea5c9f8eb0b4f772ac69b7082864576dd340193a5a86e4aa95459519d",
+      "bytes": 999837,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/data/kept_mc.json"
+    },
+    "work/qat08_mcu/data/teacher_timing.json": {
+      "sha256": "ae49bb17985330b929540da4d9bc6d66240e2c1dcc19d10fc0c5389914bbebd2",
+      "bytes": 388,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/data/teacher_timing.json"
+    },
+    "work/qat08_mcu/data/pilot_timing.json": {
+      "sha256": "faabdbd3410a2eead29b0db56f90ea331869a74ec06c78e2790ea3d1ea58debc",
+      "bytes": 381,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/data/pilot_timing.json"
+    },
+    "work/qat08_mcu/run_state.json": {
+      "sha256": "1ebcec506818d06af2099bdb6f0a9964c3ee5341031c61ae44c2b66a4565ecb1",
+      "bytes": 114,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/run_state.json"
+    },
+    "work/qat08_mcu/pre_freeze_incidents.json": {
+      "sha256": "5cc0e32a8e589adc8ec700388fe21911b0902f465f8bb03ad7337ef685def174",
+      "bytes": 2067,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/pre_freeze_incidents.json"
+    },
+    "work/qat08_mcu/data_phase_incidents.json": {
+      "sha256": "1344d4abe4591085c45b9df892c8665ba9312c184d88dde60e65d5be10d670de",
+      "bytes": 1787,
+      "archived_copy": "results/qat08_mcu/versions/v1/work/qat08_mcu/data_phase_incidents.json"
+    }
+  },
+  "kept_in_place_hash_only": {
+    "work/qat08_mcu/data/mc_prompts.jsonl": "c74454b819edcebcef922ac732cbd3954ec012e122769f130fbb8d0189be2736",
+    "work/qat08_mcu/data/mc_teacher.jsonl": "144db4cb2ed74486daa278a29dd6844213d2467b9b28a81b6cd92e6972fffa96",
+    "work/qat08_mcu/data/mc_unique.u32": "61bc90723f7c00e0d4742ed4266a67afd0d9e4040d8eaf41c130875c3f2c5bec",
+    "work/qat08_mcu/data/train_M.u32": "3273882046fcbc48d459fd703832449dd58067d748208f13e3ace33c9c673151",
+    "work/qat08_mcu/data/train_B.u32": "5ec324bd75dbee6b8c52fea731bd4b5d8f68f6ae25c3329137ef827cc4f9d9dc",
+    "work/qat08_mcu/execution.jsonl": "a51a0efb13657ce53051f657cb5f68cf9cd2bb37502b2adab25199ea33c9d284"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "freeze_sha256": "43195e696ffb0b8351a61a54553ca9a5963a213014d612f6bb79ab5b92b58875",
+  "prompt_file_sha256": "0a907a9f05ddfdd949bd9253747d8c3ffa8814460af5f4c2e1cdd957c7ea1e28",
+  "baseline_subset_exact_correct": 24,
+  "requests": 144,
+  "errors": 0,
+  "per_variant": [
+    {
+      "variant": "alpha-d200-c1000-s20260929",
+      "arm": "alpha",
+      "seed": 20260929,
+      "exact_correct": 24,
+      "extracted_correct": 24,
+      "layout": {
+        "short-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-far": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        }
+      },
+      "long_far_minus_near_error_count": 0,
+      "swap_pairs_followed": 12,
+      "wrong": []
+    },
+    {
+      "variant": "mlp-d200-c200-s20260929",
+      "arm": "mlp",
+      "seed": 20260929,
+      "exact_correct": 24,
+      "extracted_correct": 24,
+      "layout": {
+        "short-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-far": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        }
+      },
+      "long_far_minus_near_error_count": 0,
+      "swap_pairs_followed": 12,
+      "wrong": []
+    },
+    {
+      "variant": "alpha-d200-c1000-s20260930",
+      "arm": "alpha",
+      "seed": 20260930,
+      "exact_correct": 24,
+      "extracted_correct": 24,
+      "layout": {
+        "short-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-far": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        }
+      },
+      "long_far_minus_near_error_count": 0,
+      "swap_pairs_followed": 12,
+      "wrong": []
+    },
+    {
+      "variant": "mlp-d200-c200-s20260930",
+      "arm": "mlp",
+      "seed": 20260930,
+      "exact_correct": 24,
+      "extracted_correct": 24,
+      "layout": {
+        "short-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-far": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        }
+      },
+      "long_far_minus_near_error_count": 0,
+      "swap_pairs_followed": 12,
+      "wrong": []
+    },
+    {
+      "variant": "alpha-d200-c1000-s20260931",
+      "arm": "alpha",
+      "seed": 20260931,
+      "exact_correct": 24,
+      "extracted_correct": 24,
+      "layout": {
+        "short-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-far": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        }
+      },
+      "long_far_minus_near_error_count": 0,
+      "swap_pairs_followed": 12,
+      "wrong": []
+    },
+    {
+      "variant": "mlp-d200-c200-s20260931",
+      "arm": "mlp",
+      "seed": 20260931,
+      "exact_correct": 24,
+      "extracted_correct": 24,
+      "layout": {
+        "short-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-near": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        },
+        "long-far": {
+          "n": 8,
+          "exact_correct": 8,
+          "extracted_correct": 8
+        }
+      },
+      "long_far_minus_near_error_count": 0,
+      "swap_pairs_followed": 12,
+      "wrong": []
+    }
+  ],
+  "by_arm": {
+    "alpha": {
+      "n": 72,
+      "exact_correct": 72,
+      "long_far_minus_near_error_count": 0,
+      "seed_exact_correct": {
+        "20260929": 24,
+        "20260930": 24,
+        "20260931": 24
+      }
+    },
+    "mlp": {
+      "n": 72,
+      "exact_correct": 72,
+      "long_far_minus_near_error_count": 0,
+      "seed_exact_correct": {
+        "20260929": 24,
+        "20260930": 24,
+        "20260931": 24
+      }
+    }
+  },
+  "decision": "no-go for an accuracy-only full retrieval matrix at these doses; validate likelihood or harder exchangeable interference",
+  "limitations": "Two registries, post-calibration pilot; accuracy only. Any contrast is descriptive, not a recurrent-state mechanism test."
+}

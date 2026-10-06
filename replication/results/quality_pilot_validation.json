@@ -1,0 +1,198 @@
+[
+  {
+    "basis": "base",
+    "method": "fixed86",
+    "bytes": 213700000,
+    "tensor_types": {
+      "PQ2_0": 151,
+      "BF16": 36,
+      "F32": 133
+    },
+    "unchanged_non_pq_tensors": 169,
+    "sampled_exact_groups": [
+      {
+        "tensor": "token_embd.weight",
+        "group": 0
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1986559
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 28671
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 16383
+      }
+    ]
+  },
+  {
+    "basis": "base",
+    "method": "ls",
+    "bytes": 213700000,
+    "tensor_types": {
+      "PQ2_0": 151,
+      "BF16": 36,
+      "F32": 133
+    },
+    "unchanged_non_pq_tensors": 169,
+    "sampled_exact_groups": [
+      {
+        "tensor": "token_embd.weight",
+        "group": 0
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1986559
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 28671
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 16383
+      }
+    ]
+  },
+  {
+    "basis": "folded",
+    "method": "fixed86",
+    "bytes": 213731552,
+    "tensor_types": {
+      "PQ2_0": 151,
+      "BF16": 36,
+      "F32": 133
+    },
+    "unchanged_non_pq_tensors": 169,
+    "sampled_exact_groups": [
+      {
+        "tensor": "token_embd.weight",
+        "group": 0
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1986559
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 28671
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 16383
+      }
+    ]
+  },
+  {
+    "basis": "folded",
+    "method": "ls",
+    "bytes": 213731552,
+    "tensor_types": {
+      "PQ2_0": 151,
+      "BF16": 36,
+      "F32": 133
+    },
+    "unchanged_non_pq_tensors": 169,
+    "sampled_exact_groups": [
+      {
+        "tensor": "token_embd.weight",
+        "group": 0
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1
+      },
+      {
+        "tensor": "token_embd.weight",
+        "group": 1986559
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ffn_down.weight",
+        "group": 28671
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 0
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 1
+      },
+      {
+        "tensor": "blk.0.ssm_out.weight",
+        "group": 16383
+      }
+    ]
+  }
+]

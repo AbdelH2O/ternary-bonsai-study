@@ -1,0 +1,13 @@
+{
+  "arm": "M",
+  "checkpoint": "final",
+  "rule": "top86",
+  "file": "M-final.gguf",
+  "sha256": "95e11bdab63786a1a40a83114f4795f3dc252244ea3eadc2432a8d9fa3be78ba",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "bf4b4163b919846080052014c042a30ee17ceb395f838603834dd702c2107668",
+  "protocol_sha256": "b99f4bddfd2177c1f52cb83a747eb1173ea030944a02b1e32d145f89b82a783e",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916",
+  "mcu_exporter_sha256": "1db300ef39437b685187b17007091f3bc69ce074dd8d84bee50d25c468c0f80b"
+}

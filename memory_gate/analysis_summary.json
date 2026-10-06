@@ -1,0 +1,158 @@
+{
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "technical_gates_passed": true,
+  "decision": "unresolved",
+  "primary_early_mean": 0.08068248017786225,
+  "primary_early_t95ci": [
+    -0.013169494865395912,
+    0.17453445522112043
+  ],
+  "primary_positive_documents": 5,
+  "secondary_all_mean": 0.055017030563408245,
+  "secondary_all_t95ci": [
+    0.02909916317777447,
+    0.08093489794904202
+  ],
+  "documents": [
+    {
+      "document_id": "emma",
+      "early_mean": 0.08899658217806122,
+      "all_mean": 0.04011976322311524
+    },
+    {
+      "document_id": "little_women",
+      "early_mean": 0.03747643669118755,
+      "all_mean": 0.08605260804513881
+    },
+    {
+      "document_id": "wuthering_heights",
+      "early_mean": 0.10223843791126283,
+      "all_mean": 0.041356993255290894
+    },
+    {
+      "document_id": "war_of_the_worlds",
+      "early_mean": 0.23847972656942418,
+      "all_mean": 0.08464463486633036
+    },
+    {
+      "document_id": "monte_cristo",
+      "early_mean": 0.042025539901030265,
+      "all_mean": 0.05089677129426799
+    },
+    {
+      "document_id": "middlemarch",
+      "early_mean": -0.02512184218379255,
+      "all_mean": 0.02703141269630615
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "emma-p30000-h12288",
+      "early_mean": 0.10203391066169494,
+      "all_mean": 0.04073845699846065,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "52eccbce733a2a80bb26618bd87a27d0b7b1c8b0d158780c6c9324205a069122",
+      "rebased_sha256": "40d889061ba09bd8f3f2b93af2efa5c58cae1a226f20766bb4e42b4f5f90253f"
+    },
+    {
+      "case_id": "emma-p50000-h12288",
+      "early_mean": 0.07595925369442749,
+      "all_mean": 0.03950106944776982,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "2b11d46043667f3606de4c430b6444804b290e872b1ddced19c9965ef2be92cd",
+      "rebased_sha256": "723ac5a5da190aa8585fbb2d910e4587c3514da30996342712e51beb7557fa73"
+    },
+    {
+      "case_id": "little_women-p30000-h12288",
+      "early_mean": -0.03955553216987491,
+      "all_mean": 0.03458614490135673,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "8f12870bdfdc904d9d5fd517caa0a7fef4f5b632c0c02ef576e362328b806872",
+      "rebased_sha256": "cddb72c3ae67fd1aeeca69347ab34d6e37d7c6c906259877ce8b4abf2a80f031"
+    },
+    {
+      "case_id": "little_women-p50000-h12288",
+      "early_mean": 0.11450840555225,
+      "all_mean": 0.1375190711889209,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "891825ed4023f334837dfba961b7e62fea6f1f2227ea815234183586f6351075",
+      "rebased_sha256": "14cc79202d381f863414f115390f7547418fe34817e570685ae1ff67b6dadcb5"
+    },
+    {
+      "case_id": "wuthering_heights-p30000-h12288",
+      "early_mean": 0.04564457575343813,
+      "all_mean": 0.03909751193191684,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "b05470d05da88191d70fc3b026fc0d47c984f11f51df7fd5fc809b98f0c1c98d",
+      "rebased_sha256": "c2c5e7382660d0ca88d763153b247165c6466b2c1ab1359f43b62df30593470d"
+    },
+    {
+      "case_id": "wuthering_heights-p50000-h12288",
+      "early_mean": 0.15883230006908752,
+      "all_mean": 0.04361647457866495,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "8dd9ab73490d02403f1ce626fe7222262465022fb40fe6fbb7fa3b21848ef2eb",
+      "rebased_sha256": "380f954a61e4bf647ff18ba4db84eccf02bed4d9f71db0d57f254b27ae4298e5"
+    },
+    {
+      "case_id": "war_of_the_worlds-p30000-h12288",
+      "early_mean": 0.21213514883271206,
+      "all_mean": 0.07197623420962938,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "3ec0b7386852ae32f8ba80120247d572b1170064b511563d332e32cbd09a1ba0",
+      "rebased_sha256": "fb0d4da5fc3573c938d8b595418d7aacc891d903cf6df0c438e84bd85e5be0d8"
+    },
+    {
+      "case_id": "war_of_the_worlds-p50000-h12288",
+      "early_mean": 0.2648243043061363,
+      "all_mean": 0.09731303552303133,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "b0788d4bc1e02ec597cd48c063f3df1d98fb23656975723969ef986dd89890f2",
+      "rebased_sha256": "d8f8699e903a5bd45adb97480564841bbe8e86ce435946a9667bdf613577017b"
+    },
+    {
+      "case_id": "monte_cristo-p30000-h12288",
+      "early_mean": -0.039911270554015645,
+      "all_mean": 0.07464909762487346,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "298c5d302f4d84bcebeb0eb359ef0e938cc1d1859fb4fcfd857b49d6644cd0f6",
+      "rebased_sha256": "a33c7f6e337a10ac7574a107c75aca1e176fad52f056f3b4319e385bb5761aa0"
+    },
+    {
+      "case_id": "monte_cristo-p50000-h12288",
+      "early_mean": 0.12396235035607618,
+      "all_mean": 0.02714444496366252,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "555eefb2602d0099fb42f3c60abe2f3fd66388cfff9488928d48d8cc376fdb9f",
+      "rebased_sha256": "b4851668dbc439c1380056de371963206197c6e5d5f45e3214c19cdbff541af8"
+    },
+    {
+      "case_id": "middlemarch-p30000-h12288",
+      "early_mean": -0.04156971225475004,
+      "all_mean": -0.025481907566304002,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "92f38e59be6a9bbb1f7b8783137d0a3142cfbcdba450695d649e641cf974ff5e",
+      "rebased_sha256": "b9701ff9c2f4bd8051c50a4f30b47ce74bdd3d7ef2009da16e8d3715d001c72a"
+    },
+    {
+      "case_id": "middlemarch-p50000-h12288",
+      "early_mean": -0.008673972112835052,
+      "all_mean": 0.0795447329589163,
+      "position_max": 0.0,
+      "self_max": 0.0,
+      "raw_sha256": "3b203b09d018b3462589c66cb6806f8f0d88ac01ccab4da80310c007a70695e5",
+      "rebased_sha256": "c49de87248748d6ef0d8926232ac0c96fe299cf0c77795c088a8fe13fefb8721"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the archive, the birch map 000 was assigned reference code D00X000. It arrived in month 01 and was placed in room 10. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the archive, the amber ledger was assigned reference code C00X413. It arrived in month 08 and was placed in room 23. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the archive, the dawn register 002 was assigned reference code D00X002. It arrived in month 03 and was placed in room 36. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the archive, the elm manifest 003 was assigned reference code D00X003. It arrived in month 10 and was placed in room 49. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the archive, the frost invoice 004 was assigned reference code D00X004. It arrived in month 05 and was placed in room 62. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the archive, the granite crate 005 was assigned reference code D00X005. It arrived in month 12 and was placed in room 75. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the archive, what reference code was assigned to the amber ledger?
+Answer: C00X413
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the observatory, the cobalt crate 000 was assigned reference code D01X000. It arrived in month 02 and was placed in room 11. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the observatory, the dawn record 001 was assigned reference code D01X001. It arrived in month 09 and was placed in room 24. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the observatory, the elm dossier 002 was assigned reference code D01X002. It arrived in month 04 and was placed in room 37. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the observatory, the birch record was assigned reference code C01X450. It arrived in month 11 and was placed in room 50. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the observatory, the granite report 004 was assigned reference code D01X004. It arrived in month 06 and was placed in room 63. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the observatory, the hazel sample 005 was assigned reference code D01X005. It arrived in month 01 and was placed in room 76. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the observatory, what reference code was assigned to the birch record?
+Answer: C01X450
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the harbor, the dawn sample 000 was assigned reference code D02X000. It arrived in month 03 and was placed in room 12. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the harbor, the cobalt voucher was assigned reference code C02X487. It arrived in month 10 and was placed in room 25. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the harbor, the frost batch 002 was assigned reference code D02X002. It arrived in month 05 and was placed in room 38. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the harbor, the granite ticket 003 was assigned reference code D02X003. It arrived in month 12 and was placed in room 51. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the harbor, the hazel journal 004 was assigned reference code D02X004. It arrived in month 07 and was placed in room 64. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the harbor, the indigo permit 005 was assigned reference code D02X005. It arrived in month 02 and was placed in room 77. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the harbor, what reference code was assigned to the cobalt voucher?
+Answer: C02X487
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the laboratory, the elm permit 000 was assigned reference code D03X000. It arrived in month 04 and was placed in room 13. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the laboratory, the frost parcel 001 was assigned reference code D03X001. It arrived in month 11 and was placed in room 26. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the laboratory, the granite voucher 002 was assigned reference code D03X002. It arrived in month 06 and was placed in room 39. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the laboratory, the dawn invoice was assigned reference code C03X524. It arrived in month 01 and was placed in room 52. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the laboratory, the indigo ledger 004 was assigned reference code D03X004. It arrived in month 08 and was placed in room 65. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the laboratory, the juniper folder 005 was assigned reference code D03X005. It arrived in month 03 and was placed in room 78. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the laboratory, what reference code was assigned to the dawn invoice?
+Answer: C03X524
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the museum, the frost folder 000 was assigned reference code D04X000. It arrived in month 05 and was placed in room 14. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the museum, the elm permit was assigned reference code C04X561. It arrived in month 12 and was placed in room 27. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the museum, the hazel capsule 002 was assigned reference code D04X002. It arrived in month 07 and was placed in room 40. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the museum, the indigo bundle 003 was assigned reference code D04X003. It arrived in month 02 and was placed in room 53. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the museum, the juniper map 004 was assigned reference code D04X004. It arrived in month 09 and was placed in room 66. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the museum, the kelp shipment 005 was assigned reference code D04X005. It arrived in month 04 and was placed in room 79. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the museum, what reference code was assigned to the elm permit?
+Answer: C04X561
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the expedition, the granite shipment 000 was assigned reference code D05X000. It arrived in month 06 and was placed in room 15. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the expedition, the hazel register 001 was assigned reference code D05X001. It arrived in month 01 and was placed in room 28. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the expedition, the indigo manifest 002 was assigned reference code D05X002. It arrived in month 08 and was placed in room 41. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the expedition, the frost register was assigned reference code C05X598. It arrived in month 03 and was placed in room 54. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the expedition, the kelp crate 004 was assigned reference code D05X004. It arrived in month 10 and was placed in room 67. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the expedition, the larch record 005 was assigned reference code D05X005. It arrived in month 05 and was placed in room 80. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the expedition, what reference code was assigned to the frost register?
+Answer: C05X598
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the railway, the hazel record 000 was assigned reference code D06X000. It arrived in month 07 and was placed in room 16. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the railway, the granite ticket was assigned reference code C06X635. It arrived in month 02 and was placed in room 29. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the railway, the juniper catalog 002 was assigned reference code D06X002. It arrived in month 09 and was placed in room 42. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the railway, the kelp report 003 was assigned reference code D06X003. It arrived in month 04 and was placed in room 55. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the railway, the larch sample 004 was assigned reference code D06X004. It arrived in month 11 and was placed in room 68. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the railway, the marble case 005 was assigned reference code D06X005. It arrived in month 06 and was placed in room 81. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the railway, what reference code was assigned to the granite ticket?
+Answer: C06X635
+
+Read the registry entries and answer the question. Output only the reference code; do not explain.
+
+Entry 001: At the library, the indigo case 000 was assigned reference code D07X000. It arrived in month 08 and was placed in room 17. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 002: At the library, the juniper batch 001 was assigned reference code D07X001. It arrived in month 03 and was placed in room 30. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 003: At the library, the kelp ticket 002 was assigned reference code D07X002. It arrived in month 10 and was placed in room 43. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 004: At the library, the hazel map was assigned reference code C07X672. It arrived in month 05 and was placed in room 56. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 005: At the library, the marble permit 004 was assigned reference code D07X004. It arrived in month 12 and was placed in room 69. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+Entry 006: At the library, the nickel parcel 005 was assigned reference code D07X005. It arrived in month 07 and was placed in room 82. The intake clerk checked its paper seal, recorded the custody handoff, and filed the ordinary inspection note. The reference code is the lookup value for this entry.
+
+Question: At the library, what reference code was assigned to the hazel map?
+Answer: C07X672

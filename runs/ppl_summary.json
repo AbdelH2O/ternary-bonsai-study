@@ -1,0 +1,65 @@
+{
+  "corpus_sha256": "f3152eae25dad97f09e32953745d1ba07e5c31e38b5c0c56e752bcbb7be55aa4",
+  "context_tokens": 512,
+  "chunks": 8,
+  "baseline": {
+    "ppl": 3.4009,
+    "uncertainty_reported_by_binary": 0.18487
+  },
+  "candidates": {
+    "state-d01": {
+      "ppl": 3.4041,
+      "uncertainty_reported_by_binary": 0.18462,
+      "excess_nll_nats": 0.0009404850068684163,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-state-d01.log"
+    },
+    "mlp-d01": {
+      "ppl": 3.4023,
+      "uncertainty_reported_by_binary": 0.18493,
+      "excess_nll_nats": 0.0004115710312093541,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-mlp-d01.log"
+    },
+    "state-d03": {
+      "ppl": 3.4523,
+      "uncertainty_reported_by_binary": 0.1889,
+      "excess_nll_nats": 0.015000573110380928,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-state-d03.log"
+    },
+    "mlp-d03": {
+      "ppl": 3.3993,
+      "uncertainty_reported_by_binary": 0.18418,
+      "excess_nll_nats": -0.00047057440355440265,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-mlp-d03.log"
+    },
+    "state-d05": {
+      "ppl": 3.3844,
+      "uncertainty_reported_by_binary": 0.18193,
+      "excess_nll_nats": -0.004863464407839251,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-state-d05.log"
+    },
+    "mlp-d05": {
+      "ppl": 3.3696,
+      "uncertainty_reported_by_binary": 0.18186,
+      "excess_nll_nats": -0.00924605951852853,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-mlp-d05.log"
+    },
+    "state-d02": {
+      "ppl": 3.3991,
+      "uncertainty_reported_by_binary": 0.18409,
+      "excess_nll_nats": -0.0005294117770711606,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-state-d02.log"
+    },
+    "mlp-d02": {
+      "ppl": 3.3913,
+      "uncertainty_reported_by_binary": 0.1836,
+      "excess_nll_nats": -0.002826773767709675,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-mlp-d02.log"
+    },
+    "mlp-d10": {
+      "ppl": 3.3989,
+      "uncertainty_reported_by_binary": 0.18454,
+      "excess_nll_nats": -0.0005882526126279171,
+      "log": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/runs/ppl-mlp-d10.log"
+    }
+  }
+}

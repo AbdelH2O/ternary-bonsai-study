@@ -1,0 +1,25 @@
+{
+  "frozen_on": "2026-09-29",
+  "analysis_kind": "exploratory_pilot",
+  "reason_for_deviation": "The original plan requested two strengths with small measurable and matched short-context damage. The 513-token calibration v2 found no clearly positive answer-loss change. At 2% and 3%, state and MLP arms each had 30/32 exact-format accuracy and no new failures, and their mean correct-answer NLL changes were close to zero. We freeze these equal-delta pairs as an exploratory accumulation check, not a confirmatory matched-damage test.",
+  "source_model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "calibration_v2_sha256": "b6231cdbd87a9b0c476ed0f2603430d8659a081e933a7ab11bc2736cdd96c4f3",
+  "primary_prompts_sha256": "b475a7589c137550dee2da1bb8644b97e9fc24d54ad803b40d13bba058f03907",
+  "longbench_selected_sha256": "17c30ad5eed5fa4168138c008776b687ad924e1024e1ae781557987a029dfd35",
+  "arms": [
+    {"name": "baseline", "delta": 0},
+    {"name": "state-d02", "delta": 0.02, "patch_manifest_sha256": "27e4dd89d98b81ddb6d5e6a47bc8fbc1048df64768b2a900e39567d21462925b"},
+    {"name": "mlp-d02", "delta": 0.02, "patch_manifest_sha256": "4a2f1d6fa52c085ff30018a55e2506d0269f4f138df62d3fa4d07a5f688c7fbd"},
+    {"name": "state-d03", "delta": 0.03, "patch_manifest_sha256": "2c96c71f71a4058359c8daf46caad6939cf1ff0d062cadf85ffdb3136d6c6c16"},
+    {"name": "mlp-d03", "delta": 0.03, "patch_manifest_sha256": "9442ddf6b91f295fb5701c805b032d2943a89ead87a8f5e5ebce11873d2d92ec"}
+  ],
+  "server": {"backend": "Prism CUDA", "context_tokens": 16384, "parallel_slots": 1,
+             "gpu_layers": 99, "batch": 512, "microbatch": 512, "reasoning": "off",
+             "kv_cache": "FP16", "vision_projector": false, "speculative": false},
+  "run_limit_seconds_per_arm": 900,
+  "primary_items_per_arm": 48,
+  "longbench_items_per_arm": 40,
+  "primary_metric": "paired exact-answer accuracy",
+  "secondary_metrics": ["correct generated-answer log probability when exact answer is emitted", "LongBench QA F1"],
+  "seed": 20260929
+}

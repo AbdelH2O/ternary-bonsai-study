@@ -1,0 +1,21 @@
+{
+  "5120": {
+    "projection_max_abs_error": 9.592326932761353e-14,
+    "embedding_max_abs_error": 9.992007221626409e-16,
+    "wrong_order_max_abs_error": 101.11280654861795
+  },
+  "6144": {
+    "projection_max_abs_error": 2.7000623958883807e-13,
+    "embedding_max_abs_error": 1.3322676295501878e-15,
+    "wrong_order_max_abs_error": 54.818287714373035
+  },
+  "17408": {
+    "projection_max_abs_error": 1.4210854715202004e-13,
+    "embedding_max_abs_error": 8.881784197001252e-16,
+    "wrong_order_max_abs_error": 227.025037470758
+  },
+  "gdn": {
+    "grouped_projection_max_abs_error": 9.947598300641403e-14,
+    "unpermuted_tiled_control_max_abs_error": 30.547052566521238
+  }
+}

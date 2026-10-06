@@ -1,0 +1,20 @@
+[
+  {
+    "basis": "base",
+    "groups": 5869568,
+    "outputs": {
+      "fixed86": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/replication/work/qwen35_08b/base-pq2-fixed86.gguf",
+      "ls": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/replication/work/qwen35_08b/base-pq2-ls.gguf"
+    },
+    "bytes": 213700000
+  },
+  {
+    "basis": "folded",
+    "groups": 5869568,
+    "outputs": {
+      "fixed86": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/replication/work/qwen35_08b/folded-pq2-fixed86.gguf",
+      "ls": "/home/station/Documents/Bonsai-demo/analysis/bonsai2/replication/work/qwen35_08b/folded-pq2-ls.gguf"
+    },
+    "bytes": 213731552
+  }
+]

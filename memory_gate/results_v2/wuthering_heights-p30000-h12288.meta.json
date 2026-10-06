@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "sources": {
+    "long_self": "c3fb71aa8b39454bb2d0782057a10e90dc434f7253b38f68f1d421eed1825432",
+    "short_raw": "46f6045f9d429668da256c722c1bd8e1d7afbb57cf98430fc3f5abb600a43a62",
+    "short_rebased": "c2c5e7382660d0ca88d763153b247165c6466b2c1ab1359f43b62df30593470d"
+  },
+  "raw_sha256": "b05470d05da88191d70fc3b026fc0d47c984f11f51df7fd5fc809b98f0c1c98d",
+  "rebased_state_path": "analysis/bonsai2/memory_gate/rebased/wuthering_heights-p30000-h12288-short-pos12287.bin"
+}

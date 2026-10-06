@@ -1,0 +1,483 @@
+{
+  "protocol_sha256": "0a6108773dfa513652beb82cffcad2ee3f5e7e7d57f6f9d0d8a79fe22f255519",
+  "gates": {
+    "mmlu": false,
+    "gsm8k": true,
+    "gsm8k_without_nontermination_credit": true,
+    "book_cost": true
+  },
+  "chat_recovered": false,
+  "amendment_success": false,
+  "book_nll": {
+    "fp": 3.352882006417978,
+    "gptq": 4.939834674817905,
+    "qat_free": 3.8654541188693443,
+    "qat_42": 3.83778113147636,
+    "qat_chat_42": 3.8425246758049254
+  },
+  "book_nll_by_book": {
+    "fp": {
+      "mill_on_the_floss": 3.305490891756014,
+      "adam_bede": 3.482376410622575,
+      "hard_times": 3.0092729437822454,
+      "david_copperfield": 2.9401750704220637,
+      "wives_and_daughters": 2.9278009322473375,
+      "cranford": 3.4377239867174536,
+      "villette": 3.705912986013992,
+      "tenant_of_wildfell_hall": 3.1628837209684746,
+      "lorna_doone": 3.755513138028351,
+      "ben_hur": 3.5925854266074086,
+      "last_of_the_mohicans": 3.3838704407446993,
+      "red_badge_of_courage": 3.530978129105116
+    },
+    "gptq": {
+      "mill_on_the_floss": 4.896254646960321,
+      "adam_bede": 4.835490447514989,
+      "hard_times": 4.498876824796877,
+      "david_copperfield": 4.469587373386177,
+      "wives_and_daughters": 4.474305827966111,
+      "cranford": 5.031120000890172,
+      "villette": 5.7388913466755636,
+      "tenant_of_wildfell_hall": 4.778000791088483,
+      "lorna_doone": 5.135661991646661,
+      "ben_hur": 5.250432629762644,
+      "last_of_the_mohicans": 5.058130304802397,
+      "red_badge_of_courage": 5.111263912324475
+    },
+    "qat_free": {
+      "mill_on_the_floss": 3.834401353407488,
+      "adam_bede": 3.939035622192003,
+      "hard_times": 3.513400014595913,
+      "david_copperfield": 3.511350515121113,
+      "wives_and_daughters": 3.441090472773477,
+      "cranford": 3.8732185812888646,
+      "villette": 4.424929203161909,
+      "tenant_of_wildfell_hall": 3.6996459928146423,
+      "lorna_doone": 4.189835476617481,
+      "ben_hur": 4.087957340881958,
+      "last_of_the_mohicans": 3.8843117990000344,
+      "red_badge_of_courage": 3.9862730545772562
+    },
+    "qat_42": {
+      "mill_on_the_floss": 3.8052975006835923,
+      "adam_bede": 3.87903004507592,
+      "hard_times": 3.48966861032106,
+      "david_copperfield": 3.4817486909743747,
+      "wives_and_daughters": 3.4487941607185517,
+      "cranford": 3.8388028555579465,
+      "villette": 4.391298594002954,
+      "tenant_of_wildfell_hall": 3.671034380267315,
+      "lorna_doone": 4.172493795466296,
+      "ben_hur": 4.061754581944892,
+      "last_of_the_mohicans": 3.838252113642771,
+      "red_badge_of_courage": 3.9751982490606466
+    },
+    "qat_chat_42": {
+      "mill_on_the_floss": 3.815968384427028,
+      "adam_bede": 3.9053974635159205,
+      "hard_times": 3.468028923611075,
+      "david_copperfield": 3.49541545064582,
+      "wives_and_daughters": 3.417104407048054,
+      "cranford": 3.8489455844543667,
+      "villette": 4.373449081400056,
+      "tenant_of_wildfell_hall": 3.711651755251244,
+      "lorna_doone": 4.184639292807459,
+      "ben_hur": 4.03012926285084,
+      "last_of_the_mohicans": 3.8807503791249705,
+      "red_badge_of_courage": 3.9788161245222686
+    }
+  },
+  "mmlu": {
+    "fp": {
+      "accuracy": 48.19887429643527,
+      "margin": -0.20420797967104914,
+      "ci": {
+        "n": 5330,
+        "correct": 2569,
+        "mean": 48.19887429643527,
+        "lo": 46.85918546168677,
+        "hi": 49.54115758562082
+      },
+      "letters": {
+        "D": 2575,
+        "A": 1246,
+        "B": 1157,
+        "C": 352
+      },
+      "mean_letter_probability_mass": 0.966011648111606
+    },
+    "gptq": {
+      "accuracy": 22.5140712945591,
+      "margin": -1.5971818261923991,
+      "ci": {
+        "n": 5330,
+        "correct": 1200,
+        "mean": 22.5140712945591,
+        "lo": 21.412773151841694,
+        "hi": 23.654961893008526
+      },
+      "letters": {
+        "A": 5306,
+        "C": 3,
+        "B": 20,
+        "D": 1
+      },
+      "mean_letter_probability_mass": 0.24734130536255639
+    },
+    "qat_free": {
+      "accuracy": 22.4577861163227,
+      "margin": -1.2963551481937077,
+      "ci": {
+        "n": 5330,
+        "correct": 1197,
+        "mean": 22.4577861163227,
+        "lo": 21.357523135073,
+        "hi": 23.597722630005585
+      },
+      "letters": {
+        "A": 5306,
+        "C": 3,
+        "D": 14,
+        "B": 7
+      },
+      "mean_letter_probability_mass": 0.02717780058087684
+    },
+    "qat_42": {
+      "accuracy": 22.4765478424015,
+      "margin": -1.2716830951411313,
+      "ci": {
+        "n": 5330,
+        "correct": 1198,
+        "mean": 22.4765478424015,
+        "lo": 21.37593948311483,
+        "hi": 23.616802708554296
+      },
+      "letters": {
+        "A": 5327,
+        "D": 3
+      },
+      "mean_letter_probability_mass": 0.04333531721930997
+    },
+    "qat_chat_42": {
+      "accuracy": 23.864915572232647,
+      "margin": -0.7856190166151328,
+      "ci": {
+        "n": 5330,
+        "correct": 1272,
+        "mean": 23.864915572232643,
+        "lo": 22.73963049657132,
+        "hi": 25.027847262798204
+      },
+      "letters": {
+        "A": 4741,
+        "D": 418,
+        "C": 149,
+        "B": 22
+      },
+      "mean_letter_probability_mass": 0.779484392302005
+    }
+  },
+  "gsm8k": {
+    "fp": {
+      "accuracy": {
+        "n": 1319,
+        "correct": 736,
+        "mean": 55.799848369977255,
+        "lo": 53.106678537208815,
+        "hi": 58.459332087192465
+      },
+      "naturally_terminated_correct": {
+        "n": 1319,
+        "correct": 725,
+        "mean": 54.965883244882484,
+        "lo": 52.270282739750904,
+        "hi": 57.63264138963843
+      },
+      "stop_types": {
+        "eos": 1172,
+        "limit": 147
+      },
+      "parse_fallback": 0,
+      "mean_output_tokens": 460.86050037907506
+    },
+    "gptq": {
+      "accuracy": {
+        "n": 1319,
+        "correct": 1,
+        "mean": 0.0758150113722517,
+        "lo": 0.013384120709045242,
+        "hi": 0.42821070062103694
+      },
+      "naturally_terminated_correct": {
+        "n": 1319,
+        "correct": 0,
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.2904051399653594
+      },
+      "stop_types": {
+        "limit": 1319
+      },
+      "parse_fallback": 0,
+      "mean_output_tokens": 1024.0
+    },
+    "qat_free": {
+      "accuracy": {
+        "n": 1319,
+        "correct": 14,
+        "mean": 1.061410159211524,
+        "lo": 0.6332975521552504,
+        "hi": 1.7737631269162273
+      },
+      "naturally_terminated_correct": {
+        "n": 1319,
+        "correct": 0,
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.2904051399653594
+      },
+      "stop_types": {
+        "limit": 1319
+      },
+      "parse_fallback": 0,
+      "mean_output_tokens": 1024.0
+    },
+    "qat_42": {
+      "accuracy": {
+        "n": 1319,
+        "correct": 3,
+        "mean": 0.22744503411675512,
+        "lo": 0.07737992429175891,
+        "hi": 0.6665942597677686
+      },
+      "naturally_terminated_correct": {
+        "n": 1319,
+        "correct": 0,
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.2904051399653594
+      },
+      "stop_types": {
+        "limit": 1319
+      },
+      "parse_fallback": 0,
+      "mean_output_tokens": 1024.0
+    },
+    "qat_chat_42": {
+      "accuracy": {
+        "n": 1319,
+        "correct": 192,
+        "mean": 14.556482183472328,
+        "lo": 12.75611774994081,
+        "hi": 16.562706212051314
+      },
+      "naturally_terminated_correct": {
+        "n": 1319,
+        "correct": 190,
+        "mean": 14.404852160727824,
+        "lo": 12.613139581564866,
+        "hi": 16.403305017697807
+      },
+      "stop_types": {
+        "eos": 1255,
+        "limit": 64
+      },
+      "parse_fallback": 0,
+      "mean_output_tokens": 351.57088703563306
+    }
+  },
+  "retrieval": {
+    "fp": {
+      "accuracy": 100.0,
+      "margin": 8.411165182583744
+    },
+    "gptq": {
+      "accuracy": 55.00000000000001,
+      "margin": 0.27977299288875007
+    },
+    "qat_free": {
+      "accuracy": 94.5,
+      "margin": 3.4373009807012376
+    },
+    "qat_42": {
+      "accuracy": 90.5,
+      "margin": 3.2520515795820284
+    },
+    "qat_chat_42": {
+      "accuracy": 94.5,
+      "margin": 4.219874266085653
+    }
+  },
+  "chat_minus_comparators": {
+    "fp": {
+      "book_nll": {
+        "mean": 0.4896426693869477,
+        "lo": 0.44287497864951314,
+        "hi": 0.5364103601243823,
+        "n": 12
+      },
+      "mmlu_accuracy_points": {
+        "mean": -24.333958724202628,
+        "lo": -26.073522329336857,
+        "hi": -22.5943951190684,
+        "n": 5330
+      },
+      "gsm8k_accuracy_points": {
+        "mean": -41.24336618650493,
+        "lo": -44.13213451143873,
+        "hi": -38.35459786157113,
+        "n": 1319
+      },
+      "retrieval_margin": {
+        "mean": -4.191290916498083,
+        "lo": -4.5530250663791065,
+        "hi": -3.82955676661706,
+        "n": 200
+      }
+    },
+    "gptq": {
+      "book_nll": {
+        "mean": -1.0973099990129804,
+        "lo": -1.1771446018663805,
+        "hi": -1.0174753961595804,
+        "n": 12
+      },
+      "mmlu_accuracy_points": {
+        "mean": 1.3508442776735459,
+        "lo": 0.6898628111208367,
+        "hi": 2.011825744226255,
+        "n": 5330
+      },
+      "gsm8k_accuracy_points": {
+        "mean": 14.480667172100075,
+        "lo": 12.56919726934191,
+        "hi": 16.39213707485824,
+        "n": 1319
+      },
+      "retrieval_margin": {
+        "mean": 3.9401012731969063,
+        "lo": 3.4286660689615656,
+        "hi": 4.4515364774322475,
+        "n": 200
+      }
+    },
+    "qat_free": {
+      "book_nll": {
+        "mean": -0.022929443064419647,
+        "lo": -0.03630225971147239,
+        "hi": -0.009556626417366904,
+        "n": 12
+      },
+      "mmlu_accuracy_points": {
+        "mean": 1.4071294559099436,
+        "lo": 0.7534345335204031,
+        "hi": 2.0608243782994844,
+        "n": 5330
+      },
+      "gsm8k_accuracy_points": {
+        "mean": 13.495072024260804,
+        "lo": 11.545616237239113,
+        "hi": 15.444527811282494,
+        "n": 1319
+      },
+      "retrieval_margin": {
+        "mean": 0.7825732853844191,
+        "lo": 0.49778855615864626,
+        "hi": 1.0673580146101918,
+        "n": 200
+      }
+    },
+    "qat_42": {
+      "book_nll": {
+        "mean": 0.0047435443285652745,
+        "lo": -0.011552967549452037,
+        "hi": 0.021040056206582586,
+        "n": 12
+      },
+      "mmlu_accuracy_points": {
+        "mean": 1.3883677298311445,
+        "lo": 0.7336102427668203,
+        "hi": 2.0431252168954686,
+        "n": 5330
+      },
+      "gsm8k_accuracy_points": {
+        "mean": 14.329037149355573,
+        "lo": 12.414239537124413,
+        "hi": 16.243834761586733,
+        "n": 1319
+      },
+      "retrieval_margin": {
+        "mean": 0.9678226865036267,
+        "lo": 0.6611064375567114,
+        "hi": 1.274538935450542,
+        "n": 200
+      }
+    }
+  },
+  "curve": {
+    "fp": 3.3977236534043964,
+    "gptq": 4.879031128409565,
+    "qat_free": 3.917174557380523,
+    "qat_42": 3.895273208019829,
+    "qat_chat_42-init": 10.715202544642588,
+    "qat_chat_42-t8m": 4.613570943226587,
+    "qat_chat_42-t16m": 4.266541166461848,
+    "qat_chat_42-t33m": 4.0748433734685205,
+    "qat_chat_42-final": 3.876740980280393
+  },
+  "models": {
+    "fp": {
+      "file": "work/qwen35_08b/base-f32.gguf",
+      "sha256": "604cb16500dc7c2228ea2f4e46569e8ea72ae623a97a8a7685948dafba6b448c"
+    },
+    "gptq": {
+      "file": "work/qwen35_08b/folded-pq2-gptq.gguf",
+      "sha256": "6d16f2fcc9936bbe9bd2d9b6c236eca8dddabebcb78db8229b9aae5f901832d8"
+    },
+    "qat_free": {
+      "file": "work/qat08/qat_free-final.gguf",
+      "sha256": "94f8f8a309f7d6ee8c3596c3b1c1ab2d38852fd00e2aee1cbea67181977c8a06"
+    },
+    "qat_42": {
+      "file": "work/qat08/qat_42-final.gguf",
+      "sha256": "06f90c3140076769af6e678280516af9b36e18e1e05f21d686c8682673a74695"
+    },
+    "qat_chat_42": {
+      "file": "work/qat08_chat/qat_chat_42-final.gguf",
+      "sha256": "80870d933db98aeb703c35d574ff5b19445fbbacaf530d69ae2140f9c90d084a"
+    }
+  },
+  "raw_output_sha256": {
+    "work/qat08_chat/scores/fp-heldout.jsonl": "9268fd4bc232015a2f98c8b4ca4b27328bd3705856b0fbf74b8de302c45a259c",
+    "work/qat08_chat/scores/fp-mmlu.jsonl": "d0c078c8c2c9194a46e0bc2e6500805e29d10f8e4aa70f028dbc02fb5b4d030d",
+    "work/qat08_chat/scores/fp-retrieval.jsonl": "bdf54e02288cd520469cd9e170a00fc19040ff5930d40c46b01f25f644ada205",
+    "work/qat08_chat/scores/fp-validation.jsonl": "7583c211397dab0abaeb7b5bb4de4f69f01a87cd88f6f0899dff86a3de1f7cb2",
+    "work/qat08_chat/scores/gptq-heldout.jsonl": "ebfce056246323bf70356fd7392f8681e54267d26eafe5526260147e1bbfeb7f",
+    "work/qat08_chat/scores/gptq-mmlu.jsonl": "2467554c9914613c1a916f4f819f92681e6fe5913a4c3649222e87324842c158",
+    "work/qat08_chat/scores/gptq-retrieval.jsonl": "ca355da9e2ad81d1a242954d5b53197b4001d540cb1b1e6ab1b4197c19e15f0e",
+    "work/qat08_chat/scores/gptq-validation.jsonl": "607383662d5106e84bbd7ab45dc7c19fadb7886519843c4c7193c83498c3acd2",
+    "work/qat08_chat/scores/qat_42-heldout.jsonl": "1d58d16cb0ffe44cc4130f2a4ffd5caaec992c5f16d8464be1b92af535a4fd94",
+    "work/qat08_chat/scores/qat_42-mmlu.jsonl": "3443c87c474dca5d235a47374d15eac1ec95b15be1b0be46cbff0e7340f2c1aa",
+    "work/qat08_chat/scores/qat_42-retrieval.jsonl": "a122962213536073ecc735e3b418f0686b242e7840cffea44397622e3d1ed9f4",
+    "work/qat08_chat/scores/qat_42-validation.jsonl": "ac46697ebdbae9c351c9c70ab11b5d83d7c32028c17baf46ed67b8a116744d72",
+    "work/qat08_chat/scores/qat_chat_42-final-validation.jsonl": "80cb9e9b800129dee6ab31ce9ea98aac30e08a3deedbb0cdf7de7a7b7f32153e",
+    "work/qat08_chat/scores/qat_chat_42-heldout.jsonl": "40fe564b40bde22ce8c08769c559a51708921ec86e25be3d831209f5b7cac775",
+    "work/qat08_chat/scores/qat_chat_42-init-validation.jsonl": "8f0b2a5e708317cb4927394dbe2c544b986065aa5714835857e762f23f52ece3",
+    "work/qat08_chat/scores/qat_chat_42-mmlu.jsonl": "b6159bac68df566271839b6636d4b093ba0e1b880fe34c064c7d4183625d7e85",
+    "work/qat08_chat/scores/qat_chat_42-retrieval.jsonl": "ca4b9dc91a2873ea58ee555f8f8096fe5893d538b17010ec86c60e527e4b8b93",
+    "work/qat08_chat/scores/qat_chat_42-t16m-validation.jsonl": "9e9dcfa035b80538713e3937f9fd65489a7e1685cc23491fd2a94e53d2323be9",
+    "work/qat08_chat/scores/qat_chat_42-t33m-validation.jsonl": "f5de849f476a6ab9fbaaa6bb93ec8c2dc7ce532b9d5a9d735faf3ac778ba00e4",
+    "work/qat08_chat/scores/qat_chat_42-t8m-validation.jsonl": "1f4015b306201a1259660c609cdcc11587a140e495d1d61637c9dcf1729948a6",
+    "work/qat08_chat/scores/qat_free-heldout.jsonl": "4a6a0250d95659fd2672f093a5253266c8659af4d5172e2c7ba1386c7acb68df",
+    "work/qat08_chat/scores/qat_free-mmlu.jsonl": "36809ecd19d4b207de197f5ac5d6a78cc37bbc2970878f52166b6bb9df3b3fe6",
+    "work/qat08_chat/scores/qat_free-retrieval.jsonl": "568bc5147b182f5d685b19d4aa80cb17ab2c61d9541536dd1c09026775e824d5",
+    "work/qat08_chat/scores/qat_free-validation.jsonl": "ff66e426ca0290b6f2506e9c5e2530b460888cd9ea15aa372b1b4dd9174c5296"
+  },
+  "gsm8k_output_sha256": {
+    "fp": "ad457f002fdfe7494da1ca848bac133539f5bb7a087b254c9259d00183cc114b",
+    "gptq": "2b140f06b1869fc0cfba321f3655cb08571934442caa8e498864c0399fab3537",
+    "qat_free": "95d7d68eb5013a10b22169362422502ce9a1baf073edf9393783d3508e398746",
+    "qat_42": "57879065cd25647ffce067175584b6f7a33eb40cf387289502bec738d1a5a1db",
+    "qat_chat_42": "04f9c99c2d8e55ee8d5480f4a1268eeebc2dc0c21a85c0b922664fca52547ff2"
+  }
+}

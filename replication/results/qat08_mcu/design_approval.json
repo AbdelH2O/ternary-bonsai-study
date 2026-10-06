@@ -1,0 +1,16 @@
+{
+  "approved_by_user": true,
+  "design_sha256": "8247ef1ee2e87b1b0d55a857225587def0790f9a6f68f2e5e50b2fab295a44a9",
+  "design_version": 2,
+  "user_instruction": "Proceed with option 1",
+  "source": "user's prompt in parent bb thread thr_46yhdt5qhc (prompt history phist_jbyazi263f), relayed by that thread",
+  "basis": "the user authorized the specified amendment (exclude miscellaneous/7642/D and miscellaneous/7932/C from MMLU-fresh, re-freeze, reuse the generated data after hash checks) and the protocol reseal BEFORE this design hash existed. The user has not reviewed this hash; the parent thread independently verified that the resulting design matches exactly that scope (reviews/REVIEW_MCU_V2_parent.md, PASS) and relayed authority to reseal",
+  "scope": "protocol reseal only, within the remaining original 1.0 GPU-h data-phase budget; no generation, packing, training or rental",
+  "provenance": {
+    "revision_json_sha256": "7129b9e1c945173f894aa22166d425198df55fa5277b69608593e608953f8b94",
+    "parent_review": "reviews/REVIEW_MCU_V2_parent.md",
+    "parent_review_sha256": "75a537e5697f5ddb11292d323560405ee59585119d187ed04d72eaf45374ae54",
+    "v1_manifest_sha256": "df6d4cedf1d1cacecb1a30b1b00b598823f368b73d8ca8e3e365d7a00b9a9dc6"
+  },
+  "recorded_at": "2026-10-04T17:40:58.339827+00:00"
+}

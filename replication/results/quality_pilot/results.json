@@ -1,0 +1,186 @@
+{
+  "protocol_sha256": "3371fba15bff36a93c456079118d70983463e6e349248ef47fe57ae78f00286c",
+  "selection_sha256": "ed24836c019bb8846e5602a5ea44757e28d5b72156cd573731c0b4a6088aa025",
+  "source_revision": "Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17",
+  "selected_arm": "base-pq2-ls",
+  "scorer_sha256": "3a67061fe13d13b343f99ec9e5188e2b1b0f3832c431069fcf2f72fcfc4cbd47",
+  "models": {
+    "base-f32": {
+      "bytes": 3020533152,
+      "sha256": "604cb16500dc7c2228ea2f4e46569e8ea72ae623a97a8a7685948dafba6b448c"
+    },
+    "folded-f32": {
+      "bytes": 3020564704,
+      "sha256": "959b5b9ff179bd001e907aaa3a01956157e7c3a8c656b552becb1029f0cccaa5"
+    },
+    "base-pq2-absmax": {
+      "bytes": 213700000,
+      "sha256": "9d4b41cc2a2a5b2c5f182bb79b85c61c63cf517590ec78f7db8b62fe82382127"
+    },
+    "folded-pq2-absmax": {
+      "bytes": 213731552,
+      "sha256": "f84e07c932fbeeacca5e3a2604a33d940001998394c2258dd4744a195fb12e1b"
+    },
+    "base-pq2-fixed86": {
+      "bytes": 213700000,
+      "sha256": "3d7f8c935e7e7071fb2332b23ae02e3ee8631fc8fd75ed28d31e7c8a084713a1"
+    },
+    "folded-pq2-fixed86": {
+      "bytes": 213731552,
+      "sha256": "ba6b3757541f75d25bbfe96f5564a38c6f10a7b52c2342b37ed4f8f31789ee2e"
+    },
+    "base-pq2-ls": {
+      "bytes": 213700000,
+      "sha256": "4e6850167bce734b8cdc3b5b75e9fd39a2f318cd5e1c272653ae081c41dc29a3"
+    },
+    "folded-pq2-ls": {
+      "bytes": 213731552,
+      "sha256": "e629a9fa018df3e7b922b3018db9fd56330f1a3d6faeaba0141c74244cc1ffcc"
+    }
+  },
+  "paired_token_ids_identical": true,
+  "splits": {
+    "validation": {
+      "base-f32": {
+        "mean_nll": 3.0413614931749997,
+        "book_mean_nll": {
+          "dracula.txt": 3.255674022135,
+          "pride_and_prejudice.txt": 2.827048964215
+        },
+        "case_nll": {
+          "dracula-25": 3.02593107635,
+          "dracula-65": 3.48541696792,
+          "pride_and_prejudice-25": 2.47017476389,
+          "pride_and_prejudice-65": 3.18392316454
+        }
+      },
+      "folded-f32": {
+        "mean_nll": 3.0413625844525,
+        "book_mean_nll": {
+          "dracula.txt": 3.255674468005,
+          "pride_and_prejudice.txt": 2.8270507009
+        },
+        "case_nll": {
+          "dracula-25": 3.02593134845,
+          "dracula-65": 3.48541758756,
+          "pride_and_prejudice-25": 2.47017564711,
+          "pride_and_prejudice-65": 3.18392575469
+        }
+      },
+      "base-pq2-absmax": {
+        "mean_nll": 16.293186630450002,
+        "book_mean_nll": {
+          "dracula.txt": 16.22660186015,
+          "pride_and_prejudice.txt": 16.35977140075
+        },
+        "case_nll": {
+          "dracula-25": 15.9416810406,
+          "dracula-65": 16.5115226797,
+          "pride_and_prejudice-25": 16.9097352528,
+          "pride_and_prejudice-65": 15.8098075487
+        }
+      },
+      "folded-pq2-absmax": {
+        "mean_nll": 16.026036074175,
+        "book_mean_nll": {
+          "dracula.txt": 16.193835513299998,
+          "pride_and_prejudice.txt": 15.85823663505
+        },
+        "case_nll": {
+          "dracula-25": 16.6526619482,
+          "dracula-65": 15.7350090784,
+          "pride_and_prejudice-25": 16.0144748136,
+          "pride_and_prejudice-65": 15.7019984565
+        }
+      },
+      "base-pq2-fixed86": {
+        "mean_nll": 12.340637574725001,
+        "book_mean_nll": {
+          "dracula.txt": 12.42454982795,
+          "pride_and_prejudice.txt": 12.2567253215
+        },
+        "case_nll": {
+          "dracula-25": 12.8948923692,
+          "dracula-65": 11.9542072867,
+          "pride_and_prejudice-25": 11.7130250847,
+          "pride_and_prejudice-65": 12.8004255583
+        }
+      },
+      "folded-pq2-fixed86": {
+        "mean_nll": 11.30028695665,
+        "book_mean_nll": {
+          "dracula.txt": 11.15699770585,
+          "pride_and_prejudice.txt": 11.44357620745
+        },
+        "case_nll": {
+          "dracula-25": 10.6824982903,
+          "dracula-65": 11.6314971214,
+          "pride_and_prejudice-25": 12.0967820873,
+          "pride_and_prejudice-65": 10.7903703276
+        }
+      },
+      "base-pq2-ls": {
+        "mean_nll": 10.661437501275,
+        "book_mean_nll": {
+          "dracula.txt": 10.52719154185,
+          "pride_and_prejudice.txt": 10.795683460700001
+        },
+        "case_nll": {
+          "dracula-25": 10.9899692493,
+          "dracula-65": 10.0644138344,
+          "pride_and_prejudice-25": 10.7418408437,
+          "pride_and_prejudice-65": 10.8495260777
+        }
+      },
+      "folded-pq2-ls": {
+        "mean_nll": 12.321013038250001,
+        "book_mean_nll": {
+          "dracula.txt": 12.189625998250001,
+          "pride_and_prejudice.txt": 12.45240007825
+        },
+        "case_nll": {
+          "dracula-25": 11.2765673933,
+          "dracula-65": 13.1026846032,
+          "pride_and_prejudice-25": 13.6292491886,
+          "pride_and_prejudice-65": 11.2755509679
+        }
+      }
+    },
+    "heldout": {
+      "base-f32": {
+        "mean_nll": 3.3838521007,
+        "book_mean_nll": {
+          "frankenstein.txt": 3.32822281322,
+          "sherlock_holmes.txt": 3.43948138818
+        },
+        "case_nll": {
+          "frankenstein-25": 3.50168887363,
+          "frankenstein-65": 3.15475675281,
+          "sherlock_holmes-25": 3.30906495548,
+          "sherlock_holmes-65": 3.56989782088
+        }
+      },
+      "base-pq2-ls": {
+        "mean_nll": 10.281942882800001,
+        "book_mean_nll": {
+          "frankenstein.txt": 10.291803729400002,
+          "sherlock_holmes.txt": 10.2720820362
+        },
+        "case_nll": {
+          "frankenstein-25": 10.4293252616,
+          "frankenstein-65": 10.1542821972,
+          "sherlock_holmes-25": 10.1232710541,
+          "sherlock_holmes-65": 10.4208930183
+        }
+      }
+    }
+  },
+  "heldout_selected_minus_fp_nll": 6.898090782100001,
+  "heldout_book_deltas": {
+    "frankenstein.txt": 6.9635809161800015,
+    "sherlock_holmes.txt": 6.8326006480200006
+  },
+  "byte_ceiling_pass": true,
+  "nll_tolerance_descriptive_pass": false,
+  "claim_limit": "Two independent held-out books; descriptive pilot, not a confidence interval or quality non-inferiority result."
+}

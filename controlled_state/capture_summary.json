@@ -1,0 +1,64 @@
+{
+  "captures": [
+    {
+      "arm": "mlp",
+      "history": 1024,
+      "model_sha256": "3a5bad0799c268c5edb1baf7d8382ca10aa71f7d6b59315371854c2e5e6a40e4",
+      "ids_sha256": "53eb8a3291e53611b0d6e36b534f53ee2d291fd998eb7ea1ab86a36b2a3f35b9",
+      "checks": {
+        "full": 0.0,
+        "partial": 0.0,
+        "prior": 0.0
+      },
+      "full_state_path": "analysis/bonsai2/controlled_state/mlp-h1024-full.bin",
+      "full_state_sha256": "8e1b7405a1f4f9d5884936dde7857d5961787ad95fe9ca6dd9bc65142d7d504d",
+      "partial_state_path": "analysis/bonsai2/controlled_state/mlp-h1024-recurrent.bin",
+      "partial_state_sha256": "54e4cc081de587f95b8069a03a51caa9ce6b06ce4a3bea9943ef45afa8217037"
+    },
+    {
+      "arm": "unrelated",
+      "history": 1024,
+      "model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+      "ids_sha256": "27050e76f5e45c1c1bc63ee5863d993f7b87f555499d61d556af0ad85f005e3b",
+      "checks": {
+        "full": 0.0,
+        "partial": 0.0,
+        "prior": 0.0
+      },
+      "full_state_path": "analysis/bonsai2/controlled_state/unrelated-h1024-full.bin",
+      "full_state_sha256": "d4213c153b18db6107108e0e89e56a84ac92101608ab29aafc6feaf347fa6d69",
+      "partial_state_path": "analysis/bonsai2/controlled_state/unrelated-h1024-recurrent.bin",
+      "partial_state_sha256": "a8d1c8175c3eb53a82b5fcc25797b444711ae81b62e1e937fbdaebae460e0597"
+    },
+    {
+      "arm": "mlp",
+      "history": 12288,
+      "model_sha256": "3a5bad0799c268c5edb1baf7d8382ca10aa71f7d6b59315371854c2e5e6a40e4",
+      "ids_sha256": "53eb8a3291e53611b0d6e36b534f53ee2d291fd998eb7ea1ab86a36b2a3f35b9",
+      "checks": {
+        "full": 0.0,
+        "partial": 0.0,
+        "prior": 0.0
+      },
+      "full_state_path": "analysis/bonsai2/controlled_state/mlp-h12288-full.bin",
+      "full_state_sha256": "ace480b9dadcaa4f2c9ea19907975e52973b6ce14879da6018fef8b7a96bc51f",
+      "partial_state_path": "analysis/bonsai2/controlled_state/mlp-h12288-recurrent.bin",
+      "partial_state_sha256": "641855076dfa46a3563f6032eaf53cfe335f78d7d49d1fa50376a26768ed01a9"
+    },
+    {
+      "arm": "unrelated",
+      "history": 12288,
+      "model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+      "ids_sha256": "27050e76f5e45c1c1bc63ee5863d993f7b87f555499d61d556af0ad85f005e3b",
+      "checks": {
+        "full": 0.0,
+        "partial": 0.0,
+        "prior": 0.0
+      },
+      "full_state_path": "analysis/bonsai2/controlled_state/unrelated-h12288-full.bin",
+      "full_state_sha256": "0e5532a17b52a913a83ed39ce2734df8dc3593c5229d2ccd1434b4dc67029f1e",
+      "partial_state_path": "analysis/bonsai2/controlled_state/unrelated-h12288-recurrent.bin",
+      "partial_state_sha256": "4b00b9780b04ff9743a554675156d3137bcd3d734aa09456867f5961dcfc388c"
+    }
+  ]
+}

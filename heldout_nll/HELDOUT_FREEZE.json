@@ -1,0 +1,120 @@
+{
+  "purpose": "held-out, position-matched natural-text alpha-versus-MLP contrast",
+  "scorer_manifest_sha256": "3f2ad3d4ad9791f3df74e7b2dde3d3508c09e4ef0b3b1fb863d6598bf20dd559",
+  "dose_freeze_sha256": "b4ca7068940df85b5773328f3e0b125af3458ee973217a92a805eec559090bc6",
+  "baseline_results_sha256": "49a8f95da91dd1cf16512aa49a3a1e5cb14a5539b5b3d9c157152f07b69b0992",
+  "cases_tsv_sha256": "6b555e1e3c9039395f5d50755b23653a62811f1b9d77c01bdb9efdfcc527e0ad",
+  "scorer_source_sha256": "cfa68cb9da7b4d2c226c4acec496d161df9b5c95226cc715689718eba2ed24fe",
+  "scorer_binary_sha256": "a50f21c1d4f51eecd9a0ed2d618d5bd500e0b4c99e5c3c219197a1ed67d5f987",
+  "original_model_path": "models/bonsai2-gguf/27B/Ternary-Bonsai-2-27B-PQ2_0.gguf",
+  "original_model_sha256": "3907dc1658db1f78a9826bf8d5bcb8dc65db0d466388937af57f2294fae62ec1",
+  "documents": [
+    "pride_and_prejudice",
+    "frankenstein",
+    "sherlock_holmes",
+    "dracula"
+  ],
+  "case_ids": [
+    "pride_and_prejudice-p30000-h1024",
+    "pride_and_prejudice-p30000-h4096",
+    "pride_and_prejudice-p30000-h12288",
+    "frankenstein-p30000-h1024",
+    "frankenstein-p30000-h4096",
+    "frankenstein-p30000-h12288",
+    "sherlock_holmes-p30000-h1024",
+    "sherlock_holmes-p30000-h4096",
+    "sherlock_holmes-p30000-h12288",
+    "dracula-p30000-h1024",
+    "dracula-p30000-h4096",
+    "dracula-p30000-h12288"
+  ],
+  "target_policy": "zero-based full-document IDs; context [p-h:p]; gold [p:p+m]",
+  "history_lengths": [
+    1024,
+    4096,
+    12288
+  ],
+  "target_length": 96,
+  "variants": [
+    {
+      "name": "alpha-d200-c1000-s20260929",
+      "seed": 20260929,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.gguf",
+      "model_sha256": "2f4d27e650744c880dd11d718a8e4d93354060838c114770857377efcb243542",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260929.json",
+      "patch_manifest_sha256": "eecabe3268f31bf6fb6c378c1aba6dfce32fde37737e2a0836a7806f71b1cab4",
+      "changed_values_after_rounding": 11796480
+    },
+    {
+      "name": "mlp-d200-c200-s20260929",
+      "seed": 20260929,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.gguf",
+      "model_sha256": "3a5bad0799c268c5edb1baf7d8382ca10aa71f7d6b59315371854c2e5e6a40e4",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260929.json",
+      "patch_manifest_sha256": "2cec56b2822696c4e75d5c0f5a35ee26134c0e4438843625fba41ef87115bfaf",
+      "changed_values_after_rounding": 6684672
+    },
+    {
+      "name": "alpha-d200-c1000-s20260930",
+      "seed": 20260930,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260930.gguf",
+      "model_sha256": "833958aa3c60f6e0b4136483ee3cd700d25752f0ecdd5cd9a49d9d4cff13c33a",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260930.json",
+      "patch_manifest_sha256": "549ab0b2b96ed4625a8cc01f11a7a527b6906a74f6b0e5435612954467b21d14",
+      "changed_values_after_rounding": 11796480
+    },
+    {
+      "name": "mlp-d200-c200-s20260930",
+      "seed": 20260930,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260930.gguf",
+      "model_sha256": "86c2f1309005b3c3ad949411479e439f7141d3236fd01869b2153c70e64f6312",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260930.json",
+      "patch_manifest_sha256": "e0d71b4524c754503505e6fc0d955a617226c8971c038e5fed253131eb68aed7",
+      "changed_values_after_rounding": 6684672
+    },
+    {
+      "name": "alpha-d200-c1000-s20260931",
+      "seed": 20260931,
+      "arm": "alpha",
+      "model_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260931.gguf",
+      "model_sha256": "105b65b7082057ea49b8e557e0639cf1ec242cddcdd816a66f39d58400e7662f",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/alpha-d200-c1000-s20260931.json",
+      "patch_manifest_sha256": "f2e4b00613205b6b7a89071ae98e806d232a1c108a2d03dc9da24ffdfb6acf03",
+      "changed_values_after_rounding": 11796480
+    },
+    {
+      "name": "mlp-d200-c200-s20260931",
+      "seed": 20260931,
+      "arm": "mlp",
+      "model_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260931.gguf",
+      "model_sha256": "f0007387556d5b85e866676b2b672eba006b95062fe4be4444fcbff89e025bb1",
+      "patch_manifest_path": "analysis/bonsai2/variants/dose_v3/mlp-d200-c200-s20260931.json",
+      "patch_manifest_sha256": "c7ab649009b986df8456eaa532d1b2d6dd51d5aece01cbeb1f9ed4adaee21ab7",
+      "changed_values_after_rounding": 6684672
+    }
+  ],
+  "profile": {
+    "n_ctx": 16384,
+    "n_seq_max": 1,
+    "n_batch": 512,
+    "n_ubatch": 512,
+    "cuda_layers": 99,
+    "kv_k": "f16",
+    "kv_v": "f16",
+    "flash_attention": "on"
+  },
+  "estimands": {
+    "primary": "mean over documents and paired seeds of (alpha_12288-alpha_1024)-(mlp_12288-mlp_1024), where each value is mean 96-token gold NLL on identical target IDs",
+    "secondary": "same interaction at 4096 versus 1024; per-document and per-seed values",
+    "direction": "positive supports extra long-history alpha damage",
+    "smallest_meaningful_primary_nats_per_token": 0.005,
+    "heldout_dose_match": "alpha and MLP 1024-history excess NLL versus original must each average 0.002 to 0.020 nats/token, and their difference must be at most 0.003 nats/token in absolute value",
+    "sampling": "four documents and three paired sign seeds; equal weight per document-seed; no token-level independence assumption",
+    "interval": "20,000 percentile cluster-bootstrap replicates, resampling four documents and three paired seeds independently with replacement, fixed RNG seed 20260929",
+    "support_gate": "held-out doses match, primary point estimate >= +0.005, and bootstrap 95% lower bound > 0; otherwise report inconclusive or contrary direction without changing threshold"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "arm": "qat_free",
+  "checkpoint": "t8m",
+  "rule": "absmean",
+  "file": "qat_free-t8m.gguf",
+  "sha256": "182037f7bbc733ec9041bdace0f441b1413be92ba40023b84607679f2aa71614",
+  "bytes": 213731552,
+  "zero_fraction": 0.3100269661029568,
+  "latent_sha256": "b4c7ccd9f34b6ccb71d25eafb3d9d65bb92e02e9bc02e1d62d63df40ce43f688",
+  "protocol_sha256": "9989771856cdf80a5104d09a50fe1532e7632c3b071ea3a8911f69ee05cf57d7",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916"
+}

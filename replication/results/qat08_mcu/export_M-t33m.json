@@ -1,0 +1,13 @@
+{
+  "arm": "M",
+  "checkpoint": "t33m",
+  "rule": "top86",
+  "file": "M-t33m.gguf",
+  "sha256": "98b7206f483a886c7d685f153f6fc6e0cbdd0f80fd1e3778a7686a5b52c59e76",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "9be469336ce60f1fa12b7fbdff427c83617e797a1fb25c1cc7fcf79a54a650b4",
+  "protocol_sha256": "b99f4bddfd2177c1f52cb83a747eb1173ea030944a02b1e32d145f89b82a783e",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916",
+  "mcu_exporter_sha256": "1db300ef39437b685187b17007091f3bc69ce074dd8d84bee50d25c468c0f80b"
+}

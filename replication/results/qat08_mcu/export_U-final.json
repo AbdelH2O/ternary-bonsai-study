@@ -1,0 +1,15 @@
+{
+  "arm": "U",
+  "checkpoint": "final",
+  "rule": "top86",
+  "file": "U-final.gguf",
+  "sha256": "5b4463644b13fe691a04c2aabfe79e1e6f6cf92bbcdfdb8b31bd2235ccda8e83",
+  "bytes": 213731552,
+  "zero_fraction": 0.32813782036429257,
+  "latent_sha256": "020ecfd36a01e7c1784cd5aaaefed1e1f2c84704627aa1bfa400339e34a85dc9",
+  "protocol_sha256": "b99f4bddfd2177c1f52cb83a747eb1173ea030944a02b1e32d145f89b82a783e",
+  "exporter_sha256": "c2142acc893d8229e8fac68c9586e023fd3f7b58ae08f6d7c8a251e3b2838916",
+  "fp_tensors": "trained",
+  "fp_sha256": "17124ab6ef81d38bc5187bde1644d161433dafafddee7642ceb355979570fce8",
+  "mcu_exporter_sha256": "1db300ef39437b685187b17007091f3bc69ce074dd8d84bee50d25c468c0f80b"
+}

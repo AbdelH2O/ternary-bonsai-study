@@ -1,0 +1,427 @@
+{
+  "protocol_sha256": "b70dec33009a3c1aba7075b006be154b207fd61369754bcde628edf82dcc61b9",
+  "selection_sha256": "eb6e510072dee6cda922d7472cf6ff8da4558f9a740fd8a9bc86d88e5944e8e4",
+  "selected_method": "gptqh",
+  "prism_reference": "prism_noyarn",
+  "book_primary_nll": {
+    "fp": 3.0670383160707986,
+    "prism": 3.298415509954165,
+    "prism_noyarn": 3.284828778278897,
+    "absmax": 19.446311276251738,
+    "ls": 13.211834535121623,
+    "gptq": 11.646653144397694,
+    "gptqh": 4.591413680328764
+  },
+  "book_band_nll": {
+    "fp": {
+      "early": 3.2429881513313727,
+      "mid": 3.0821227861593314,
+      "late": 3.0337312340968263
+    },
+    "prism": {
+      "early": 3.546852816995789,
+      "mid": 3.3309837971099427,
+      "late": 3.242934631207129
+    },
+    "prism_noyarn": {
+      "early": 3.522421807655867,
+      "mid": 3.3144327089573142,
+      "late": 3.232926701597961
+    },
+    "absmax": {
+      "early": 19.53372253219878,
+      "mid": 19.440541956372165,
+      "late": 19.439711859168053
+    },
+    "ls": {
+      "early": 12.853628019795645,
+      "mid": 13.174648094068345,
+      "late": 13.284500180327326
+    },
+    "gptq": {
+      "early": 9.629989065714431,
+      "mid": 11.263692709898566,
+      "late": 12.185956480107452
+    },
+    "gptqh": {
+      "early": 4.689002110415156,
+      "mid": 4.66952875555393,
+      "late": 4.520628820149088
+    }
+  },
+  "book_nll_by_book": {
+    "fp": {
+      "huckleberry_finn": 3.30035242106982,
+      "crime_and_punishment": 3.175811692716934,
+      "persuasion": 3.387765869047243,
+      "dubliners": 3.035204649148861,
+      "wizard_of_oz": 2.5781297588806362,
+      "twenty_thousand_leagues": 3.3248425692790806,
+      "around_the_world": 3.0377468875591376,
+      "hound_of_the_baskervilles": 2.4897837941289556,
+      "secret_garden": 3.019865686085266,
+      "anne_of_green_gables": 3.21823417068448,
+      "three_musketeers": 3.0545484203026882,
+      "scarlet_letter": 3.182173873946475
+    },
+    "prism": {
+      "huckleberry_finn": 3.64529238282769,
+      "crime_and_punishment": 3.3207736778252746,
+      "persuasion": 3.6052228919826517,
+      "dubliners": 3.264566761721634,
+      "wizard_of_oz": 2.715355887992987,
+      "twenty_thousand_leagues": 3.6255256925433947,
+      "around_the_world": 3.307946760770855,
+      "hound_of_the_baskervilles": 2.734400023206537,
+      "secret_garden": 3.163772833495056,
+      "anne_of_green_gables": 3.4673476537518337,
+      "three_musketeers": 3.165073570620182,
+      "scarlet_letter": 3.5657079827118894
+    },
+    "prism_noyarn": {
+      "huckleberry_finn": 3.6290992447393995,
+      "crime_and_punishment": 3.29661449972341,
+      "persuasion": 3.595723116599185,
+      "dubliners": 3.2535833862644052,
+      "wizard_of_oz": 2.7264527259379423,
+      "twenty_thousand_leagues": 3.6060655014847596,
+      "around_the_world": 3.29747951789616,
+      "hound_of_the_baskervilles": 2.7306452614732604,
+      "secret_garden": 3.140531932285235,
+      "anne_of_green_gables": 3.4575197610694786,
+      "three_musketeers": 3.1566647224838453,
+      "scarlet_letter": 3.5275656693896837
+    },
+    "absmax": {
+      "huckleberry_finn": 19.618059554627926,
+      "crime_and_punishment": 20.221068959144425,
+      "persuasion": 19.367640271224204,
+      "dubliners": 19.691382278411226,
+      "wizard_of_oz": 19.509334527371593,
+      "twenty_thousand_leagues": 19.300629674820367,
+      "around_the_world": 19.21331018076016,
+      "hound_of_the_baskervilles": 19.650554305678206,
+      "secret_garden": 19.555521622071794,
+      "anne_of_green_gables": 18.914350214009662,
+      "three_musketeers": 18.928925776174175,
+      "scarlet_letter": 19.384957950727134
+    },
+    "ls": {
+      "huckleberry_finn": 11.894425303309438,
+      "crime_and_punishment": 14.978700040845316,
+      "persuasion": 13.220710816314623,
+      "dubliners": 12.510402505496387,
+      "wizard_of_oz": 13.147562201626014,
+      "twenty_thousand_leagues": 13.267729025283206,
+      "around_the_world": 13.922365785302341,
+      "hound_of_the_baskervilles": 13.306326439060662,
+      "secret_garden": 13.655029624701289,
+      "anne_of_green_gables": 12.40386850524116,
+      "three_musketeers": 13.395215827471038,
+      "scarlet_letter": 12.839678346808007
+    },
+    "gptq": {
+      "huckleberry_finn": 9.994628034647302,
+      "crime_and_punishment": 11.108071460017463,
+      "persuasion": 12.729288609507005,
+      "dubliners": 11.472402629279177,
+      "wizard_of_oz": 11.700132084049166,
+      "twenty_thousand_leagues": 13.31548692335489,
+      "around_the_world": 12.926547484872884,
+      "hound_of_the_baskervilles": 10.524847658552021,
+      "secret_garden": 11.27499656597459,
+      "anne_of_green_gables": 12.490891965455376,
+      "three_musketeers": 10.353136445244674,
+      "scarlet_letter": 11.869407871817792
+    },
+    "gptqh": {
+      "huckleberry_finn": 5.238992342562064,
+      "crime_and_punishment": 4.26492610231569,
+      "persuasion": 4.449119065990889,
+      "dubliners": 4.390670978474645,
+      "wizard_of_oz": 5.09605679255693,
+      "twenty_thousand_leagues": 4.982018085152889,
+      "around_the_world": 4.949331424487324,
+      "hound_of_the_baskervilles": 4.193285107172534,
+      "secret_garden": 4.27806458457333,
+      "anne_of_green_gables": 4.5042257418239355,
+      "three_musketeers": 4.160888576961019,
+      "scarlet_letter": 4.589385361873909
+    }
+  },
+  "mmlu_accuracy": {
+    "fp": 49.04315196998124,
+    "prism": 49.19324577861163,
+    "prism_noyarn": 47.67354596622889,
+    "absmax": 24.859287054409005,
+    "ls": 22.945590994371482,
+    "gptq": 22.795497185741088,
+    "gptqh": 23.50844277673546
+  },
+  "mmlu_margin": {
+    "fp": 1.3770978056245424,
+    "prism": -0.09258407195565786,
+    "prism_noyarn": -0.0940343761980169,
+    "absmax": -2.727829082089614,
+    "ls": -1.4601694845123008,
+    "gptq": -1.508989543985986,
+    "gptqh": -1.390948883721922
+  },
+  "retrieval_margin": {
+    "fp": 15.306993839357688,
+    "prism": 8.45537524514142,
+    "prism_noyarn": 8.453645645937492,
+    "absmax": -0.3941622741673998,
+    "ls": 0.13462747438055062,
+    "gptq": 0.040902581887249705,
+    "gptqh": 0.17638439156315008
+  },
+  "retrieval_accuracy": {
+    "fp": 99.5,
+    "prism": 100.0,
+    "prism_noyarn": 100.0,
+    "absmax": 45.5,
+    "ls": 55.00000000000001,
+    "gptq": 47.5,
+    "gptqh": 54.0
+  },
+  "gsm8k_accuracy": {
+    "fp": 81.9560272934041,
+    "gptq": 0.0,
+    "gptqh": 0.0,
+    "prism_noyarn": 74.67778620166793
+  },
+  "gsm8k_truncated": {
+    "fp": 9,
+    "gptq": 1319,
+    "gptqh": 1317,
+    "prism_noyarn": 22
+  },
+  "primary_selected_minus_reference": {
+    "book_nll": {
+      "mean": 1.3065849020498665,
+      "lo": 1.0379500511890587,
+      "hi": 1.5752197529106744,
+      "n": 12
+    },
+    "mmlu_accuracy_points": {
+      "mean": -24.165103189493433,
+      "lo": -26.05498017522304,
+      "hi": -22.275226203763825,
+      "n": 5330
+    },
+    "mmlu_margin": {
+      "mean": -1.2969145075239072,
+      "lo": -1.3847883171488484,
+      "hi": -1.209040697898966,
+      "n": 5330
+    },
+    "retrieval_margin": {
+      "mean": -8.277261254374343,
+      "lo": -8.764136530145999,
+      "hi": -7.7903859786026874,
+      "n": 200
+    },
+    "gsm8k_accuracy_points": {
+      "mean": -74.67778620166793,
+      "lo": -77.02549873975066,
+      "hi": -72.3300736635852,
+      "n": 1319
+    }
+  },
+  "non_inferiority_margins_pass": {
+    "book_nll": false,
+    "mmlu_accuracy": false,
+    "gsm8k_accuracy": false,
+    "retrieval_margin": false
+  },
+  "non_inferior": false,
+  "reading": "large_gap",
+  "selected_minus_fp": {
+    "book_nll": {
+      "mean": 1.5243753642579652,
+      "lo": 1.2463038629838965,
+      "hi": 1.8024468655320338,
+      "n": 12
+    },
+    "mmlu_accuracy_points": {
+      "mean": -25.534709193245778,
+      "lo": -27.021074413955326,
+      "hi": -24.04834397253623,
+      "n": 5330
+    },
+    "mmlu_margin": {
+      "mean": -2.768046689346462,
+      "lo": -2.9785520830146646,
+      "hi": -2.5575412956782597,
+      "n": 5330
+    },
+    "retrieval_margin": {
+      "mean": -15.13060944779453,
+      "lo": -15.678409220510785,
+      "hi": -14.582809675078275,
+      "n": 200
+    },
+    "gsm8k_accuracy_points": {
+      "mean": -81.95602729340409,
+      "lo": -84.03215897687706,
+      "hi": -79.87989560993113,
+      "n": 1319
+    }
+  },
+  "reference_minus_fp": {
+    "book_nll": {
+      "mean": 0.21779046220809892,
+      "lo": 0.1662035260656669,
+      "hi": 0.2693773983505309,
+      "n": 12
+    },
+    "mmlu_accuracy_points": {
+      "mean": -1.3696060037523452,
+      "lo": -2.9471393214616617,
+      "hi": 0.2079273139569715,
+      "n": 5330
+    },
+    "mmlu_margin": {
+      "mean": -1.4711321818225562,
+      "lo": -1.6577966441876175,
+      "hi": -1.284467719457495,
+      "n": 5330
+    },
+    "retrieval_margin": {
+      "mean": -6.853348193420186,
+      "lo": -7.297800559168381,
+      "hi": -6.408895827671991,
+      "n": 200
+    },
+    "gsm8k_accuracy_points": {
+      "mean": -7.278241091736164,
+      "lo": -9.63342041105409,
+      "hi": -4.923061772418239,
+      "n": 1319
+    }
+  },
+  "other_method_minus_reference": {
+    "book_nll": {
+      "mean": 8.3618243661188,
+      "lo": 7.729821366753075,
+      "hi": 8.993827365484524,
+      "n": 12
+    },
+    "mmlu_accuracy_points": {
+      "mean": -24.878048780487806,
+      "lo": -26.740301134575404,
+      "hi": -23.015796426400208,
+      "n": 5330
+    },
+    "mmlu_margin": {
+      "mean": -1.4149551677879721,
+      "lo": -1.5130770006421008,
+      "hi": -1.3168333349338435,
+      "n": 5330
+    },
+    "retrieval_margin": {
+      "mean": -8.41274306405024,
+      "lo": -9.23652452170888,
+      "hi": -7.5889616063915994,
+      "n": 200
+    },
+    "gsm8k_accuracy_points": {
+      "mean": -74.67778620166793,
+      "lo": -77.02549873975066,
+      "hi": -72.3300736635852,
+      "n": 1319
+    }
+  },
+  "prism_config_effect_noyarn_minus_yarn": {
+    "book_nll": {
+      "mean": -0.01358673167526836,
+      "lo": -0.021319528795862484,
+      "hi": -0.005853934554674237,
+      "n": 12
+    },
+    "mmlu_accuracy_points": {
+      "mean": -1.5196998123827392,
+      "lo": -2.2055275834751438,
+      "hi": -0.8338720412903347,
+      "n": 5330
+    },
+    "mmlu_margin": {
+      "mean": -0.0014503042423585914,
+      "lo": -0.028280878047497286,
+      "hi": 0.025380269562780104,
+      "n": 5330
+    },
+    "retrieval_margin": {
+      "mean": -0.001729599203926142,
+      "lo": -0.125142359889022,
+      "hi": 0.12168316148116971,
+      "n": 200
+    }
+  },
+  "ls_minus_reference_book_nll": {
+    "mean": 9.927005756842727,
+    "lo": 9.340090956701836,
+    "hi": 10.513920556983617,
+    "n": 12
+  },
+  "prism_gap_closure_book_nll": 0.8683807651517443,
+  "harness_check": {
+    "published": {
+      "fp": {
+        "mmlu_redux": 66.8,
+        "gsm8k": 83.1
+      },
+      "prism": {
+        "mmlu_redux": 52.9,
+        "gsm8k": 74.2
+      }
+    },
+    "note": "descriptive only: fp and prism MMLU/GSM8K next to published 66.8/52.9 and 83.1/74.2; prompts, harness and scoring differ from EvalScope, so no agreement threshold"
+  },
+  "models": {
+    "fp": {
+      "file": "base_tied-f32.gguf",
+      "rope": "model",
+      "sha256": "83cc4a0db4e6d660491c143c1d838615a75f523bd366289ea537d76ffd11cff1",
+      "bytes": 6888251104
+    },
+    "prism": {
+      "file": "prism_gguf/Ternary-Bonsai-1.7B-PQ2_0.gguf",
+      "rope": "model",
+      "sha256": "de68ba48a8dacb21979915991e7741b917869d71410a370df951c0c3a237ae50",
+      "bytes": 463290464
+    },
+    "prism_noyarn": {
+      "file": "prism_gguf/Ternary-Bonsai-1.7B-PQ2_0.gguf",
+      "rope": "none",
+      "sha256": "de68ba48a8dacb21979915991e7741b917869d71410a370df951c0c3a237ae50",
+      "bytes": 463290464
+    },
+    "absmax": {
+      "file": "base-pq2.gguf",
+      "rope": "model",
+      "sha256": "14e600c45b3020740eb66fdf45f330339ba35bb510d7ee35ccd1fa8cb915fc1e",
+      "bytes": 463441632
+    },
+    "ls": {
+      "file": "base-pq2-ls.gguf",
+      "rope": "model",
+      "sha256": "b36e16988e63191b07ed31e7f69a1942ca6d026f3620b344c0ea6fdb3483cceb",
+      "bytes": 463441632
+    },
+    "gptq": {
+      "file": "base-pq2-gptq.gguf",
+      "rope": "model",
+      "sha256": "f1262f2daa8ba5717651f08f3c2dc3ba4c7061066ca6e0b6beb6e44f4c560b89",
+      "bytes": 463441632
+    },
+    "gptqh": {
+      "file": "folded-pq2-gptq.gguf",
+      "rope": "model",
+      "sha256": "c77c82ba644d304409b407e8bd30bdc267e2fe585d38eebe7d57e647293ed740",
+      "bytes": 463480640
+    }
+  },
+  "claim_limit": "one gen-1 1.7B model pair; English public-domain books may be in pretraining data; logit-scored MMLU and one GSM8K prompt differ from the publisher's harness; deterministic methods without seeds; says nothing about Bonsai 2's recipe"
+}

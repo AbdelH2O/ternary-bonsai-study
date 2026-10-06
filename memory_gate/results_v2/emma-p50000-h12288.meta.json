@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "9aef6d17bee3c430b3e900daa1c2591c00ddf13dd9f05f4de36c49262dce6a52",
+  "sources": {
+    "long_self": "0b050e292d067537c8188a78a19b4e908cd05427676846af25f0b835e8ef49dd",
+    "short_raw": "c96a8a3a5fdb0da46ba289a300286680908f67b687a3cb31c4ddd3b4d9fcd29f",
+    "short_rebased": "723ac5a5da190aa8585fbb2d910e4587c3514da30996342712e51beb7557fa73"
+  },
+  "raw_sha256": "2b11d46043667f3606de4c430b6444804b290e872b1ddced19c9965ef2be92cd",
+  "rebased_state_path": "analysis/bonsai2/memory_gate/rebased/emma-p50000-h12288-short-pos12287.bin"
+}

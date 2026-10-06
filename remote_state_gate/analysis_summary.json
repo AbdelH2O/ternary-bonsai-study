@@ -1,0 +1,192 @@
+{
+  "freeze_sha256": "6343200db6e0c87b1023b41b64f075c27a5e0b5a42dcd12b7215412f7a3a5e78",
+  "technical_gates_passed": true,
+  "baseline_gate_passed": true,
+  "decision": "excludes_0p5_nat_state_margin_effect_in_this_assay",
+  "primary_mean_margin_nats": 0.24947604164368287,
+  "primary_t95ci": [
+    0.055474059220297106,
+    0.4434780240670686
+  ],
+  "positive_registries": 7,
+  "destinations": [
+    {
+      "prompt_id": "rv2-08-q1-long-far-base",
+      "registry_id": "registry-08",
+      "swap": "base",
+      "own_margin": 13.1258644527432,
+      "counterfactual_margin": 13.076429777700973,
+      "own_minus_counterfactual": 0.04943467504222632
+    },
+    {
+      "prompt_id": "rv2-08-q1-long-far-swap",
+      "registry_id": "registry-08",
+      "swap": "swap",
+      "own_margin": 11.484592981292025,
+      "counterfactual_margin": 11.31646736711842,
+      "own_minus_counterfactual": 0.16812561417360428
+    },
+    {
+      "prompt_id": "rv2-09-q1-long-far-base",
+      "registry_id": "registry-09",
+      "swap": "base",
+      "own_margin": 12.012889907436477,
+      "counterfactual_margin": 11.711749599987536,
+      "own_minus_counterfactual": 0.30114030744894116
+    },
+    {
+      "prompt_id": "rv2-09-q1-long-far-swap",
+      "registry_id": "registry-09",
+      "swap": "swap",
+      "own_margin": 13.050773298632201,
+      "counterfactual_margin": 12.752107139591017,
+      "own_minus_counterfactual": 0.29866615904118454
+    },
+    {
+      "prompt_id": "rv2-10-q1-long-far-base",
+      "registry_id": "registry-10",
+      "swap": "base",
+      "own_margin": 10.514674029256547,
+      "counterfactual_margin": 10.393187392309107,
+      "own_minus_counterfactual": 0.12148663694743966
+    },
+    {
+      "prompt_id": "rv2-10-q1-long-far-swap",
+      "registry_id": "registry-10",
+      "swap": "swap",
+      "own_margin": 10.647174109812967,
+      "counterfactual_margin": 10.336288341816175,
+      "own_minus_counterfactual": 0.31088576799679224
+    },
+    {
+      "prompt_id": "rv2-11-q1-long-far-base",
+      "registry_id": "registry-11",
+      "swap": "base",
+      "own_margin": 10.275073815404175,
+      "counterfactual_margin": 10.192775972524533,
+      "own_minus_counterfactual": 0.08229784287964215
+    },
+    {
+      "prompt_id": "rv2-11-q1-long-far-swap",
+      "registry_id": "registry-11",
+      "swap": "swap",
+      "own_margin": 10.866681927178307,
+      "counterfactual_margin": 10.7107020726197,
+      "own_minus_counterfactual": 0.1559798545586073
+    },
+    {
+      "prompt_id": "rv2-12-q1-long-far-base",
+      "registry_id": "registry-12",
+      "swap": "base",
+      "own_margin": 11.091547697607423,
+      "counterfactual_margin": 10.95969120389174,
+      "own_minus_counterfactual": 0.13185649371568253
+    },
+    {
+      "prompt_id": "rv2-12-q1-long-far-swap",
+      "registry_id": "registry-12",
+      "swap": "swap",
+      "own_margin": 12.811970700360844,
+      "counterfactual_margin": 12.753196461727265,
+      "own_minus_counterfactual": 0.058774238633578335
+    },
+    {
+      "prompt_id": "rv2-13-q1-long-far-base",
+      "registry_id": "registry-13",
+      "swap": "base",
+      "own_margin": 9.59260270485466,
+      "counterfactual_margin": 9.679456572173875,
+      "own_minus_counterfactual": -0.08685386731921518
+    },
+    {
+      "prompt_id": "rv2-13-q1-long-far-swap",
+      "registry_id": "registry-13",
+      "swap": "swap",
+      "own_margin": 10.591801220207506,
+      "counterfactual_margin": 10.521028057916148,
+      "own_minus_counterfactual": 0.0707731622913581
+    },
+    {
+      "prompt_id": "rv2-14-q1-long-far-base",
+      "registry_id": "registry-14",
+      "swap": "base",
+      "own_margin": 13.349792261385359,
+      "counterfactual_margin": 13.010220188366093,
+      "own_minus_counterfactual": 0.33957207301926573
+    },
+    {
+      "prompt_id": "rv2-14-q1-long-far-swap",
+      "registry_id": "registry-14",
+      "swap": "swap",
+      "own_margin": 12.387833202684948,
+      "counterfactual_margin": 11.78619776524807,
+      "own_minus_counterfactual": 0.6016354374368778
+    },
+    {
+      "prompt_id": "rv2-15-q1-long-far-base",
+      "registry_id": "registry-15",
+      "swap": "base",
+      "own_margin": 7.211604924696699,
+      "counterfactual_margin": 6.723734522749967,
+      "own_minus_counterfactual": 0.4878704019467319
+    },
+    {
+      "prompt_id": "rv2-15-q1-long-far-swap",
+      "registry_id": "registry-15",
+      "swap": "swap",
+      "own_margin": 8.453912790074646,
+      "counterfactual_margin": 7.553940921588437,
+      "own_minus_counterfactual": 0.899971868486209
+    }
+  ],
+  "registries": [
+    {
+      "registry_id": "registry-08",
+      "mean_own_minus_counterfactual": 0.1087801446079153,
+      "base_effect": 0.04943467504222632,
+      "swap_effect": 0.16812561417360428
+    },
+    {
+      "registry_id": "registry-09",
+      "mean_own_minus_counterfactual": 0.29990323324506285,
+      "base_effect": 0.30114030744894116,
+      "swap_effect": 0.29866615904118454
+    },
+    {
+      "registry_id": "registry-10",
+      "mean_own_minus_counterfactual": 0.21618620247211595,
+      "base_effect": 0.12148663694743966,
+      "swap_effect": 0.31088576799679224
+    },
+    {
+      "registry_id": "registry-11",
+      "mean_own_minus_counterfactual": 0.11913884871912472,
+      "base_effect": 0.08229784287964215,
+      "swap_effect": 0.1559798545586073
+    },
+    {
+      "registry_id": "registry-12",
+      "mean_own_minus_counterfactual": 0.09531536617463043,
+      "base_effect": 0.13185649371568253,
+      "swap_effect": 0.058774238633578335
+    },
+    {
+      "registry_id": "registry-13",
+      "mean_own_minus_counterfactual": -0.00804035251392854,
+      "base_effect": -0.08685386731921518,
+      "swap_effect": 0.0707731622913581
+    },
+    {
+      "registry_id": "registry-14",
+      "mean_own_minus_counterfactual": 0.47060375522807174,
+      "base_effect": 0.33957207301926573,
+      "swap_effect": 0.6016354374368778
+    },
+    {
+      "registry_id": "registry-15",
+      "mean_own_minus_counterfactual": 0.6939211352164705,
+      "base_effect": 0.4878704019467319,
+      "swap_effect": 0.899971868486209
+    }
+  ]
+}

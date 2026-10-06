@@ -1,0 +1,14 @@
+{
+  "approved_by_user": true,
+  "design_sha256": "336237b71523994cf58bbb5558629eb477910baa78033e00e94804bff17889b7",
+  "protocol_sha256": "de416a69e5ab549f64fe2cd22fc93b0bc398242703d68324d63ee33970761335",
+  "user_instruction": "Proceed with the recommendation",
+  "source": "user's prompt in parent bb thread thr_46yhdt5qhc (prompt history phist_f8bxskdn7s), answering the parent's recommendation of a prompt-robustness check then one 12.5% MC arm at the same 65.5M-token budget (about 7-8 GPU-h)",
+  "basis": "the user authorized this scoped plan BEFORE the design/protocol hashes existed; the user has not reviewed these hashes. The parent thread independently reviewed the sealed design, protocol, code, manifest, decision rules and contamination audit and passed the preflight",
+  "parent_review": {
+    "file": "reviews/REVIEW_MC12_PREFLIGHT_parent.md",
+    "sha256": "a8a6cec6ce237b160f86839820b881acf4e216c59e9afb3fe4ddfc72324e415e"
+  },
+  "scope": "robustness scoring of FP/C/M, then MC12 training, exports, evaluation, analysis and report under this protocol; 8.0 GPU-h total (robust 0.75, train 6.5, eval 0.75); no other arms, no rental, no teacher generation",
+  "recorded_at": "2026-10-06T11:47:08.862110+00:00"
+}
