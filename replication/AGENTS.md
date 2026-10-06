@@ -13,7 +13,7 @@ The user wants every step recorded so the work carries proof and a logical line 
 - **Keep detail in the reports.** The log links to them and keeps the chain of reasoning.
 - **Version designs.** A design doc changed after review gets a version number and a revision-history row, with links to the evidence that motivated the change.
 - **User approvals** are quoted verbatim, and bound to file hashes when a frozen design or protocol exists, as the existing `*_approval.json` records do.
-- **Commit each step.** `analysis/bonsai2/` is its own git repository (separate from the Bonsai-demo fork). After writing a log entry, commit the entry together with the files it refers to, with a message naming the step. Tag frozen designs and protocols (for example `qat17b-design-v1`). Large artifacts stay ignored and are referenced by hash. Never commit credentials; scan for tokens before the first commit of any new file type. Pushing to a remote needs the user's go-ahead.
+- **Commit each step.** `analysis/bonsai2/` is its own git repository (separate from the Bonsai-demo fork). After writing a log entry, commit the entry together with the files it refers to, with a message naming the step. Tag frozen designs and protocols (for example `qat17b-design-v1`). Large artifacts stay ignored and are referenced by hash. The repository is public (<https://github.com/AbdelH2O/ternary-bonsai-study>), so push each step to `origin` after checking that the commit contains no credentials, no personal budget figures and no employer references; personal planning stays in gitignored files. Never force-push or rewrite published history.
 
 ## Renting GPU compute (guideline agreed with the user, 2026-10-06)
 
